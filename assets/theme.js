@@ -1,9 +1,13 @@
 import * as Colors from "./colors";
 
 const theme = {
-  mainPurple: Colors.MAIN_PURPLE,
-  white: Colors.WHITE,
-  graphikRegular: "GraphikRegular"
+  colors: {
+    mainPurple: Colors.MAIN_PURPLE,
+    white: Colors.WHITE
+  },
+  fonts: {
+    graphik: "Graphik"
+  }
 };
 
 export default theme;

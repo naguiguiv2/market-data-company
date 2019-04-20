@@ -15,10 +15,10 @@ export const TabWrapper = styled.div`
 `;
 
 export const Tab = styled.a`
-  color: ${props => props.theme.white};
+  color: ${props => props.theme.colors.white};
   text-decoration: none;
   font-size: 16px;
   line-height: 22px;
-  font-family: ${props => props.theme.graphikRegular};
+  font-family: ${props => props.theme.fonts.graphik};
   margin-right: 50px;
 `;
