@@ -2,6 +2,7 @@ import App, { Container } from "next/app";
 import React from "react";
 import { ThemeProvider } from "styled-components";
 import theme from "../assets/theme";
+import GlobalStyles from "../styles/GlobalStyles";
 
 export default class MyApp extends App {
   static async getInitialProps({ Component, router, ctx }) {
