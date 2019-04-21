@@ -29,6 +29,7 @@ export const TextWrapper = styled.div`
 export const MarketDataText = styled.p`
   margin: 0;
   color: ${props => props.theme.colors.white};
+  font-family: ${props => props.theme.fonts.graphik};
   font-size: 21px;
   line-height: 28px;
   letter-spacing: -0.15px;

@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import SocialIcon from "../social-icon";
 import * as S from "./Footer.styled";
 
 const Footer = () => (
@@ -31,9 +32,9 @@ const Footer = () => (
       <S.SocialWrapper>
         <S.SocialTitle>Social</S.SocialTitle>
         <S.SocialContent>
-          <p style={{ color: "white" }}>facebook</p>
-          <p style={{ color: "white" }}>linkedin</p>
-          <p style={{ color: "white" }}>twitter</p>
+          <SocialIcon url="http://facebook.com" />
+          <SocialIcon url="http://linkedin.com" />
+          <SocialIcon url="http://twitter.com" />
         </S.SocialContent>
       </S.SocialWrapper>
     </S.ContentWrapper>
