@@ -19,6 +19,7 @@ export default class MyApp extends App {
     const { Component, pageProps } = this.props;
     return (
       <Container>
+        <GlobalStyles />
         <ThemeProvider theme={theme}>
           <Component {...pageProps} />
         </ThemeProvider>

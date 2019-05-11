@@ -7,7 +7,11 @@ const Footer = () => (
   <S.FooterWrapper>
     <S.ContentWrapper>
       <S.FooterLogoWrapper>
-        <img src="../../static/images/logo-holder.png" />
+        <img
+          src="../../static/images/mdc-logo-sm.png"
+          srcSet="../../static/images/mdc-logo-sm@1x.png 1x, ../../static/images/mdc-logo-sm@2x.png 2x,
+                                 ../../static/images/mdc-logo-sm@3x.png 3x"
+        />
       </S.FooterLogoWrapper>
       <S.TextWrapper>
         <S.MarketDataText>

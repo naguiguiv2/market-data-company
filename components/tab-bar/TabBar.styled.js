@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
 `;
 
 export const TabWrapper = styled.div`
-  margin-left: 10%;
+  margin-left: 131px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -21,4 +21,5 @@ export const Tab = styled.a`
   line-height: 22px;
   font-family: ${props => props.theme.fonts.graphik};
   margin-right: 50px;
+  cursor: pointer;
 `;

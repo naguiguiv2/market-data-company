@@ -5,6 +5,15 @@ import * as S from "./TabBar.styled";
 const TabBar = () => (
   <S.Wrapper>
     <S.TabWrapper>
+      <Link href="/">
+        <S.Tab>
+          <img
+            src="../../static/images/mdc-logo-horizontal.png"
+            srcSet="../../static/images/mdc-logo-horizontal@1x.png 1x, ../../static/images/mdc-logo-horizontal@2x.png 2x,
+                                 ../../static/images/mdc-logo-horizontal@3x.png 3x"
+          />
+        </S.Tab>
+      </Link>
       <Link href="/research">
         <S.Tab>Research</S.Tab>
       </Link>
