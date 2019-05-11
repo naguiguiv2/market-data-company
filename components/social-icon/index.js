@@ -1,5 +1,5 @@
 import { SocialIcon as ReactSocialIcon } from "react-social-icons";
-import { MAIN_PURPLE, WHITE } from "../../assets/colors";
+import { MDC_PURPLE, WHITE } from "../../assets/colors";
 
 const SocialIcon = props => {
   const { url } = props;
@@ -7,7 +7,7 @@ const SocialIcon = props => {
     <ReactSocialIcon
       url={url}
       style={{ height: 40, width: 40, marginRight: 20 }}
-      bgColor={MAIN_PURPLE}
+      bgColor={MDC_PURPLE}
       fgColor={WHITE}
     />
   );
