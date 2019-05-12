@@ -3,6 +3,7 @@ import * as Colors from "./colors";
 const theme = {
   colors: {
     mdcPurple: Colors.MDC_PURPLE,
+    mdcPurpleHover: Colors.MDC_PURPLE_HOVER,
     deepIndigo: Colors.DEEP_INDIGO,
     midPurple: Colors.MID_PURPLE,
     lightPurple: Colors.LIGHT_PURPLE,
@@ -10,7 +11,8 @@ const theme = {
     black: Colors.BLACK
   },
   fonts: {
-    graphik: "Graphik"
+    graphik: "Graphik",
+    financier: "Financier"
   }
 };
 

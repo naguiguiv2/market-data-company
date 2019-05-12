@@ -4,3 +4,5 @@ export const MID_PURPLE = "#986CFF";
 export const LIGHT_PURPLE = "#C5B2FF";
 export const WHITE = "#FFFFFF";
 export const BLACK = "#000000";
+
+export const MDC_PURPLE_HOVER = "#5e17ca";

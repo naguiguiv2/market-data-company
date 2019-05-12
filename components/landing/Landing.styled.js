@@ -17,6 +17,7 @@ export const LandingWrapper = styled.div`
 
 export const Title = styled.h1`
   font-family: ${props => props.theme.fonts.graphik};
+  font-weight: 600;
   font-size: 32px;
   line-height: 36px;
   color: ${props => props.theme.colors.white};
@@ -28,7 +29,8 @@ export const Title = styled.h1`
 `;
 
 export const Description = styled.h1`
-  font-family: ${props => props.theme.fonts.graphik};
+  font-family: ${props => props.theme.fonts.financier};
+  font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   color: ${props => props.theme.colors.white};
