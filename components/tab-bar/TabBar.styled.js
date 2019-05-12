@@ -1,17 +1,21 @@
 import styled from "styled-components";
+import breakpoint from "styled-components-breakpoint";
 
 export const Wrapper = styled.div`
   display: flex;
   height: 72px;
-  background-color: black;
+  background-color: transparent;
 `;
 
 export const TabWrapper = styled.div`
-  margin-left: 131px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  ${breakpoint("desktop")`
+    margin-left: 131px;
+  `}
 `;
 
 export const Tab = styled.a`
