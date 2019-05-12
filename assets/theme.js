@@ -12,6 +12,7 @@ const theme = {
   },
   fonts: {
     graphik: "Graphik",
+    graphikBold: "Graphik-Bold",
     financier: "Financier"
   }
 };

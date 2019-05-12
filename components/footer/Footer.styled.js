@@ -48,7 +48,8 @@ export const TextWrapper = styled.div`
 export const MarketDataText = styled.p`
   margin: 0;
   color: ${props => props.theme.colors.white};
-  font-family: ${props => props.theme.fonts.graphik};
+  font-family: ${props => props.theme.fonts.financier};
+  font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 0px;
@@ -57,6 +58,7 @@ export const MarketDataText = styled.p`
     font-size: 21px;
     line-height: 28px;
     letter-spacing: -0.15px;
+    text-align: left;
   `}
 `;
 
@@ -79,7 +81,7 @@ export const ExploreTitle = styled.h1`
   font-size: 18px;
   line-height: 24px;
   color: ${props => props.theme.colors.white};
-  font-family: ${props => props.theme.fonts.graphik};
+  font-family: ${props => props.theme.fonts.graphikBold};
   margin: 0 0 17px 0;
   ${breakpoint("desktop")`
     font-size: 21px;
@@ -93,6 +95,7 @@ export const ExploreItem = styled.a`
   line-height: 22px;
   color: #c8c8c8;
   margin-bottom: 18px;
+  font-family: ${props => props.theme.fonts.financier};
 `;
 
 export const SocialWrapper = styled.div`
@@ -109,7 +112,7 @@ export const SocialTitle = styled.h1`
   font-size: 18px;
   line-height: 24px;
   color: ${props => props.theme.colors.white};
-  font-family: ${props => props.theme.fonts.graphik};
+  font-family: ${props => props.theme.fonts.graphikBold};
   margin: 0 0 27px 0;
   ${breakpoint("desktop")`
     font-size: 21px;

@@ -31,7 +31,7 @@ export const ButtonWrapper = styled.div`
 `;
 
 export const ButtonText = styled.span`
-  font-family: ${props => props.theme.fonts.graphik};
+  font-family: ${props => props.theme.fonts.graphikBold};
   font-size: 14px;
   line-height: 14px;
   color: ${props =>
