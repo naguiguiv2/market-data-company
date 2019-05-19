@@ -50,6 +50,36 @@ const WorkedWith = () => {
           onNext={setNextIndex}
         />
       </S.CardWrapper>
+      <S.LogoContentWrapper>
+        <S.LogoWrapper>
+          <img
+            src="../../static/images/cppib.png"
+            srcSet="../../static/images/cppib@1x.png 1x, ../../static/images/cppib@2x.png 2x,
+                                 ../../static/images/cppib@3x.png 3x"
+          />
+        </S.LogoWrapper>
+        <S.LogoWrapper>
+          <img
+            src="../../static/images/psp.png"
+            srcSet="../../static/images/psp@1x.png 1x, ../../static/images/psp@2x.png 2x,
+                                 ../../static/images/psp@3x.png 3x"
+          />
+        </S.LogoWrapper>
+        <S.LogoWrapper>
+          <img
+            src="../../static/images/scotiabank-long.png"
+            srcSet="../../static/images/scotiabank-long@1x.png 1x, ../../static/images/scotiabank-long@2x.png 2x,
+                                 ../../static/images/scotiabank-long@3x.png 3x"
+          />
+        </S.LogoWrapper>
+        <S.LogoWrapper>
+          <img
+            src="../../static/images/iiroc.png"
+            srcSet="../../static/images/iiroc@1x.png 1x, ../../static/images/iiroc@2x.png 2x,
+                                 ../../static/images/iiroc@3x.png 3x"
+          />
+        </S.LogoWrapper>
+      </S.LogoContentWrapper>
     </S.WorkedWithWrapper>
   );
 };
