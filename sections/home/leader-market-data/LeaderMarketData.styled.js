@@ -7,6 +7,9 @@ export const LeaderMarketDataWrapper = styled.div`
   flex: 1;
   background-color: ${props => props.theme.colors.white};
   margin: 40px 0 75px 0;
+  ${breakpoint("desktop")`
+    margin: 96px 0 151px 0;
+  `}
 `;
 
 export const Content = styled.div`

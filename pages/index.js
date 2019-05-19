@@ -1,6 +1,7 @@
 import Layout from "../components/layout";
 import Landing from "../sections/home/landing";
 import LeaderMarketData from "../sections/home/leader-market-data";
+import WorkedWith from "../sections/home/worked-with";
 
 import styled from "styled-components";
 import breakpoint from "styled-components-breakpoint";
@@ -17,6 +18,7 @@ export default () => (
     <Landing />
     <ContentWrapper>
       <LeaderMarketData />
+      <WorkedWith />
     </ContentWrapper>
   </Layout>
 );
