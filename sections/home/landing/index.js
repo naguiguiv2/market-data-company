@@ -1,6 +1,6 @@
 import * as S from "./Landing.styled";
-import Button from "../button";
-import TabBar from "../tab-bar";
+import Button from "../../../components/button";
+import TabBar from "../../../components/tab-bar";
 
 const Landing = () => (
   <S.LandingWrapper>
