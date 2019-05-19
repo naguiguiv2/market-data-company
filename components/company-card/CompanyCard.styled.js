@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import breakpoint from "styled-components-breakpoint";
 
 export const CompanyCardWrapper = styled.div`
   display: flex;
@@ -6,23 +7,36 @@ export const CompanyCardWrapper = styled.div`
   flex: 1;
   width: 335px;
   box-shadow: 0 8px 12px 2px rgba(0, 0, 0, 0.1);
+  ${breakpoint("desktop")`
+    flex-direction: row;
+    width: 100%;
+  `}
 `;
 
 export const ImageWrapper = styled.div`
   background-color: black;
-  height: 220px;
+  min-height: 220px;
   width: 100%;
+  ${breakpoint("desktop")`
+    max-height: 285px;
+  `}
 `;
 
 export const ContentWrapper = styled.div`
   margin: 14px 20px;
+  ${breakpoint("desktop")`
+    margin: 32px 86px;
+  `}
 `;
 
 export const DescriptionWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  margin-bottom: 38px;
+  margin-bottom: 33px;
   height: 150px;
+  ${breakpoint("desktop")`
+    max-width: 1176px;
+  `}
 `;
 
 export const Title = styled.h1`
@@ -30,6 +44,9 @@ export const Title = styled.h1`
   font-size: 18px;
   line-height: 24px;
   margin: 0 0 6px 0;
+  ${breakpoint("desktop")`
+    margin-bottom: 17px;
+  `}
 `;
 
 export const DescriptionText = styled.p`

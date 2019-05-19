@@ -6,6 +6,9 @@ export const WorkedWithWrapper = styled.div`
   flex-direction: column;
   flex: 1;
   align-items: center;
+  ${breakpoint("desktop")`
+    align-items: flex-start;
+  `}
 `;
 
 export const Title = styled.h1`
