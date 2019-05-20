@@ -28,13 +28,26 @@ const Card = props => {
   const { title, description } = props;
   return (
     <S.CardWrapper>
-      <S.CardTitle>{title}</S.CardTitle>
+      <S.CardTitleWrapper>
+        <S.CardTitleIcon
+          src="../../static/images/checkmark.png"
+          srcSet="../../static/images/checkmark@1x.png 1x, ../../static/images/checkmark@2x.png 2x,
+                                 ../../static/images/checkmark@3x.png 3x"
+        />
+        <S.CardTitle>{title}</S.CardTitle>
+      </S.CardTitleWrapper>
       <S.CardDescription>{description}</S.CardDescription>
     </S.CardWrapper>
   );
 };
 
 const WhyMdc = () => {
+  const renderDescription = () => {
+    return descriptionData.map(data => {
+      const { title, description } = data;
+      return <Card key={title} title={title} description={description} />;
+    });
+  };
   return (
     <S.WhyMdcWrapper>
       <S.HeadingWrapper>
@@ -45,10 +58,7 @@ const WhyMdc = () => {
           data providers within the Capital Markets and Wealth Management
           industries.
         </S.HeadingDescription>
-        {descriptionData.map(data => {
-          const { title, description } = data;
-          return <Card key={title} title={title} description={description} />;
-        })}
+        {renderDescription()}
       </S.HeadingWrapper>
     </S.WhyMdcWrapper>
   );
