@@ -58,8 +58,8 @@ const WhyMdc = () => {
           data providers within the Capital Markets and Wealth Management
           industries.
         </S.HeadingDescription>
-        {renderDescription()}
       </S.HeadingWrapper>
+      <S.Content>{renderDescription()}</S.Content>
     </S.WhyMdcWrapper>
   );
 };

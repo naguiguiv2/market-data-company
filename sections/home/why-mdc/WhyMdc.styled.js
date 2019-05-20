@@ -1,18 +1,25 @@
 import styled from "styled-components";
+import breakpoint from "styled-components-breakpoint";
 
 const ICON_MARGIN = "35px";
 
 export const WhyMdcWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
   flex: 1;
+  ${breakpoint("desktop")`
+    margin-bottom: 157px;
+  `}
 `;
 
 export const HeadingWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-bottom: 17px;
+  ${breakpoint("desktop")`
+    margin-bottom: 53px;
+  `}
 `;
 
 export const HeadingTitle = styled.h1`
@@ -20,18 +27,37 @@ export const HeadingTitle = styled.h1`
   font-size: 24px;
   line-height: 30px;
   margin: 0 0 14px 0;
+  ${breakpoint("desktop")`
+    font-size: 36px;
+    line-height: 48px;
+    margin: 0 0 17px 0;
+  `}
 `;
 
 export const HeadingDescription = styled.p`
   font-family: ${props => props.theme.fonts.financier};
   font-size: 18px;
   line-height: 24px;
+  margin: 0;
+`;
+
+export const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  ${breakpoint("desktop")`
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  `}
 `;
 
 export const CardWrapper = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 27px;
+  ${breakpoint("desktop")`
+    max-width: 484px;
+  `}
 `;
 
 export const CardTitleWrapper = styled.div`
@@ -43,6 +69,9 @@ export const CardTitleIcon = styled.img`
   height: 27px;
   width: 27px;
   margin-right: 8px;
+  ${breakpoint("desktop")`
+    margin-right: 16px;
+  `}
 `;
 
 export const CardTitle = styled.h1`
@@ -50,6 +79,10 @@ export const CardTitle = styled.h1`
   font-size: 16px;
   line-height: 22px;
   margin: 0 0 10px 0;
+  ${breakpoint("desktop")`
+    font-size: 18px;
+    line-height: 24px;
+  `}
 `;
 
 export const CardDescription = styled.p`
@@ -57,4 +90,8 @@ export const CardDescription = styled.p`
   font-size: 16px;
   line-height: 22px;
   margin: 0 0 0 ${ICON_MARGIN};
+  ${breakpoint("desktop")`
+    font-size: 16px;
+    line-height: 22px;
+  `}
 `;
