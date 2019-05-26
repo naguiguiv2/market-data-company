@@ -64,7 +64,7 @@ export const CardWrapper = styled.div`
     flex-direction: row;
     align-items: flex-start;
     min-width: 50%;
-    margin-bottom: 101px;
+    margin-bottom: 98px;
   `}
 `;
 
@@ -108,4 +108,8 @@ export const FooterText = styled.a`
   font-size: 16px;
   line-height: 22px;
   color: ${props => props.theme.colors.mdcPurple};
+  cursor: pointer;
+  ${breakpoint("desktop")`
+    margin-top: -98px;
+  `}
 `;

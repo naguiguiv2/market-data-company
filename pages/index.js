@@ -4,6 +4,7 @@ import LeaderMarketData from "../sections/home/leader-market-data";
 import WorkedWith from "../sections/home/worked-with";
 import WhyMdc from "../sections/home/why-mdc";
 import Services from "../sections/home/services";
+import Research from "../sections/home/research";
 
 import styled from "styled-components";
 import breakpoint from "styled-components-breakpoint";
@@ -23,6 +24,7 @@ export default () => (
       <WorkedWith />
       <WhyMdc />
       <Services />
+      <Research />
     </ContentWrapper>
   </Layout>
 );
