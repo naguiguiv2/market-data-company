@@ -56,7 +56,7 @@ export const CardWrapper = styled.div`
   flex-direction: column;
   margin-bottom: 27px;
   ${breakpoint("desktop")`
-    max-width: 484px;
+    min-width: 50%;
   `}
 `;
 
@@ -93,5 +93,6 @@ export const CardDescription = styled.p`
   ${breakpoint("desktop")`
     font-size: 16px;
     line-height: 22px;
+    max-width: 450px;
   `}
 `;
