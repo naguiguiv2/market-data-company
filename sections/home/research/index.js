@@ -29,7 +29,7 @@ const Research = () => {
     return cardData.map(card => {
       const { title, description, footer } = card;
       return (
-        <S.CardWrapper>
+        <S.CardWrapper key={title}>
           <AnimatedCard
             title={title}
             description={description}
