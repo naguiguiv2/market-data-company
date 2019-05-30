@@ -9,7 +9,8 @@ const theme = {
     lightPurple: Colors.LIGHT_PURPLE,
     white: Colors.WHITE,
     black: Colors.BLACK,
-    lightGrey: Colors.LIGHT_GREY
+    lightGrey: Colors.LIGHT_GREY,
+    sbGrey: Colors.SB_GREY
   },
   fonts: {
     graphik: "Graphik",

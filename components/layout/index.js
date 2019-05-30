@@ -6,7 +6,6 @@ import Footer from "../footer";
 const Layout = ({ children }) => {
   return (
     <S.Wrapper>
-      {/* <TabBar /> */}
       {children}
       <S.FooterWrapper>
         <Footer />

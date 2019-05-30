@@ -7,3 +7,4 @@ export const BLACK = "#000000";
 export const LIGHT_GREY = "#969696";
 
 export const MDC_PURPLE_HOVER = "#5e17ca";
+export const SB_GREY = "#F5F5F5";

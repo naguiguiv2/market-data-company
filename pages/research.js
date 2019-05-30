@@ -1,10 +1,6 @@
 import Layout from "../components/layout";
-import Landing from "../sections/home-section/landing";
-import LeaderMarketData from "../sections/home-section/leader-market-data";
-import WorkedWith from "../sections/home-section/worked-with";
-import WhyMdc from "../sections/home-section/why-mdc";
-import Services from "../sections/home-section/services";
-import Research from "../sections/home-section/research";
+import Landing from "../sections/research-section/landing";
+import Research from "../sections/research-section/research";
 import ContactFooter from "../components/contact-footer";
 
 import styled from "styled-components";
@@ -21,10 +17,6 @@ export default () => (
   <Layout>
     <Landing />
     <ContentWrapper>
-      <LeaderMarketData />
-      <WorkedWith />
-      <WhyMdc />
-      <Services />
       <Research />
     </ContentWrapper>
     <ContactFooter />
