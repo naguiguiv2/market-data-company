@@ -10,3 +10,4 @@ export const MDC_PURPLE_HOVER = "#5e17ca";
 export const SB_GREY = "#F5F5F5";
 export const PINK = "#ED27FF";
 export const RED = "#FF2752";
+export const BABY_BLUE = "#3B84FF";
