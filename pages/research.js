@@ -2,6 +2,7 @@ import Layout from "../components/layout";
 import Landing from "../sections/research-section/landing";
 import Research from "../sections/research-section/research";
 import WhitePaper from "../sections/research-section/white-paper";
+import CaseStudies from "../sections/research-section/case-studies";
 import ContactFooter from "../components/contact-footer";
 
 import styled from "styled-components";
@@ -20,6 +21,7 @@ export default () => (
     <ContentWrapper>
       <Research />
       <WhitePaper />
+      <CaseStudies />
     </ContentWrapper>
     <ContactFooter />
   </Layout>

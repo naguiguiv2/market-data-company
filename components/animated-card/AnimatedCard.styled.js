@@ -32,6 +32,7 @@ export const Title = styled.h1`
   font-size: 18px;
   line-height: 24px;
   margin: 0 0 20px 0;
+  align-self: flex-start;
 `;
 
 export const Description = styled.p`
