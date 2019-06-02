@@ -14,7 +14,7 @@ export const CardWrapper = styled.div`
 export const TopNotch = styled.div`
   width: 100%;
   height: 16px;
-  background-color: ${props => props.theme.colors.mdcPurple};
+  background-color: ${props => props.notchColor};
   margin-bottom: 23px;
 `;
 

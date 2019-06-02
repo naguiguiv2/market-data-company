@@ -5,6 +5,10 @@ export const ResearchWrapper = styled.div`
   display: flex;
   flex-direction: column;
   flex: 1;
+  margin-bottom: 80px;
+  ${breakpoint("desktop")`
+    margin-bottom: 100px;
+  `}
 `;
 
 export const ResearchTitle = styled.h1`
@@ -12,12 +16,16 @@ export const ResearchTitle = styled.h1`
   font-size: 24px;
   line-height: 30px;
   margin: 60px 0 25px;
+  ${breakpoint("desktop")`
+    font-size: 36px;
+    line-height: 48px;
+    margin: 90px 0 34px;
+  `}
 `;
 
 export const CardContentContainer = styled.div`
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
   ${breakpoint("desktop")`
     flex-direction: row;
     flex-wrap: wrap;
