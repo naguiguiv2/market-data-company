@@ -2,7 +2,7 @@ import React from "react";
 import * as S from "./BioCard.styled";
 
 const BioCard = props => {
-  const { name } = props;
+  const { name, role } = props;
 
   return (
     <S.BioCardWrapper>
@@ -13,6 +13,8 @@ const BioCard = props => {
       />
       <S.ContentWrapper>
         <S.Name>{name}</S.Name>
+        <S.Role>{role}</S.Role>
+        <S.Bio>Bio</S.Bio>
       </S.ContentWrapper>
     </S.BioCardWrapper>
   );

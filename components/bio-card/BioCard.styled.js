@@ -34,3 +34,14 @@ export const Role = styled.p`
   line-height: 28px;
   margin: 0;
 `;
+
+export const Bio = styled.span`
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+  font-family: ${props => props.theme.fonts.graphik};
+  font-size: 16px;
+  line-height: 22px;
+  color: ${props => props.theme.colors.mdcPurple};
+  margin-bottom: 17px;
+`;
