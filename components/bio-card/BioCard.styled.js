@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import breakpoints from "styled-components-breakpoint";
 
 export const BioCardWrapper = styled.div`
   display: flex;
@@ -6,11 +7,18 @@ export const BioCardWrapper = styled.div`
   flex: 1;
   width: 100%;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  ${breakpoints("desktop")`
+    max-width: 380px;
+  `}
 `;
 
 export const ImageWrapper = styled.img`
   width: 340px;
   height: 401px;
+  ${breakpoints("desktop")`
+    height: 320px;
+    width: 380px;
+  `}
 `;
 
 export const ContentWrapper = styled.div`
@@ -44,4 +52,5 @@ export const Bio = styled.span`
   line-height: 22px;
   color: ${props => props.theme.colors.mdcPurple};
   margin-bottom: 17px;
+  cursor: pointer;
 `;
