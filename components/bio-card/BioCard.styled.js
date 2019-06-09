@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import breakpoints from "styled-components-breakpoint";
+import breakpoint from "styled-components-breakpoint";
 
 export const BioCardWrapper = styled.div`
   display: flex;
@@ -7,7 +7,7 @@ export const BioCardWrapper = styled.div`
   flex: 1;
   width: 100%;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-  ${breakpoints("desktop")`
+  ${breakpoint("desktop")`
     max-width: 380px;
   `}
 `;
@@ -15,7 +15,7 @@ export const BioCardWrapper = styled.div`
 export const ImageWrapper = styled.img`
   width: 340px;
   height: 401px;
-  ${breakpoints("desktop")`
+  ${breakpoint("desktop")`
     height: 320px;
     width: 380px;
   `}

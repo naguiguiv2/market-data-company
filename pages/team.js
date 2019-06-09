@@ -2,6 +2,7 @@ import Layout from "../components/layout";
 import Landing from "../sections/team-section/landing";
 import Background from "../sections/team-section/background";
 import Leadership from "../sections/team-section/leadership";
+import GlobalInstitutions from "../sections/team-section/global-institutions";
 import ContactFooter from "../components/contact-footer";
 
 import styled from "styled-components";
@@ -20,6 +21,7 @@ export default () => (
     <ContentWrapper>
       <Background />
       <Leadership />
+      <GlobalInstitutions />
     </ContentWrapper>
     <ContactFooter />
   </Layout>

@@ -6,6 +6,9 @@ export const LeadershipWrapper = styled.div`
   flex-direction: column;
   flex: 1;
   margin-bottom: 81px;
+  ${breakpoint("desktop")`
+    margin-bottom: 136px;
+  `}
 `;
 
 export const Title = styled.h1`
@@ -25,12 +28,10 @@ export const CardContent = styled.div`
   flex-direction: column;
   align-items: center;
   flex: 1;
-  margin-bottom: 81px;
   ${breakpoint("desktop")`
     flex-direction: row;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin-bottom: 136px;
   `}
 `;
 
