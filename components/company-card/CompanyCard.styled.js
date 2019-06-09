@@ -25,7 +25,7 @@ export const ImageWrapper = styled.div`
 export const ContentWrapper = styled.div`
   margin: 14px 20px;
   ${breakpoint("desktop")`
-    margin: 32px 86px;
+    margin: 32px 6%;
   `}
 `;
 
@@ -45,14 +45,16 @@ export const Title = styled.h1`
   line-height: 24px;
   margin: 0 0 6px 0;
   ${breakpoint("desktop")`
-    margin-bottom: 17px;
+    font-size: 21px;
+    line-height: 28px;
+    margin-bottom: 8px;
   `}
 `;
 
 export const DescriptionText = styled.p`
   font-family: ${props => props.theme.fonts.financier};
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 21px;
+  line-height: 26px;
   letter-spacing: -0.11px;
   margin: 0;
 `;
@@ -65,11 +67,10 @@ export const FooterWrapper = styled.div`
 
 export const RoleText = styled.p`
   font-family: ${props => props.theme.fonts.graphik};
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 16px;
+  line-height: 21px;
   color: ${props => props.theme.colors.lightGrey};
   margin: 0;
-  max-width: 200px;
 `;
 
 export const NextTag = styled.a`
@@ -79,4 +80,8 @@ export const NextTag = styled.a`
   color: ${props => props.theme.colors.mdcPurple};
   margin: 0;
   cursor: pointer;
+  &:hover {
+    color: #3D0099;
+    transition: color 0.25s ease;
+  }
 `;

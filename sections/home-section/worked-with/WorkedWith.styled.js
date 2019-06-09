@@ -14,7 +14,7 @@ export const WorkedWithWrapper = styled.div`
 
 export const Title = styled.h1`
   font-family: ${props => props.theme.fonts.graphikBold};
-  font-size: 24px;
+  font-size: 36px;
   line-height: 48px;
   color: ${props => props.theme.colors.black};
   margin: 0 0 18px 0;

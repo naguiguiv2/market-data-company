@@ -99,6 +99,7 @@ export const FooterText = styled.a`
   color: ${props => props.theme.colors.mdcPurple};
   cursor: pointer;
   &:hover {
-    text-decoration: underline;
+    color: #3D0099;
+    transition: color 0.25s ease;
   }
 `;

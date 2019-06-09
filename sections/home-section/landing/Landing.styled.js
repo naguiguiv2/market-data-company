@@ -16,8 +16,7 @@ export const LandingWrapper = styled.div`
 `;
 
 export const Title = styled.h1`
-  font-family: ${props => props.theme.fonts.graphik};
-  font-weight: 600;
+  font-family: ${props => props.theme.fonts.graphikBold};
   font-size: 32px;
   line-height: 36px;
   color: ${props => props.theme.colors.white};
@@ -37,8 +36,8 @@ export const Description = styled.h1`
   margin: 0 0 135px 0;
   text-align: left;
   ${breakpoint("desktop")`
-    font-size: 21px;
-    line-height: 28px;
+    font-size: 24px;
+    line-height: 32px;
     max-width: 700px;
   `}
 `;

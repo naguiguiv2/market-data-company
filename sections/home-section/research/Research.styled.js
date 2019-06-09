@@ -14,7 +14,11 @@ export const ResearchWrapper = styled.div`
 export const HeaderWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  aligh-items: flex-start;
   margin-bottom: 55px;
+  ${breakpoint("desktop")`
+    max-width: 780px;
+`}
 `;
 
 export const HeaderTitle = styled.h1`
@@ -36,9 +40,8 @@ export const HeaderDescription = styled.p`
   color: ${props => props.theme.colors.black};
   margin: 0;
   ${breakpoint("desktop")`
-    font-size: 21px;
-    line-height: 28px;
-    max-width: 776px;
+    font-size: 24px;
+    line-height: 30px;
   `}
 `;
 
@@ -69,4 +72,8 @@ export const Footer = styled.span`
   line-height: 22px;
   color: ${props => props.theme.colors.mdcPurple};
   cursor: pointer;
+  &:hover {
+    color: #3D0099;
+    transition: color 0.25s ease;
+  }
 `;

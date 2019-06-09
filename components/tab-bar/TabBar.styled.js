@@ -25,4 +25,7 @@ export const Tab = styled.a`
   font-family: ${props => props.theme.fonts.graphik};
   margin-right: 50px;
   cursor: pointer;
+  &:hover {
+    opacity: 0.65;
+  }
 `;

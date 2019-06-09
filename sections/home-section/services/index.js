@@ -23,7 +23,7 @@ const Services = () => {
             height="177"
           />
           <S.CardContent>
-            <S.CardTitle>Managed services & products</S.CardTitle>
+            <S.CardTitle>Managed services &amp; products</S.CardTitle>
             <S.CardDescription>
               Our clients care about providing the right type of market data to
               their stakeholders. That's why our proprietary per security
@@ -43,7 +43,7 @@ const Services = () => {
             height="177"
           />
           <S.CardContent>
-            <S.CardTitle>Measure and compare data costs</S.CardTitle>
+            <S.CardTitle>Measure &amp; compare data costs</S.CardTitle>
             <S.CardDescription>
               We have done extensive research over the past 10 years through our
               qualitative and quantitative analytics. As a result, we've
