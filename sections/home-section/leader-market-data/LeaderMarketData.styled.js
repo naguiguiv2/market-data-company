@@ -91,14 +91,3 @@ export const FactsText = styled.h1`
     line-height: 2px;
   `}
 `;
-
-export const FooterText = styled.a`
-  font-family: ${props => props.theme.fonts.graphik};
-  font-size: 16px;
-  line-height: 22px;
-  color: ${props => props.theme.colors.mdcPurple};
-  cursor: pointer;
-  &:hover {
-    text-decoration: underline;
-  }
-`;

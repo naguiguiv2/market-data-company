@@ -1,5 +1,6 @@
 import React from "react";
 import AnimatedCard from "../../../components/animated-card";
+import AnimatedFooterLink from "../../../components/animated-footer-link";
 import * as S from "./Research.styled";
 
 const cardData = [
@@ -53,7 +54,7 @@ const Research = () => {
         </S.HeaderDescription>
       </S.HeaderWrapper>
       <S.CardContentWrapper>{renderCards()}</S.CardContentWrapper>
-      <S.Footer>View all of our research</S.Footer>
+      <AnimatedFooterLink message="View all of our research" />
     </S.ResearchWrapper>
   );
 };

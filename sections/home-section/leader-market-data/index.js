@@ -1,22 +1,6 @@
 import React from "react";
+import AnimatedFooterLink from "../../../components/animated-footer-link";
 import * as S from "./LeaderMarketData.styled";
-
-// const LeaderMarketData = () => {
-//     return (
-//         <div column>
-//             <div className="row-on-desk-and-col-on-phone">
-//                 Leader in market data consultancy
-//                 <div info>
-
-//                 </div>
-//                 <div moneystuff>
-//                 </div>
-
-//             </div>
-//             read more about our team
-//         </div>
-//     )
-// }
 
 const LeaderMarketData = () => {
   return (
@@ -49,7 +33,7 @@ const LeaderMarketData = () => {
           </S.ProjectsCompletedWrapper>
         </S.FactsWrapper>
       </S.Content>
-      <S.FooterText>Read more about our team</S.FooterText>
+      <AnimatedFooterLink message="Read more about our team" />
     </S.LeaderMarketDataWrapper>
   );
 };

@@ -62,11 +62,3 @@ export const CardWrapper = styled.div`
     }
   `}
 `;
-
-export const Footer = styled.span`
-  font-family: ${props => props.theme.fonts.graphik};
-  font-size: 16px;
-  line-height: 22px;
-  color: ${props => props.theme.colors.mdcPurple};
-  cursor: pointer;
-`;

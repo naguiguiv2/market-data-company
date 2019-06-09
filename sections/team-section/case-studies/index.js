@@ -1,6 +1,7 @@
 import React from "react";
 import * as S from "./CaseStudies.styled";
 import AnimatedCard from "../../../components/animated-card";
+import AnimatedFooterLink from "../../../components/animated-footer-link";
 
 const CaseStudies = () => (
   <S.CaseStudiesWrapper>
@@ -33,7 +34,7 @@ const CaseStudies = () => (
         />
       </S.CardWrapper>
     </S.CardContent>
-    <S.Footer>View all of our research</S.Footer>
+    <AnimatedFooterLink message="View all of our research" />
   </S.CaseStudiesWrapper>
 );
 
