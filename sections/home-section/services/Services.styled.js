@@ -14,10 +14,11 @@ export const ServicesWrapper = styled.div`
 export const HeaderWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  align-self: center;
+  align-items: flex-start;
   margin-bottom: 43px;
   ${breakpoint("desktop")`
     margin-bottom: 49px;
+    max-width: 780px;
   `}
 `;
 
@@ -38,8 +39,8 @@ export const HeaderDescription = styled.p`
   line-height: 22px;
   margin: 0;
   ${breakpoint("desktop")`
-    font-size: 21px;
-    line-height: 28px;
+    font-size: 24px;
+    line-height: 30px;
   `}
 `;
 
@@ -86,8 +87,8 @@ export const CardContent = styled.div`
 
 export const CardTitle = styled.span`
   font-family: ${props => props.theme.fonts.graphikBold};
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 18px;
+  line-height: 24px;
   color: ${props => props.theme.colors.black};
   margin-bottom: 7px;
   text-align: center;
@@ -109,6 +110,10 @@ export const FooterText = styled.a`
   line-height: 22px;
   color: ${props => props.theme.colors.mdcPurple};
   cursor: pointer;
+  &:hover {
+    color: #3D0099;
+    transition: color 0.25s ease;
+  }
   ${breakpoint("desktop")`
     margin-top: -98px;
   `}

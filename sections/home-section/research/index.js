@@ -42,7 +42,7 @@ const Research = () => {
   return (
     <S.ResearchWrapper>
       <S.HeaderWrapper>
-        <S.HeaderTitle>Research & Case Studies</S.HeaderTitle>
+        <S.HeaderTitle>Research &amp; Case Studies</S.HeaderTitle>
         <S.HeaderDescription>
           MDC has done extensive research over the past 10 years through its
           qualitative and quantitative analytics. Our findings have been linked

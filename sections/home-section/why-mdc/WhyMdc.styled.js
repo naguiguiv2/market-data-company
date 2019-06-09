@@ -6,7 +6,7 @@ const ICON_MARGIN = "35px";
 export const WhyMdcWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-self: center
   flex: 1;
   ${breakpoint("desktop")`
     margin-bottom: 157px;
@@ -15,10 +15,12 @@ export const WhyMdcWrapper = styled.div`
 
 export const HeadingWrapper = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
+  align-items: flex-start;
   margin-bottom: 17px;
-  ${breakpoint("desktop")`
+  ${breakpoint("desktop")`     
     margin-bottom: 53px;
+    max-width: 780px;
   `}
 `;
 
@@ -39,6 +41,10 @@ export const HeadingDescription = styled.p`
   font-size: 18px;
   line-height: 24px;
   margin: 0;
+  ${breakpoint("desktop")`
+  font-size: 24px;
+  line-height: 30px;
+`}
 `;
 
 export const Content = styled.div`

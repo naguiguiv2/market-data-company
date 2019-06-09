@@ -36,7 +36,7 @@ export const Title = styled.h1`
   ${breakpoint("desktop")`
     font-size: 36px;
     line-height: 48px;
-    margin: 0 0 24px 0;
+    margin: 0 0 8px 0;
   `}
 `;
 
@@ -48,8 +48,8 @@ export const Description = styled.p`
   color: ${props => props.theme.colors.white};
   text-align: center;
   ${breakpoint("desktop")`
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 21px;
+    line-height: 28px;
     max-width: 667px;
     text-align: left;
   `}
