@@ -19,3 +19,24 @@ export const Title = styled.h1`
     margin: 0 0 47px;
   `}
 `;
+
+export const CardContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  margin-bottom: 81px;
+  ${breakpoint("desktop")`
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 136px;
+  `}
+`;
+
+export const CardWrapper = styled.div`
+  margin: 15px 0 15px;
+  ${breakpoint("desktop")`
+    margin: 10px 10px;
+  `}
+`;

@@ -35,11 +35,20 @@ const TabBar = props => {
       <S.TabWrapper>
         <Link href="/">
           <S.Tab>
+            {barTheme === "dark" && 
+               <img
+               src="../../static/images/mdc-logo-horizontal-black.png"
+               srcSet="../../static/images/mdc-logo-horizontal-black@1x.png 1x, ../../static/images/mdc-logo-horizontal-black@2x.png 2x,
+                                  ../../static/images/mdc-logo-horizontal-black@3x.png 3x"
+             />
+            }
+            {barTheme !== "dark" &&  
             <img
               src="../../static/images/mdc-logo-horizontal.png"
               srcSet="../../static/images/mdc-logo-horizontal@1x.png 1x, ../../static/images/mdc-logo-horizontal@2x.png 2x,
                                  ../../static/images/mdc-logo-horizontal@3x.png 3x"
             />
+            }
           </S.Tab>
         </Link>
         {renderLinks()}
