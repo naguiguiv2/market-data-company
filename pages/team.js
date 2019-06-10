@@ -16,13 +16,6 @@ const ContentWrapper = styled.div`
   `}
 `;
 
-const BackToHomePageLink = styled.span`
-  font-family: ${props => props.theme.fonts.graphik};
-  font-size: 16px;
-  line-height: 22px;
-  color: ${props => props.theme.colors.mdcPurple};
-`;
-
 export default () => (
   <Layout>
     <Landing />
