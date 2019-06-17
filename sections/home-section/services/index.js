@@ -1,4 +1,5 @@
 import React from "react";
+import AnimatedFooterLink from "../../../components/animated-footer-link";
 import * as S from "./Services.styled";
 
 const Services = () => {
@@ -95,7 +96,7 @@ const Services = () => {
           </S.CardContent>
         </S.CardWrapper>
       </S.ContentWrapper>
-      <S.FooterText>Get in touch to learn more</S.FooterText>
+      <AnimatedFooterLink message="Get in touch to learn more" />
     </S.ServicesWrapper>
   );
 };

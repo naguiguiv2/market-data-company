@@ -1,14 +1,10 @@
 import styled from "styled-components";
 import breakpoint from "styled-components-breakpoint";
 
-export const LeadershipWrapper = styled.div`
+export const CaseStudiesWrapper = styled.div`
   display: flex;
   flex-direction: column;
   flex: 1;
-  margin-bottom: 81px;
-  ${breakpoint("desktop")`
-    margin-bottom: 136px;
-  `}
 `;
 
 export const Title = styled.h1`
@@ -21,6 +17,13 @@ export const Title = styled.h1`
     line-height: 48px;
     margin: 0 0 47px;
   `}
+`;
+
+export const Description = styled.h4`
+  font-family: ${props => props.theme.fonts.graphik};
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 31px;
 `;
 
 export const CardContent = styled.div`
@@ -36,8 +39,23 @@ export const CardContent = styled.div`
 `;
 
 export const CardWrapper = styled.div`
-  margin: 15px 0 15px;
+  padding: 8px 0;
   ${breakpoint("desktop")`
-    margin: 10px 10px;
+    padding: 10px 5px;
+    &:first-child {
+      padding-left: 0;
+    }
+  `}
+`;
+
+export const Footer = styled.span`
+  font-family: ${props => props.theme.fonts.graphik};
+  font-size: 16px;
+  line-height: 22px;
+  color: ${props => props.theme.colors.mdcPurple};
+  cursor: pointer;
+  margin-top: 36px;
+  ${breakpoint("desktop")`
+    margin-top: 32px;
   `}
 `;

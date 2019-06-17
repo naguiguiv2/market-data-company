@@ -8,6 +8,7 @@ export const LandingWrapper = styled.div`
   padding-left: 20px;
   padding-right: 20px;
   background-color: ${props => props.theme.colors.sbGrey};
+  margin-bottom: -80px;
   ${breakpoint("desktop")`
     padding-left: 130px;
     padding-right: 130px;

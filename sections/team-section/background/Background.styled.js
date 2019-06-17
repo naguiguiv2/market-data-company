@@ -57,7 +57,6 @@ export const Description = styled.p`
   ${breakpoint("desktop")`
     font-size: 28px;
     line-height: 28px;
-    // max-width: 578px;
     width: 50%;
   `}
 `;
