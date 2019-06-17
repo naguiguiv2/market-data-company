@@ -67,9 +67,9 @@ const WorkedWith = () => {
         </S.LogoWrapper>
         <S.LogoWrapper>
           <img
-            src="../../static/images/scotiabank-long.png"
-            srcSet="../../static/images/scotiabank-long@1x.png 1x, ../../static/images/scotiabank-long@2x.png 2x,
-                                 ../../static/images/scotiabank-long@3x.png 3x"
+            src="../../static/images/aviva.png"
+            srcSet="../../static/images/aviva@1x.png 1x, ../../static/images/aviva@2x.png 2x,
+                                 ../../static/images/aviva@3x.png 3x"
           />
         </S.LogoWrapper>
         <S.LogoWrapper>

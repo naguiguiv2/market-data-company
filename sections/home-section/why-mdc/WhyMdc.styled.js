@@ -15,7 +15,7 @@ export const WhyMdcWrapper = styled.div`
 
 export const HeadingWrapper = styled.div`
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: flex-start;
   margin-bottom: 17px;
   ${breakpoint("desktop")`     
@@ -62,7 +62,7 @@ export const CardWrapper = styled.div`
   flex-direction: column;
   margin-bottom: 27px;
   ${breakpoint("desktop")`
-    min-width: 50%;
+    width: 50%;
   `}
 `;
 
