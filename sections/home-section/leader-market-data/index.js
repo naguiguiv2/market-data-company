@@ -33,7 +33,7 @@ const LeaderMarketData = () => {
           </S.ProjectsCompletedWrapper>
         </S.FactsWrapper>
       </S.Content>
-      <AnimatedFooterLink message="Read more about our team" />
+      <AnimatedFooterLink message="Read more about our team" href="/team" />
     </S.LeaderMarketDataWrapper>
   );
 };
