@@ -9,6 +9,16 @@ export const CardWrapper = styled.div`
   flex: 1;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   height: 370px;
+  background-size: 100% 200%;
+  background-image: ${props => {
+    return `linear-gradient(to bottom, white 50%, ${props.notchColor} 50%)`;
+  }};
+  -webkit-transition: background-position 1s;
+  -moz-transition: background-position 1s;
+  transition: background-position 0.5s;
+  &:hover {
+    background-position: 0 -100%;
+  }
 `;
 
 export const TopNotch = styled.div`
@@ -33,6 +43,9 @@ export const Title = styled.h1`
   line-height: 24px;
   margin: 0 0 20px 0;
   align-self: flex-start;
+  ${CardWrapper}:hover & {
+    color: ${props => props.theme.colors.white};
+  }
 `;
 
 export const Description = styled.p`
@@ -40,6 +53,9 @@ export const Description = styled.p`
   font-size: 16px;
   line-height: 22px;
   margin: 0;
+  ${CardWrapper}:hover & {
+    color: ${props => props.theme.colors.white};
+  }
 `;
 
 export const Footer = styled.span`
@@ -53,4 +69,7 @@ export const Footer = styled.span`
   justify-content: flex-end;
   margin: 0 20px 16px;
   cursor: pointer;
+  ${CardWrapper}:hover & {
+    color: ${props => props.theme.colors.white};
+  }
 `;

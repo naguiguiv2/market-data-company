@@ -5,7 +5,7 @@ import * as S from "./AnimatedCard.styled";
 const AnimatedCard = props => {
   const { title, description, footer, notchColor } = props;
   return (
-    <S.CardWrapper>
+    <S.CardWrapper notchColor={notchColor}>
       <S.TopNotch notchColor={notchColor} />
       <S.ContentWrapper>
         <S.Title>{title}</S.Title>
