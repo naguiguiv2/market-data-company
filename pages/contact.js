@@ -4,6 +4,8 @@ import Landing from "../sections/contact-section/landing";
 import Form from "../components/form";
 import ContactFooter from "../components/contact-footer";
 
+import { sendEmail } from "../services/apiService";
+
 import styled from "styled-components";
 import breakpoint from "styled-components-breakpoint";
 
@@ -42,6 +44,7 @@ export default () => {
           email={form.email}
           message={form.message}
           onChange={updateField}
+          onSubmit={() => sendEmail(form)}
         />
       </ContentWrapper>
       {/* <ContactFooter /> */}

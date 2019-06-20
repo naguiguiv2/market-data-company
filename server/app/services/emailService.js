@@ -1,5 +1,13 @@
 const nodemailer = require("nodemailer");
 
+const emailTemplate = ({ name, company, message }) => {
+  return `
+    <h1>${name}</h1>
+    <h3>${company}</h3>
+    <p>${message}</p>
+  `;
+};
+
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
@@ -8,12 +16,12 @@ const transporter = nodemailer.createTransport({
   }
 });
 
-const sendMail = async ({ from }) => {
+const sendMail = async ({ from, name, company, message }) => {
   const mailOptions = {
-    from, // sender address
-    to: process.env.EMAIL, // list of receivers
-    subject: "This is a test", // Subject line
-    html: "<p>Worked!</p>" // plain text body
+    from,
+    to: process.env.EMAIL,
+    subject: `MDC PDF Request from ${name}`,
+    html: emailTemplate({ name, company, message })
   };
   await transporter.sendMail(mailOptions);
 };
