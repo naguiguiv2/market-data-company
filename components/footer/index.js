@@ -40,7 +40,7 @@ const Footer = () => (
           <S.SocialTitle>Social</S.SocialTitle>
           <S.SocialContent>
             <SocialIcon url="http://facebook.com" />
-            <SocialIcon url="http://linkedin.com" />
+            <SocialIcon url="https://www.linkedin.com/company/market-data-company/" />
             <SocialIcon url="http://twitter.com" />
           </S.SocialContent>
         </S.SocialWrapper>

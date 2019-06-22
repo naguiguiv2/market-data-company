@@ -5,8 +5,7 @@ export const LandingWrapper = styled.div`
   display: flex;
   flex-direction: column;
   flex: 1;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 0 16px 64px 16px;
   background-image: url("/static/images/mobile-landing.png");
   background-size: cover;
   ${breakpoint("desktop")`
@@ -20,7 +19,8 @@ export const Title = styled.h1`
   font-size: 32px;
   line-height: 36px;
   color: ${props => props.theme.colors.white};
-  padding: 41px 0 24px 0;
+  padding: 40px 0 12px 0;
+  margin-bottom: 16px;
   ${breakpoint("desktop")`
     font-size: 57px;
     line-height: 64px;
@@ -33,7 +33,7 @@ export const Description = styled.h1`
   font-size: 18px;
   line-height: 22px;
   color: ${props => props.theme.colors.white};
-  margin: 0 0 135px 0;
+  margin: 0 0 42px 0;
   text-align: left;
   ${breakpoint("desktop")`
     font-size: 24px;

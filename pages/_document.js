@@ -25,6 +25,7 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <title>Market Data Company</title>
+          <link rel="icon" type="image/png" href="../static/images/mdc_favicon.png"></link>
           {/* Step 5: Output the styles in the head  */}
           {this.props.styleTags}
         </Head>

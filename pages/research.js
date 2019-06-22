@@ -5,6 +5,7 @@ import WhitePaper from "../sections/research-section/white-paper";
 import CaseStudies from "../sections/research-section/case-studies";
 import Survey from "../sections/research-section/survey";
 import ContactFooter from "../components/contact-footer";
+import AnimatedFooterLink from "../components/animated-footer-link";
 
 import styled from "styled-components";
 import breakpoint from "styled-components-breakpoint";
@@ -31,7 +32,8 @@ export default () => (
       <WhitePaper />
       <CaseStudies />
       <Survey />
-      <BackToHomePageLink>Go back to home page</BackToHomePageLink>
+      <AnimatedFooterLink message="Back to home" href="/" />
+      {/* <BackToHomePageLink>Back to home</BackToHomePageLink> */}
     </ContentWrapper>
     <ContactFooter />
   </Layout>

@@ -23,6 +23,8 @@ export const ButtonWrapper = styled.div`
         ? "0 2px 8px 0 rgba(0, 0, 0, 0.15)"
         : "0 8px 16px 2px rgba(0, 0, 0, 0.15)";
     }};
+    transform: translateY(-1px);
+    transition: all 0.15s ease;
   }
   ${breakpoint("desktop")`
     width: 200px;
@@ -34,10 +36,11 @@ export const ButtonText = styled.span`
   font-family: ${props => props.theme.fonts.graphikBold};
   font-size: 14px;
   line-height: 14px;
+  letter-spacing: 0.25px;
   color: ${props =>
     props.isDefault ? props.theme.colors.white : props.theme.colors.black};
   ${breakpoint("desktop")`
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
   `}
 `;

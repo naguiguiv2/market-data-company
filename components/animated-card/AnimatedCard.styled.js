@@ -13,10 +13,11 @@ export const CardWrapper = styled.div`
   background-image: ${props => {
     return `linear-gradient(to bottom, white 50%, ${props.notchColor} 50%)`;
   }};
-  -webkit-transition: background-position 1s;
-  -moz-transition: background-position 1s;
-  transition: background-position 0.5s;
+  -webkit-transition: background-position 0.15s ease-out;
+  -moz-transition: background-position 0.15s ease-out;
+  transition: background-position 0.15s ease-out;
   &:hover {
+    cursor: pointer;
     background-position: 0 -100%;
   }
 `;
@@ -45,6 +46,7 @@ export const Title = styled.h1`
   align-self: flex-start;
   ${CardWrapper}:hover & {
     color: ${props => props.theme.colors.white};
+    transition: color 0.15s ease;
   }
 `;
 
@@ -55,6 +57,7 @@ export const Description = styled.p`
   margin: 0;
   ${CardWrapper}:hover & {
     color: ${props => props.theme.colors.white};
+    transition: color 0.25s ease;
   }
 `;
 
@@ -71,5 +74,6 @@ export const Footer = styled.span`
   cursor: pointer;
   ${CardWrapper}:hover & {
     color: ${props => props.theme.colors.white};
+    transition: color 0.25s ease;
   }
 `;

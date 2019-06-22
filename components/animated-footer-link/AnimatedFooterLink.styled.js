@@ -12,11 +12,11 @@ export const Message = styled.h4`
   font-size: 16px;
   line-height: 22px;
   color: ${props => props.theme.colors.mdcPurple};
-  margin: 0 5px 0 0;
+  margin: 0 8px 0 0;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.15s ease;
   &:hover {
-    text-decoration: underline;
-    margin: 0 20px 0 0;
+    margin: 0 16px 0 0;
+    opacity: 0.65
   }
 `;
