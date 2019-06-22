@@ -55,7 +55,7 @@ export const Description = styled.p`
   line-height: 22px;
   margin: 0;
   ${breakpoint("desktop")`
-    font-size: 28px;
+    font-size: 21px;
     line-height: 28px;
     width: 50%;
   `}

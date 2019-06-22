@@ -20,9 +20,10 @@ export const Title = styled.h1`
 `;
 
 export const Description = styled.h4`
-  font-family: ${props => props.theme.fonts.graphik};
-  font-size: 18px;
-  line-height: 24px;
+  font-family: ${props => props.theme.fonts.financier};
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
   margin: 0 0 31px;
 `;
 
@@ -31,6 +32,7 @@ export const CardContent = styled.div`
   flex-direction: column;
   align-items: center;
   flex: 1;
+  margin-bottom: 24px;
   ${breakpoint("desktop")`
     flex-direction: row;
     align-items: flex-start;

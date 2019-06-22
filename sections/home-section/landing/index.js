@@ -10,13 +10,13 @@ const Landing = () => (
       <br /> industry experts.
     </S.Title>
     <S.Description>
-      MDC is a boutique Consulting firm for the Financial Information Services
-      Industry. Our consultants are Industry Experts on Market & Reference Data
-      products and Investment Management Solutions.
+      We are a boutique consulting firm serving the financial information services
+      industry. Our consultants are industry experts on market and reference data
+      products and investment management solutions.
     </S.Description>
     <S.ButtonWrapper>
-      <Button btnText="Case studies" />
-      <Button btnText="Contact us" isDefault={false} />
+      <Button btnText="View Research" href="/research"/>
+      <Button btnText="Contact us" isDefault={false} href="/contact"/>
     </S.ButtonWrapper>
   </S.LandingWrapper>
 );

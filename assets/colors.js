@@ -6,7 +6,7 @@ export const WHITE = "#FFFFFF";
 export const BLACK = "#000000";
 export const LIGHT_GREY = "#969696";
 
-export const MDC_PURPLE_HOVER = "#5e17ca";
+export const MDC_PURPLE_HOVER = "#7121EB";
 export const SB_GREY = "#F5F5F5";
 export const PINK = "#ED27FF";
 export const RED = "#FF2752";

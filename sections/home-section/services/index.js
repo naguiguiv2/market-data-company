@@ -96,7 +96,7 @@ const Services = () => {
           </S.CardContent>
         </S.CardWrapper>
       </S.ContentWrapper>
-      <AnimatedFooterLink message="Get in touch to learn more" />
+      <AnimatedFooterLink message="Get in touch to learn more" href="/contact"/>
     </S.ServicesWrapper>
   );
 };

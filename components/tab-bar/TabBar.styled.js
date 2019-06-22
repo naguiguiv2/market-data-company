@@ -27,5 +27,6 @@ export const Tab = styled.a`
   cursor: pointer;
   &:hover {
     opacity: 0.65;
+    transition: opacity 0.15s ease;
   }
 `;

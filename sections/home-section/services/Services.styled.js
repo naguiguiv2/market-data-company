@@ -52,7 +52,7 @@ export const ContentWrapper = styled.div`
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 68px;
+    margin-bottom: 16px;
   `}
 `;
 
@@ -65,7 +65,7 @@ export const CardWrapper = styled.div`
     flex-direction: row;
     align-items: flex-start;
     min-width: 50%;
-    margin-bottom: 98px;
+    margin-bottom: 64px;
   `}
 `;
 

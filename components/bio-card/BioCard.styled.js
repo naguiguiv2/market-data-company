@@ -6,6 +6,9 @@ export const Container = styled.div`
   flex-direction: column;
   flex: 1;
   width: 340px;
+  &:hover{
+    cursor: help;
+  }
   ${breakpoint("desktop")`
     width: 380px;
     min-height: 445px;
@@ -42,15 +45,15 @@ export const ContentWrapper = styled.div`
 
 export const Name = styled.h4`
   font-family: ${props => props.theme.fonts.graphikBold};
-  font-size: 18px;
+  font-size: 21px;
   line-height: 24px;
-  margin: 10px 0 2px;
+  margin: 16px 0 4px;
 `;
 
 export const Role = styled.p`
-  font-family: ${props => props.theme.fonts.financier};
-  font-size: 21px;
-  line-height: 28px;
+  font-family: ${props => props.theme.fonts.graphik};
+  font-size: 16px;
+  line-height: 22px;
   margin: 0;
 `;
 
@@ -82,16 +85,16 @@ export const HoveredContent = styled.div`
 
 export const HoveredName = styled.h4`
   font-family: ${props => props.theme.fonts.graphikBold};
-  font-size: 18px;
+  font-size: 21px;
   line-height: 24px;
   margin: 0 0 4px;
   color: ${props => props.theme.colors.white};
 `;
 
 export const HoveredRole = styled.p`
-  font-family: ${props => props.theme.fonts.financier};
-  font-size: 21px;
-  line-height: 28px;
+  font-family: ${props => props.theme.fonts.graphik};
+  font-size: 16px;
+  line-height: 22px;
   margin: 0 0 17px;
   color: ${props => props.theme.colors.white};
 `;

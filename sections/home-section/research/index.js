@@ -54,7 +54,7 @@ const Research = () => {
         </S.HeaderDescription>
       </S.HeaderWrapper>
       <S.CardContentWrapper>{renderCards()}</S.CardContentWrapper>
-      <AnimatedFooterLink message="View all of our research" />
+      <AnimatedFooterLink message="View all of our research" href="/research" />
     </S.ResearchWrapper>
   );
 };

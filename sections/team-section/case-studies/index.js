@@ -5,7 +5,7 @@ import AnimatedFooterLink from "../../../components/animated-footer-link";
 
 const CaseStudies = () => (
   <S.CaseStudiesWrapper>
-    <S.Title>Research & Case Studies</S.Title>
+    <S.Title>Research &amp; Case Studies</S.Title>
     <S.Description>
       MDC has done extensive research over the past 10 years through its
       qualitative and quantitative analytics. Our findings have been linked to
@@ -34,7 +34,7 @@ const CaseStudies = () => (
         />
       </S.CardWrapper>
     </S.CardContent>
-    <AnimatedFooterLink message="View all of our research" />
+    <AnimatedFooterLink message="View all of our research" href="/research"/>
   </S.CaseStudiesWrapper>
 );
 
