@@ -44,7 +44,7 @@ export default () => {
           onChange={updateField}
         />
       </ContentWrapper>
-      <ContactFooter />
+      {/* <ContactFooter /> */}
     </Layout>
   );
 };

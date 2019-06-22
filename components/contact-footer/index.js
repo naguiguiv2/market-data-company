@@ -13,7 +13,8 @@ const ContactFooter = () => {
         </S.Description>
       </S.Content>
       <S.ButtonWrapper>
-        <Button btnText="Contact us" onClick={() => {}} isDefault={false} />
+        {/* <Button btnText="Contact us" onClick={() => {}} isDefault={false} /> */}
+        <Button btnText="Contact us" onClick={() => {}} isDefault={false} href="/contact"/>
       </S.ButtonWrapper>
     </S.ContactFooterWrapper>
   );

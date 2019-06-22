@@ -54,6 +54,7 @@ export const MarketDataText = styled.p`
   line-height: 22px;
   letter-spacing: 0px;
   text-align: center;
+  
   ${breakpoint("desktop")`
     font-size: 21px;
     line-height: 28px;
@@ -95,7 +96,12 @@ export const ExploreItem = styled.a`
   line-height: 22px;
   color: #c8c8c8;
   margin-bottom: 18px;
-  font-family: ${props => props.theme.fonts.financier};
+  font-family: ${props => props.theme.fonts.graphik};
+  cursor: pointer;
+  &:hover{
+    opacity: 0.65;
+    transition: opacity 0.15s ease;
+  }
 `;
 
 export const SocialWrapper = styled.div`
