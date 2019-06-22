@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-import Layout from "../components/layout";
 import Landing from "../sections/contact-section/landing";
+import ThankYou from "../sections/contact-section/thank-you";
+import Layout from "../components/layout";
 import Form from "../components/form";
-import ContactFooter from "../components/contact-footer";
+import TabBar from "../components/tab-bar";
+import { SB_GREY, WHITE } from "../assets/colors";
 
 import { sendEmail } from "../services/apiService";
 
@@ -19,6 +21,14 @@ const ContentWrapper = styled.div`
   `}
 `;
 
+const ThankYouWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 500px;
+  margin: 0 40px;
+`;
+
 export default () => {
   const [form, setValues] = useState({
     firstName: "",
@@ -26,6 +36,8 @@ export default () => {
     email: "",
     message: ""
   });
+  const [emailSent, setEmailSent] = useState(false);
+  const [hasError, setHasError] = useState(false);
 
   const updateField = e => {
     setValues({
@@ -34,20 +46,38 @@ export default () => {
     });
   };
 
+  const onSubmit = async () => {
+    try {
+      await sendEmail(form);
+      setEmailSent(true);
+    } catch (err) {
+      setHasError(true);
+    }
+  };
+
   return (
     <Layout>
-      <Landing />
-      <ContentWrapper>
-        <Form
-          firstName={form.firstName}
-          company={form.company}
-          email={form.email}
-          message={form.message}
-          onChange={updateField}
-          onSubmit={() => sendEmail(form)}
-        />
-      </ContentWrapper>
-      {/* <ContactFooter /> */}
+      <TabBar barTheme="dark" backgroundColor={emailSent ? WHITE : SB_GREY} />
+      {!emailSent && !hasError && (
+        <>
+          <Landing />
+          <ContentWrapper>
+            <Form
+              firstName={form.firstName}
+              company={form.company}
+              email={form.email}
+              message={form.message}
+              onChange={updateField}
+              onSubmit={onSubmit}
+            />
+          </ContentWrapper>
+        </>
+      )}
+      {emailSent && !hasError && (
+        <ThankYouWrapper>
+          <ThankYou email={form.email} />
+        </ThankYouWrapper>
+      )}
     </Layout>
   );
 };
