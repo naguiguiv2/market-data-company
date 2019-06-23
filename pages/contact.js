@@ -17,8 +17,12 @@ const ContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex: 1;
+  z-index: 0;
+  min-height: 614px;
   ${breakpoint("desktop")`
     margin: 0 130px 168px;
+    min-height: 726px;
   `}
 `;
 
