@@ -3,17 +3,15 @@ import Link from "next/link";
 import * as S from "./button.styled";
 
 const Button = props => {
-  const { btnText, isDefault, onClick, href, isDisabled } = props;
+  const { btnText, isDefault, onClick, isDisabled } = props;
   return (
-    <Link href={href || null}>
-      <S.ButtonWrapper
-        isDefault={isDefault}
-        onClick={onClick}
-        disabled={isDisabled}
-      >
-        <S.ButtonText isDefault={isDefault}>{btnText}</S.ButtonText>
-      </S.ButtonWrapper>
-    </Link>
+    <S.ButtonWrapper
+      isDefault={isDefault}
+      onClick={onClick}
+      disabled={isDisabled}
+    >
+      <S.ButtonText isDefault={isDefault}>{btnText}</S.ButtonText>
+    </S.ButtonWrapper>
   );
 };
 
