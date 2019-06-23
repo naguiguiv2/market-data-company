@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   display: flex;
   height: 72px;
-  background-color: transparent;
+  background-color: ${props => props.backgroundColor || "transparent"};
 `;
 
 export const TabWrapper = styled.div`

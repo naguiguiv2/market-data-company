@@ -8,6 +8,7 @@ export const FormWrapper = styled.div`
   box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 100%;
   background-color: ${props => props.theme.colors.white};
+  z-index: 2;
   ${breakpoint("desktop")`
     max-width: 724px;
   `}

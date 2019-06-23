@@ -4,7 +4,6 @@ export const AnimatedFooterLinkWrapper = styled.div`
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  flex: 1;
 `;
 
 export const Message = styled.h4`

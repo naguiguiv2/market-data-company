@@ -1,8 +1,13 @@
 import React, { useState } from "react";
-import Layout from "../components/layout";
 import Landing from "../sections/contact-section/landing";
+import ThankYou from "../sections/contact-section/thank-you";
+import Layout from "../components/layout";
 import Form from "../components/form";
-import ContactFooter from "../components/contact-footer";
+import TabBar from "../components/tab-bar";
+import { SB_GREY, WHITE } from "../assets/colors";
+import { validateEmail } from "../server/utils/validator";
+
+import { sendEmail } from "../services/apiService";
 
 import styled from "styled-components";
 import breakpoint from "styled-components-breakpoint";
@@ -12,9 +17,21 @@ const ContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex: 1;
+  z-index: 0;
+  min-height: 614px;
   ${breakpoint("desktop")`
     margin: 0 130px 168px;
+    min-height: 726px;
   `}
+`;
+
+const ThankYouWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 500px;
+  margin: 0 40px;
 `;
 
 export default () => {
@@ -24,6 +41,8 @@ export default () => {
     email: "",
     message: ""
   });
+  const [emailSent, setEmailSent] = useState(false);
+  const [hasError, setHasError] = useState(false);
 
   const updateField = e => {
     setValues({
@@ -32,19 +51,46 @@ export default () => {
     });
   };
 
+  const onSubmit = async () => {
+    const res = await sendEmail(form);
+    if (res.error) {
+      setHasError(true);
+    } else {
+      setEmailSent(true);
+    }
+  };
+
+  const isDisabled =
+    form.firstName === "" ||
+    form.company === "" ||
+    form.email === "" ||
+    !validateEmail(form.email);
+  form.message === "";
+
   return (
     <Layout>
-      <Landing />
-      <ContentWrapper>
-        <Form
-          firstName={form.firstName}
-          company={form.company}
-          email={form.email}
-          message={form.message}
-          onChange={updateField}
-        />
-      </ContentWrapper>
-      {/* <ContactFooter /> */}
+      <TabBar barTheme="dark" backgroundColor={emailSent ? WHITE : SB_GREY} />
+      {!emailSent && !hasError && (
+        <>
+          <Landing />
+          <ContentWrapper>
+            <Form
+              firstName={form.firstName}
+              company={form.company}
+              email={form.email}
+              message={form.message}
+              onChange={updateField}
+              onSubmit={onSubmit}
+              isDisabled={isDisabled}
+            />
+          </ContentWrapper>
+        </>
+      )}
+      {emailSent && !hasError && (
+        <ThankYouWrapper>
+          <ThankYou email={form.email} />
+        </ThankYouWrapper>
+      )}
     </Layout>
   );
 };
