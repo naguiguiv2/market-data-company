@@ -1,5 +1,5 @@
 const { sendMail } = require("../services/emailService");
-const { validateEmail } = require("../../utils/validator");
+const { validateEmail } = require("../../../utils/validator");
 
 module.exports.sendEmail = async (req, res) => {
   try {

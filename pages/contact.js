@@ -5,6 +5,7 @@ import Layout from "../components/layout";
 import Form from "../components/form";
 import TabBar from "../components/tab-bar";
 import { SB_GREY, WHITE } from "../assets/colors";
+import { validateEmail } from "../server/utils/validator";
 
 import { sendEmail } from "../services/apiService";
 
@@ -56,10 +57,11 @@ export default () => {
   };
 
   const isDisabled =
-    form.firstName === "" &&
-    form.company === "" &&
-    form.email === "" &&
-    form.message === "";
+    form.firstName === "" ||
+    form.company === "" ||
+    form.email === "" ||
+    !validateEmail(form.email);
+  form.message === "";
 
   return (
     <Layout>

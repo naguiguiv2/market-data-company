@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import * as S from "./button.styled";
 
 const Button = props => {
