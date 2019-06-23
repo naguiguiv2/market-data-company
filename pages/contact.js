@@ -47,13 +47,19 @@ export default () => {
   };
 
   const onSubmit = async () => {
-    try {
-      await sendEmail(form);
-      setEmailSent(true);
-    } catch (err) {
+    const res = await sendEmail(form);
+    if (res.error) {
       setHasError(true);
+    } else {
+      setEmailSent(true);
     }
   };
+
+  const isDisabled =
+    form.firstName === "" &&
+    form.company === "" &&
+    form.email === "" &&
+    form.message === "";
 
   return (
     <Layout>
@@ -69,6 +75,7 @@ export default () => {
               message={form.message}
               onChange={updateField}
               onSubmit={onSubmit}
+              isDisabled={isDisabled}
             />
           </ContentWrapper>
         </>

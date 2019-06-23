@@ -4,7 +4,15 @@ import Input from "../input";
 import Textfield from "../textfield";
 import Button from "../button";
 
-const Form = ({ onChange, firstName, company, email, message, onSubmit }) => (
+const Form = ({
+  onChange,
+  firstName,
+  company,
+  email,
+  message,
+  onSubmit,
+  isDisabled
+}) => (
   <S.FormWrapper>
     <S.Content>
       <S.InputWrapper>
@@ -44,7 +52,11 @@ const Form = ({ onChange, firstName, company, email, message, onSubmit }) => (
         />
       </S.InputWrapper>
       <S.ButtonWrapper>
-        <Button btnText="Contact us" onClick={onSubmit} />
+        <Button
+          btnText="Contact us"
+          onClick={onSubmit}
+          isDisabled={isDisabled}
+        />
       </S.ButtonWrapper>
     </S.Content>
   </S.FormWrapper>
