@@ -35,7 +35,7 @@ const ThankYouWrapper = styled.div`
 `
 
 export default () => {
-	const [form, setValues] = useState({
+	const [form, setFormValues] = useState({
 		firstName: '',
 		company: '',
 		email: '',
@@ -45,7 +45,7 @@ export default () => {
 	const [hasError, setHasError] = useState(false)
 
 	const updateField = (e) => {
-		setValues({
+		setFormValues({
 			...form,
 			[e.target.name]: e.target.value
 		})
