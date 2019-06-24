@@ -24,10 +24,7 @@ export const ButtonWrapper = styled.button`
 	border: none;
 	cursor: pointer;
 	&:hover {
-		background-color: ${(props) =>
-			props.isDefault
-				? props.theme.colors.mdcPurpleHover
-				: props.theme.colors.white};
+		background-color: ${(props) => getBackgroundColor(props)};
 		box-shadow: ${(props) => {
 			return props.isDefault
 				? '0 2px 8px 0 rgba(0, 0, 0, 0.15)'

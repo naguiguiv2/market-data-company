@@ -1,9 +1,10 @@
 import React from 'react'
 import Input from '../input'
+import Button from '../button'
 import * as S from './ResearchPdfForm.styled'
 
 const ResearchPdfForm = (props) => {
-	const { name, company, email, onChange } = props
+	const { name, company, email, onChange, onSubmit, isDisabled } = props
 	return (
 		<S.ResearchPdfFormWrapper>
 			<S.ContentWrapper>
@@ -39,6 +40,13 @@ const ResearchPdfForm = (props) => {
 						onChange={onChange}
 					/>
 				</S.InputWrapper>
+				<S.ButtonWrapper>
+					<Button
+						btnText="Download PDF"
+						onClick={onSubmit}
+						isDisabled={isDisabled}
+					/>
+				</S.ButtonWrapper>
 			</S.ContentWrapper>
 		</S.ResearchPdfFormWrapper>
 	)
