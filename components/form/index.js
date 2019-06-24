@@ -1,65 +1,65 @@
-import React from "react";
-import * as S from "./Form.styled";
-import Input from "../input";
-import Textfield from "../textfield";
-import Button from "../button";
+import React from 'react'
+import * as S from './Form.styled'
+import Input from '../input'
+import Textfield from '../textfield'
+import Button from '../button'
 
 const Form = ({
-  onChange,
-  firstName,
-  company,
-  email,
-  message,
-  onSubmit,
-  isDisabled
+	onChange,
+	firstName,
+	company,
+	email,
+	message,
+	onSubmit,
+	isDisabled
 }) => (
-  <S.FormWrapper>
-    <S.Content>
-      <S.InputWrapper>
-        <Input
-          label="First name"
-          placeholder="Margaret Mango"
-          value={firstName}
-          name="firstName"
-          onChange={onChange}
-        />
-      </S.InputWrapper>
-      <S.InputWrapper>
-        <Input
-          label="Company"
-          placeholder="Mango co."
-          value={company}
-          name="company"
-          onChange={onChange}
-        />
-      </S.InputWrapper>
-      <S.InputWrapper>
-        <Input
-          label="Email"
-          placeholder="margaret@mango.com"
-          value={email}
-          name="email"
-          onChange={onChange}
-        />
-      </S.InputWrapper>
-      <S.InputWrapper>
-        <Textfield
-          label="Message"
-          placeholder="Your message here"
-          value={message}
-          name="message"
-          onChange={onChange}
-        />
-      </S.InputWrapper>
-      <S.ButtonWrapper>
-        <Button
-          btnText="Contact us"
-          onClick={onSubmit}
-          isDisabled={isDisabled}
-        />
-      </S.ButtonWrapper>
-    </S.Content>
-  </S.FormWrapper>
-);
+	<S.FormWrapper>
+		<S.Content>
+			<S.InputWrapper>
+				<Input
+					label="First name"
+					placeholder="Margaret Mango"
+					value={firstName}
+					name="firstName"
+					onChange={onChange}
+				/>
+			</S.InputWrapper>
+			<S.InputWrapper>
+				<Input
+					label="Company"
+					placeholder="Mango co."
+					value={company}
+					name="company"
+					onChange={onChange}
+				/>
+			</S.InputWrapper>
+			<S.InputWrapper>
+				<Input
+					label="Email"
+					placeholder="margaret@mango.com"
+					value={email}
+					name="email"
+					onChange={onChange}
+				/>
+			</S.InputWrapper>
+			<S.InputWrapper>
+				<Textfield
+					label="Message"
+					placeholder="Your message here"
+					value={message}
+					name="message"
+					onChange={onChange}
+				/>
+			</S.InputWrapper>
+			<S.ButtonWrapper>
+				<Button
+					btnText="Contact us"
+					onClick={onSubmit}
+					isDisabled={isDisabled}
+				/>
+			</S.ButtonWrapper>
+		</S.Content>
+	</S.FormWrapper>
+)
 
-export default Form;
+export default Form
