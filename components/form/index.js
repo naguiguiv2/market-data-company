@@ -1,4 +1,5 @@
 import React from 'react'
+import Router from 'next/router'
 import * as S from './Form.styled'
 import Input from '../input'
 import Textfield from '../textfield'
@@ -56,6 +57,7 @@ const Form = ({
 					btnText="Contact us"
 					onClick={onSubmit}
 					isDisabled={isDisabled}
+					onClick={() => Router.push('/contact')}
 				/>
 			</S.ButtonWrapper>
 		</S.Content>

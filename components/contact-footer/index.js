@@ -1,4 +1,5 @@
 import React from 'react'
+import Router from 'next/router'
 import Button from '../button'
 import * as S from './ContactFooter.styled'
 
@@ -17,7 +18,7 @@ const ContactFooter = () => {
 					btnText="Contact us"
 					onClick={() => {}}
 					isDefault={false}
-					href="/contact"
+					onClick={() => Router.push('/contact')}
 				/>
 			</S.ButtonWrapper>
 		</S.ContactFooterWrapper>
