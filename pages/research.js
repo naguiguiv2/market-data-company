@@ -58,6 +58,7 @@ export default () => {
 					email={form.email}
 					onChange={updateField}
 					isDisabled={isDisabled}
+					onRequestClose={() => setModalVisible(false)}
 				/>
 			</MDCModal>
 			<ContentWrapper>

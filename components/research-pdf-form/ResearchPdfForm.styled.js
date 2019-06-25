@@ -13,6 +13,26 @@ export const ResearchPdfFormWrapper = styled.div`
 	`}
 `
 
+export const ImageWrapper = styled.div`
+	align-self: flex-end;
+	cursor: pointer;
+	height: 32px;
+	width: 32px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	&:hover {
+		background-color: ${(props) => props.theme.colors.sbGrey};
+	}
+`
+
+export const CloseIcon = styled.img`
+	height: 18px;
+	width: 18px;
+`
+
 export const ContentWrapper = styled.div`
 	display: flex;
 	flex-direction: column;

@@ -4,9 +4,25 @@ import Button from '../button'
 import * as S from './ResearchPdfForm.styled'
 
 const ResearchPdfForm = (props) => {
-	const { name, company, email, onChange, onSubmit, isDisabled } = props
+	const {
+		name,
+		company,
+		email,
+		onChange,
+		onSubmit,
+		isDisabled,
+		onRequestClose
+	} = props
 	return (
 		<S.ResearchPdfFormWrapper>
+			<S.ImageWrapper>
+				<S.CloseIcon
+					src="../../static/images/closeIcon.png"
+					srcSet="../../static/images/closeIcon.png 1x, ../../static/images/closeIcon@2x.png 2x,
+								 ../../static/images/closeIcon@3x.png 3x"
+					onClick={onRequestClose}
+				/>
+			</S.ImageWrapper>
 			<S.ContentWrapper>
 				<S.Title>Just one last thing..</S.Title>
 				<S.Description>
