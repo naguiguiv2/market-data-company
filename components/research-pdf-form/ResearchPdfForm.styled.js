@@ -64,7 +64,7 @@ export const InputWrapper = styled.div`
 	margin-bottom: 12px;
 	${breakpoint('desktop')`
 		margin-bottom: 16px;
-		&:nth-child(5) {
+		&:nth-child(6) {
         	margin-bottom: 40px;
     	}
 	`}

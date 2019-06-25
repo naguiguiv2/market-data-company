@@ -36,15 +36,7 @@ const ResearchPdfForm = (props) => {
 						name="name"
 						value={name}
 						onChange={onChange}
-					/>
-				</S.InputWrapper>
-				<S.InputWrapper>
-					<Input
-						label="Company"
-						placeholder="Mango Tree"
-						name="company"
-						value={company}
-						onChange={onChange}
+						isRequired={true}
 					/>
 				</S.InputWrapper>
 				<S.InputWrapper>
@@ -53,6 +45,16 @@ const ResearchPdfForm = (props) => {
 						placeholder="margaret@mango.com"
 						name="email"
 						value={email}
+						onChange={onChange}
+						isRequired
+					/>
+				</S.InputWrapper>
+				<S.InputWrapper>
+					<Input
+						label="Company"
+						placeholder="Mango Tree"
+						name="company"
+						value={company}
 						onChange={onChange}
 					/>
 				</S.InputWrapper>

@@ -42,8 +42,7 @@ export default () => {
 		})
 	}
 
-	const isDisabled =
-		form.name === '' || form.company === '' || !validateEmail(form.email)
+	const isDisabled = form.name === '' || !validateEmail(form.email)
 
 	return (
 		<Layout>

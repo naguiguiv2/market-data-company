@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Landing from '../sections/contact-section/landing'
 import ThankYou from '../sections/contact-section/thank-you'
 import Layout from '../components/layout'
-import Form from '../components/form'
+import ContactForm from '../components/contact-form'
 import TabBar from '../components/tab-bar'
 import { SB_GREY, WHITE } from '../assets/colors'
 import { validateEmail } from '../server/utils/validator'
@@ -61,11 +61,7 @@ export default () => {
 	}
 
 	const isDisabled =
-		form.firstName === '' ||
-		form.company === '' ||
-		form.email === '' ||
-		!validateEmail(form.email)
-	form.message === ''
+		form.firstName === '' || form.email === '' || !validateEmail(form.email)
 
 	return (
 		<Layout>
@@ -74,7 +70,7 @@ export default () => {
 				<>
 					<Landing />
 					<ContentWrapper>
-						<Form
+						<ContactForm
 							firstName={form.firstName}
 							company={form.company}
 							email={form.email}

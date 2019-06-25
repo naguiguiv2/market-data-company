@@ -1,11 +1,11 @@
 import React from 'react'
 import Router from 'next/router'
-import * as S from './Form.styled'
+import * as S from './ContactForm.styled'
 import Input from '../input'
 import Textfield from '../textfield'
 import Button from '../button'
 
-const Form = ({
+const ContactForm = ({
 	onChange,
 	firstName,
 	company,
@@ -23,6 +23,7 @@ const Form = ({
 					value={firstName}
 					name="firstName"
 					onChange={onChange}
+					isRequired={true}
 				/>
 			</S.InputWrapper>
 			<S.InputWrapper>
@@ -41,6 +42,7 @@ const Form = ({
 					value={email}
 					name="email"
 					onChange={onChange}
+					isRequired={true}
 				/>
 			</S.InputWrapper>
 			<S.InputWrapper>
@@ -64,4 +66,4 @@ const Form = ({
 	</S.FormWrapper>
 )
 
-export default Form
+export default ContactForm
