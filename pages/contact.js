@@ -53,6 +53,7 @@ export default () => {
 
 	const onSubmit = async () => {
 		const res = await sendEmail(form)
+		console.log(res)
 		if (res.error) {
 			setHasError(true)
 		} else {
@@ -84,7 +85,11 @@ export default () => {
 			)}
 			{emailSent && !hasError && (
 				<ThankYouWrapper>
-					<ThankYou email={form.email} />
+					<ThankYou
+						description={`We’ll reply to you at ${form.email} as soon as possible.`}
+						footerMessage="Back to home"
+						href="/"
+					/>
 				</ThankYouWrapper>
 			)}
 		</Layout>

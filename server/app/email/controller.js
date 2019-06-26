@@ -11,7 +11,7 @@ module.exports.sendEmail = async (req, res) => {
 			})
 		}
 
-		await sendMail({ from: email, name: firstName, company, message })
+		await sendMail({ email, name: firstName, company, message })
 		res.status(200).send({
 			success: true
 		})

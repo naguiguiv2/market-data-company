@@ -5,7 +5,7 @@ import * as S from './ResearchPdfForm.styled'
 
 const ResearchPdfForm = (props) => {
 	const {
-		name,
+		firstName,
 		company,
 		email,
 		onChange,
@@ -33,8 +33,8 @@ const ResearchPdfForm = (props) => {
 					<Input
 						label="First name"
 						placeholder="Margaret Mango"
-						name="name"
-						value={name}
+						name="firstName"
+						value={firstName}
 						onChange={onChange}
 						isRequired={true}
 					/>

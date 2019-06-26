@@ -1,10 +1,11 @@
 const nodemailer = require('nodemailer')
 
-const emailTemplate = ({ name, company, message }) => {
+const emailTemplate = ({ name, email, company, message }) => {
 	return `
-    <h1>${name}</h1>
-    <h3>${company}</h3>
-    <p>${message}</p>
+		<h1>${name}</h1>
+		<h1>${email}</h1>
+    ${company && `<h3>${company}</h3>`}
+    ${message && `<p>${message}</p>`}
   `
 }
 
@@ -16,12 +17,12 @@ const transporter = nodemailer.createTransport({
 	}
 })
 
-const sendMail = async ({ from, name, company, message }) => {
+const sendMail = async ({ email, name, company, message }) => {
 	const mailOptions = {
-		from,
+		from: email,
 		to: process.env.EMAIL,
 		subject: `MDC PDF Request from ${name}`,
-		html: emailTemplate({ name, company, message })
+		html: emailTemplate({ name, email, company, message })
 	}
 	await transporter.sendMail(mailOptions)
 }

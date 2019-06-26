@@ -59,7 +59,6 @@ const ContactForm = ({
 					btnText="Contact us"
 					onClick={onSubmit}
 					isDisabled={isDisabled}
-					onClick={() => Router.push('/contact')}
 				/>
 			</S.ButtonWrapper>
 		</S.Content>

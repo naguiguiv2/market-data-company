@@ -2,9 +2,9 @@ import React from 'react'
 import Link from 'next/link'
 import * as S from './AnimatedFooterLink.styled'
 
-const AnimatedFooterLink = ({ message, href }) => (
-	<Link href={href || null}>
-		<S.AnimatedFooterLinkWrapper>
+const AnimatedFooterLink = ({ message, href, onClick }) => (
+	<Link href={href}>
+		<S.AnimatedFooterLinkWrapper onClick={onClick}>
 			<S.Message>{message}</S.Message>
 			<img
 				src="../../static/images/arrow.png"
@@ -14,5 +14,9 @@ const AnimatedFooterLink = ({ message, href }) => (
 		</S.AnimatedFooterLinkWrapper>
 	</Link>
 )
+
+AnimatedFooterLink.defaultProps = {
+	onClick: () => {}
+}
 
 export default AnimatedFooterLink

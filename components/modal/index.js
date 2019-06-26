@@ -8,7 +8,12 @@ const customStyles = {
 		right: 'auto',
 		bottom: 'auto',
 		marginRight: '-50%',
-		transform: 'translate(-50%, -50%)'
+		transform: 'translate(-50%, -50%)',
+		width: '724px',
+		minHeight: '469px',
+		display: 'flex',
+		flexDirection: 'column',
+		justifyContent: 'center'
 	}
 }
 

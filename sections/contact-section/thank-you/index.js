@@ -3,7 +3,7 @@ import AnimatedFooterLink from '../../../components/animated-footer-link'
 import * as S from './ThankYou.styled'
 
 const ThankYou = (props) => {
-	const { email } = props
+	const { description, href, footerMessage, onClick } = props
 	return (
 		<S.ThankYouWrapper>
 			<S.ImageWrapper>
@@ -14,16 +14,19 @@ const ThankYou = (props) => {
 				/>
 			</S.ImageWrapper>
 			<S.Title>Thank You</S.Title>
-			<S.Description>
-				We’ll reply to you at {email} as soon as possible.
-			</S.Description>
-			<AnimatedFooterLink message="Back to home" href="/" />
+			<S.Description>{description}</S.Description>
+			<AnimatedFooterLink
+				message={footerMessage}
+				href={href}
+				onClick={onClick}
+			/>
 		</S.ThankYouWrapper>
 	)
 }
 
 ThankYou.defaultProps = {
-	email: 'your email address'
+	email: 'your email address',
+	onClick: () => {}
 }
 
 export default ThankYou
