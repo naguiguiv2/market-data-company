@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Landing from '../sections/contact-section/landing'
-import ThankYou from '../sections/contact-section/thank-you'
+import ThankYou from '../components/thank-you'
 import Layout from '../components/layout'
 import ContactForm from '../components/contact-form'
 import TabBar from '../components/tab-bar'
@@ -52,12 +52,15 @@ export default () => {
 	}
 
 	const onSubmit = async () => {
-		const res = await sendEmail(form)
-		console.log(res)
-		if (res.error) {
+		try {
+			const res = await sendEmail(form)
+			if (res.error) {
+				setHasError(true)
+			} else {
+				setEmailSent(true)
+			}
+		} catch (err) {
 			setHasError(true)
-		} else {
-			setEmailSent(true)
 		}
 	}
 

@@ -8,7 +8,6 @@ import Research from '../sections/research-section/research'
 import WhitePaper from '../sections/research-section/white-paper'
 import CaseStudies from '../sections/research-section/case-studies'
 import Survey from '../sections/research-section/survey'
-import ThankYou from '../sections/contact-section/thank-you'
 
 // Components
 import Layout from '../components/layout'
@@ -16,6 +15,7 @@ import ContactFooter from '../components/contact-footer'
 import ResearchPdfForm from '../components/research-pdf-form'
 import MDCModal from '../components/modal'
 import AnimatedFooterLink from '../components/animated-footer-link'
+import ThankYou from '../components/thank-you'
 
 // Utils
 import { validateEmail } from '../utils/validator'
@@ -47,11 +47,15 @@ export default () => {
 	}
 
 	const onSubmit = async () => {
-		const res = await sendEmail(form)
-		if (res.error) {
+		try {
+			const res = await sendEmail(form)
+			if (res.error) {
+				setHasError(true)
+			} else {
+				setEmailSent(true)
+			}
+		} catch (err) {
 			setHasError(true)
-		} else {
-			setEmailSent(true)
 		}
 	}
 
