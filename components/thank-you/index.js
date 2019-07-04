@@ -1,5 +1,5 @@
 import React from 'react'
-import AnimatedFooterLink from '../../../components/animated-footer-link'
+import AnimatedFooterLink from '../animated-footer-link'
 import * as S from './ThankYou.styled'
 
 const ThankYou = (props) => {
