@@ -30,29 +30,64 @@ const TabBar = (props) => {
 		})
 	}
 
+	const WebTabBar = () => (
+		<S.TabWrapper>
+			<Link href="/">
+				<S.Tab>
+					{barTheme === 'dark' && (
+						<img
+							src="../../static/images/mdc-logo-horizontal-black.png"
+							srcSet="../../static/images/mdc-logo-horizontal-black@1x.png 1x, ../../static/images/mdc-logo-horizontal-black@2x.png 2x,
+                                  ../../static/images/mdc-logo-horizontal-black@3x.png 3x"
+						/>
+					)}
+					{barTheme !== 'dark' && (
+						<img
+							src="../../static/images/mdc-logo-horizontal.png"
+							srcSet="../../static/images/mdc-logo-horizontal@1x.png 1x, ../../static/images/mdc-logo-horizontal@2x.png 2x,
+                                 ../../static/images/mdc-logo-horizontal@3x.png 3x"
+						/>
+					)}
+				</S.Tab>
+			</Link>
+			{renderLinks()}
+		</S.TabWrapper>
+	)
+
+	const MobileTabBar = () => (
+		<S.MobileTabWrapper>
+			<Link href="/">
+				<>
+					{barTheme === 'dark' && (
+						<img
+							src="../../static/images/mdc-logo-horizontal-black.png"
+							srcSet="../../static/images/mdc-logo-horizontal-black@1x.png 1x, ../../static/images/mdc-logo-horizontal-black@2x.png 2x,
+                                  ../../static/images/mdc-logo-horizontal-black@3x.png 3x"
+						/>
+					)}
+					{barTheme !== 'dark' && (
+						<img
+							src="../../static/images/mdc-logo-horizontal.png"
+							srcSet="../../static/images/mdc-logo-horizontal@1x.png 1x, ../../static/images/mdc-logo-horizontal@2x.png 2x,
+                                 ../../static/images/mdc-logo-horizontal@3x.png 3x"
+						/>
+					)}
+				</>
+			</Link>
+			<div>
+				<img
+					src="../../static/images/hamburger.png"
+					srcSet="../../static/images/hamburger.png 1x, ../../static/images/hamburger@2x.png 2x,
+                                 ../../static/images/hamburger@3x.png 3x"
+				/>
+			</div>
+		</S.MobileTabWrapper>
+	)
+
 	return (
 		<S.Wrapper themeDark={true} backgroundColor={backgroundColor}>
-			<S.TabWrapper>
-				<Link href="/">
-					<S.Tab>
-						{barTheme === 'dark' && (
-							<img
-								src="../../static/images/mdc-logo-horizontal-black.png"
-								srcSet="../../static/images/mdc-logo-horizontal-black@1x.png 1x, ../../static/images/mdc-logo-horizontal-black@2x.png 2x,
-                                  ../../static/images/mdc-logo-horizontal-black@3x.png 3x"
-							/>
-						)}
-						{barTheme !== 'dark' && (
-							<img
-								src="../../static/images/mdc-logo-horizontal.png"
-								srcSet="../../static/images/mdc-logo-horizontal@1x.png 1x, ../../static/images/mdc-logo-horizontal@2x.png 2x,
-                                 ../../static/images/mdc-logo-horizontal@3x.png 3x"
-							/>
-						)}
-					</S.Tab>
-				</Link>
-				{renderLinks()}
-			</S.TabWrapper>
+			<WebTabBar />
+			<MobileTabBar />
 		</S.Wrapper>
 	)
 }
