@@ -7,12 +7,24 @@ export const InputWrapper = styled.div`
 	justify-content: flex-start;
 `
 
+export const LabelWrapper = styled.div`
+	display: flex;
+	flex-direction: row;
+`
+
 export const Label = styled.span`
 	font-family: ${(props) => props.theme.fonts.graphik};
 	font-size: 16px;
 	line-height: 28px;
 	color: ${(props) => props.theme.colors.black};
 	margin-bottom: 5px;
+	margin-right: 2px;
+`
+
+export const ErrorStar = styled.span`
+	font-family: 'LucidaGrande';
+	font-size: 21px;
+	color: #ff0000;
 `
 
 export const Field = styled.input`

@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import Landing from '../sections/contact-section/landing'
-import ThankYou from '../sections/contact-section/thank-you'
+import ThankYou from '../components/thank-you'
 import Layout from '../components/layout'
-import Form from '../components/form'
+import ContactForm from '../components/contact-form'
 import TabBar from '../components/tab-bar'
 import { SB_GREY, WHITE } from '../assets/colors'
 import { validateEmail } from '../server/utils/validator'
@@ -35,7 +35,7 @@ const ThankYouWrapper = styled.div`
 `
 
 export default () => {
-	const [form, setValues] = useState({
+	const [form, setFormValues] = useState({
 		firstName: '',
 		company: '',
 		email: '',
@@ -45,27 +45,27 @@ export default () => {
 	const [hasError, setHasError] = useState(false)
 
 	const updateField = (e) => {
-		setValues({
+		setFormValues({
 			...form,
 			[e.target.name]: e.target.value
 		})
 	}
 
 	const onSubmit = async () => {
-		const res = await sendEmail(form)
-		if (res.error) {
+		try {
+			const res = await sendEmail(form)
+			if (res.error) {
+				setHasError(true)
+			} else {
+				setEmailSent(true)
+			}
+		} catch (err) {
 			setHasError(true)
-		} else {
-			setEmailSent(true)
 		}
 	}
 
 	const isDisabled =
-		form.firstName === '' ||
-		form.company === '' ||
-		form.email === '' ||
-		!validateEmail(form.email)
-	form.message === ''
+		form.firstName === '' || form.email === '' || !validateEmail(form.email)
 
 	return (
 		<Layout>
@@ -74,7 +74,7 @@ export default () => {
 				<>
 					<Landing />
 					<ContentWrapper>
-						<Form
+						<ContactForm
 							firstName={form.firstName}
 							company={form.company}
 							email={form.email}
@@ -88,7 +88,11 @@ export default () => {
 			)}
 			{emailSent && !hasError && (
 				<ThankYouWrapper>
-					<ThankYou email={form.email} />
+					<ThankYou
+						description={`We’ll reply to you at ${form.email} as soon as possible.`}
+						footerMessage="Back to home"
+						href="/"
+					/>
 				</ThankYouWrapper>
 			)}
 		</Layout>
