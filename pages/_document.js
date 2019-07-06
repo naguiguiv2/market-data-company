@@ -23,7 +23,7 @@ export default class MyDocument extends Document {
 	render() {
 		return (
 			<Html>
-				<Head>
+				<head>
 					<title>Market Data Company</title>
 					<link
 						rel="icon"
@@ -31,7 +31,7 @@ export default class MyDocument extends Document {
 						href="../static/images/mdc_favicon.png"
 					/>
 					{this.props.styleTags}
-				</Head>
+				</head>
 				<body>
 					<GlobalStyles />
 					<Main />

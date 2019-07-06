@@ -5,12 +5,15 @@ export const LandingWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 0 20px;
 	background-color: ${(props) => props.theme.colors.sbGrey};
+
+	${breakpoint('tablet')`
+		padding: 0 60px;
+	`}
+
 	${breakpoint('desktop')`
-    padding-left: 130px;
-    padding-right: 130px;
+		padding: 0 120px;
   `}
 `
 
