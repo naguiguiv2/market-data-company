@@ -3,13 +3,10 @@ import breakpoint from 'styled-components-breakpoint'
 
 export const FooterWrapper = styled.footer`
 	min-height: 375px;
-	display: flex;
-	flex: 1;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+
+	width: 100%;
 	background-color: black;
-	padding: 47px 20px;
+
 	${breakpoint('desktop')`
     min-height: 350px;
     padding: 0;
@@ -17,31 +14,38 @@ export const FooterWrapper = styled.footer`
 `
 
 export const ContentWrapper = styled.div`
-	width: 100%;
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	${breakpoint('desktop')`
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
+
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 80px 20px;
+
+	${breakpoint('tablet')`
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start;
   `}
 `
 
 export const FooterLogoWrapper = styled.div`
 	display: flex;
-	margin-bottom: 22px;
-	${breakpoint('desktop')`
+	margin-bottom: 20px;
+
+	${breakpoint('tablet')`
     margin-bottom: 0;
   `}
 `
 
 export const TextWrapper = styled.div`
-	max-width: 521px;
-	margin-bottom: 52px;
-	justify-content: center;
-	${breakpoint('desktop')`
-    margin-bottom: 0;
+	margin-bottom: 40px;
+
+	${breakpoint('tablet')`
+		max-width: 600px;
+		margin-bottom: 0;
+		padding: 0 40px;
   `}
 `
 
@@ -50,16 +54,18 @@ export const MarketDataText = styled.p`
 	color: ${(props) => props.theme.colors.white};
 	font-family: ${(props) => props.theme.fonts.financier};
 	font-weight: 400;
-	font-size: 16px;
-	line-height: 22px;
-	letter-spacing: 0px;
-	text-align: center;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: left;
+
+	${breakpoint('tablet')`
+    font-size: 16px;
+    line-height: 24px;
+  `}
 
 	${breakpoint('desktop')`
     font-size: 21px;
     line-height: 28px;
-    letter-spacing: -0.15px;
-    text-align: left;
   `}
 `
 
@@ -68,8 +74,9 @@ export const ExploreAndSocialWrapper = styled.div`
 	flex-direction: row;
 	justify-content: space-between;
 	width: 100%;
-	${breakpoint('desktop')`
-    width: 300px;
+
+	${breakpoint('tablet')`
+	width: 300px;
   `}
 `
 
@@ -107,11 +114,13 @@ export const ExploreItem = styled.a`
 export const SocialWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
+	margin-left: 40px;
 `
 
 export const SocialContent = styled.div`
 	display: flex;
 	flex-direction: row;
+
 `
 
 export const SocialTitle = styled.h1`
