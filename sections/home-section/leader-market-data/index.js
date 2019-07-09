@@ -7,9 +7,9 @@ const LeaderMarketData = () => {
 		<S.LeaderMarketDataWrapper>
 			<S.Content>
 				<S.InfoWrapper>
-					<S.Title>Leader in market data consultancy</S.Title>
+					<S.Title>Leader in market data consulting</S.Title>
 					<S.InfoText>
-						Market Data Company (MDC) is a professional consulting firm with
+						Market Data Company is a professional consulting firm with
 						experts skilled in Market Data products and Management. We are
 						committed to helping financial investment firms optimize Market and
 						Reference data spend.

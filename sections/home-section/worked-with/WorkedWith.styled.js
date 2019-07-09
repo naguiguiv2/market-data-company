@@ -5,11 +5,9 @@ export const WorkedWithWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	align-items: center;
-	${breakpoint('desktop')`
-    align-items: flex-start;
-    margin-bottom: 165px;
-  `}
+	align-items: flex-start;
+	margin-bottom: 120px;
+
 `
 
 export const Title = styled.h1`
@@ -35,7 +33,7 @@ export const LogoContentWrapper = styled.div`
 
 export const LogoWrapper = styled.div`
 	margin-bottom: 40px;
-	${breakpoint('desktop')`
+	${breakpoint('tablet')`
     margin-bottom: 0; 
 `}
 `

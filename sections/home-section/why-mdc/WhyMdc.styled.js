@@ -17,10 +17,10 @@ export const HeadingWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	margin-bottom: 17px;
-	${breakpoint('desktop')`     
-    margin-bottom: 53px;
-    max-width: 780px;
+	margin-bottom: 40px;
+
+	${breakpoint('tablet')`     
+		max-width: 780px;
   `}
 `
 
@@ -42,15 +42,15 @@ export const HeadingDescription = styled.p`
 	line-height: 24px;
 	margin: 0;
 	${breakpoint('desktop')`
-  font-size: 24px;
-  line-height: 30px;
+		font-size: 24px;
+		line-height: 30px;
 `}
 `
 
 export const Content = styled.div`
 	display: flex;
 	flex-direction: column;
-	${breakpoint('desktop')`
+	${breakpoint('tablet')`
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -61,8 +61,8 @@ export const CardWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 27px;
-	${breakpoint('desktop')`
-    width: 50%;
+	${breakpoint('tablet')`
+    width: 48%;
   `}
 `
 

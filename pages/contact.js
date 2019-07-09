@@ -13,22 +13,17 @@ import styled from 'styled-components'
 import breakpoint from 'styled-components-breakpoint'
 
 const ContentWrapper = styled.div`
-	margin: 0 20px 80px;
+	padding: 0 20px;
+	margin-bottom: 100px;
+	margin-top: -80px;
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	flex: 1;
 	z-index: 0;
-	min-height: 614px;
+	min-height: 640px;
 
-	${breakpoint('tablet')`
-		margin: 0 60px 90px;
-	`}
-
-	${breakpoint('desktop')`
-    margin: 0 120px 160px;
-    min-height: 726px;
-  `}
 `
 
 const ThankYouWrapper = styled.div`

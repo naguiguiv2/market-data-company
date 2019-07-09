@@ -2,23 +2,28 @@ import styled from 'styled-components'
 import breakpoint from 'styled-components-breakpoint'
 
 export const LandingWrapper = styled.div`
-	display: flex;
-	flex-direction: column;
-	flex: 1;
-	padding: 0 20px 64px;
 	background-image: url('/static/images/mobile-landing.jpg');
 	background-size: cover;
-
+	width: 100%;
 
 	${breakpoint('tablet')`
-		padding-left: 60px;
 		background-image: url("/static/images/tablet-landing.jpg");
 	`}
 
 	${breakpoint('desktop')`
-    	padding-left: 120px;
 		background-image: url("/static/images/desktop-landing.png");
   `}
+`
+
+export const ContentWrapper = styled.div`
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+
 `
 
 export const Title = styled.h1`

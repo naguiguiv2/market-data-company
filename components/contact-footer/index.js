@@ -5,7 +5,8 @@ import * as S from './ContactFooter.styled'
 
 const ContactFooter = () => {
 	return (
-		<S.ContactFooterWrapper>
+	<S.ContactFooterWrapper>
+		<S.ContentWrapper>
 			<S.Content>
 				<S.Title>See how we can help</S.Title>
 				<S.Description>
@@ -21,7 +22,8 @@ const ContactFooter = () => {
 					onClick={() => Router.push('/contact')}
 				/>
 			</S.ButtonWrapper>
-		</S.ContactFooterWrapper>
+		</S.ContentWrapper>
+	</S.ContactFooterWrapper>
 	)
 }
 

@@ -22,15 +22,11 @@ import { validateEmail } from '../utils/validator'
 import { sendEmail } from '../services/apiService'
 
 const ContentWrapper = styled.div`
-	margin: 0 20px 80px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+	margin-bottom: 100px;
 
-	${breakpoint('tablet')`
-		margin: 0 60px 90px;
-	`}	
-
-	${breakpoint('desktop')`
-    margin: 0 120px 160px;
-  `}
 `
 
 export default () => {
