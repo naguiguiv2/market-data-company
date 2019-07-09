@@ -5,6 +5,7 @@ export const CaseStudiesWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	flex: 1;
+	margin-bottom: 100px;
 `
 
 export const Title = styled.h1`

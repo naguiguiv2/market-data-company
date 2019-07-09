@@ -2,17 +2,25 @@ import styled from 'styled-components'
 import breakpoint from 'styled-components-breakpoint'
 
 export const ContactFooterWrapper = styled.div`
+	width: 100%;
+	background: rgb(125,39,255);
+	background: linear-gradient(90deg, rgba(125,39,255,1) 0%, rgba(180,79,255,1) 100%);
+
+`
+
+export const ContentWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 100%;
-	background-image: linear-gradient(308deg, #b44fff, #7d27ff);
+
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 80px 20px;
+
 	${breakpoint('desktop')`
-    min-height: 311px;
-    flex-direction: row;
-    background-image: linear-gradient(282deg, #b44fff, #7d27ff);
-    justify-content: space-around;
-    align-items: center;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
   `}
 `
 
@@ -20,7 +28,8 @@ export const Content = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 54px 24px 48px;
+	margin-bottom: 30px;
+	
 	${breakpoint('desktop')`
     margin: 0;
     align-items: flex-start;
@@ -29,10 +38,11 @@ export const Content = styled.div`
 
 export const Title = styled.h1`
 	font-family: ${(props) => props.theme.fonts.graphikBold};
-	font-size: 24px;
-	line-height: 30px;
+	font-size: 32px;
+	line-height: 42px;
 	margin: 0 0 6px 0;
 	color: ${(props) => props.theme.colors.white};
+
 	${breakpoint('desktop')`
     font-size: 36px;
     line-height: 48px;
@@ -42,8 +52,8 @@ export const Title = styled.h1`
 
 export const Description = styled.p`
 	font-family: ${(props) => props.theme.fonts.financier};
-	font-size: 16px;
-	line-height: 22px;
+	font-size: 18px;
+	line-height: 26px;
 	margin: 0;
 	color: ${(props) => props.theme.colors.white};
 	text-align: center;
@@ -56,8 +66,5 @@ export const Description = styled.p`
 `
 
 export const ButtonWrapper = styled.div`
-	margin-bottom: 73px;
-	${breakpoint('desktop')`
-    margin-bottom: 0
-  `}
+	margin-bottom: 0;
 `

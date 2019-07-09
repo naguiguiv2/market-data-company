@@ -7,10 +7,9 @@ export const FormWrapper = styled.div`
 	flex: 1;
 	box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
 	width: 100%;
+	max-width: 640px;
 	background-color: ${(props) => props.theme.colors.white};
-	${breakpoint('desktop')`
-    max-width: 724px;
-  `}
+
 `
 
 export const Content = styled.div`
@@ -18,9 +17,9 @@ export const Content = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	flex: 1;
-	padding: 0 23px;
+	padding: 0 20px;
 	${breakpoint('desktop')`
-    padding: 0 86px;
+    padding: 0 40px;
   `}
 `
 

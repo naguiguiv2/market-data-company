@@ -11,15 +11,9 @@ import styled from 'styled-components'
 import breakpoint from 'styled-components-breakpoint'
 
 const ContentWrapper = styled.div`
-	margin: 0 20px;
-
-	${breakpoint('tablet')`
-		margin: 0 60px;
-	`}
-
-	${breakpoint('desktop')`
-		margin: 0 120px;
-  `}
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
 `
 
 export default () => (

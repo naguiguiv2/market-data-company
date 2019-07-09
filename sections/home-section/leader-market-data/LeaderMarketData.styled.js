@@ -15,6 +15,8 @@ export const LeaderMarketDataWrapper = styled.div`
 export const Content = styled.div`
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 20px;
+
 	${breakpoint('desktop')`
     flex-direction: row;
     justify-content: space-between;
@@ -28,8 +30,8 @@ export const Title = styled.h1`
 	color: ${(props) => props.theme.colors.black};
 	margin: 0 0 20px 0;
 	${breakpoint('desktop')`
-    font-size: 36px;
-    line-height: 48px;
+		font-size: 36px;
+		line-height: 48px;
   `}
 `
 
@@ -42,27 +44,36 @@ export const InfoWrapper = styled.div`
 `
 
 export const InfoText = styled.p`
-	font-size: 24px;
-	font-family: ${(props) => props.theme.fonts.financier};
-	line-height: 30px;
+	font-family: ${(props) => props.theme.fonts.financier};	
+	font-size: 18px;
+	line-height: 26px;
 	color: ${(props) => props.theme.colors.black};
 	margin: 0 0 24px 0;
+
+	${breakpoint('desktop')`
+		font-size: 24px;
+		line-height: 30px;
+	`}	
 `
 
 export const FactsWrapper = styled.div`
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: flex-start;
 	margin-bottom: 30px;
+
 	${breakpoint('desktop')`
     flex-direction: column;
-    justify-content: flex-start;
+	justify-content: flex-start;
+	margin-left: 40px;
   `}
 `
 
 export const ProjectsCompletedWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
+	margin-right: 40px;
+
 	${breakpoint('desktop')`
     margin-bottom: 38px;
   `}
@@ -70,26 +81,25 @@ export const ProjectsCompletedWrapper = styled.div`
 
 export const NumberText = styled.h1`
 	font-family: ${(props) => props.theme.fonts.graphikBold};
-	font-size: 32px;
-	line-height: 32px;
+	font-size: 36px;
+	line-height: 36px;
 	color: ${(props) => props.theme.colors.mdcPurple};
-	margin: 0 0 6px 0;
+	margin: 0 0 10px 0;
+
 	${breakpoint('desktop')`
-    font-size: 48px;
-    line-height: 64px;
+	font-size: 48px;
+	line-height: 48px;
   `}
+
 `
 
 export const FactsText = styled.h1`
 	font-family: ${(props) => props.theme.fonts.financier};
-	font-size: 14px;
-	line-height: 20px;
+	font-size: 16px;
+	line-height: 22px;
 	color: ${(props) => props.theme.colors.lightGrey};
 	margin: 0;
-	${breakpoint('desktop')`
-    font-size: 16px;
-    line-height: 2px;
-  `}
+
 `
 
 export const FooterText = styled.a`
