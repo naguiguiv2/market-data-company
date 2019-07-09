@@ -3,8 +3,8 @@ import AnimatedCard from '../../../components/animated-card'
 import { PINK } from '../../../assets/colors'
 import * as S from './WhitePaper.styled'
 
-const WhitePaper = () => (
-	<S.WhitePaperWrapper>
+const WhitePaper = ({ onClick }) => (
+	<S.WhitePaperWrapper onClick={onClick}>
 		<S.WhitePaperTitle>White Papers</S.WhitePaperTitle>
 		<AnimatedCard
 			title="Uncovering the FRTB & Non-Modellable Risk Factors"

@@ -3,8 +3,8 @@ import AnimatedCard from '../../../components/animated-card'
 import { RED } from '../../../assets/colors'
 import * as S from './CaseStudies.styled'
 
-const CaseStudies = () => (
-	<S.CaseStudyWrapper>
+const CaseStudies = ({ onClick }) => (
+	<S.CaseStudyWrapper onClick={onClick}>
 		<S.CaseStudyTitle>Case Studies</S.CaseStudyTitle>
 		<AnimatedCard
 			title="MDC Case Studies"

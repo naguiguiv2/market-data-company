@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import breakpoint from 'styled-components-breakpoint'
 
 export const Wrapper = styled.div`
 	display: flex;
@@ -6,12 +7,33 @@ export const Wrapper = styled.div`
 	background-color: ${(props) => props.backgroundColor || 'transparent'};
 `
 
-export const TabWrapper = styled.div`
+export const MobileTabWrapper = styled.div`
 	width: 100%;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 	align-items: center;
-	justify-content: flex-start;
+	${breakpoint('tablet')`
+		display: none;
+	`}
+`
+
+export const TabWrapper = styled.div`
+	display: none;
+	${breakpoint('tablet')`
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+	`}
+	${breakpoint('desktop')`
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+	`}
 `
 
 export const Tab = styled.a`

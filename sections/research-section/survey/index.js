@@ -3,8 +3,8 @@ import AnimatedCard from '../../../components/animated-card'
 import { BABY_BLUE } from '../../../assets/colors'
 import * as S from './Survey.styled'
 
-const Survey = () => (
-	<S.SurveyWrapper>
+const Survey = ({ onClick }) => (
+	<S.SurveyWrapper onClick={onClick}>
 		<S.SurveyTitle>Surveys</S.SurveyTitle>
 		<AnimatedCard
 			title="2017 Market Data Survey Insights"
