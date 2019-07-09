@@ -1,5 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
+import MDCModal from '../modal'
+import HamburgerMenuContent from '../hamburger-menu-content'
+
 import * as S from './TabBar.styled'
 
 const linkData = [
@@ -19,6 +22,7 @@ const linkData = [
 
 const TabBar = (props) => {
 	const { barTheme, backgroundColor } = props
+	const [modalVisible, setModalVisible] = useState(false)
 
 	const renderLinks = () => {
 		return linkData.map((data) => {
@@ -74,7 +78,7 @@ const TabBar = (props) => {
 					)}
 				</>
 			</Link>
-			<div>
+			<div onClick={() => setModalVisible(true)}>
 				<img
 					src="../../static/images/hamburger.png"
 					srcSet="../../static/images/hamburger.png 1x, ../../static/images/hamburger@2x.png 2x,
@@ -88,6 +92,12 @@ const TabBar = (props) => {
 		<S.Wrapper themeDark={true} backgroundColor={backgroundColor}>
 			<WebTabBar />
 			<MobileTabBar />
+			<MDCModal
+				modalVisible={modalVisible}
+				onRequestClose={() => setModalVisible(false)}
+			>
+				<HamburgerMenuContent onCloseModal={() => setModalVisible(false)} />
+			</MDCModal>
 		</S.Wrapper>
 	)
 }

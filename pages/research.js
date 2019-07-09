@@ -60,6 +60,10 @@ export default () => {
 		}
 	}
 
+	const openModal = () => {
+		setModalVisible(true)
+	}
+
 	const isDisabled = form.firstName === '' || !validateEmail(form.email)
 
 	return (
@@ -90,10 +94,10 @@ export default () => {
 				)}
 			</MDCModal>
 			<ContentWrapper>
-				<Research onClick={() => setModalVisible(true)} />
-				<WhitePaper />
-				<CaseStudies />
-				<Survey />
+				<Research onClick={openModal} />
+				<WhitePaper onClick={openModal} />
+				<CaseStudies onClick={openModal} />
+				<Survey onClick={openModal} />
 				<AnimatedFooterLink message="Back to home" href="/" />
 			</ContentWrapper>
 			<ContactFooter />
