@@ -79,11 +79,20 @@ const TabBar = (props) => {
 				</>
 			</Link>
 			<div onClick={() => setModalVisible(true)}>
-				<img
-					src="../../static/images/hamburger.png"
-					srcSet="../../static/images/hamburger.png 1x, ../../static/images/hamburger@2x.png 2x,
-                                 ../../static/images/hamburger@3x.png 3x"
-				/>
+				{barTheme === 'dark' && (
+					<img
+						src="../../static/images/black-hamburger.png"
+						srcSet="../../static/images/black-hamburger.png 1x, ../../static/images/black-hamburger@2x.png 2x,
+									 ../../static/images/black-hamburger@3x.png 3x"
+					/>
+				)}
+				{barTheme !== 'dark' && (
+					<img
+						src="../../static/images/hamburger.png"
+						srcSet="../../static/images/hamburger.png 1x, ../../static/images/hamburger@2x.png 2x,
+									 ../../static/images/hamburger@3x.png 3x"
+					/>
+				)}
 			</div>
 		</S.MobileTabWrapper>
 	)
