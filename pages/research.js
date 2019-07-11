@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import breakpoint from 'styled-components-breakpoint'
 
 // Sections
 import Landing from '../sections/research-section/landing'
@@ -17,6 +16,8 @@ import MDCModal from '../components/modal'
 import AnimatedFooterLink from '../components/animated-footer-link'
 import ThankYou from '../components/thank-you'
 
+import pdfMapper from '../utils/pdfMapper'
+
 // Utils
 import { validateEmail } from '../utils/validator'
 import { sendEmail } from '../services/apiService'
@@ -26,10 +27,10 @@ const ContentWrapper = styled.div`
 	margin: 0 auto;
 	padding: 0 20px;
 	margin-bottom: 100px;
-
 `
 
 export default () => {
+	const [pdfForm, setPdfForm] = useState({})
 	const [modalVisible, setModalVisible] = useState(false)
 	const [emailSent, setEmailSent] = useState(false)
 	const [hasError, setHasError] = useState(false)
@@ -47,6 +48,11 @@ export default () => {
 		})
 	}
 
+	const onModalClose = () => {
+		setModalVisible(false)
+		setEmailSent(false)
+	}
+
 	const onSubmit = async () => {
 		try {
 			const res = await sendEmail(form)
@@ -60,8 +66,9 @@ export default () => {
 		}
 	}
 
-	const openModal = () => {
+	const openModal = (researchForm) => {
 		setModalVisible(true)
+		setPdfForm(pdfMapper[researchForm])
 	}
 
 	const isDisabled = form.firstName === '' || !validateEmail(form.email)
@@ -82,6 +89,7 @@ export default () => {
 						isDisabled={isDisabled}
 						onRequestClose={() => setModalVisible(false)}
 						onSubmit={onSubmit}
+						pdfForm={pdfForm}
 					/>
 				)}
 				{emailSent && !hasError && (
@@ -89,7 +97,7 @@ export default () => {
 						description="Your download should start automatically. Enjoy!"
 						footerMessage="Back to research"
 						href="/research"
-						onClick={() => setModalVisible(false)}
+						onClick={onModalClose}
 					/>
 				)}
 			</MDCModal>

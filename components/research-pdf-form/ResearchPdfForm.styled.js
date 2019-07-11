@@ -73,3 +73,7 @@ export const InputWrapper = styled.div`
 export const ButtonWrapper = styled.div`
 	align-self: center;
 `
+
+export const StyledAnchor = styled.a`
+	text-decoration: none;
+`

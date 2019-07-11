@@ -11,8 +11,11 @@ const ResearchPdfForm = (props) => {
 		onChange,
 		onSubmit,
 		isDisabled,
-		onRequestClose
+		onRequestClose,
+		pdfForm
 	} = props
+
+	console.log(pdfForm)
 	return (
 		<S.ResearchPdfFormWrapper>
 			<S.ImageWrapper>
@@ -59,11 +62,17 @@ const ResearchPdfForm = (props) => {
 					/>
 				</S.InputWrapper>
 				<S.ButtonWrapper>
-					<Button
-						btnText="Download PDF"
-						onClick={onSubmit}
-						isDisabled={isDisabled}
-					/>
+					<S.StyledAnchor
+						onClick={(e) => (isDisabled ? e.preventDefault() : () => {})}
+						href={pdfForm}
+						target="_blank"
+					>
+						<Button
+							btnText="Download PDF"
+							onClick={onSubmit}
+							isDisabled={isDisabled}
+						/>
+					</S.StyledAnchor>
 				</S.ButtonWrapper>
 			</S.ContentWrapper>
 		</S.ResearchPdfFormWrapper>
