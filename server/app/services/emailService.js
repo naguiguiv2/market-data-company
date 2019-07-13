@@ -1,12 +1,31 @@
 const nodemailer = require('nodemailer')
 
 const emailTemplate = ({ name, email, company, message }) => {
+	if (company && message) {
+		return `
+			<h1>${name}</h1>
+			<h1>${email}</h1>
+	    `
+	}
+	if (message) {
+		return `
+			<h1>${name}</h1>
+			<h1>${email}</h1>
+			<p>${message}</p>
+		`
+	}
+	if (company) {
+		return `
+			<h1>${name}</h1>
+			<h1>${email}</h1>
+			<h3>${company}</h3>
+		`
+	}
+
 	return `
-		<h1>${name}</h1>
-		<h1>${email}</h1>
-    ${company && `<h3>${company}</h3>`}
-    ${message && `<p>${message}</p>`}
-  `
+			<h1>${name}</h1>
+			<h1>${email}</h1>
+	`
 }
 
 const transporter = nodemailer.createTransport({
