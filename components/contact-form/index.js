@@ -12,7 +12,7 @@ const ContactForm = ({
 	email,
 	message,
 	onSubmit,
-	isDisabled
+	isError
 }) => (
 	<S.FormWrapper>
 		<S.Content>
@@ -24,6 +24,18 @@ const ContactForm = ({
 					name="firstName"
 					onChange={onChange}
 					isRequired={true}
+					isError={isError}
+				/>
+			</S.InputWrapper>
+			<S.InputWrapper>
+				<Input
+					label="Email"
+					placeholder="margaret@mango.com"
+					value={email}
+					name="email"
+					onChange={onChange}
+					isRequired={true}
+					isError={isError}
 				/>
 			</S.InputWrapper>
 			<S.InputWrapper>
@@ -36,16 +48,6 @@ const ContactForm = ({
 				/>
 			</S.InputWrapper>
 			<S.InputWrapper>
-				<Input
-					label="Email"
-					placeholder="margaret@mango.com"
-					value={email}
-					name="email"
-					onChange={onChange}
-					isRequired={true}
-				/>
-			</S.InputWrapper>
-			<S.InputWrapper>
 				<Textfield
 					label="Message"
 					placeholder="Your message here"
@@ -55,11 +57,7 @@ const ContactForm = ({
 				/>
 			</S.InputWrapper>
 			<S.ButtonWrapper>
-				<Button
-					btnText="Contact us"
-					onClick={onSubmit}
-					isDisabled={isDisabled}
-				/>
+				<Button btnText="Contact us" onClick={onSubmit} />
 			</S.ButtonWrapper>
 		</S.Content>
 	</S.FormWrapper>

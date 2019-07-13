@@ -28,7 +28,14 @@ export const ErrorStar = styled.span`
 `
 
 export const Field = styled.input`
-	border: solid 1px #c8c8c8;
+	border: ${(props) =>
+		props.isError
+			? `solid 1px ${props.theme.colors.red}`
+			: 'solid 1px #c8c8c8'};
+	background-color: ${(props) =>
+		props.isError
+			? 'rgba(255, 39, 82, 0.02)'
+			: `${(props) => props.theme.colors.white}`};
 	height: 39px;
 	width: 100%;
 	padding-left: 14px;

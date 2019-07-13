@@ -1,7 +1,15 @@
 import React from 'react'
 import * as S from './Input.styled'
 
-const Input = ({ label, placeholder, name, value, onChange, isRequired }) => {
+const Input = ({
+	label,
+	placeholder,
+	name,
+	value,
+	onChange,
+	isRequired,
+	isError
+}) => {
 	return (
 		<S.InputWrapper>
 			<S.LabelWrapper>
@@ -13,6 +21,7 @@ const Input = ({ label, placeholder, name, value, onChange, isRequired }) => {
 				name={name}
 				placeholder={placeholder}
 				onChange={onChange}
+				isError={isError}
 			/>
 		</S.InputWrapper>
 	)

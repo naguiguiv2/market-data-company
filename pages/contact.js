@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Landing from '../sections/contact-section/landing'
 import ThankYou from '../components/thank-you'
 import Layout from '../components/layout'
@@ -23,7 +23,6 @@ const ContentWrapper = styled.div`
 	flex: 1;
 	z-index: 0;
 	min-height: 640px;
-
 `
 
 const ThankYouWrapper = styled.div`
@@ -43,6 +42,16 @@ export default () => {
 	})
 	const [emailSent, setEmailSent] = useState(false)
 	const [hasError, setHasError] = useState(false)
+	const [formError, setFormError] = useState(false)
+
+	const inputError =
+		!form.firstName || !form.email || !validateEmail(form.email)
+
+	useEffect(() => {
+		if (formError && !inputError) {
+			setFormError(false)
+		}
+	}, [form])
 
 	const updateField = (e) => {
 		setFormValues({
@@ -52,20 +61,20 @@ export default () => {
 	}
 
 	const onSubmit = async () => {
+		if (inputError) {
+			setFormError(true)
+			return
+		}
+
 		try {
 			const res = await sendEmail(form)
-			if (res.error) {
-				setHasError(true)
-			} else {
+			if (res.success) {
 				setEmailSent(true)
 			}
 		} catch (err) {
 			setHasError(true)
 		}
 	}
-
-	const isDisabled =
-		form.firstName === '' || form.email === '' || !validateEmail(form.email)
 
 	return (
 		<Layout>
@@ -81,7 +90,7 @@ export default () => {
 							message={form.message}
 							onChange={updateField}
 							onSubmit={onSubmit}
-							isDisabled={isDisabled}
+							isError={formError}
 						/>
 					</ContentWrapper>
 				</>

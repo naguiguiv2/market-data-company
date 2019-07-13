@@ -10,7 +10,8 @@ const theme = {
 		white: Colors.WHITE,
 		black: Colors.BLACK,
 		lightGrey: Colors.LIGHT_GREY,
-		sbGrey: Colors.SB_GREY
+		sbGrey: Colors.SB_GREY,
+		red: Colors.RED
 	},
 	fonts: {
 		graphik: 'Graphik',
