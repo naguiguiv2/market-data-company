@@ -30,7 +30,7 @@ const ContentWrapper = styled.div`
 `
 
 export default () => {
-	const [pdfForm, setPdfForm] = useState({})
+	const [pdfForm, setPdfForm] = useState('')
 	const [modalVisible, setModalVisible] = useState(false)
 	const [emailSent, setEmailSent] = useState(false)
 	const [hasError, setHasError] = useState(false)
@@ -48,11 +48,6 @@ export default () => {
 		})
 	}
 
-	const onModalClose = () => {
-		setModalVisible(false)
-		setEmailSent(false)
-	}
-
 	const onSubmit = async () => {
 		try {
 			const res = await sendEmail(form)
@@ -66,6 +61,11 @@ export default () => {
 		}
 	}
 
+	const onModalClose = () => {
+		setModalVisible(false)
+		setEmailSent(false)
+	}
+
 	const openModal = (researchForm) => {
 		setModalVisible(true)
 		setPdfForm(pdfMapper[researchForm])
@@ -76,10 +76,7 @@ export default () => {
 	return (
 		<Layout>
 			<Landing />
-			<MDCModal
-				modalVisible={modalVisible}
-				onRequestClose={() => setModalVisible(false)}
-			>
+			<MDCModal modalVisible={modalVisible} onRequestClose={onModalClose}>
 				{!emailSent && !hasError && (
 					<ResearchPdfForm
 						firstName={form.firstName}
@@ -87,7 +84,7 @@ export default () => {
 						email={form.email}
 						onChange={updateField}
 						isDisabled={isDisabled}
-						onRequestClose={() => setModalVisible(false)}
+						onRequestClose={onModalClose}
 						onSubmit={onSubmit}
 						pdfForm={pdfForm}
 					/>
