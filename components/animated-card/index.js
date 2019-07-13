@@ -5,13 +5,13 @@ import * as S from './AnimatedCard.styled'
 const AnimatedCard = (props) => {
 	const { title, description, footer, notchColor, onClick } = props
 	return (
-		<S.CardWrapper notchColor={notchColor}>
+		<S.CardWrapper notchColor={notchColor} onClick={onClick}>
 			<S.TopNotch notchColor={notchColor} />
 			<S.ContentWrapper>
 				<S.Title>{title}</S.Title>
 				<S.Description>{description}</S.Description>
 			</S.ContentWrapper>
-			<S.Footer onClick={onClick}>{footer}</S.Footer>
+			<S.Footer>{footer}</S.Footer>
 		</S.CardWrapper>
 	)
 }

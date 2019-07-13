@@ -5,6 +5,8 @@ module.exports.sendEmail = async (req, res) => {
 	try {
 		const { email, firstName, company, message } = req.body
 
+		console.log(company, message)
+
 		if (!validateEmail(email)) {
 			res.status(400).send({
 				error: 'Not a valid email.'

@@ -2,9 +2,7 @@ import styled from 'styled-components'
 import breakpoint from 'styled-components-breakpoint'
 
 const getBackgroundColor = (props) => {
-	if (props.isDefault && props.disabled) {
-		return props.theme.colors.lightPurple
-	} else if (props.isDefault && !props.disabled) {
+	if (props.isDefault) {
 		return props.theme.colors.mdcPurple
 	} else {
 		return props.theme.colors.white
