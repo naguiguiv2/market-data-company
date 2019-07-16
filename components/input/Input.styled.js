@@ -27,7 +27,12 @@ export const ErrorStar = styled.span`
 	color: #ff0000;
 `
 
-export const Field = styled.input`
+export const FieldWrapper = styled.div`
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
 	border: ${(props) =>
 		props.isError
 			? `solid 1px ${props.theme.colors.red}`
@@ -36,14 +41,26 @@ export const Field = styled.input`
 		props.isError
 			? 'rgba(255, 39, 82, 0.02)'
 			: `${(props) => props.theme.colors.white}`};
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box; /* Firefox, other Gecko */
+	box-sizing: border-box; /* Opera/IE 8+ */
+`
+
+export const Field = styled.input`
 	height: 39px;
 	width: 100%;
 	padding-left: 14px;
 	font-family: ${(props) => props.theme.fonts.graphik};
 	font-size: 14px;
 	line-height: 22px;
-	color: ${(props) => props.theme.colors.lightGrey};
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box; /* Firefox, other Gecko */
-	box-sizing: border-box; /* Opera/IE 8+ */
+	color: ${(props) =>
+		props.isError ? props.theme.colors.red : props.theme.colors.lightGrey};
+	border: none;
+	&:focus {
+		outline: none;
+	}
+`
+
+export const ImageWrapper = styled.div`
+	padding-right: 16px;
 `

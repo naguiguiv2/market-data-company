@@ -16,13 +16,25 @@ const Input = ({
 				<S.Label>{label}</S.Label>
 				{isRequired && <S.ErrorStar>*</S.ErrorStar>}
 			</S.LabelWrapper>
-			<S.Field
-				value={value}
-				name={name}
-				placeholder={placeholder}
-				onChange={onChange}
-				isError={isError}
-			/>
+			<S.FieldWrapper isError={isError}>
+				<S.Field
+					value={value}
+					name={name}
+					placeholder={placeholder}
+					onChange={onChange}
+				/>
+				{isError && (
+					<S.ImageWrapper>
+						<img
+							src="../../static/images/error.png"
+							srcSet="../../static/images/error.png 1x, ../../static/images/error@2x.png 2x,
+									 ../../static/images/error@3x.png 3x"
+							height="22"
+							width="22"
+						/>
+					</S.ImageWrapper>
+				)}
+			</S.FieldWrapper>
 		</S.InputWrapper>
 	)
 }
