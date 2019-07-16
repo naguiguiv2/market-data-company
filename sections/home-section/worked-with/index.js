@@ -41,6 +41,11 @@ const WorkedWith = () => {
 	return (
 		<S.WorkedWithWrapper>
 			<S.Title>Who we’ve worked with</S.Title>
+			<S.Description>
+				Our consultants are industry experts on market and reference data
+				products and investment management solutions. MDC delivers results that
+				make financial differences.
+			</S.Description>
 			<S.CardWrapper>
 				<CompanyCard
 					title={COMPANY_DATA[currentIndex].title}
