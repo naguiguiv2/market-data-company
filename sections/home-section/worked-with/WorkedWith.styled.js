@@ -7,7 +7,6 @@ export const WorkedWithWrapper = styled.div`
 	flex: 1;
 	align-items: flex-start;
 	margin-bottom: 120px;
-
 `
 
 export const Title = styled.h1`
@@ -18,8 +17,21 @@ export const Title = styled.h1`
 	margin: 0 0 18px 0;
 `
 
+export const Description = styled.p`
+	font-family: ${(props) => props.theme.fonts.financier};
+	font-size: 18px;
+	line-height: 26px;
+	margin: 0 0 46px 0;
+	${breakpoint('desktop')`
+		font-size: 24px;
+		line-height: 30px;
+		max-width: 50%;
+	`}
+`
+
 export const CardWrapper = styled.div`
 	margin-bottom: 47px;
+	box-shadow: 0 8px 12px 2px rgba(0, 0, 0, 0.1);
 `
 
 export const LogoContentWrapper = styled.div`

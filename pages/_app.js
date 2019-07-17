@@ -1,5 +1,6 @@
 import App, { Container } from 'next/app'
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { ThemeProvider } from 'styled-components'
 import theme from '../assets/theme'
 import GlobalStyles from '../styles/GlobalStyles'

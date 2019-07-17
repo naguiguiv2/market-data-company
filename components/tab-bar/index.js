@@ -11,10 +11,6 @@ const linkData = [
 		tabName: 'Research'
 	},
 	{
-		href: '/team',
-		tabName: 'Our team'
-	},
-	{
 		href: '/contact',
 		tabName: 'Contact'
 	}

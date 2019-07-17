@@ -30,6 +30,10 @@ export default class MyDocument extends Document {
 						type="image/png"
 						href="../static/images/mdc_favicon.png"
 					/>
+					<link
+						rel="stylesheet"
+						href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+					/>
 					{this.props.styleTags}
 				</head>
 				<body>

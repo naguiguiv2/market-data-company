@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { Carousel, CarouselItem } from 'reactstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import CompanyCard from '../../../components/company-card'
 import * as S from './WorkedWith.styled'
 
@@ -30,53 +32,89 @@ const COMPANY_DATA = [
 ]
 
 const WorkedWith = () => {
-	const [currentIndex, setCurrentIndex] = useState(0)
-	const setNextIndex = () => {
-		if (currentIndex === COMPANY_DATA.length - 1) {
-			setCurrentIndex(0)
-		} else {
-			setCurrentIndex(currentIndex + 1)
-		}
+	const [activeIndex, setActiveIndex] = useState(0)
+	const [animating, setAnimating] = useState(false)
+
+	const onExiting = () => {
+		setAnimating(true)
 	}
+
+	const onExited = () => {
+		setAnimating(false)
+	}
+
+	const next = () => {
+		if (animating) {
+			return
+		}
+		const nextIndex =
+			activeIndex === COMPANY_DATA.length - 1 ? 0 : activeIndex + 1
+		setActiveIndex(nextIndex)
+	}
+
+	const carouselItems = COMPANY_DATA.map((item) => {
+		return (
+			<CarouselItem
+				onExiting={onExiting}
+				onExited={onExited}
+				key={item.company}
+			>
+				<CompanyCard
+					title={item.title}
+					description={item.description}
+					role={item.role}
+					company={item.company}
+					onNext={next}
+				/>
+			</CarouselItem>
+		)
+	})
+
 	return (
 		<S.WorkedWithWrapper>
 			<S.Title>Who we’ve worked with</S.Title>
+			<S.Description>
+				Our consultants are industry experts on market and reference data
+				products and investment management solutions. MDC delivers results that
+				make financial differences.
+			</S.Description>
 			<S.CardWrapper>
-				<CompanyCard
-					title={COMPANY_DATA[currentIndex].title}
-					description={COMPANY_DATA[currentIndex].description}
-					role={COMPANY_DATA[currentIndex].role}
-					company={COMPANY_DATA[currentIndex].company}
-					onNext={setNextIndex}
-				/>
+				<Carousel
+					activeIndex={activeIndex}
+					next={next}
+					previous={() => {}}
+					interval={false}
+				>
+					{carouselItems}
+				</Carousel>
 			</S.CardWrapper>
 			<S.LogoContentWrapper>
 				<S.LogoWrapper>
 					<img
 						src="../../static/images/cppib.png"
 						srcSet="../../static/images/cppib@1x.png 1x, ../../static/images/cppib@2x.png 2x,
-                                 ../../static/images/cppib@3x.png 3x"
+									 ../../static/images/cppib@3x.png 3x"
 					/>
 				</S.LogoWrapper>
 				<S.LogoWrapper>
 					<img
 						src="../../static/images/psp.png"
 						srcSet="../../static/images/psp@1x.png 1x, ../../static/images/psp@2x.png 2x,
-                                 ../../static/images/psp@3x.png 3x"
+									 ../../static/images/psp@3x.png 3x"
 					/>
 				</S.LogoWrapper>
 				<S.LogoWrapper>
 					<img
 						src="../../static/images/aviva.png"
 						srcSet="../../static/images/aviva@1x.png 1x, ../../static/images/aviva@2x.png 2x,
-                                 ../../static/images/aviva@3x.png 3x"
+									 ../../static/images/aviva@3x.png 3x"
 					/>
 				</S.LogoWrapper>
 				<S.LogoWrapper>
 					<img
 						src="../../static/images/iiroc.png"
 						srcSet="../../static/images/iiroc@1x.png 1x, ../../static/images/iiroc@2x.png 2x,
-                                 ../../static/images/iiroc@3x.png 3x"
+									 ../../static/images/iiroc@3x.png 3x"
 					/>
 				</S.LogoWrapper>
 			</S.LogoContentWrapper>

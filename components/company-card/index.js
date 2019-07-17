@@ -1,4 +1,6 @@
 import React from 'react'
+import LabelWithArrow from '../label-with-arrow'
+
 import * as S from './CompanyCard.styled'
 
 const CompanyCard = (props) => {
@@ -13,7 +15,7 @@ const CompanyCard = (props) => {
 				</S.DescriptionWrapper>
 				<S.FooterWrapper>
 					<S.RoleText>{role}</S.RoleText>
-					<S.NextTag onClick={onNext}>{company}</S.NextTag>
+					<LabelWithArrow label={company} onClick={onNext} />
 				</S.FooterWrapper>
 			</S.ContentWrapper>
 		</S.CompanyCardWrapper>
