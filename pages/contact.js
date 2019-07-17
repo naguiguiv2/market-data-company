@@ -3,14 +3,11 @@ import Landing from '../sections/contact-section/landing'
 import ThankYou from '../components/thank-you'
 import Layout from '../components/layout'
 import ContactForm from '../components/contact-form'
-import TabBar from '../components/tab-bar'
-import { SB_GREY, WHITE } from '../assets/colors'
 import { validateEmail } from '../server/utils/validator'
 
 import { sendEmail } from '../services/apiService'
 
 import styled from 'styled-components'
-import breakpoint from 'styled-components-breakpoint'
 
 const ContentWrapper = styled.div`
 	padding: 0 20px;
@@ -78,7 +75,6 @@ export default () => {
 
 	return (
 		<Layout>
-			<TabBar barTheme="dark" backgroundColor={emailSent ? WHITE : SB_GREY} />
 			{!emailSent && !hasError && (
 				<>
 					<Landing />

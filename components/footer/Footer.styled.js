@@ -14,7 +14,6 @@ export const FooterWrapper = styled.footer`
 `
 
 export const ContentWrapper = styled.div`
-
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -98,7 +97,7 @@ export const ExploreTitle = styled.h1`
   `}
 `
 
-export const ExploreItem = styled.a`
+export const ExploreItem = styled.span`
 	font-size: 16px;
 	line-height: 22px;
 	color: #c8c8c8;
@@ -120,7 +119,6 @@ export const SocialWrapper = styled.div`
 export const SocialContent = styled.div`
 	display: flex;
 	flex-direction: row;
-
 `
 
 export const SocialTitle = styled.h1`

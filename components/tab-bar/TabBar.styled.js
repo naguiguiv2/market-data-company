@@ -36,7 +36,7 @@ export const TabWrapper = styled.div`
 	`}
 `
 
-export const Tab = styled.a`
+export const Tab = styled.span`
 	color: ${(props) =>
 		props.barTheme === 'dark'
 			? props.theme.colors.black

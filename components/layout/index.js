@@ -1,6 +1,5 @@
 import React from 'react'
 import * as S from './Layout.styled'
-import TabBar from '../tab-bar'
 import Footer from '../footer'
 
 const Layout = ({ children }) => {
