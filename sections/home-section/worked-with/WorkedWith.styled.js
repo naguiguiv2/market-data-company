@@ -31,6 +31,7 @@ export const Description = styled.p`
 
 export const CardWrapper = styled.div`
 	margin-bottom: 47px;
+	box-shadow: 0 8px 12px 2px rgba(0, 0, 0, 0.1);
 `
 
 export const LogoContentWrapper = styled.div`

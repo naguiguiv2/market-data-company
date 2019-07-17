@@ -6,9 +6,12 @@ export const CompanyCardWrapper = styled.div`
 	flex-direction: column;
 	flex: 1;
 	box-shadow: 0 8px 12px 2px rgba(0, 0, 0, 0.1);
+
 	${breakpoint('tablet')`
-    flex-direction: row;
-    width: 100%;
+		flex-direction: row;
+		flex: 1;
+		width: 100%;
+		height: 285px;
   `}
 `
 
@@ -16,10 +19,13 @@ export const ImageWrapper = styled.div`
 	background-color: black;
 	min-height: 220px;
 	width: 100%;
-
 `
 
 export const ContentWrapper = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	margin: 14px 20px;
 	${breakpoint('desktop')`
     margin: 32px 6%;
@@ -30,7 +36,6 @@ export const DescriptionWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 33px;
-
 `
 
 export const Title = styled.h1`
@@ -57,6 +62,7 @@ export const FooterWrapper = styled.div`
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	width: 100%;
 `
 
 export const RoleText = styled.p`
