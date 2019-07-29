@@ -44,8 +44,21 @@ export const LogoContentWrapper = styled.div`
 `
 
 export const LogoWrapper = styled.div`
+	width: 48%;
 	margin-bottom: 40px;
+	transform: scale(0.75);
+
+	display: flex;
+	justify-content: center;
+
 	${breakpoint('tablet')`
-    margin-bottom: 0; 
-`}
+		margin-bottom: 0; 
+		transform: scale(0.6);
+		width: 25%;
+	`}
+
+	${breakpoint('desktop')`
+		transform: scale(0.8);
+	`}
+
 `
