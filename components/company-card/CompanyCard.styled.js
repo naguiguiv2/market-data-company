@@ -13,10 +13,10 @@ export const CompanyCardWrapper = styled.div`
 `
 
 export const ImageWrapper = styled.div`
-	background-color: black;
+	background-image: url("/static/images/cppib-img.png");
+	background-size: cover;
 	min-height: 220px;
 	width: 100%;
-
 `
 
 export const ContentWrapper = styled.div`

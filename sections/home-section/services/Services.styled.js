@@ -27,7 +27,7 @@ export const HeaderTitle = styled.h1`
 	font-size: 24px;
 	line-height: 30px;
 	margin: 0 0 17px 0;
-	${breakpoint('desktop')`
+	${breakpoint('tablet')`
     font-size: 36px;
     line-height: 48px;
   `}
@@ -38,7 +38,8 @@ export const HeaderDescription = styled.p`
 	font-size: 16px;
 	line-height: 22px;
 	margin: 0;
-	${breakpoint('desktop')`
+
+	${breakpoint('tablet')`
     font-size: 24px;
     line-height: 30px;
   `}
@@ -48,7 +49,8 @@ export const ContentWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 34px;
-	${breakpoint('desktop')`
+
+	${breakpoint('tablet')`
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -61,19 +63,30 @@ export const CardWrapper = styled.div`
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 26px;
-	${breakpoint('desktop')`
+
+	${breakpoint('tablet')`
     flex-direction: row;
     align-items: flex-start;
-    min-width: 50%;
+    width: 48%;
     margin-bottom: 64px;
   `}
 `
 
 export const CardImage = styled.img`
-	margin-bottom: 12px;
-	${breakpoint('desktop')`
+	margin-bottom: 20px;
+	width: 140px;
+	height: 140px;
+
+	${breakpoint('tablet')`
+	width: 80px;
+	height: 80px;
     margin-right: 24px;
     margin-bottom: 0;
+  `}
+
+  ${breakpoint('desktop')`
+	width: 160px;
+	height: 160px;
   `}
 `
 
@@ -92,7 +105,8 @@ export const CardTitle = styled.span`
 	color: ${(props) => props.theme.colors.black};
 	margin-bottom: 7px;
 	text-align: center;
-	${breakpoint('desktop')`
+	
+	${breakpoint('tablet')`
     text-align: left;
   `}
 `

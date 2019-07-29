@@ -5,7 +5,7 @@ const CompanyCard = (props) => {
 	const { title, description, role, company, onNext } = props
 	return (
 		<S.CompanyCardWrapper>
-			<S.ImageWrapper />
+			<S.ImageWrapper/>
 			<S.ContentWrapper>
 				<S.DescriptionWrapper>
 					<S.Title>{title}</S.Title>

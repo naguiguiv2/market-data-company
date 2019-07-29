@@ -8,8 +8,11 @@ export const WhyMdcWrapper = styled.div`
   flex-direction: column;
   align-self: center
   flex: 1;
+  margin-bottom: 60px;
+
+
   ${breakpoint('desktop')`
-    margin-bottom: 157px;
+    margin-bottom: 100px;
   `}
 `
 
