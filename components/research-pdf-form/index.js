@@ -15,7 +15,6 @@ const ResearchPdfForm = (props) => {
 		pdfForm
 	} = props
 
-	console.log(pdfForm)
 	return (
 		<S.ResearchPdfFormWrapper>
 			<S.ImageWrapper>
