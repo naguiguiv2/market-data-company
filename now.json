@@ -1,8 +1,6 @@
 {
-	"build": {
-		"env": {
-			"EMAIL": "@email",
-			"PW": "@pw"
-		}
+	"env": {
+		"EMAIL": "@email",
+		"PW": "@pw"
 	}
 }

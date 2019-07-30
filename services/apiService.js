@@ -14,7 +14,6 @@ export const sendEmail = async (payload) => {
 		const responseData = await response.json()
 		return responseData
 	} catch (err) {
-		console.log('error logs', err)
 		throw err
 	}
 }
