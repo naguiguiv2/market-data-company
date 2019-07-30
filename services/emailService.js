@@ -10,6 +10,7 @@ const emailTemplate = ({ name, email, company, message }) => {
 }
 
 const transporter = nodemailer.createTransport({
+	secure: false,
 	service: 'gmail',
 	auth: {
 		user: process.env.EMAIL,
