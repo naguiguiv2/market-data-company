@@ -2,8 +2,6 @@
 	"scripts": {
 		"dev": "next",
 		"build": "next build",
-		"start": "NODE_ENV=production node server/index.js",
-		"start:dev": "nodemon server/index.js",
 		"prettier": "prettier --write \"**/*.{js,md}\""
 	},
 	"dependencies": {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useCallback } from 'react'
 
 import Layout from '../components/layout'
 import MDCModal from '../components/modal'
@@ -18,6 +18,9 @@ import pdfMapper from '../utils/pdfMapper'
 // Utils
 import { validateEmail } from '../utils/validator'
 import { sendEmail } from '../services/apiService'
+
+import { useStore } from '../store/useStore'
+import { USER_SIGNED_UP } from '../store/actionTypes'
 
 import styled from 'styled-components'
 
@@ -39,8 +42,21 @@ const Home = () => {
 		email: ''
 	})
 
+	// Hooks to save the users form data
+	const { state, dispatch } = useStore()
+	const saveUser = useCallback(
+		(formValues) => dispatch({ type: USER_SIGNED_UP, payload: formValues }),
+		[dispatch]
+	)
+
 	const onSubmit = async () => {
 		try {
+			saveUser({
+				name: form.firstName,
+				company: form.company,
+				email: form.email
+			})
+
 			const res = await sendEmail(form)
 			if (res.error) {
 				setHasError(true)
@@ -75,7 +91,7 @@ const Home = () => {
 		<Layout>
 			<Landing />
 			<MDCModal modalVisible={modalVisible} onRequestClose={onModalClose}>
-				{!emailSent && !hasError && (
+				{!emailSent && !hasError && !state.user && (
 					<ResearchPdfForm
 						firstName={form.firstName}
 						company={form.company}
@@ -86,6 +102,11 @@ const Home = () => {
 						onSubmit={onSubmit}
 						pdfForm={pdfForm}
 					/>
+				)}
+				{!emailSent && !hasError && state.user && (
+					<div>
+						<h1>Form to show when user has signed up</h1>
+					</div>
 				)}
 				{emailSent && !hasError && (
 					<ThankYou
