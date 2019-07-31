@@ -8,9 +8,9 @@ const Footer = () => (
 		<S.ContentWrapper>
 			<S.FooterLogoWrapper>
 				<img
-					src="../../static/images/white.png"
-					srcSet="../../static/images/white@1x.png 1x, ../../static/images/white@2x.png 2x,
-                                 ../../static/images/white@3x.png 3x"
+					src="/static/images/white.png"
+					srcSet="/static/images/white@1x.png 1x, /static/images/white@2x.png 2x,
+                                 /static/images/white@3x.png 3x"
 					width="140"
 					height="127"
 				/>

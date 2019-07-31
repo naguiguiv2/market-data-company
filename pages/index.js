@@ -1,23 +1,30 @@
-import React, { useState } from 'react'
+import React, { useState, useCallback } from 'react'
 
-import Layout from '../components/layout'
-import MDCModal from '../components/modal'
-import ThankYou from '../components/thank-you'
-import ResearchPdfForm from '../components/research-pdf-form'
-
-import Landing from '../sections/home-section/landing'
-import LeaderMarketData from '../sections/home-section/leader-market-data'
-import WorkedWith from '../sections/home-section/worked-with'
-import WhyMdc from '../sections/home-section/why-mdc'
-import Services from '../sections/home-section/services'
-import Research from '../sections/home-section/research'
-import ContactFooter from '../components/contact-footer'
+import {
+	Layout,
+	Modal,
+	ThankYou,
+	ResearchPdfForm,
+	StartDownloadForm,
+	ContactFooter
+} from '../components'
+import {
+	Landing,
+	LeaderMarketData,
+	WorkedWith,
+	WhyMdc,
+	Services,
+	Research
+} from '../sections/home-section'
 
 import pdfMapper from '../utils/pdfMapper'
 
 // Utils
 import { validateEmail } from '../utils/validator'
 import { sendEmail } from '../services/apiService'
+
+import { useStore } from '../store/useStore'
+import { USER_SIGNED_UP } from '../store/actionTypes'
 
 import styled from 'styled-components'
 
@@ -39,12 +46,25 @@ const Home = () => {
 		email: ''
 	})
 
+	// Hooks to save the users form data
+	const { state, dispatch } = useStore()
+	const saveUser = useCallback(
+		(formValues) => dispatch({ type: USER_SIGNED_UP, payload: formValues }),
+		[dispatch]
+	)
+
 	const onSubmit = async () => {
 		try {
 			const res = await sendEmail(form)
 			if (res.error) {
 				setHasError(true)
 			} else {
+				// Save user form to store
+				saveUser({
+					name: form.firstName,
+					company: form.company,
+					email: form.email
+				})
 				setEmailSent(true)
 			}
 		} catch (err) {
@@ -74,8 +94,8 @@ const Home = () => {
 	return (
 		<Layout>
 			<Landing />
-			<MDCModal modalVisible={modalVisible} onRequestClose={onModalClose}>
-				{!emailSent && !hasError && (
+			<Modal modalVisible={modalVisible} onRequestClose={onModalClose}>
+				{!emailSent && !hasError && !state.user && (
 					<ResearchPdfForm
 						firstName={form.firstName}
 						company={form.company}
@@ -87,6 +107,13 @@ const Home = () => {
 						pdfForm={pdfForm}
 					/>
 				)}
+				{!emailSent && !hasError && state.user && (
+					<StartDownloadForm
+						onRequestClose={onModalClose}
+						pdfForm={pdfForm}
+						onSubmit={() => setEmailSent(true)}
+					/>
+				)}
 				{emailSent && !hasError && (
 					<ThankYou
 						description="Your download should start automatically. Enjoy!"
@@ -95,7 +122,7 @@ const Home = () => {
 						onClick={onModalClose}
 					/>
 				)}
-			</MDCModal>
+			</Modal>
 			<ContentWrapper>
 				<LeaderMarketData />
 				<WorkedWith />

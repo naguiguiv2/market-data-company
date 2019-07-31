@@ -1,0 +1,5 @@
+export { default as CaseStudies } from './case-studies'
+export { default as Landing } from './landing'
+export { default as Research } from './research'
+export { default as Survey } from './survey'
+export { default as WhitePaper } from './white-paper'

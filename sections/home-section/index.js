@@ -1,0 +1,6 @@
+export { default as Landing } from './landing'
+export { default as LeaderMarketData } from './leader-market-data'
+export { default as Research } from './research'
+export { default as Services } from './services'
+export { default as WhyMdc } from './why-mdc'
+export { default as WorkedWith } from './worked-with'

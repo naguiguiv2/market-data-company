@@ -1,9 +1,12 @@
-import React, { useState, useEffect } from 'react'
-import Landing from '../sections/contact-section/landing'
-import ThankYou from '../components/thank-you'
-import Layout from '../components/layout'
-import ContactForm from '../components/contact-form'
+import React, { useState, useEffect, useCallback } from 'react'
+
+import { Layout, ThankYou, ContactForm } from '../components'
+
+import { Landing } from '../sections/contact-section'
+
 import { validateEmail } from '../utils/validator'
+import { useStore } from '../store/useStore'
+import { USER_SIGNED_UP } from '../store/actionTypes'
 
 import { sendEmail } from '../services/apiService'
 
@@ -40,6 +43,11 @@ export default () => {
 	const [emailSent, setEmailSent] = useState(false)
 	const [hasError, setHasError] = useState(false)
 	const [formError, setFormError] = useState(false)
+	const { dispatch } = useStore()
+	const saveUser = useCallback(
+		(formValues) => dispatch({ type: USER_SIGNED_UP, payload: formValues }),
+		[dispatch]
+	)
 
 	const inputError =
 		!form.firstName || !form.email || !validateEmail(form.email)
@@ -64,6 +72,12 @@ export default () => {
 		}
 
 		try {
+			saveUser({
+				name: form.name,
+				email: form.email,
+				company: form.company
+			})
+
 			const res = await sendEmail(form)
 			if (res.success) {
 				setEmailSent(true)

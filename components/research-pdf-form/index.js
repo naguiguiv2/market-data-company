@@ -19,9 +19,9 @@ const ResearchPdfForm = (props) => {
 		<S.ResearchPdfFormWrapper>
 			<S.ImageWrapper>
 				<S.CloseIcon
-					src="../../static/images/closeIcon.png"
-					srcSet="../../static/images/closeIcon.png 1x, ../../static/images/closeIcon@2x.png 2x,
-								 ../../static/images/closeIcon@3x.png 3x"
+					src="/static/images/closeIcon.png"
+					srcSet="/static/images/closeIcon.png 1x, /static/images/closeIcon@2x.png 2x,
+								 /static/images/closeIcon@3x.png 3x"
 					onClick={onRequestClose}
 				/>
 			</S.ImageWrapper>

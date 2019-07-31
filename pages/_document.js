@@ -28,7 +28,7 @@ export default class MyDocument extends Document {
 					<link
 						rel="icon"
 						type="image/png"
-						href="../static/images/mdc_favicon.png"
+						href="/static/images/mdc_favicon.png"
 					/>
 					<link
 						rel="stylesheet"

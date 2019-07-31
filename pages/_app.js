@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { ThemeProvider } from 'styled-components'
 import theme from '../assets/theme'
 import GlobalStyles from '../styles/GlobalStyles'
+import { StoreProvider } from '../store/useStore'
 
 export default class MyApp extends App {
 	static async getInitialProps({ Component, router, ctx }) {
@@ -20,10 +21,12 @@ export default class MyApp extends App {
 		const { Component, pageProps } = this.props
 		return (
 			<Container>
-				<GlobalStyles />
-				<ThemeProvider theme={theme}>
-					<Component {...pageProps} />
-				</ThemeProvider>
+				<StoreProvider>
+					<GlobalStyles />
+					<ThemeProvider theme={theme}>
+						<Component {...pageProps} />
+					</ThemeProvider>
+				</StoreProvider>
 			</Container>
 		)
 	}
