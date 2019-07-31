@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
-import MDCModal from '../modal'
+import Modal from '../modal'
 import HamburgerMenuContent from '../hamburger-menu-content'
 
 import * as S from './TabBar.styled'
@@ -57,7 +57,7 @@ const TabBar = (props) => {
 	const MobileTabBar = () => (
 		<S.MobileTabWrapper>
 			<Link href="/">
-				<>
+				<div>
 					{barTheme === 'dark' && (
 						<img
 							src="/static/images/mdc-logo-horizontal-black.png"
@@ -72,7 +72,7 @@ const TabBar = (props) => {
                                  /static/images/mdc-logo-horizontal@3x.png 3x"
 						/>
 					)}
-				</>
+				</div>
 			</Link>
 			<div onClick={() => setModalVisible(true)}>
 				{barTheme === 'dark' && (
@@ -97,12 +97,12 @@ const TabBar = (props) => {
 		<S.Wrapper themeDark={true} backgroundColor={backgroundColor}>
 			<WebTabBar />
 			<MobileTabBar />
-			<MDCModal
+			<Modal
 				modalVisible={modalVisible}
 				onRequestClose={() => setModalVisible(false)}
 			>
 				<HamburgerMenuContent onCloseModal={() => setModalVisible(false)} />
-			</MDCModal>
+			</Modal>
 		</S.Wrapper>
 	)
 }

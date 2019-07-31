@@ -1,4 +1,5 @@
 import React from 'react'
+import Router from 'next/router'
 import ListItem from '../list-item'
 import * as S from './HamburgerMenuContent.styled'
 
@@ -7,7 +8,7 @@ const HamburgerMenuContent = (props) => {
 	return (
 		<S.HamburgerMenuContentWrapper>
 			<S.Header>
-				<div>
+				<div onClick={() => Router.push('/')}>
 					<img
 						src="/static/images/mdc-logo-horizontal-black.png"
 						srcSet="/static/images/mdc-logo-horizontal-black@1x.png 1x, /static/images/mdc-logo-horizontal-black@2x.png 2x,
@@ -22,9 +23,8 @@ const HamburgerMenuContent = (props) => {
 					/>
 				</div>
 			</S.Header>
-			<ListItem label="Research" />
-			<ListItem label="Our team" />
-			<ListItem label="Contact us" />
+			<ListItem label="Research" onClick={() => Router.push('/research')} />
+			<ListItem label="Contact us" onClick={() => Router.push('/contact')} />
 		</S.HamburgerMenuContentWrapper>
 	)
 }

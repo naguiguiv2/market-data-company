@@ -2,9 +2,9 @@ import React from 'react'
 import * as S from './ListItem.styled'
 
 const ListItem = (props) => {
-	const { label } = props
+	const { label, onClick } = props
 	return (
-		<S.ListItemWrapper>
+		<S.ListItemWrapper onClick={onClick}>
 			<S.Label>{label}</S.Label>
 		</S.ListItemWrapper>
 	)
