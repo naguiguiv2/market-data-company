@@ -23,8 +23,12 @@ export default class MyDocument extends Document {
 	render() {
 		return (
 			<Html>
-				<head>
+				<Head>
 					<title>Market Data Company</title>
+					<meta
+						name="viewport"
+						content="width=device-width, initial-scale=1.0"
+					/>
 					<link
 						rel="icon"
 						type="image/png"
@@ -35,7 +39,7 @@ export default class MyDocument extends Document {
 						href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
 					/>
 					{this.props.styleTags}
-				</head>
+				</Head>
 				<body>
 					<GlobalStyles />
 					<Main />

@@ -9,10 +9,10 @@ const LeaderMarketData = () => {
 				<S.InfoWrapper>
 					<S.Title>Leader in market data consulting</S.Title>
 					<S.InfoText>
-						Market Data Company is a professional consulting firm with
-						experts skilled in Market Data products and Management. We are
-						committed to helping financial investment firms optimize Market and
-						Reference data spend.
+						Market Data Company is a professional consulting firm with experts
+						skilled in Market Data products and Management. We are committed to
+						helping financial investment firms optimize Market and Reference
+						data spend.
 					</S.InfoText>
 					<S.InfoText>
 						We partner with our clients to answer the growing demands of their
@@ -33,7 +33,6 @@ const LeaderMarketData = () => {
 					</S.ProjectsCompletedWrapper>
 				</S.FactsWrapper>
 			</S.Content>
-			<AnimatedFooterLink message="Read more about our team" href="/team" />
 		</S.LeaderMarketDataWrapper>
 	)
 }

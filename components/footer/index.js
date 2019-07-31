@@ -9,7 +9,7 @@ const Footer = () => (
 			<S.FooterLogoWrapper>
 				<img
 					src="/static/images/white.png"
-					srcSet="/static/images/white@1x.png 1x, /static/images/white@2x.png 2x,
+					srcSet="/static/images/white.png 1x, /static/images/white@2x.png 2x,
                                  /static/images/white@3x.png 3x"
 					width="140"
 					height="127"
@@ -28,9 +28,6 @@ const Footer = () => (
 					<S.ExploreTitle>Explore</S.ExploreTitle>
 					<Link href="/research">
 						<S.ExploreItem>Research</S.ExploreItem>
-					</Link>
-					<Link href="/team">
-						<S.ExploreItem>Our Team</S.ExploreItem>
 					</Link>
 					<Link href="/contact">
 						<S.ExploreItem>Contact</S.ExploreItem>
