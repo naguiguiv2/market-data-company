@@ -17,9 +17,9 @@ const Services = () => {
 			<S.ContentWrapper>
 				<S.CardWrapper>
 					<S.CardImage
-						src="../../static/images/managed-services.png"
-						srcSet="../../static/images/managed-services@1x.png 1x, ../../static/images/managed-services@2x.png 2x,
-                                 ../../static/images/managed-services@3x.png 3x"
+						src="/static/images/managed-services.png"
+						srcSet="/static/images/managed-services@1x.png 1x, /static/images/managed-services@2x.png 2x,
+                                 /static/images/managed-services@3x.png 3x"
 						width="177"
 						height="177"
 					/>
@@ -37,9 +37,9 @@ const Services = () => {
 				</S.CardWrapper>
 				<S.CardWrapper>
 					<S.CardImage
-						src="../../static/images/measure-compare.png"
-						srcSet="../../static/images/measure-compare@1x.png 1x, ../../static/images/measure-compare@2x.png 2x,
-                                 ../../static/images/measure-compare@3x.png 3x"
+						src="/static/images/measure-compare.png"
+						srcSet="/static/images/measure-compare@1x.png 1x, /static/images/measure-compare@2x.png 2x,
+                                 /static/images/measure-compare@3x.png 3x"
 						width="177"
 						height="177"
 					/>
@@ -57,9 +57,9 @@ const Services = () => {
 				</S.CardWrapper>
 				<S.CardWrapper>
 					<S.CardImage
-						src="../../static/images/match-demand.png"
-						srcSet="../../static/images/match-demand@1x.png 1x, ../../static/images/match-demand@2x.png 2x,
-                                 ../../static/images/match-demand@3x.png 3x"
+						src="/static/images/match-demand.png"
+						srcSet="/static/images/match-demand@1x.png 1x, /static/images/match-demand@2x.png 2x,
+                                 /static/images/match-demand@3x.png 3x"
 						width="177"
 						height="177"
 					/>
@@ -76,9 +76,9 @@ const Services = () => {
 				</S.CardWrapper>
 				<S.CardWrapper>
 					<S.CardImage
-						src="../../static/images/benchmark.png"
-						srcSet="../../static/images/benchmark@1x.png 1x, ../../static/images/benchmark@2x.png 2x,
-                                 ../../static/images/benchmark@3x.png 3x"
+						src="/static/images/benchmark.png"
+						srcSet="/static/images/benchmark@1x.png 1x, /static/images/benchmark@2x.png 2x,
+                                 /static/images/benchmark@3x.png 3x"
 						width="177"
 						height="177"
 					/>

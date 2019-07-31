@@ -8,9 +8,9 @@ const ThankYou = (props) => {
 		<S.ThankYouWrapper>
 			<S.ImageWrapper>
 				<img
-					src="../../static/images/purple-check-mark.png"
-					srcSet="../../static/images/purple-check-mark.png 1x, ../../static/images/purple-check-mark@2x.png 2x,
-                                  ../../static/images/purple-check-mark@3x.png 3x"
+					src="/static/images/purple-check-mark.png"
+					srcSet="/static/images/purple-check-mark.png 1x, /static/images/purple-check-mark@2x.png 2x,
+                                  /static/images/purple-check-mark@3x.png 3x"
 				/>
 			</S.ImageWrapper>
 			<S.Title>Thank You</S.Title>

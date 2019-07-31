@@ -26,9 +26,9 @@ const Input = ({
 				{isError && (
 					<S.ImageWrapper>
 						<img
-							src="../../static/images/error.png"
-							srcSet="../../static/images/error.png 1x, ../../static/images/error@2x.png 2x,
-									 ../../static/images/error@3x.png 3x"
+							src="/static/images/error.png"
+							srcSet="/static/images/error.png 1x, /static/images/error@2x.png 2x,
+									 /static/images/error@3x.png 3x"
 							height="22"
 							width="22"
 						/>

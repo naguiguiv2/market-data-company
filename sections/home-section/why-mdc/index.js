@@ -30,9 +30,9 @@ const Card = (props) => {
 		<S.CardWrapper>
 			<S.CardTitleWrapper>
 				<S.CardTitleIcon
-					src="../../static/images/checkmark.png"
-					srcSet="../../static/images/checkmark@1x.png 1x, ../../static/images/checkmark@2x.png 2x,
-                                 ../../static/images/checkmark@3x.png 3x"
+					src="/static/images/checkmark.png"
+					srcSet="/static/images/checkmark@1x.png 1x, /static/images/checkmark@2x.png 2x,
+                                 /static/images/checkmark@3x.png 3x"
 				/>
 				<S.CardTitle>{title}</S.CardTitle>
 			</S.CardTitleWrapper>

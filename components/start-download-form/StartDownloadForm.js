@@ -3,14 +3,14 @@ import Button from '../button'
 import * as S from './StartDownloadForm.styled'
 
 const StartDownloadForm = (props) => {
-	const { onRequestClose, pdfForm } = props
+	const { onRequestClose, pdfForm, onSubmit } = props
 	return (
 		<S.StartDownloadFormWrapper>
 			<S.ImageWrapper>
 				<S.CloseIcon
-					src="../../static/images/closeIcon.png"
-					srcSet="../../static/images/closeIcon.png 1x, ../../static/images/closeIcon@2x.png 2x,
-								 ../../static/images/closeIcon@3x.png 3x"
+					src="/static/images/closeIcon.png"
+					srcSet="/static/images/closeIcon.png 1x, /static/images/closeIcon@2x.png 2x,
+								 /static/images/closeIcon@3x.png 3x"
 					onClick={onRequestClose}
 				/>
 			</S.ImageWrapper>
@@ -24,7 +24,7 @@ const StartDownloadForm = (props) => {
 				</S.Description>
 				<S.ButtonWrapper>
 					<S.StyledAnchor href={pdfForm} target="_blank">
-						<Button btnText="Download" />
+						<Button btnText="Download" onClick={onSubmit} />
 					</S.StyledAnchor>
 				</S.ButtonWrapper>
 			</S.ContentWrapper>

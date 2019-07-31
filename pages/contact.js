@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useCallback } from 'react'
-import Landing from '../sections/contact-section/landing'
-import ThankYou from '../components/thank-you'
-import Layout from '../components/layout'
-import ContactForm from '../components/contact-form'
+
+import { Layout, ThankYou, ContactForm } from '../components'
+
+import { Landing } from '../sections/contact-section'
+
 import { validateEmail } from '../utils/validator'
 import { useStore } from '../store/useStore'
 import { USER_SIGNED_UP } from '../store/actionTypes'

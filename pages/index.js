@@ -1,18 +1,21 @@
 import React, { useState, useCallback } from 'react'
 
-import Layout from '../components/layout'
-import MDCModal from '../components/modal'
-import ThankYou from '../components/thank-you'
-import ResearchPdfForm from '../components/research-pdf-form'
-import StartDownloadForm from '../components/start-download-form'
-
-import Landing from '../sections/home-section/landing'
-import LeaderMarketData from '../sections/home-section/leader-market-data'
-import WorkedWith from '../sections/home-section/worked-with'
-import WhyMdc from '../sections/home-section/why-mdc'
-import Services from '../sections/home-section/services'
-import Research from '../sections/home-section/research'
-import ContactFooter from '../components/contact-footer'
+import {
+	Layout,
+	Modal,
+	ThankYou,
+	ResearchPdfForm,
+	StartDownloadForm,
+	ContactFooter
+} from '../components'
+import {
+	Landing,
+	LeaderMarketData,
+	WorkedWith,
+	WhyMdc,
+	Services,
+	Research
+} from '../sections/home-section'
 
 import pdfMapper from '../utils/pdfMapper'
 
@@ -52,16 +55,16 @@ const Home = () => {
 
 	const onSubmit = async () => {
 		try {
-			saveUser({
-				name: form.firstName,
-				company: form.company,
-				email: form.email
-			})
-
 			const res = await sendEmail(form)
 			if (res.error) {
 				setHasError(true)
 			} else {
+				// Save user form to store
+				saveUser({
+					name: form.firstName,
+					company: form.company,
+					email: form.email
+				})
 				setEmailSent(true)
 			}
 		} catch (err) {
@@ -91,7 +94,7 @@ const Home = () => {
 	return (
 		<Layout>
 			<Landing />
-			<MDCModal modalVisible={modalVisible} onRequestClose={onModalClose}>
+			<Modal modalVisible={modalVisible} onRequestClose={onModalClose}>
 				{!emailSent && !hasError && !state.user && (
 					<ResearchPdfForm
 						firstName={form.firstName}
@@ -105,7 +108,11 @@ const Home = () => {
 					/>
 				)}
 				{!emailSent && !hasError && state.user && (
-					<StartDownloadForm onRequestClose={onModalClose} pdfForm={pdfForm} />
+					<StartDownloadForm
+						onRequestClose={onModalClose}
+						pdfForm={pdfForm}
+						onSubmit={() => setEmailSent(true)}
+					/>
 				)}
 				{emailSent && !hasError && (
 					<ThankYou
@@ -115,7 +122,7 @@ const Home = () => {
 						onClick={onModalClose}
 					/>
 				)}
-			</MDCModal>
+			</Modal>
 			<ContentWrapper>
 				<LeaderMarketData />
 				<WorkedWith />

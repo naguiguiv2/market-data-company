@@ -1,26 +1,32 @@
-import React, { useState } from 'react'
+import React, { useState, useCallback } from 'react'
 import styled from 'styled-components'
 
-// Sections
-import Landing from '../sections/research-section/landing'
-import Research from '../sections/research-section/research'
-import WhitePaper from '../sections/research-section/white-paper'
-import CaseStudies from '../sections/research-section/case-studies'
-import Survey from '../sections/research-section/survey'
+import {
+	Landing,
+	Research,
+	WhitePaper,
+	CaseStudies,
+	Survey
+} from '../sections/research-section'
 
-// Components
-import Layout from '../components/layout'
-import ContactFooter from '../components/contact-footer'
-import ResearchPdfForm from '../components/research-pdf-form'
-import MDCModal from '../components/modal'
-import AnimatedFooterLink from '../components/animated-footer-link'
-import ThankYou from '../components/thank-you'
+import {
+	Layout,
+	ContactFooter,
+	ResearchPdfForm,
+	StartDownloadForm,
+	Modal,
+	AnimatedFooterLink,
+	ThankYou
+} from '../components'
 
 import pdfMapper from '../utils/pdfMapper'
 
 // Utils
 import { validateEmail } from '../utils/validator'
 import { sendEmail } from '../services/apiService'
+
+import { useStore } from '../store/useStore'
+import { USER_SIGNED_UP } from '../store/actionTypes'
 
 const ContentWrapper = styled.div`
 	max-width: 1200px;
@@ -41,6 +47,13 @@ export default () => {
 		email: ''
 	})
 
+	// Hooks to save the users form data
+	const { state, dispatch } = useStore()
+	const saveUser = useCallback(
+		(formValues) => dispatch({ type: USER_SIGNED_UP, payload: formValues }),
+		[dispatch]
+	)
+
 	const updateField = (e) => {
 		setFormValues({
 			...form,
@@ -54,6 +67,12 @@ export default () => {
 			if (res.error) {
 				setHasError(true)
 			} else {
+				// Save user form to store
+				saveUser({
+					name: form.firstName,
+					company: form.company,
+					email: form.email
+				})
 				setEmailSent(true)
 			}
 		} catch (err) {
@@ -76,8 +95,8 @@ export default () => {
 	return (
 		<Layout>
 			<Landing />
-			<MDCModal modalVisible={modalVisible} onRequestClose={onModalClose}>
-				{!emailSent && !hasError && (
+			<Modal modalVisible={modalVisible} onRequestClose={onModalClose}>
+				{!emailSent && !hasError && !state.user && (
 					<ResearchPdfForm
 						firstName={form.firstName}
 						company={form.company}
@@ -89,6 +108,13 @@ export default () => {
 						pdfForm={pdfForm}
 					/>
 				)}
+				{!emailSent && !hasError && state.user && (
+					<StartDownloadForm
+						onRequestClose={onModalClose}
+						pdfForm={pdfForm}
+						onSubmit={() => setEmailSent(true)}
+					/>
+				)}
 				{emailSent && !hasError && (
 					<ThankYou
 						description="Your download should start automatically. Enjoy!"
@@ -97,7 +123,7 @@ export default () => {
 						onClick={onModalClose}
 					/>
 				)}
-			</MDCModal>
+			</Modal>
 			<ContentWrapper>
 				<Research onClick={openModal} />
 				<WhitePaper onClick={openModal} />
