@@ -1,34 +1,16 @@
 const nodemailer = require('nodemailer')
 
 const emailTemplate = ({ name, email, company, message }) => {
-	if (company && message) {
-		return `
-			<h1>${name}</h1>
-			<h1>${email}</h1>
-	    `
-	}
-	if (message) {
-		return `
-			<h1>${name}</h1>
-			<h1>${email}</h1>
-			<p>${message}</p>
-		`
-	}
-	if (company) {
-		return `
-			<h1>${name}</h1>
-			<h1>${email}</h1>
-			<h3>${company}</h3>
-		`
-	}
-
 	return `
-			<h1>${name}</h1>
-			<h1>${email}</h1>
-	`
+        <h1>This email was from: ${name}</h1>
+        <h1>${name}'s email: ${email}</h1>
+        ${company && `<h3>The company ${name} is from: ${company}</h3>`}
+        ${message && `<p>${name}'s message: ${message}</p>`}
+    `
 }
 
 const transporter = nodemailer.createTransport({
+	secure: false,
 	service: 'gmail',
 	auth: {
 		user: process.env.EMAIL,

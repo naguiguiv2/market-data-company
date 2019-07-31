@@ -1,11 +1,9 @@
-const { sendMail } = require('../services/emailService')
-const { validateEmail } = require('../../../utils/validator')
+import { validateEmail } from '../../utils/validator'
+import { sendMail } from '../../services/emailService'
 
-module.exports.sendEmail = async (req, res) => {
+export default async (req, res) => {
 	try {
 		const { email, firstName, company, message } = req.body
-
-		console.log(company, message)
 
 		if (!validateEmail(email)) {
 			res.status(400).send({

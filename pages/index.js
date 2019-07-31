@@ -45,7 +45,6 @@ const Home = () => {
 			if (res.error) {
 				setHasError(true)
 			} else {
-				console.log('hit this')
 				setEmailSent(true)
 			}
 		} catch (err) {

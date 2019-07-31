@@ -3,7 +3,7 @@ import Landing from '../sections/contact-section/landing'
 import ThankYou from '../components/thank-you'
 import Layout from '../components/layout'
 import ContactForm from '../components/contact-form'
-import { validateEmail } from '../server/utils/validator'
+import { validateEmail } from '../utils/validator'
 
 import { sendEmail } from '../services/apiService'
 

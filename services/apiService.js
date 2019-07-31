@@ -1,9 +1,9 @@
 import fetch from 'isomorphic-unfetch'
-import { SEND_EMAIL } from './apiEndpoints'
+import { EMAIL_ENDPOINT } from './apiEndpoints'
 
 export const sendEmail = async (payload) => {
 	try {
-		const response = await fetch(SEND_EMAIL, {
+		const response = await fetch(EMAIL_ENDPOINT, {
 			method: 'POST',
 			headers: {
 				Accept: 'application/json',

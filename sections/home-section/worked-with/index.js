@@ -33,14 +33,14 @@ const COMPANY_DATA = [
 
 const WorkedWith = () => {
 	const [activeIndex, setActiveIndex] = useState(0)
-	const [animating, setAnimating] = useState(false)
+	let animating = false
 
 	const onExiting = () => {
-		setAnimating(true)
+		animating = true
 	}
 
 	const onExited = () => {
-		setAnimating(false)
+		animating = false
 	}
 
 	const next = () => {
