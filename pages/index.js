@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import MDCModal from '../components/modal'
 import ThankYou from '../components/thank-you'
 import ResearchPdfForm from '../components/research-pdf-form'
+import StartDownloadForm from '../components/start-download-form'
 
 import Landing from '../sections/home-section/landing'
 import LeaderMarketData from '../sections/home-section/leader-market-data'
@@ -104,9 +105,7 @@ const Home = () => {
 					/>
 				)}
 				{!emailSent && !hasError && state.user && (
-					<div>
-						<h1>Form to show when user has signed up</h1>
-					</div>
+					<StartDownloadForm onRequestClose={onModalClose} pdfForm={pdfForm} />
 				)}
 				{emailSent && !hasError && (
 					<ThankYou
