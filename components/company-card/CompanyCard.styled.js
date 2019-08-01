@@ -7,19 +7,26 @@ export const CompanyCardWrapper = styled.div`
 	flex: 1;
 	box-shadow: 0 8px 12px 2px rgba(0, 0, 0, 0.1);
 
-	${breakpoint('tablet')`
+	${breakpoint('desktop')`
 		flex-direction: row;
 		flex: 1;
 		width: 100%;
-		height: 285px;
-  `}
+		min-height: 285px;
+  	`}
 `
 
 export const ImageWrapper = styled.div`
-	background-image: url("/static/images/cppib-img.png");
-	background-size: cover;
 	min-height: 220px;
 	width: 100%;
+	${breakpoint('desktop')`
+		min-width: 476px;
+  	`}
+`
+
+export const StyledImage = styled.img`
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
 `
 
 export const ContentWrapper = styled.div`
@@ -27,9 +34,11 @@ export const ContentWrapper = styled.div`
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin: 14px 20px;
+	margin: 0 20px;
+	min-height: 360px;
 	${breakpoint('desktop')`
-    margin: 32px 6%;
+	margin: 32px 6%;
+	min-height: 0;
   `}
 `
 
