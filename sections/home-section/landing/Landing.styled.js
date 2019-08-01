@@ -23,7 +23,6 @@ export const ContentWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-
 `
 
 export const Title = styled.h1`
@@ -58,7 +57,7 @@ export const ButtonWrapper = styled.div`
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 332px;
+	max-width: 332px;
 	margin: 0 0 38px 0;
 	${breakpoint('desktop')`
     width: 412px;

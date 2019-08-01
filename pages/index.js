@@ -27,11 +27,14 @@ import { useStore } from '../store/useStore'
 import { USER_SIGNED_UP } from '../store/actionTypes'
 
 import styled from 'styled-components'
+import breakpoint from 'styled-components-breakpoint'
 
 const ContentWrapper = styled.div`
 	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 20px;
+	margin: 0 20px;
+	${breakpoint('tablet')`
+		margin: 0 120px;
+	`}
 `
 
 const Home = () => {

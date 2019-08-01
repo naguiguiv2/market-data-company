@@ -8,7 +8,6 @@ export const CardWrapper = styled.div`
 	max-width: 380px;
 	flex: 1;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-	height: 370px;
 	background-size: 100% 200%;
 	background-image: ${(props) => {
 		return `linear-gradient(to bottom, white 50%, ${props.notchColor} 50%)`
@@ -35,7 +34,6 @@ export const ContentWrapper = styled.div`
 	align-items: center;
 	justify-content: center;
 	margin: 0 20px 17px;
-	overflow: hidden;
 `
 
 export const Title = styled.h1`

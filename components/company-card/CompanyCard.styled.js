@@ -54,10 +54,10 @@ export const Title = styled.h1`
 	line-height: 24px;
 	margin: 0 0 6px 0;
 	${breakpoint('desktop')`
-    font-size: 21px;
-    line-height: 28px;
-    margin-bottom: 8px;
-  `}
+		font-size: 21px;
+		line-height: 28px;
+		margin-bottom: 8px;
+  	`}
 `
 
 export const DescriptionText = styled.p`
@@ -73,6 +73,10 @@ export const FooterWrapper = styled.div`
 	flex-direction: row;
 	justify-content: space-between;
 	width: 100%;
+	margin-bottom: 17px;
+	${breakpoint('desktop')`
+		margin-bottom: 0;
+  	`}
 `
 
 export const RoleText = styled.p`
