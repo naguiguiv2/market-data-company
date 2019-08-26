@@ -18,8 +18,8 @@ const ContactForm = ({
 		<S.Content>
 			<S.InputWrapper>
 				<Input
-					label="First name"
-					placeholder="Margaret Mango"
+					label="Name"
+					// placeholder="Margaret Mango"
 					value={firstName}
 					name="firstName"
 					onChange={onChange}
@@ -30,7 +30,7 @@ const ContactForm = ({
 			<S.InputWrapper>
 				<Input
 					label="Email"
-					placeholder="margaret@mango.com"
+					// placeholder="margaret@mango.com"
 					value={email}
 					name="email"
 					onChange={onChange}
@@ -41,7 +41,7 @@ const ContactForm = ({
 			<S.InputWrapper>
 				<Input
 					label="Company"
-					placeholder="Mango co."
+					// placeholder="Mango co."
 					value={company}
 					name="company"
 					onChange={onChange}
@@ -50,7 +50,7 @@ const ContactForm = ({
 			<S.InputWrapper>
 				<Textfield
 					label="Message"
-					placeholder="Your message here"
+					// placeholder="Your message here"
 					value={message}
 					name="message"
 					onChange={onChange}

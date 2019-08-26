@@ -39,7 +39,7 @@ export const ContentWrapper = styled.div`
 	flex: 1;
 	justify-content: center;
 	${breakpoint('desktop')`
-		margin: 0 62px;
+		margin: 0 60px;
 	`}
 `
 
