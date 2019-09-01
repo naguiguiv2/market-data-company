@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var EMAIL_ENDPOINT = '/api/email';","map":{"version":3,"sources":["/Users/andrewnguyen/Desktop/dev/market-data-company/services/apiEndpoints.js"],"names":["EMAIL_ENDPOINT"],"mappings":"AAAA,OAAO,IAAMA,cAAc,GAAG,YAAvB","sourcesContent":["export const EMAIL_ENDPOINT = '/api/email'\n"]},"metadata":{},"sourceType":"module"}
