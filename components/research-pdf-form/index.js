@@ -33,8 +33,8 @@ const ResearchPdfForm = (props) => {
 				</S.Description>
 				<S.InputWrapper>
 					<Input
-						label="First name"
-						placeholder="Margaret Mango"
+						label="Name"
+						// placeholder="John Doe"
 						name="firstName"
 						value={firstName}
 						onChange={onChange}
@@ -44,7 +44,7 @@ const ResearchPdfForm = (props) => {
 				<S.InputWrapper>
 					<Input
 						label="Email"
-						placeholder="margaret@mango.com"
+						// placeholder="johndoe@email.com"
 						name="email"
 						value={email}
 						onChange={onChange}
@@ -54,7 +54,7 @@ const ResearchPdfForm = (props) => {
 				<S.InputWrapper>
 					<Input
 						label="Company"
-						placeholder="Mango Tree"
+						// placeholder="company name"
 						name="company"
 						value={company}
 						onChange={onChange}
