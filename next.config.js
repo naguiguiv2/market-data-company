@@ -22,4 +22,4 @@ const config = {
 	}
 }
 
-module.exports = withPlugins([withCSS, withFonts], { target: 'serverless' })
+module.exports = withPlugins([withCSS, withFonts])
