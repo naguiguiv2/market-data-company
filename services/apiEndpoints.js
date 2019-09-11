@@ -1,1 +1,2 @@
-export const EMAIL_ENDPOINT = '/api/email'
+export const EMAIL_ENDPOINT =
+	'https://market-data-company-server.herokuapp.com/email'

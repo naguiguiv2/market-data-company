@@ -6,8 +6,8 @@ export const sendEmail = async (payload) => {
 		const response = await fetch(EMAIL_ENDPOINT, {
 			method: 'POST',
 			headers: {
-				Accept: 'application/json',
-				'Content-Type': 'application/json'
+				'Content-Type': 'application/json',
+				Accept: 'application/json'
 			},
 			body: JSON.stringify(payload)
 		})
