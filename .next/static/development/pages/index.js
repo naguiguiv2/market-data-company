@@ -733,7 +733,7 @@ var StyledImage = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img.
 var ContentWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "CompanyCardstyled__ContentWrapper",
   componentId: "u0cwbv-3"
-})(["display:flex;flex-direction:column;align-items:center;justify-content:center;margin:0 20px;min-height:360px;", ""], Object(styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_2__["default"])('desktop')(_templateObject3()));
+})(["display:flex;flex-direction:column;align-items:center;justify-content:center;margin:0 20px;min-height:320px;", ""], Object(styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_2__["default"])('desktop')(_templateObject3()));
 var DescriptionWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "CompanyCardstyled__DescriptionWrapper",
   componentId: "u0cwbv-4"
@@ -36397,7 +36397,7 @@ var HeaderWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].di
 var HeaderTitle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1.withConfig({
   displayName: "Servicesstyled__HeaderTitle",
   componentId: "xea5xp-2"
-})(["font-family:", ";font-size:24px;line-height:30px;margin:0 0 17px 0;", ""], function (props) {
+})(["font-family:", ";font-size:24px;line-height:30px;margin:0 0 20px 0;", ""], function (props) {
   return props.theme.fonts.graphikBold;
 }, Object(styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_2__["default"])('tablet')(_templateObject3()));
 var HeaderDescription = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p.withConfig({
@@ -36485,13 +36485,13 @@ var Services = function Services() {
       lineNumber: 9
     },
     __self: this
-  }, "What our services can do for you"), __jsx(_Services_styled__WEBPACK_IMPORTED_MODULE_2__["HeaderDescription"], {
+  }, "How our services add value for you"), __jsx(_Services_styled__WEBPACK_IMPORTED_MODULE_2__["HeaderDescription"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, "Taking Benchmarking to an entirely different level, our marketing data services offers you exceptional insight into the capital markets industry. With our current commercial solutions, you have the tools to take your strategy to the next level.")), __jsx(_Services_styled__WEBPACK_IMPORTED_MODULE_2__["ContentWrapper"], {
+  }, "Taking Benchmarking to an entirely different level, our marketing data services offers you exceptional insight into the capital markets industry. With our current solutions, you gain the insights to take your strategy to the next level.")), __jsx(_Services_styled__WEBPACK_IMPORTED_MODULE_2__["ContentWrapper"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
@@ -36834,16 +36834,16 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 var descriptionData = [{
   title: 'The right people, solving the right problems with passion',
-  description: 'Our people bring a mix of expertise to solve problems with a different, more dedicated mindset, devising powerful tools and solutions for our clients’ toughest challenges'
+  description: 'Our people bring a mix of expertise to solve problems with a different, more dedicated mindset, devising powerful tools and solutions for our clients’ toughest challenges.'
 }, {
   title: 'Highly effective market data governance structure',
-  description: 'Our approach brings together a highly effective discipline that focuses on process, controls and vendors.'
+  description: 'Our approach brings together a highly effective discipline that focuses on process, controls and process.'
 }, {
   title: 'We’ve saved upwards of 35% on total data spend for our clients',
   description: 'At the end of the day, it’s our clients bottom line that we take care of, and the results speak for themselves.'
 }, {
-  title: 'Market data management optimization with proven results',
-  description: 'Results are predicated by our strengths surrounding operational Governance and Market Data Vendors'
+  title: 'Market data benchmarking with proven results',
+  description: 'We create results that are predicated on our strengths surrounding benchmarking Market Data Vendors.'
 }];
 
 var Card = function Card(props) {
@@ -36926,7 +36926,7 @@ var WhyMdc = function WhyMdc() {
       lineNumber: 55
     },
     __self: this
-  }, "From inception, our focus has been on the dynamics and complexities of market data and the critical third-party relationships built through data providers within the Capital Markets and Wealth Management industries.")), __jsx(_WhyMdc_styled__WEBPACK_IMPORTED_MODULE_1__["Content"], {
+  }, "From inception, our focus has been on the complexities of market data and the critical third-party relationships built through data providers within the Capital Markets and Wealth Management industries.")), __jsx(_WhyMdc_styled__WEBPACK_IMPORTED_MODULE_1__["Content"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 62
@@ -36959,8 +36959,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components-breakpoint */ "./node_modules/styled-components-breakpoint/dist/esm/index.js");
 
 
-function _templateObject3() {
+function _templateObject4() {
   var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\t\ttransform: scale(0.8);\n\t"]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject3() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\t\tmargin-bottom: 0; \n\t\ttransform: scale(0.6);\n\t\twidth: 25%;\n\t"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -36970,7 +36980,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\t\tmargin-bottom: 0; \n\t\ttransform: scale(0.6);\n\t\twidth: 25%;\n\t"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\t\tfont-size: 24px;\n\t\tline-height: 30px;\n\t\tmax-width: 780px;\n\t"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -36980,7 +36990,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\t\tfont-size: 24px;\n\t\tline-height: 30px;\n\t\tmax-width: 780px;\n\t"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\t\tfont-size: 36px;\n\t\tline-height: 48px;\n\t"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -36998,17 +37008,15 @@ var WorkedWithWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"
 var Title = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1.withConfig({
   displayName: "WorkedWithstyled__Title",
   componentId: "sc-10nv40i-1"
-})(["font-family:", ";font-size:36px;line-height:48px;color:", ";margin:0 0 18px 0;"], function (props) {
+})(["font-family:", ";font-size:24px;line-height:30px;margin:0 0 20px 0;", ""], function (props) {
   return props.theme.fonts.graphikBold;
-}, function (props) {
-  return props.theme.colors.black;
-});
+}, Object(styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_2__["default"])('tablet')(_templateObject()));
 var Description = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p.withConfig({
   displayName: "WorkedWithstyled__Description",
   componentId: "sc-10nv40i-2"
 })(["font-family:", ";font-size:18px;line-height:26px;margin:0 0 46px 0;", ""], function (props) {
   return props.theme.fonts.financier;
-}, Object(styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_2__["default"])('desktop')(_templateObject()));
+}, Object(styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_2__["default"])('desktop')(_templateObject2()));
 var CardWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "WorkedWithstyled__CardWrapper",
   componentId: "sc-10nv40i-3"
@@ -37020,7 +37028,7 @@ var LogoContentWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default
 var LogoWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "WorkedWithstyled__LogoWrapper",
   componentId: "sc-10nv40i-5"
-})(["width:48%;margin-bottom:40px;transform:scale(0.75);display:flex;justify-content:center;", " ", ""], Object(styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_2__["default"])('tablet')(_templateObject2()), Object(styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_2__["default"])('desktop')(_templateObject3()));
+})(["width:48%;margin-bottom:40px;transform:scale(0.75);display:flex;justify-content:center;", " ", ""], Object(styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_2__["default"])('tablet')(_templateObject3()), Object(styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_2__["default"])('desktop')(_templateObject4()));
 
 /***/ }),
 
@@ -37210,8 +37218,8 @@ var WorkedWith = function WorkedWith() {
     },
     __self: this
   }, __jsx("img", {
-    src: "/static/images/iiroc.png",
-    srcSet: "/static/images/iiroc@1x.png 1x, /static/images/iiroc@2x.png 2x, /static/images/iiroc@3x.png 3x",
+    src: "/static/images/swiss-re.png",
+    srcSet: "/static/images/swiss-re@1x.png 1x, /static/images/swiss-re@2x.png 2x, /static/images/swiss-re@3x.png 3x",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 119

@@ -26,7 +26,7 @@ export const HeaderTitle = styled.h1`
 	font-family: ${(props) => props.theme.fonts.graphikBold};
 	font-size: 24px;
 	line-height: 30px;
-	margin: 0 0 17px 0;
+	margin: 0 0 20px 0;
 	${breakpoint('tablet')`
     font-size: 36px;
     line-height: 48px;

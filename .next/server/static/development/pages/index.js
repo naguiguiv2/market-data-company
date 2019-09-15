@@ -692,7 +692,7 @@ const StyledImage = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.img
 const ContentWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "CompanyCardstyled__ContentWrapper",
   componentId: "u0cwbv-3"
-})(["display:flex;flex-direction:column;align-items:center;justify-content:center;margin:0 20px;min-height:360px;", ""], styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
+})(["display:flex;flex-direction:column;align-items:center;justify-content:center;margin:0 20px;min-height:320px;", ""], styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
 	margin: 32px 6%;
 	min-height: 0;
   `);
@@ -4543,7 +4543,7 @@ const HeaderWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.d
 const HeaderTitle = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h1.withConfig({
   displayName: "Servicesstyled__HeaderTitle",
   componentId: "xea5xp-2"
-})(["font-family:", ";font-size:24px;line-height:30px;margin:0 0 17px 0;", ""], props => props.theme.fonts.graphikBold, styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('tablet')`
+})(["font-family:", ";font-size:24px;line-height:30px;margin:0 0 20px 0;", ""], props => props.theme.fonts.graphikBold, styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('tablet')`
     font-size: 36px;
     line-height: 48px;
   `);
@@ -4647,13 +4647,13 @@ const Services = () => {
       lineNumber: 9
     },
     __self: undefined
-  }, "What our services can do for you"), __jsx(_Services_styled__WEBPACK_IMPORTED_MODULE_2__["HeaderDescription"], {
+  }, "How our services add value for you"), __jsx(_Services_styled__WEBPACK_IMPORTED_MODULE_2__["HeaderDescription"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: undefined
-  }, "Taking Benchmarking to an entirely different level, our marketing data services offers you exceptional insight into the capital markets industry. With our current commercial solutions, you have the tools to take your strategy to the next level.")), __jsx(_Services_styled__WEBPACK_IMPORTED_MODULE_2__["ContentWrapper"], {
+  }, "Taking Benchmarking to an entirely different level, our marketing data services offers you exceptional insight into the capital markets industry. With our current solutions, you gain the insights to take your strategy to the next level.")), __jsx(_Services_styled__WEBPACK_IMPORTED_MODULE_2__["ContentWrapper"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
@@ -4923,16 +4923,16 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const descriptionData = [{
   title: 'The right people, solving the right problems with passion',
-  description: 'Our people bring a mix of expertise to solve problems with a different, more dedicated mindset, devising powerful tools and solutions for our clients’ toughest challenges'
+  description: 'Our people bring a mix of expertise to solve problems with a different, more dedicated mindset, devising powerful tools and solutions for our clients’ toughest challenges.'
 }, {
   title: 'Highly effective market data governance structure',
-  description: 'Our approach brings together a highly effective discipline that focuses on process, controls and vendors.'
+  description: 'Our approach brings together a highly effective discipline that focuses on process, controls and process.'
 }, {
   title: 'We’ve saved upwards of 35% on total data spend for our clients',
   description: 'At the end of the day, it’s our clients bottom line that we take care of, and the results speak for themselves.'
 }, {
-  title: 'Market data management optimization with proven results',
-  description: 'Results are predicated by our strengths surrounding operational Governance and Market Data Vendors'
+  title: 'Market data benchmarking with proven results',
+  description: 'We create results that are predicated on our strengths surrounding benchmarking Market Data Vendors.'
 }];
 
 const Card = props => {
@@ -5019,7 +5019,7 @@ const WhyMdc = () => {
       lineNumber: 55
     },
     __self: undefined
-  }, "From inception, our focus has been on the dynamics and complexities of market data and the critical third-party relationships built through data providers within the Capital Markets and Wealth Management industries.")), __jsx(_WhyMdc_styled__WEBPACK_IMPORTED_MODULE_1__["Content"], {
+  }, "From inception, our focus has been on the complexities of market data and the critical third-party relationships built through data providers within the Capital Markets and Wealth Management industries.")), __jsx(_WhyMdc_styled__WEBPACK_IMPORTED_MODULE_1__["Content"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 62
@@ -5060,7 +5060,10 @@ const WorkedWithWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default
 const Title = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h1.withConfig({
   displayName: "WorkedWithstyled__Title",
   componentId: "sc-10nv40i-1"
-})(["font-family:", ";font-size:36px;line-height:48px;color:", ";margin:0 0 18px 0;"], props => props.theme.fonts.graphikBold, props => props.theme.colors.black);
+})(["font-family:", ";font-size:24px;line-height:30px;margin:0 0 20px 0;", ""], props => props.theme.fonts.graphikBold, styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('tablet')`
+		font-size: 36px;
+		line-height: 48px;
+	`);
 const Description = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.p.withConfig({
   displayName: "WorkedWithstyled__Description",
   componentId: "sc-10nv40i-2"
@@ -5277,8 +5280,8 @@ const WorkedWith = () => {
     },
     __self: undefined
   }, __jsx("img", {
-    src: "/static/images/iiroc.png",
-    srcSet: "/static/images/iiroc@1x.png 1x, /static/images/iiroc@2x.png 2x, /static/images/iiroc@3x.png 3x",
+    src: "/static/images/swiss-re.png",
+    srcSet: "/static/images/swiss-re@1x.png 1x, /static/images/swiss-re@2x.png 2x, /static/images/swiss-re@3x.png 3x",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 119

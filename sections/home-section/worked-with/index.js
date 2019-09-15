@@ -117,9 +117,9 @@ const WorkedWith = () => {
 				</S.LogoWrapper>
 				<S.LogoWrapper>
 					<img
-						src="/static/images/iiroc.png"
-						srcSet="/static/images/iiroc@1x.png 1x, /static/images/iiroc@2x.png 2x,
-									 /static/images/iiroc@3x.png 3x"
+						src="/static/images/swiss-re.png"
+						srcSet="/static/images/swiss-re@1x.png 1x, /static/images/swiss-re@2x.png 2x,
+									 /static/images/swiss-re@3x.png 3x"
 					/>
 				</S.LogoWrapper>
 			</S.LogoContentWrapper>

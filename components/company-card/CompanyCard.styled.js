@@ -35,7 +35,8 @@ export const ContentWrapper = styled.div`
 	align-items: center;
 	justify-content: center;
 	margin: 0 20px;
-	min-height: 360px;
+	min-height: 320px;
+
 	${breakpoint('desktop')`
 	margin: 32px 6%;
 	min-height: 0;

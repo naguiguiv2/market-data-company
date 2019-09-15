@@ -6,11 +6,11 @@ const Services = () => {
 	return (
 		<S.ServicesWrapper>
 			<S.HeaderWrapper>
-				<S.HeaderTitle>What our services can do for you</S.HeaderTitle>
+				<S.HeaderTitle>How our services add value for you</S.HeaderTitle>
 				<S.HeaderDescription>
 					Taking Benchmarking to an entirely different level, our marketing data
 					services offers you exceptional insight into the capital markets
-					industry. With our current commercial solutions, you have the tools to
+					industry. With our current solutions, you gain the insights to
 					take your strategy to the next level.
 				</S.HeaderDescription>
 			</S.HeaderWrapper>

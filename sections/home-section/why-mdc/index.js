@@ -5,12 +5,12 @@ const descriptionData = [
 	{
 		title: 'The right people, solving the right problems with passion',
 		description:
-			'Our people bring a mix of expertise to solve problems with a different, more dedicated mindset, devising powerful tools and solutions for our clients’ toughest challenges'
+			'Our people bring a mix of expertise to solve problems with a different, more dedicated mindset, devising powerful tools and solutions for our clients’ toughest challenges.'
 	},
 	{
 		title: 'Highly effective market data governance structure',
 		description:
-			'Our approach brings together a highly effective discipline that focuses on process, controls and vendors.'
+			'Our approach brings together a highly effective discipline that focuses on process, controls and process.'
 	},
 	{
 		title: 'We’ve saved upwards of 35% on total data spend for our clients',
@@ -18,9 +18,9 @@ const descriptionData = [
 			'At the end of the day, it’s our clients bottom line that we take care of, and the results speak for themselves.'
 	},
 	{
-		title: 'Market data management optimization with proven results',
+		title: 'Market data benchmarking with proven results',
 		description:
-			'Results are predicated by our strengths surrounding operational Governance and Market Data Vendors'
+			'We create results that are predicated on our strengths surrounding benchmarking Market Data Vendors.'
 	}
 ]
 
@@ -53,7 +53,7 @@ const WhyMdc = () => {
 			<S.HeadingWrapper>
 				<S.HeadingTitle>Why Market Data Company?</S.HeadingTitle>
 				<S.HeadingDescription>
-					From inception, our focus has been on the dynamics and complexities of
+					From inception, our focus has been on the complexities of
 					market data and the critical third-party relationships built through
 					data providers within the Capital Markets and Wealth Management
 					industries.

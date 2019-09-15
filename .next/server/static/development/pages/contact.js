@@ -692,7 +692,7 @@ const StyledImage = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.img
 const ContentWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "CompanyCardstyled__ContentWrapper",
   componentId: "u0cwbv-3"
-})(["display:flex;flex-direction:column;align-items:center;justify-content:center;margin:0 20px;min-height:360px;", ""], styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
+})(["display:flex;flex-direction:column;align-items:center;justify-content:center;margin:0 20px;min-height:320px;", ""], styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
 	margin: 32px 6%;
 	min-height: 0;
   `);

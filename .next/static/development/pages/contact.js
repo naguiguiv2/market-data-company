@@ -733,7 +733,7 @@ var StyledImage = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img.
 var ContentWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "CompanyCardstyled__ContentWrapper",
   componentId: "u0cwbv-3"
-})(["display:flex;flex-direction:column;align-items:center;justify-content:center;margin:0 20px;min-height:360px;", ""], Object(styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_2__["default"])('desktop')(_templateObject3()));
+})(["display:flex;flex-direction:column;align-items:center;justify-content:center;margin:0 20px;min-height:320px;", ""], Object(styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_2__["default"])('desktop')(_templateObject3()));
 var DescriptionWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "CompanyCardstyled__DescriptionWrapper",
   componentId: "u0cwbv-4"
