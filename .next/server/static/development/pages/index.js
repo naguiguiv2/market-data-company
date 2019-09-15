@@ -150,7 +150,7 @@ __webpack_require__.r(__webpack_exports__);
 const CardWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "AnimatedCardstyled__CardWrapper",
   componentId: "q4nqi9-0"
-})(["display:flex;flex-direction:column;width:100%;min-height:340px;max-width:380px;flex:1;box-shadow:0 2px 4px 0 rgba(0,0,0,0.2);height:370px;background-size:100% 200%;background-image:", ";-webkit-transition:background-position 0.15s ease-out;-moz-transition:background-position 0.15s ease-out;transition:background-position 0.15s ease-out;&:hover{cursor:pointer;background-position:0 -100%;}"], props => {
+})(["display:flex;flex-direction:column;width:100%;min-height:340px;max-width:380px;flex:1;box-shadow:0 2px 4px 0 rgba(0,0,0,0.2);background-size:100% 200%;background-image:", ";-webkit-transition:background-position 0.15s ease-out;-moz-transition:background-position 0.15s ease-out;transition:background-position 0.15s ease-out;&:hover{cursor:pointer;background-position:0 -100%;}"], props => {
   return `linear-gradient(to bottom, white 50%, ${props.notchColor} 50%)`;
 });
 const TopNotch = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
@@ -160,7 +160,7 @@ const TopNotch = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.wi
 const ContentWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "AnimatedCardstyled__ContentWrapper",
   componentId: "q4nqi9-2"
-})(["display:flex;flex-direction:column;align-items:center;justify-content:center;margin:0 20px 17px;overflow:hidden;"]);
+})(["display:flex;flex-direction:column;align-items:center;justify-content:center;margin:0 20px 17px;"]);
 const Title = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h1.withConfig({
   displayName: "AnimatedCardstyled__Title",
   componentId: "q4nqi9-3"
@@ -189,7 +189,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _assets_colors__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/colors */ "./assets/colors.js");
 /* harmony import */ var _AnimatedCard_styled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AnimatedCard.styled */ "./components/animated-card/AnimatedCard.styled.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/components/animated-card/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/components/animated-card/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -292,7 +292,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _AnimatedFooterLink_styled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AnimatedFooterLink.styled */ "./components/animated-footer-link/AnimatedFooterLink.styled.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/components/animated-footer-link/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/components/animated-footer-link/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -442,7 +442,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_addons_css_transition_group__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_addons_css_transition_group__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _animated_footer_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../animated-footer-link */ "./components/animated-footer-link/index.js");
 /* harmony import */ var _BioCard_styled__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./BioCard.styled */ "./components/bio-card/BioCard.styled.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/components/bio-card/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/components/bio-card/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -581,7 +581,7 @@ const ButtonWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.b
 })(["display:flex;flex-direction:column;align-items:center;justify-content:center;width:160px;height:40px;background-color:", ";border-radius:3px;box-shadow:0 2px 8px 0 rgba(0,0,0,0.15);border:none;cursor:pointer;&:hover{background-color:", ";box-shadow:", ";transform:translateY(-1px);transition:all 0.15s ease;}", ""], props => getBackgroundColor(props), props => getBackgroundColor(props), props => {
   return props.isDefault ? '0 2px 8px 0 rgba(0, 0, 0, 0.15)' : '0 8px 16px 2px rgba(0, 0, 0, 0.15)';
 }, styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
-    width: 200px;
+    width: 180px;
     height: 48px;
   `);
 const ButtonText = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.span.withConfig({
@@ -606,7 +606,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _button_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./button.styled */ "./components/button/button.styled.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/components/button/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/components/button/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -649,13 +649,14 @@ Button.defaultProps = {
 /*!*******************************************************!*\
   !*** ./components/company-card/CompanyCard.styled.js ***!
   \*******************************************************/
-/*! exports provided: CompanyCardWrapper, ImageWrapper, ContentWrapper, DescriptionWrapper, Title, DescriptionText, FooterWrapper, RoleText, NextTag */
+/*! exports provided: CompanyCardWrapper, ImageWrapper, StyledImage, ContentWrapper, DescriptionWrapper, Title, DescriptionText, FooterWrapper, RoleText, NextTag */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CompanyCardWrapper", function() { return CompanyCardWrapper; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ImageWrapper", function() { return ImageWrapper; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StyledImage", function() { return StyledImage; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContentWrapper", function() { return ContentWrapper; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DescriptionWrapper", function() { return DescriptionWrapper; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Title", function() { return Title; });
@@ -672,49 +673,58 @@ __webpack_require__.r(__webpack_exports__);
 const CompanyCardWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "CompanyCardstyled__CompanyCardWrapper",
   componentId: "u0cwbv-0"
-})(["display:flex;flex-direction:column;flex:1;box-shadow:0 8px 12px 2px rgba(0,0,0,0.1);", ""], styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('tablet')`
+})(["display:flex;flex-direction:column;flex:1;box-shadow:0 8px 12px 2px rgba(0,0,0,0.1);", ""], styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
 		flex-direction: row;
 		flex: 1;
 		width: 100%;
-		height: 285px;
-  `);
+		min-height: 285px;
+  	`);
 const ImageWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "CompanyCardstyled__ImageWrapper",
   componentId: "u0cwbv-1"
-})(["background-image:url(\"/static/images/cppib-img.png\");background-size:cover;min-height:220px;width:100%;"]);
+})(["min-height:220px;width:100%;", ""], styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
+		min-width: 476px;
+  	`);
+const StyledImage = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.img.withConfig({
+  displayName: "CompanyCardstyled__StyledImage",
+  componentId: "u0cwbv-2"
+})(["width:100%;height:100%;object-fit:fill;"]);
 const ContentWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "CompanyCardstyled__ContentWrapper",
-  componentId: "u0cwbv-2"
-})(["display:flex;flex-direction:column;align-items:center;justify-content:center;margin:14px 20px;", ""], styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
-    margin: 32px 6%;
+  componentId: "u0cwbv-3"
+})(["display:flex;flex-direction:column;align-items:center;justify-content:center;margin:0 20px;min-height:360px;", ""], styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
+	margin: 32px 6%;
+	min-height: 0;
   `);
 const DescriptionWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "CompanyCardstyled__DescriptionWrapper",
-  componentId: "u0cwbv-3"
+  componentId: "u0cwbv-4"
 })(["display:flex;flex-direction:column;margin-bottom:33px;"]);
 const Title = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h1.withConfig({
   displayName: "CompanyCardstyled__Title",
-  componentId: "u0cwbv-4"
+  componentId: "u0cwbv-5"
 })(["font-family:", ";font-size:18px;line-height:24px;margin:0 0 6px 0;", ""], props => props.theme.fonts.graphikBold, styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
-    font-size: 21px;
-    line-height: 28px;
-    margin-bottom: 8px;
-  `);
+		font-size: 21px;
+		line-height: 28px;
+		margin-bottom: 8px;
+  	`);
 const DescriptionText = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.p.withConfig({
   displayName: "CompanyCardstyled__DescriptionText",
-  componentId: "u0cwbv-5"
+  componentId: "u0cwbv-6"
 })(["font-family:", ";font-size:21px;line-height:26px;letter-spacing:-0.11px;margin:0;"], props => props.theme.fonts.financier);
 const FooterWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "CompanyCardstyled__FooterWrapper",
-  componentId: "u0cwbv-6"
-})(["display:flex;flex-direction:row;justify-content:space-between;width:100%;"]);
+  componentId: "u0cwbv-7"
+})(["display:flex;flex-direction:row;justify-content:space-between;width:100%;margin-bottom:17px;", ""], styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
+		margin-bottom: 0;
+  	`);
 const RoleText = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.p.withConfig({
   displayName: "CompanyCardstyled__RoleText",
-  componentId: "u0cwbv-7"
+  componentId: "u0cwbv-8"
 })(["font-family:", ";font-size:16px;line-height:21px;color:", ";margin:0;"], props => props.theme.fonts.graphik, props => props.theme.colors.lightGrey);
 const NextTag = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.a.withConfig({
   displayName: "CompanyCardstyled__NextTag",
-  componentId: "u0cwbv-8"
+  componentId: "u0cwbv-9"
 })(["font-family:", ";font-size:16px;line-height:22px;color:", ";margin:0;cursor:pointer;&:hover{color:#3d0099;transition:color 0.25s ease;}"], props => props.theme.fonts.graphik, props => props.theme.colors.mdcPurple);
 
 /***/ }),
@@ -732,7 +742,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _label_with_arrow__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../label-with-arrow */ "./components/label-with-arrow/index.js");
 /* harmony import */ var _CompanyCard_styled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CompanyCard.styled */ "./components/company-card/CompanyCard.styled.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/components/company-card/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/components/company-card/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -744,7 +754,8 @@ const CompanyCard = props => {
     description,
     role,
     company,
-    onNext
+    onNext,
+    imageUrl
   } = props;
   return __jsx(_CompanyCard_styled__WEBPACK_IMPORTED_MODULE_2__["CompanyCardWrapper"], {
     __source: {
@@ -758,40 +769,49 @@ const CompanyCard = props => {
       lineNumber: 10
     },
     __self: undefined
-  }), __jsx(_CompanyCard_styled__WEBPACK_IMPORTED_MODULE_2__["ContentWrapper"], {
+  }, __jsx(_CompanyCard_styled__WEBPACK_IMPORTED_MODULE_2__["StyledImage"], {
+    src: `/static/images/${imageUrl}.png`,
+    srcSet: `/static/images/${imageUrl}@1x.png 1x, /static/images/${imageUrl}@2x.png 2x,
+                                 /static/images/${imageUrl}@3x.png 3x`,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: undefined
+  })), __jsx(_CompanyCard_styled__WEBPACK_IMPORTED_MODULE_2__["ContentWrapper"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: undefined
   }, __jsx(_CompanyCard_styled__WEBPACK_IMPORTED_MODULE_2__["DescriptionWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 18
     },
     __self: undefined
   }, __jsx(_CompanyCard_styled__WEBPACK_IMPORTED_MODULE_2__["Title"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 19
     },
     __self: undefined
   }, title), __jsx(_CompanyCard_styled__WEBPACK_IMPORTED_MODULE_2__["DescriptionText"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 20
     },
     __self: undefined
   }, description)), __jsx(_CompanyCard_styled__WEBPACK_IMPORTED_MODULE_2__["FooterWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 22
     },
     __self: undefined
   }, __jsx(_CompanyCard_styled__WEBPACK_IMPORTED_MODULE_2__["RoleText"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 23
     },
     __self: undefined
   }, role), __jsx(_label_with_arrow__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -799,7 +819,7 @@ const CompanyCard = props => {
     onClick: onNext,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 24
     },
     __self: undefined
   }))));
@@ -888,7 +908,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../button */ "./components/button/index.js");
 /* harmony import */ var _ContactFooter_styled__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ContactFooter.styled */ "./components/contact-footer/ContactFooter.styled.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/components/contact-footer/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/components/contact-footer/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1006,7 +1026,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _input__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../input */ "./components/input/index.js");
 /* harmony import */ var _textfield__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../textfield */ "./components/textfield/index.js");
 /* harmony import */ var _button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../button */ "./components/button/index.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/components/contact-form/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/components/contact-form/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1042,8 +1062,8 @@ const ContactForm = ({
   },
   __self: undefined
 }, __jsx(_input__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  label: "First name",
-  placeholder: "Margaret Mango",
+  label: "Name" // placeholder="Margaret Mango"
+  ,
   value: firstName,
   name: "firstName",
   onChange: onChange,
@@ -1061,8 +1081,8 @@ const ContactForm = ({
   },
   __self: undefined
 }, __jsx(_input__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  label: "Email",
-  placeholder: "margaret@mango.com",
+  label: "Email" // placeholder="margaret@mango.com"
+  ,
   value: email,
   name: "email",
   onChange: onChange,
@@ -1080,8 +1100,8 @@ const ContactForm = ({
   },
   __self: undefined
 }, __jsx(_input__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  label: "Company",
-  placeholder: "Mango co.",
+  label: "Company" // placeholder="Mango co."
+  ,
   value: company,
   name: "company",
   onChange: onChange,
@@ -1097,8 +1117,8 @@ const ContactForm = ({
   },
   __self: undefined
 }, __jsx(_textfield__WEBPACK_IMPORTED_MODULE_4__["default"], {
-  label: "Message",
-  placeholder: "Your message here",
+  label: "Message" // placeholder="Your message here"
+  ,
   value: message,
   name: "message",
   onChange: onChange,
@@ -1249,7 +1269,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _social_icon__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../social-icon */ "./components/social-icon/index.js");
 /* harmony import */ var _Footer_styled__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer.styled */ "./components/footer/Footer.styled.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/components/footer/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/components/footer/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1425,7 +1445,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _list_item__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../list-item */ "./components/list-item/index.js");
 /* harmony import */ var _HamburgerMenuContent_styled__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./HamburgerMenuContent.styled */ "./components/hamburger-menu-content/HamburgerMenuContent.styled.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/components/hamburger-menu-content/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/components/hamburger-menu-content/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1655,7 +1675,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Input_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Input.styled */ "./components/input/Input.styled.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/components/input/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/components/input/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1773,7 +1793,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _LabelWithArrow_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LabelWithArrow.styled */ "./components/label-with-arrow/LabelWithArrow.styled.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/components/label-with-arrow/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/components/label-with-arrow/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1849,7 +1869,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Layout_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Layout.styled */ "./components/layout/Layout.styled.js");
 /* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../footer */ "./components/footer/index.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/components/layout/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/components/layout/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1920,7 +1940,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _ListItem_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ListItem.styled */ "./components/list-item/ListItem.styled.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/components/list-item/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/components/list-item/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1963,7 +1983,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_modal__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-modal */ "react-modal");
 /* harmony import */ var react_modal__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_modal__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/components/modal/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/components/modal/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2059,7 +2079,7 @@ const ContentWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.
   displayName: "ResearchPdfFormstyled__ContentWrapper",
   componentId: "rdg6wy-3"
 })(["display:flex;flex-direction:column;flex:1;justify-content:center;", ""], styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
-		margin: 0 62px;
+		margin: 0 60px;
 	`);
 const Title = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h3.withConfig({
   displayName: "ResearchPdfFormstyled__Title",
@@ -2103,7 +2123,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _input__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../input */ "./components/input/index.js");
 /* harmony import */ var _button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../button */ "./components/button/index.js");
 /* harmony import */ var _ResearchPdfForm_styled__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ResearchPdfForm.styled */ "./components/research-pdf-form/ResearchPdfForm.styled.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/components/research-pdf-form/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/components/research-pdf-form/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2167,8 +2187,8 @@ const ResearchPdfForm = props => {
     },
     __self: undefined
   }, __jsx(_input__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    label: "First name",
-    placeholder: "Margaret Mango",
+    label: "Name" // placeholder="John Doe"
+    ,
     name: "firstName",
     value: firstName,
     onChange: onChange,
@@ -2185,8 +2205,8 @@ const ResearchPdfForm = props => {
     },
     __self: undefined
   }, __jsx(_input__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    label: "Email",
-    placeholder: "margaret@mango.com",
+    label: "Email" // placeholder="johndoe@email.com"
+    ,
     name: "email",
     value: email,
     onChange: onChange,
@@ -2203,8 +2223,8 @@ const ResearchPdfForm = props => {
     },
     __self: undefined
   }, __jsx(_input__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    label: "Company",
-    placeholder: "Mango Tree",
+    label: "Company" // placeholder="company name"
+    ,
     name: "company",
     value: company,
     onChange: onChange,
@@ -2258,7 +2278,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_social_icons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-social-icons */ "react-social-icons");
 /* harmony import */ var react_social_icons__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_social_icons__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _assets_colors__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/colors */ "./assets/colors.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/components/social-icon/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/components/social-icon/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2302,7 +2322,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../button */ "./components/button/index.js");
 /* harmony import */ var _StartDownloadForm_styled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./StartDownloadForm.styled */ "./components/start-download-form/StartDownloadForm.styled.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/components/start-download-form/StartDownloadForm.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/components/start-download-form/StartDownloadForm.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2528,7 +2548,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../modal */ "./components/modal/index.js");
 /* harmony import */ var _hamburger_menu_content__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../hamburger-menu-content */ "./components/hamburger-menu-content/index.js");
 /* harmony import */ var _TabBar_styled__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./TabBar.styled */ "./components/tab-bar/TabBar.styled.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/components/tab-bar/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/components/tab-bar/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2758,7 +2778,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Textfield_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Textfield.styled */ "./components/textfield/Textfield.styled.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/components/textfield/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/components/textfield/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2856,7 +2876,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _animated_footer_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../animated-footer-link */ "./components/animated-footer-link/index.js");
 /* harmony import */ var _ThankYou_styled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ThankYou.styled */ "./components/thank-you/ThankYou.styled.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/components/thank-you/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/components/thank-you/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -3724,8 +3744,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _store_actionTypes__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../store/actionTypes */ "./store/actionTypes.js");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! styled-components-breakpoint */ "styled-components-breakpoint");
+/* harmony import */ var styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_10__);
 
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/pages/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -3737,10 +3759,11 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
+
 const ContentWrapper = styled_components__WEBPACK_IMPORTED_MODULE_9___default.a.div.withConfig({
   displayName: "pages__ContentWrapper",
   componentId: "sc-1cvwks4-0"
-})(["max-width:1200px;margin:0 auto;padding:0 20px;"]);
+})(["max-width:1200px;padding:0 20px;margin:0 auto;"]);
 
 const Home = () => {
   const {
@@ -3817,13 +3840,13 @@ const Home = () => {
   return __jsx(_components__WEBPACK_IMPORTED_MODULE_2__["Layout"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 97
     },
     __self: undefined
   }, __jsx(_sections_home_section__WEBPACK_IMPORTED_MODULE_3__["Landing"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 98
     },
     __self: undefined
   }), __jsx(_components__WEBPACK_IMPORTED_MODULE_2__["Modal"], {
@@ -3831,7 +3854,7 @@ const Home = () => {
     onRequestClose: onModalClose,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 99
     },
     __self: undefined
   }, !emailSent && !hasError && !state.user && __jsx(_components__WEBPACK_IMPORTED_MODULE_2__["ResearchPdfForm"], {
@@ -3845,7 +3868,7 @@ const Home = () => {
     pdfForm: pdfForm,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 101
     },
     __self: undefined
   }), !emailSent && !hasError && state.user && __jsx(_components__WEBPACK_IMPORTED_MODULE_2__["StartDownloadForm"], {
@@ -3854,7 +3877,7 @@ const Home = () => {
     onSubmit: () => setEmailSent(true),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111
+      lineNumber: 113
     },
     __self: undefined
   }), emailSent && !hasError && __jsx(_components__WEBPACK_IMPORTED_MODULE_2__["ThankYou"], {
@@ -3864,50 +3887,50 @@ const Home = () => {
     onClick: onModalClose,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 120
     },
     __self: undefined
   })), __jsx(ContentWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
+      lineNumber: 128
     },
     __self: undefined
   }, __jsx(_sections_home_section__WEBPACK_IMPORTED_MODULE_3__["LeaderMarketData"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127
+      lineNumber: 129
     },
     __self: undefined
   }), __jsx(_sections_home_section__WEBPACK_IMPORTED_MODULE_3__["WorkedWith"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128
+      lineNumber: 130
     },
     __self: undefined
   }), __jsx(_sections_home_section__WEBPACK_IMPORTED_MODULE_3__["WhyMdc"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 131
     },
     __self: undefined
   }), __jsx(_sections_home_section__WEBPACK_IMPORTED_MODULE_3__["Services"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130
+      lineNumber: 132
     },
     __self: undefined
   }), __jsx(_sections_home_section__WEBPACK_IMPORTED_MODULE_3__["Research"], {
     onClick: openModal,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131
+      lineNumber: 133
     },
     __self: undefined
   })), __jsx(_components__WEBPACK_IMPORTED_MODULE_2__["ContactFooter"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 135
     },
     __self: undefined
   }));
@@ -4002,8 +4025,8 @@ const Description = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h1.
 const ButtonWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "Landingstyled__ButtonWrapper",
   componentId: "t8svsq-4"
-})(["display:flex;flex-direction:row;justify-content:space-between;width:332px;margin:0 0 38px 0;", ""], styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
-    width: 412px;
+})(["display:flex;flex-direction:row;justify-content:space-between;max-width:340px;margin:0 0 38px 0;", ""], styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
+    	max-width: 380px;
   `);
 
 /***/ }),
@@ -4024,7 +4047,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Landing_styled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Landing.styled */ "./sections/home-section/landing/Landing.styled.js");
 /* harmony import */ var _components_button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/button */ "./components/button/index.js");
 /* harmony import */ var _components_tab_bar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/tab-bar */ "./components/tab-bar/index.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/sections/home-section/landing/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/sections/home-section/landing/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -4200,7 +4223,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_animated_footer_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/animated-footer-link */ "./components/animated-footer-link/index.js");
 /* harmony import */ var _LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./LeaderMarketData.styled */ "./sections/home-section/leader-market-data/LeaderMarketData.styled.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/sections/home-section/leader-market-data/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/sections/home-section/leader-market-data/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -4237,52 +4260,52 @@ const LeaderMarketData = () => {
       lineNumber: 11
     },
     __self: undefined
-  }, "Market Data Company is a professional consulting firm with experts skilled in Market Data products and Management. We are committed to helping financial investment firms optimize Market and Reference data spend."), __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["InfoText"], {
+  }, "Market Data Company is a professional consulting firm with experts skilled in market data products, solutions and contract vendor management. We are committed to helping teams uncover insights that improve how they manage their market and reference data relationships."), __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["InfoText"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: undefined
-  }, "We partner with our clients to answer the growing demands of their business by providing the expertise in the details that lead to increased profitability. Specifically, MDC has developed a series of diagnostic tools and programs that tangibly drive down costs while optimizing services.")), __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["FactsWrapper"], {
+  }, "We partner with our clients to answer the growing demands of their business by providing the expertise in the details that lead to increased profitability. Specifically, we offer a series of diagnostic tools that drive down costs while optimizing services.")), __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["FactsWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 24
     },
     __self: undefined
   }, __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["ProjectsCompletedWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 25
     },
     __self: undefined
   }, __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["NumberText"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 26
     },
     __self: undefined
   }, "106"), __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["FactsText"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 27
     },
     __self: undefined
   }, "Projects completed")), __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["ProjectsCompletedWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 29
     },
     __self: undefined
   }, __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["NumberText"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 30
     },
     __self: undefined
   }, "$154MM"), __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["FactsText"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 31
     },
     __self: undefined
   }, "Client dollars saved")))));
@@ -4378,7 +4401,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_animated_card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/animated-card */ "./components/animated-card/index.js");
 /* harmony import */ var _components_animated_footer_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/animated-footer-link */ "./components/animated-footer-link/index.js");
 /* harmony import */ var _Research_styled__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Research.styled */ "./sections/home-section/research/Research.styled.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/sections/home-section/research/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/sections/home-section/research/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -4599,7 +4622,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_animated_footer_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/animated-footer-link */ "./components/animated-footer-link/index.js");
 /* harmony import */ var _Services_styled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Services.styled */ "./sections/home-section/services/Services.styled.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/sections/home-section/services/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/sections/home-section/services/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -4894,7 +4917,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _WhyMdc_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./WhyMdc.styled */ "./sections/home-section/why-mdc/WhyMdc.styled.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/sections/home-section/why-mdc/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/sections/home-section/why-mdc/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -5044,7 +5067,7 @@ const Description = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.p.w
 })(["font-family:", ";font-size:18px;line-height:26px;margin:0 0 46px 0;", ""], props => props.theme.fonts.financier, styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
 		font-size: 24px;
 		line-height: 30px;
-		max-width: 50%;
+		max-width: 780px;
 	`);
 const CardWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "WorkedWithstyled__CardWrapper",
@@ -5084,7 +5107,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_company_card__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/company-card */ "./components/company-card/index.js");
 /* harmony import */ var _WorkedWith_styled__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./WorkedWith.styled */ "./sections/home-section/worked-with/WorkedWith.styled.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/sections/home-section/worked-with/index.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/sections/home-section/worked-with/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -5095,22 +5118,26 @@ const COMPANY_DATA = [{
   title: 'Canada Pension Plan Investment Board',
   description: `“MDC identified and realized vendor cost savings of 12% of our spend, and then developed a target state organization with capabilities to effectively manage market data products, consumption, costs and vendors”`,
   role: 'Marc Odho – Head of Data Management',
-  company: 'PSP'
+  company: 'PSP',
+  imageUrl: 'cppib-carousel'
 }, {
   title: 'PSP Investissements',
   description: `“The team at Market Data Company is great to work with. Each consultant has their own strengths and weaknesses, and are great at what they do. In my book, I highly recommend the entire team at MDC.”`,
   role: 'Alex DiCristofano, Director of Market Data',
-  company: 'Aviva'
+  company: 'Aviva',
+  imageUrl: 'psp-carousel'
 }, {
   title: 'Aviva Investors',
   description: `“Robert and his team brought the right expertise to the job, making the transitional program easier to manage. MDC’s approach to market data supported our Global operations and provided a clear line of sight to our vendor spend.”`,
   role: 'Kelly McManis, Head of Operations',
-  company: 'Swiss Re'
+  company: 'Swiss Re',
+  imageUrl: 'aviva-carousel'
 }, {
   title: 'Swiss Re',
   description: `“MDC’s product Kiaro’s overspend report clearly articulated where Bloomberg data was being replicated within our technology envirorment. As a result we closed down several jobs that lead to $450,000 in cost savings.”`,
   role: 'Eric Kemeny, Vice President, Group Asset Management',
-  company: 'CPPIB'
+  company: 'CPPIB',
+  imageUrl: 'swiss-re-carousel'
 }];
 
 const WorkedWith = () => {
@@ -5144,7 +5171,7 @@ const WorkedWith = () => {
       key: item.company,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57
+        lineNumber: 61
       },
       __self: undefined
     }, __jsx(_components_company_card__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -5152,10 +5179,11 @@ const WorkedWith = () => {
       description: item.description,
       role: item.role,
       company: item.company,
+      imageUrl: item.imageUrl,
       onNext: next,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 62
+        lineNumber: 66
       },
       __self: undefined
     }));
@@ -5163,25 +5191,25 @@ const WorkedWith = () => {
   return __jsx(_WorkedWith_styled__WEBPACK_IMPORTED_MODULE_4__["WorkedWithWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 79
     },
     __self: undefined
   }, __jsx(_WorkedWith_styled__WEBPACK_IMPORTED_MODULE_4__["Title"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 80
     },
     __self: undefined
   }, "Who we\u2019ve worked with"), __jsx(_WorkedWith_styled__WEBPACK_IMPORTED_MODULE_4__["Description"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 81
     },
     __self: undefined
-  }, "Our consultants are industry experts on market and reference data products and investment management solutions. MDC delivers results that make financial differences."), __jsx(_WorkedWith_styled__WEBPACK_IMPORTED_MODULE_4__["CardWrapper"], {
+  }, "Our consultants are industry experts in market and reference data products, as well as investment management solutions. We deliver results that make a difference."), __jsx(_WorkedWith_styled__WEBPACK_IMPORTED_MODULE_4__["CardWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 86
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"], {
@@ -5191,19 +5219,19 @@ const WorkedWith = () => {
     interval: false,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 87
     },
     __self: undefined
   }, carouselItems)), __jsx(_WorkedWith_styled__WEBPACK_IMPORTED_MODULE_4__["LogoContentWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 96
     },
     __self: undefined
   }, __jsx(_WorkedWith_styled__WEBPACK_IMPORTED_MODULE_4__["LogoWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 97
     },
     __self: undefined
   }, __jsx("img", {
@@ -5211,13 +5239,13 @@ const WorkedWith = () => {
     srcSet: "/static/images/cppib@1x.png 1x, /static/images/cppib@2x.png 2x, /static/images/cppib@3x.png 3x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 98
     },
     __self: undefined
   })), __jsx(_WorkedWith_styled__WEBPACK_IMPORTED_MODULE_4__["LogoWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 104
     },
     __self: undefined
   }, __jsx("img", {
@@ -5225,13 +5253,13 @@ const WorkedWith = () => {
     srcSet: "/static/images/psp@1x.png 1x, /static/images/psp@2x.png 2x, /static/images/psp@3x.png 3x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 105
     },
     __self: undefined
   })), __jsx(_WorkedWith_styled__WEBPACK_IMPORTED_MODULE_4__["LogoWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 111
     },
     __self: undefined
   }, __jsx("img", {
@@ -5239,13 +5267,13 @@ const WorkedWith = () => {
     srcSet: "/static/images/aviva@1x.png 1x, /static/images/aviva@2x.png 2x, /static/images/aviva@3x.png 3x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 112
     },
     __self: undefined
   })), __jsx(_WorkedWith_styled__WEBPACK_IMPORTED_MODULE_4__["LogoWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 118
     },
     __self: undefined
   }, __jsx("img", {
@@ -5253,7 +5281,7 @@ const WorkedWith = () => {
     srcSet: "/static/images/iiroc@1x.png 1x, /static/images/iiroc@2x.png 2x, /static/images/iiroc@3x.png 3x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 119
     },
     __self: undefined
   }))));
@@ -5273,7 +5301,7 @@ const WorkedWith = () => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EMAIL_ENDPOINT", function() { return EMAIL_ENDPOINT; });
-const EMAIL_ENDPOINT = '/api/email';
+const EMAIL_ENDPOINT = 'https://market-data-company-server.herokuapp.com/email';
 
 /***/ }),
 
@@ -5300,8 +5328,8 @@ const sendEmail = async payload => {
     const response = await isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_1___default()(_apiEndpoints__WEBPACK_IMPORTED_MODULE_2__["EMAIL_ENDPOINT"], {
       method: 'POST',
       headers: {
-        Accept: 'application/json',
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        Accept: 'application/json'
       },
       body: _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(payload)
     });
@@ -5342,7 +5370,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _actionTypes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./actionTypes */ "./store/actionTypes.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/store/useStore.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/store/useStore.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -5452,7 +5480,7 @@ const validateEmail = email => {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/andrewnguyen/Desktop/dev/market-data-company/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /Users/justin.w/Documents/GitHub/market-data-company/pages/index.js */"./pages/index.js");
 
 
 /***/ }),

@@ -31,10 +31,9 @@ import breakpoint from 'styled-components-breakpoint'
 
 const ContentWrapper = styled.div`
 	max-width: 1200px;
-	margin: 0 20px;
-	${breakpoint('tablet')`
-		margin: 0 120px;
-	`}
+	padding: 0 20px;
+	margin: 0 auto;
+
 `
 
 const Home = () => {

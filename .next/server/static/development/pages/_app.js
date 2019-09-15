@@ -800,7 +800,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_GlobalStyles__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/GlobalStyles */ "./styles/GlobalStyles.js");
 /* harmony import */ var _store_useStore__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../store/useStore */ "./store/useStore.js");
 
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/pages/_app.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/pages/_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -897,7 +897,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _actionTypes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./actionTypes */ "./store/actionTypes.js");
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/store/useStore.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/store/useStore.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 

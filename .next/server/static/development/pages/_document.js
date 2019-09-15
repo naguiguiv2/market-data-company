@@ -1116,7 +1116,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_GlobalStyles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/GlobalStyles */ "./styles/GlobalStyles.js");
 
 
-var _jsxFileName = "/Users/andrewnguyen/Desktop/dev/market-data-company/pages/_document.js";
+var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/pages/_document.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
  // Import styled components ServerStyleSheet

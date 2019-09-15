@@ -79,9 +79,9 @@ const WorkedWith = () => {
 		<S.WorkedWithWrapper>
 			<S.Title>Who we’ve worked with</S.Title>
 			<S.Description>
-				Our consultants are industry experts on market and reference data
-				products and investment management solutions. MDC delivers results that
-				make financial differences.
+				Our consultants are industry experts in market and reference data
+				products, as well as investment management solutions. We deliver results that
+				make a difference.
 			</S.Description>
 			<S.CardWrapper>
 				<Carousel

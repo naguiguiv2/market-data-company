@@ -32,7 +32,7 @@ export const ButtonWrapper = styled.button`
 		transition: all 0.15s ease;
 	}
 	${breakpoint('desktop')`
-    width: 200px;
+    width: 180px;
     height: 48px;
   `}
 `

@@ -25,7 +25,7 @@ export const Description = styled.p`
 	${breakpoint('desktop')`
 		font-size: 24px;
 		line-height: 30px;
-		max-width: 50%;
+		max-width: 780px;
 	`}
 `
 

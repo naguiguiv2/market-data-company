@@ -57,9 +57,9 @@ export const ButtonWrapper = styled.div`
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	max-width: 332px;
+	max-width: 340px;
 	margin: 0 0 38px 0;
 	${breakpoint('desktop')`
-    width: 412px;
+    	max-width: 380px;
   `}
 `
