@@ -74,7 +74,8 @@ export const FooterWrapper = styled.div`
 	flex-direction: row;
 	justify-content: space-between;
 	width: 100%;
-	margin-bottom: 17px;
+	margin-bottom: 20px;
+
 	${breakpoint('desktop')`
 		margin-bottom: 0;
   	`}

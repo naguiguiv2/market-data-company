@@ -150,7 +150,7 @@ __webpack_require__.r(__webpack_exports__);
 const CardWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "AnimatedCardstyled__CardWrapper",
   componentId: "q4nqi9-0"
-})(["display:flex;flex-direction:column;width:100%;min-height:340px;max-width:380px;flex:1;box-shadow:0 2px 4px 0 rgba(0,0,0,0.2);background-size:100% 200%;background-image:", ";-webkit-transition:background-position 0.15s ease-out;-moz-transition:background-position 0.15s ease-out;transition:background-position 0.15s ease-out;&:hover{cursor:pointer;background-position:0 -100%;}"], props => {
+})(["display:flex;flex-direction:column;width:100%;min-height:340px;max-width:360px;flex:1;box-shadow:0 2px 4px 0 rgba(0,0,0,0.2);background-size:100% 200%;background-image:", ";-webkit-transition:background-position 0.15s ease-out;-moz-transition:background-position 0.15s ease-out;transition:background-position 0.15s ease-out;&:hover{cursor:pointer;background-position:0 -100%;}"], props => {
   return `linear-gradient(to bottom, white 50%, ${props.notchColor} 50%)`;
 });
 const TopNotch = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
@@ -715,7 +715,7 @@ const DescriptionText = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a
 const FooterWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "CompanyCardstyled__FooterWrapper",
   componentId: "u0cwbv-7"
-})(["display:flex;flex-direction:row;justify-content:space-between;width:100%;margin-bottom:17px;", ""], styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
+})(["display:flex;flex-direction:row;justify-content:space-between;width:100%;margin-bottom:20px;", ""], styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
 		margin-bottom: 0;
   	`);
 const RoleText = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.p.withConfig({
@@ -1997,6 +1997,7 @@ const customStyles = {
     maxHeight: '600px',
     marginLeft: 'auto',
     marginRight: 'auto',
+    marginTop: '10%',
     top: 0,
     left: 0,
     right: 0,
@@ -2006,8 +2007,9 @@ const customStyles = {
     top: 0,
     left: 0,
     right: 0,
-    margin: '20px',
-    backgroundColor: 'none'
+    backgroundColor: 'rgba(0,0,0,0.25' // margin: '20px',
+    // backgroundColor: 'none'
+
   }
 };
 
@@ -2026,7 +2028,7 @@ const MDCModal = props => {
     style: customStyles,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 37
     },
     __self: undefined
   }, children);
@@ -2373,10 +2375,10 @@ const StartDownloadForm = props => {
       lineNumber: 19
     },
     __self: undefined
-  }, "After reading, If you'd like to learn more about how we can help you optimize your data spend, or hear more about any aspect of our market data management services, get in touch with our team and we'd be happy to help you."), __jsx(_StartDownloadForm_styled__WEBPACK_IMPORTED_MODULE_2__["ButtonWrapper"], {
+  }, "After reading, If you'd like to learn more about how we can help you optimize your data spend, get in touch with our team and we'd be happy to help you."), __jsx(_StartDownloadForm_styled__WEBPACK_IMPORTED_MODULE_2__["ButtonWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 24
     },
     __self: undefined
   }, __jsx(_StartDownloadForm_styled__WEBPACK_IMPORTED_MODULE_2__["StyledAnchor"], {
@@ -2384,7 +2386,7 @@ const StartDownloadForm = props => {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 25
     },
     __self: undefined
   }, __jsx(_button__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -2392,7 +2394,7 @@ const StartDownloadForm = props => {
     onClick: onSubmit,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 26
     },
     __self: undefined
   })))));
@@ -2428,7 +2430,7 @@ __webpack_require__.r(__webpack_exports__);
 const StartDownloadFormWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "StartDownloadFormstyled__StartDownloadFormWrapper",
   componentId: "g865k7-0"
-})(["display:flex;flex-direction:column;flex:1;min-height:591px;background-color:", ";", ""], props => props.theme.colors.white, styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
+})(["display:flex;flex-direction:column;flex:1;min-height:560px;background-color:", ";", ""], props => props.theme.colors.white, styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
 		max-height: 600px;
 		max-width: 724px;
 	`);

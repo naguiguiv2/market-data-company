@@ -9,11 +9,9 @@ const Research = ({ onClick }) => {
 			<S.HeaderWrapper>
 				<S.HeaderTitle>Research &amp; Case Studies</S.HeaderTitle>
 				<S.HeaderDescription>
-					MDC has done extensive research over the past 10 years through its
-					qualitative and quantitative analytics. Our findings have been linked
-					to the strength of a firms operational management and its investment
-					strategy, and can be used to improve capabilities in core business
-					areas such as client intelligence, trading strategies, and business
+					MDC has completed extensive research over the past 10 years. Our findings have been linked
+					to the strength of a firms operational management, and can be used to improve 
+					capabilities across client intelligence, trading strategies, and business
 					productivity.
 				</S.HeaderDescription>
 			</S.HeaderWrapper>

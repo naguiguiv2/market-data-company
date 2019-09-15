@@ -5,7 +5,7 @@ export const StartDownloadFormWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	min-height: 591px;
+	min-height: 560px;
 	background-color: ${(props) => props.theme.colors.white};
 	${breakpoint('desktop')`
 		max-height: 600px;

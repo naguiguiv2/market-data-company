@@ -5,7 +5,7 @@ export const ResearchWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	margin-bottom: 93px;
+	margin-bottom: 80px;
 	${breakpoint('desktop')`
     margin-bottom: 160px;
   `}

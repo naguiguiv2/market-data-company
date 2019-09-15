@@ -26,7 +26,7 @@ export const ResearchTitle = styled.h1`
 export const CardContentContainer = styled.div`
 	display: flex;
 	flex-direction: column;
-	${breakpoint('desktop')`
+	${breakpoint('tablet')`
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 35px;

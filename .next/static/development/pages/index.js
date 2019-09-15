@@ -56,7 +56,7 @@ __webpack_require__.r(__webpack_exports__);
 var CardWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "AnimatedCardstyled__CardWrapper",
   componentId: "q4nqi9-0"
-})(["display:flex;flex-direction:column;width:100%;min-height:340px;max-width:380px;flex:1;box-shadow:0 2px 4px 0 rgba(0,0,0,0.2);background-size:100% 200%;background-image:", ";-webkit-transition:background-position 0.15s ease-out;-moz-transition:background-position 0.15s ease-out;transition:background-position 0.15s ease-out;&:hover{cursor:pointer;background-position:0 -100%;}"], function (props) {
+})(["display:flex;flex-direction:column;width:100%;min-height:340px;max-width:360px;flex:1;box-shadow:0 2px 4px 0 rgba(0,0,0,0.2);background-size:100% 200%;background-image:", ";-webkit-transition:background-position 0.15s ease-out;-moz-transition:background-position 0.15s ease-out;transition:background-position 0.15s ease-out;&:hover{cursor:pointer;background-position:0 -100%;}"], function (props) {
   return "linear-gradient(to bottom, white 50%, ".concat(props.notchColor, " 50%)");
 });
 var TopNotch = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
@@ -753,7 +753,7 @@ var DescriptionText = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].
 var FooterWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "CompanyCardstyled__FooterWrapper",
   componentId: "u0cwbv-7"
-})(["display:flex;flex-direction:row;justify-content:space-between;width:100%;margin-bottom:17px;", ""], Object(styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_2__["default"])('desktop')(_templateObject5()));
+})(["display:flex;flex-direction:row;justify-content:space-between;width:100%;margin-bottom:20px;", ""], Object(styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_2__["default"])('desktop')(_templateObject5()));
 var RoleText = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p.withConfig({
   displayName: "CompanyCardstyled__RoleText",
   componentId: "u0cwbv-8"
@@ -2181,6 +2181,7 @@ var customStyles = {
     maxHeight: '600px',
     marginLeft: 'auto',
     marginRight: 'auto',
+    marginTop: '10%',
     top: 0,
     left: 0,
     right: 0,
@@ -2190,8 +2191,9 @@ var customStyles = {
     top: 0,
     left: 0,
     right: 0,
-    margin: '20px',
-    backgroundColor: 'none'
+    backgroundColor: 'rgba(0,0,0,0.25' // margin: '20px',
+    // backgroundColor: 'none'
+
   }
 };
 
@@ -2208,7 +2210,7 @@ var MDCModal = function MDCModal(props) {
     style: customStyles,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 37
     },
     __self: this
   }, children);
@@ -2582,10 +2584,10 @@ var StartDownloadForm = function StartDownloadForm(props) {
       lineNumber: 19
     },
     __self: this
-  }, "After reading, If you'd like to learn more about how we can help you optimize your data spend, or hear more about any aspect of our market data management services, get in touch with our team and we'd be happy to help you."), __jsx(_StartDownloadForm_styled__WEBPACK_IMPORTED_MODULE_2__["ButtonWrapper"], {
+  }, "After reading, If you'd like to learn more about how we can help you optimize your data spend, get in touch with our team and we'd be happy to help you."), __jsx(_StartDownloadForm_styled__WEBPACK_IMPORTED_MODULE_2__["ButtonWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 24
     },
     __self: this
   }, __jsx(_StartDownloadForm_styled__WEBPACK_IMPORTED_MODULE_2__["StyledAnchor"], {
@@ -2593,7 +2595,7 @@ var StartDownloadForm = function StartDownloadForm(props) {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 25
     },
     __self: this
   }, __jsx(_button__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -2601,7 +2603,7 @@ var StartDownloadForm = function StartDownloadForm(props) {
     onClick: onSubmit,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 26
     },
     __self: this
   })))));
@@ -2658,7 +2660,7 @@ function _templateObject() {
 var StartDownloadFormWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "StartDownloadFormstyled__StartDownloadFormWrapper",
   componentId: "g865k7-0"
-})(["display:flex;flex-direction:column;flex:1;min-height:591px;background-color:", ";", ""], function (props) {
+})(["display:flex;flex-direction:column;flex:1;min-height:560px;background-color:", ";", ""], function (props) {
   return props.theme.colors.white;
 }, Object(styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_2__["default"])('desktop')(_templateObject()));
 var ImageWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
@@ -36090,7 +36092,7 @@ function _templateObject() {
 var ResearchWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Researchstyled__ResearchWrapper",
   componentId: "sc-1uddaix-0"
-})(["display:flex;flex-direction:column;flex:1;margin-bottom:93px;", ""], Object(styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_2__["default"])('desktop')(_templateObject()));
+})(["display:flex;flex-direction:column;flex:1;margin-bottom:80px;", ""], Object(styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_2__["default"])('desktop')(_templateObject()));
 var HeaderWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Researchstyled__HeaderWrapper",
   componentId: "sc-1uddaix-1"
@@ -36177,16 +36179,16 @@ var Research = function Research(_ref) {
       lineNumber: 11
     },
     __self: this
-  }, "MDC has done extensive research over the past 10 years through its qualitative and quantitative analytics. Our findings have been linked to the strength of a firms operational management and its investment strategy, and can be used to improve capabilities in core business areas such as client intelligence, trading strategies, and business productivity.")), __jsx(_Research_styled__WEBPACK_IMPORTED_MODULE_3__["CardContentWrapper"], {
+  }, "MDC has completed extensive research over the past 10 years. Our findings have been linked to the strength of a firms operational management, and can be used to improve capabilities across client intelligence, trading strategies, and business productivity.")), __jsx(_Research_styled__WEBPACK_IMPORTED_MODULE_3__["CardContentWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 18
     },
     __self: this
   }, __jsx(_Research_styled__WEBPACK_IMPORTED_MODULE_3__["CardWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 19
     },
     __self: this
   }, __jsx(_components_animated_card__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -36197,13 +36199,13 @@ var Research = function Research(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 20
     },
     __self: this
   })), __jsx(_Research_styled__WEBPACK_IMPORTED_MODULE_3__["CardWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 26
     },
     __self: this
   }, __jsx(_components_animated_card__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -36214,13 +36216,13 @@ var Research = function Research(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 27
     },
     __self: this
   })), __jsx(_Research_styled__WEBPACK_IMPORTED_MODULE_3__["CardWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 33
     },
     __self: this
   }, __jsx(_components_animated_card__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -36231,7 +36233,7 @@ var Research = function Research(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 34
     },
     __self: this
   }))), __jsx(_components_animated_footer_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -36239,7 +36241,7 @@ var Research = function Research(_ref) {
     href: "/research",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 41
     },
     __self: this
   }));

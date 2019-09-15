@@ -11,6 +11,7 @@ const customStyles = {
 		maxHeight: '600px',
 		marginLeft: 'auto',
 		marginRight: 'auto',
+		marginTop: '10%',
 		top: 0,
 		left: 0,
 		right: 0,
@@ -20,8 +21,9 @@ const customStyles = {
 		top: 0,
 		left: 0,
 		right: 0,
-		margin: '20px',
-		backgroundColor: 'none'
+		backgroundColor: 'rgba(0,0,0,0.25' 
+		// margin: '20px',
+		// backgroundColor: 'none'
 	}
 }
 

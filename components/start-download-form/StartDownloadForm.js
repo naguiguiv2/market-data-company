@@ -18,8 +18,7 @@ const StartDownloadForm = (props) => {
 				<S.Title>Start your download</S.Title>
 				<S.Description>
 					After reading, If you'd like to learn more about how we can help you
-					optimize your data spend, or hear more about any aspect of our market
-					data management services, get in touch with our team and we'd be happy
+					optimize your data spend, get in touch with our team and we'd be happy
 					to help you.
 				</S.Description>
 				<S.ButtonWrapper>
