@@ -1,0 +1,57 @@
+{
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--6-1!node_modules/bootstrap/dist/css/bootstrap.min.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "css node_modules/css-loader/index.js??ref--6-1!node_modules/bootstrap/dist/css/bootstrap.min.css 0": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "styles": 2,
+      "static/-I3iZ9rmvWuPPKNQIvdgz/pages/_app.js": 3,
+      "static/-I3iZ9rmvWuPPKNQIvdgz/pages/_error.js": 4,
+      "static/-I3iZ9rmvWuPPKNQIvdgz/pages/contact.js": 5,
+      "static/-I3iZ9rmvWuPPKNQIvdgz/pages/index.js": 6,
+      "static/-I3iZ9rmvWuPPKNQIvdgz/pages/research.js": 7,
+      "static/runtime/main.js": 8,
+      "static/1-kAp5kVMqztNgrcev-4T/pages/_app.js": 9,
+      "static/1-kAp5kVMqztNgrcev-4T/pages/_error.js": 10,
+      "static/1-kAp5kVMqztNgrcev-4T/pages/contact.js": 11,
+      "static/1-kAp5kVMqztNgrcev-4T/pages/index.js": 12,
+      "static/1-kAp5kVMqztNgrcev-4T/pages/research.js": 13
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      12,
+      13,
+      2,
+      8,
+      9
+    ]
+  }
+}
