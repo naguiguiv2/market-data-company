@@ -1,1 +1,0 @@
-{"ast":null,"code":"export var USER_SIGNED_UP = 'USER_SIGNED_UP';","map":{"version":3,"sources":["/Users/andrew.n/Desktop/personal/market-data-company/store/actionTypes.js"],"names":["USER_SIGNED_UP"],"mappings":"AAAA,OAAO,IAAMA,cAAc,GAAG,gBAAvB","sourcesContent":["export const USER_SIGNED_UP = 'USER_SIGNED_UP'\n"]},"metadata":{},"sourceType":"module"}

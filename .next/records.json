@@ -29,29 +29,24 @@
       "commons": 0,
       "static/runtime/webpack.js": 1,
       "styles": 2,
-      "static/-I3iZ9rmvWuPPKNQIvdgz/pages/_app.js": 3,
-      "static/-I3iZ9rmvWuPPKNQIvdgz/pages/_error.js": 4,
-      "static/-I3iZ9rmvWuPPKNQIvdgz/pages/contact.js": 5,
-      "static/-I3iZ9rmvWuPPKNQIvdgz/pages/index.js": 6,
-      "static/-I3iZ9rmvWuPPKNQIvdgz/pages/research.js": 7,
-      "static/runtime/main.js": 8,
-      "static/1-kAp5kVMqztNgrcev-4T/pages/_app.js": 9,
-      "static/1-kAp5kVMqztNgrcev-4T/pages/_error.js": 10,
-      "static/1-kAp5kVMqztNgrcev-4T/pages/contact.js": 11,
-      "static/1-kAp5kVMqztNgrcev-4T/pages/index.js": 12,
-      "static/1-kAp5kVMqztNgrcev-4T/pages/research.js": 13
+      "static/Gg-qlpygDA9NK4Q6r4_Cd/pages/_app.js": 3,
+      "static/Gg-qlpygDA9NK4Q6r4_Cd/pages/_error.js": 4,
+      "static/Gg-qlpygDA9NK4Q6r4_Cd/pages/contact.js": 5,
+      "static/Gg-qlpygDA9NK4Q6r4_Cd/pages/index.js": 6,
+      "static/Gg-qlpygDA9NK4Q6r4_Cd/pages/research.js": 7,
+      "static/runtime/main.js": 8
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
-      10,
-      11,
-      12,
-      13,
       2,
-      8,
-      9
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
     ]
   }
 }

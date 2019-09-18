@@ -5,7 +5,7 @@ import {
 	Landing,
 	Research,
 	WhitePaper,
-	CaseStudies,
+	// CaseStudies,
 	Survey
 } from '../sections/research-section'
 
@@ -127,7 +127,7 @@ export default () => {
 			<ContentWrapper>
 				<Research onClick={openModal} />
 				<WhitePaper onClick={openModal} />
-				<CaseStudies onClick={openModal} />
+				{/* <CaseStudies onClick={openModal} /> */}
 				<Survey onClick={openModal} />
 				<AnimatedFooterLink message="Back to home" href="/" />
 			</ContentWrapper>

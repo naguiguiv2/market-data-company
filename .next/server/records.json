@@ -19,27 +19,21 @@
   },
   "chunks": {
     "byName": {
-      "static/-I3iZ9rmvWuPPKNQIvdgz/pages/_app.js": 0,
-      "static/-I3iZ9rmvWuPPKNQIvdgz/pages/_document.js": 1,
-      "static/-I3iZ9rmvWuPPKNQIvdgz/pages/_error.js": 2,
-      "static/-I3iZ9rmvWuPPKNQIvdgz/pages/contact.js": 3,
-      "static/-I3iZ9rmvWuPPKNQIvdgz/pages/index.js": 4,
-      "static/-I3iZ9rmvWuPPKNQIvdgz/pages/research.js": 5,
-      "static/1-kAp5kVMqztNgrcev-4T/pages/_app.js": 6,
-      "static/1-kAp5kVMqztNgrcev-4T/pages/_document.js": 7,
-      "static/1-kAp5kVMqztNgrcev-4T/pages/_error.js": 8,
-      "static/1-kAp5kVMqztNgrcev-4T/pages/contact.js": 9,
-      "static/1-kAp5kVMqztNgrcev-4T/pages/index.js": 10,
-      "static/1-kAp5kVMqztNgrcev-4T/pages/research.js": 11
+      "static/Gg-qlpygDA9NK4Q6r4_Cd/pages/_app.js": 0,
+      "static/Gg-qlpygDA9NK4Q6r4_Cd/pages/_document.js": 1,
+      "static/Gg-qlpygDA9NK4Q6r4_Cd/pages/_error.js": 2,
+      "static/Gg-qlpygDA9NK4Q6r4_Cd/pages/contact.js": 3,
+      "static/Gg-qlpygDA9NK4Q6r4_Cd/pages/index.js": 4,
+      "static/Gg-qlpygDA9NK4Q6r4_Cd/pages/research.js": 5
     },
     "bySource": {},
     "usedIds": [
-      10,
-      11,
-      6,
-      7,
-      8,
-      9
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
     ]
   }
 }
