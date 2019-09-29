@@ -4150,8 +4150,8 @@ __webpack_require__.r(__webpack_exports__);
 const LeaderMarketDataWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "LeaderMarketDatastyled__LeaderMarketDataWrapper",
   componentId: "sc-1rb8ak0-0"
-})(["display:flex;flex-direction:column;flex:1;background-color:", ";margin:40px 0 75px 0;", ""], props => props.theme.colors.white, styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
-    margin: 96px 0 151px 0;
+})(["display:flex;flex-direction:column;flex:1;background-color:", ";margin:40px 0 60px 0;", ""], props => props.theme.colors.white, styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
+    margin: 80px 0 80px 0;
   `);
 const Content = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "LeaderMarketDatastyled__Content",

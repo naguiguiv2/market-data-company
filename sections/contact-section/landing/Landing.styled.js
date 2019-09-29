@@ -3,7 +3,9 @@ import breakpoint from 'styled-components-breakpoint'
 
 export const LandingWrapper = styled.div`
 	width: 100%;
-	background-color: ${(props) => props.theme.colors.sbGrey};
+	// background-color: ${(props) => props.theme.colors.sbGrey};
+	background-image: url('/static/images/contact-landing.png');
+	background-size: cover;
 
 `
 
@@ -19,7 +21,7 @@ export const ContentWrapper = styled.div`
 `
 
 export const Content = styled.div`
-	min-height: 480px;
+	min-height: 420px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -30,7 +32,7 @@ export const Description = styled.p`
 	font-family: ${(props) => props.theme.fonts.financier};
 	font-size: 24px;
 	line-height: 30px;
-	color: ${(props) => props.theme.colors.black};
+	color: ${(props) => props.theme.colors.white};
 	margin: 0;
 	text-align: center;
 

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -3906,7 +3906,7 @@ __webpack_require__.r(__webpack_exports__);
 const LandingWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "Landingstyled__LandingWrapper",
   componentId: "sc-3mk9j5-0"
-})(["width:100%;background-color:", ";"], props => props.theme.colors.sbGrey);
+})(["width:100%;background-image:url('/static/images/contact-landing.png');background-size:cover;"]);
 const ContentWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "Landingstyled__ContentWrapper",
   componentId: "sc-3mk9j5-1"
@@ -3914,11 +3914,11 @@ const ContentWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.
 const Content = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "Landingstyled__Content",
   componentId: "sc-3mk9j5-2"
-})(["min-height:480px;display:flex;flex-direction:column;align-items:center;justify-content:center;"]);
+})(["min-height:420px;display:flex;flex-direction:column;align-items:center;justify-content:center;"]);
 const Description = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.p.withConfig({
   displayName: "Landingstyled__Description",
   componentId: "sc-3mk9j5-3"
-})(["font-family:", ";font-size:24px;line-height:30px;color:", ";margin:0;text-align:center;", ""], props => props.theme.fonts.financier, props => props.theme.colors.black, styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
+})(["font-family:", ";font-size:24px;line-height:30px;color:", ";margin:0;text-align:center;", ""], props => props.theme.fonts.financier, props => props.theme.colors.white, styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
     font-size: 36px;
     line-height: 42px;
   `);
@@ -3957,7 +3957,6 @@ const Landing = () => __jsx(_Landing_styled__WEBPACK_IMPORTED_MODULE_1__["Landin
   },
   __self: undefined
 }, __jsx(_components_tab_bar__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  barTheme: "dark",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 7
@@ -4128,7 +4127,7 @@ const validateEmail = email => {
 
 /***/ }),
 
-/***/ 6:
+/***/ 5:
 /*!********************************!*\
   !*** multi ./pages/contact.js ***!
   \********************************/

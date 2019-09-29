@@ -21246,9 +21246,7 @@ function _templateObject() {
 var LandingWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Landingstyled__LandingWrapper",
   componentId: "sc-3mk9j5-0"
-})(["width:100%;background-color:", ";"], function (props) {
-  return props.theme.colors.sbGrey;
-});
+})(["width:100%;background-image:url('/static/images/contact-landing.png');background-size:cover;"]);
 var ContentWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Landingstyled__ContentWrapper",
   componentId: "sc-3mk9j5-1"
@@ -21256,14 +21254,14 @@ var ContentWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].d
 var Content = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Landingstyled__Content",
   componentId: "sc-3mk9j5-2"
-})(["min-height:480px;display:flex;flex-direction:column;align-items:center;justify-content:center;"]);
+})(["min-height:420px;display:flex;flex-direction:column;align-items:center;justify-content:center;"]);
 var Description = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p.withConfig({
   displayName: "Landingstyled__Description",
   componentId: "sc-3mk9j5-3"
 })(["font-family:", ";font-size:24px;line-height:30px;color:", ";margin:0;text-align:center;", ""], function (props) {
   return props.theme.fonts.financier;
 }, function (props) {
-  return props.theme.colors.black;
+  return props.theme.colors.white;
 }, Object(styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_2__["default"])('desktop')(_templateObject()));
 
 /***/ }),
@@ -21301,7 +21299,6 @@ var Landing = function Landing() {
     },
     __self: this
   }, __jsx(_components_tab_bar__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    barTheme: "dark",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -21510,7 +21507,7 @@ var validateEmail = function validateEmail(email) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!***********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fcontact&absolutePagePath=%2FUsers%2Fjustin.w%2FDocuments%2FGitHub%2Fmarket-data-company%2Fpages%2Fcontact.js ***!
   \***********************************************************************************************************************************************************/
@@ -21533,5 +21530,5 @@ module.exports = dll_4cbc3223160d403191c6;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=contact.js.map

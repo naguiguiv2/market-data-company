@@ -4,13 +4,12 @@ import TabBar from '../../../components/tab-bar'
 const Landing = () => (
 	<S.LandingWrapper>
 		<S.ContentWrapper>
-			<TabBar barTheme="dark" />
+			<TabBar/>
 			<S.Content>
 				<S.Description>
-					MDC has done extensive research over the past 10 years through its
-					qualitative and quantitative analytics. Our findings have been linked to
-					the strength of a firms operational management, and have been used to
-					improve capabilities in client intelligence, trading strategies, and
+					MDC has done extensive analytics research over the past 10 years. Our findings have been linked to
+					effective operational management, and have been used to
+					improve client intelligence, trading strategies, and
 					business productivity.
 				</S.Description>
 			</S.Content>
