@@ -35825,7 +35825,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    margin: 96px 0 151px 0;\n  "]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    margin: 80px 0 80px 0;\n  "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -35839,7 +35839,7 @@ function _templateObject() {
 var LeaderMarketDataWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "LeaderMarketDatastyled__LeaderMarketDataWrapper",
   componentId: "sc-1rb8ak0-0"
-})(["display:flex;flex-direction:column;flex:1;background-color:", ";margin:40px 0 75px 0;", ""], function (props) {
+})(["display:flex;flex-direction:column;flex:1;background-color:", ";margin:40px 0 60px 0;", ""], function (props) {
   return props.theme.colors.white;
 }, Object(styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_2__["default"])('desktop')(_templateObject()));
 var Content = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
