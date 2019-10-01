@@ -110,17 +110,21 @@ module.exports = __webpack_require__(/*! core-js/library/fn/symbol/iterator */ "
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/arrayWithoutHoles.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/arrayWithoutHoles.js ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/arrayWithoutHoles.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/arrayWithoutHoles.js ***!
+  \******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-var _Array$isArray = __webpack_require__(/*! ../core-js/array/is-array */ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _arrayWithoutHoles; });
+/* harmony import */ var _core_js_array_is_array__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/array/is-array */ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js");
+/* harmony import */ var _core_js_array_is_array__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_array_is_array__WEBPACK_IMPORTED_MODULE_0__);
 
 function _arrayWithoutHoles(arr) {
-  if (_Array$isArray(arr)) {
+  if (_core_js_array_is_array__WEBPACK_IMPORTED_MODULE_0___default()(arr)) {
     for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {
       arr2[i] = arr[i];
     }
@@ -129,17 +133,18 @@ function _arrayWithoutHoles(arr) {
   }
 }
 
-module.exports = _arrayWithoutHoles;
-
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _assertThisInitialized; });
 function _assertThisInitialized(self) {
   if (self === void 0) {
     throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
@@ -148,35 +153,39 @@ function _assertThisInitialized(self) {
   return self;
 }
 
-module.exports = _assertThisInitialized;
-
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js":
-/*!***********************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _classCallCheck; });
 function _classCallCheck(instance, Constructor) {
   if (!(instance instanceof Constructor)) {
     throw new TypeError("Cannot call a class as a function");
   }
 }
 
-module.exports = _classCallCheck;
-
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/createClass.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/createClass.js ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-var _Object$defineProperty = __webpack_require__(/*! ../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _createClass; });
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
+
 
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
@@ -185,7 +194,7 @@ function _defineProperties(target, props) {
     descriptor.configurable = true;
     if ("value" in descriptor) descriptor.writable = true;
 
-    _Object$defineProperty(target, descriptor.key, descriptor);
+    _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(target, descriptor.key, descriptor);
   }
 }
 
@@ -195,59 +204,205 @@ function _createClass(Constructor, protoProps, staticProps) {
   return Constructor;
 }
 
-module.exports = _createClass;
-
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js":
-/*!***********************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-var _Object$getPrototypeOf = __webpack_require__(/*! ../core-js/object/get-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _getPrototypeOf; });
+/* harmony import */ var _core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/get-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js");
+/* harmony import */ var _core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js");
+/* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_1__);
 
-var _Object$setPrototypeOf = __webpack_require__(/*! ../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js");
 
 function _getPrototypeOf(o) {
-  module.exports = _getPrototypeOf = _Object$setPrototypeOf ? _Object$getPrototypeOf : function _getPrototypeOf(o) {
-    return o.__proto__ || _Object$getPrototypeOf(o);
+  _getPrototypeOf = _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_1___default.a ? _core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0___default.a : function _getPrototypeOf(o) {
+    return o.__proto__ || _core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0___default()(o);
   };
   return _getPrototypeOf(o);
 }
 
-module.exports = _getPrototypeOf;
-
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/inherits.js":
-/*!*****************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/inherits.js ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-var _Object$create = __webpack_require__(/*! ../core-js/object/create */ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _inherits; });
+/* harmony import */ var _core_js_object_create__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/create */ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js");
+/* harmony import */ var _core_js_object_create__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_create__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _setPrototypeOf__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/setPrototypeOf.js");
 
-var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js");
 
 function _inherits(subClass, superClass) {
   if (typeof superClass !== "function" && superClass !== null) {
     throw new TypeError("Super expression must either be null or a function");
   }
 
-  subClass.prototype = _Object$create(superClass && superClass.prototype, {
+  subClass.prototype = _core_js_object_create__WEBPACK_IMPORTED_MODULE_0___default()(superClass && superClass.prototype, {
     constructor: {
       value: subClass,
       writable: true,
       configurable: true
     }
   });
-  if (superClass) setPrototypeOf(subClass, superClass);
+  if (superClass) Object(_setPrototypeOf__WEBPACK_IMPORTED_MODULE_1__["default"])(subClass, superClass);
 }
 
-module.exports = _inherits;
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/iterableToArray.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/iterableToArray.js ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _iterableToArray; });
+/* harmony import */ var _core_js_array_from__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/array/from */ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js");
+/* harmony import */ var _core_js_array_from__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_array_from__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _core_js_is_iterable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/is-iterable */ "./node_modules/@babel/runtime-corejs2/core-js/is-iterable.js");
+/* harmony import */ var _core_js_is_iterable__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_is_iterable__WEBPACK_IMPORTED_MODULE_1__);
+
+
+function _iterableToArray(iter) {
+  if (_core_js_is_iterable__WEBPACK_IMPORTED_MODULE_1___default()(Object(iter)) || Object.prototype.toString.call(iter) === "[object Arguments]") return _core_js_array_from__WEBPACK_IMPORTED_MODULE_0___default()(iter);
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/nonIterableSpread.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/nonIterableSpread.js ***!
+  \******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _nonIterableSpread; });
+function _nonIterableSpread() {
+  throw new TypeError("Invalid attempt to spread non-iterable instance");
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _possibleConstructorReturn; });
+/* harmony import */ var _helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../helpers/esm/typeof */ "./node_modules/@babel/runtime-corejs2/helpers/esm/typeof.js");
+/* harmony import */ var _assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+
+
+function _possibleConstructorReturn(self, call) {
+  if (call && (Object(_helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__["default"])(call) === "object" || typeof call === "function")) {
+    return call;
+  }
+
+  return Object(_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__["default"])(self);
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/setPrototypeOf.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/setPrototypeOf.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _setPrototypeOf; });
+/* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js");
+/* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_0__);
+
+function _setPrototypeOf(o, p) {
+  _setPrototypeOf = _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_0___default.a || function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+
+  return _setPrototypeOf(o, p);
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js ***!
+  \******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _toConsumableArray; });
+/* harmony import */ var _arrayWithoutHoles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./arrayWithoutHoles */ "./node_modules/@babel/runtime-corejs2/helpers/esm/arrayWithoutHoles.js");
+/* harmony import */ var _iterableToArray__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iterableToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/iterableToArray.js");
+/* harmony import */ var _nonIterableSpread__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./nonIterableSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/nonIterableSpread.js");
+
+
+
+function _toConsumableArray(arr) {
+  return Object(_arrayWithoutHoles__WEBPACK_IMPORTED_MODULE_0__["default"])(arr) || Object(_iterableToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(arr) || Object(_nonIterableSpread__WEBPACK_IMPORTED_MODULE_2__["default"])();
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/typeof.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/typeof.js ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _typeof; });
+/* harmony import */ var _core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/symbol/iterator */ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js");
+/* harmony import */ var _core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _core_js_symbol__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/symbol */ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js");
+/* harmony import */ var _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_symbol__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+function _typeof2(obj) { if (typeof _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a === "function" && typeof _core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0___default.a === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a === "function" && obj.constructor === _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a && obj !== _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
+
+function _typeof(obj) {
+  if (typeof _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a === "function" && _typeof2(_core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0___default.a) === "symbol") {
+    _typeof = function _typeof(obj) {
+      return _typeof2(obj);
+    };
+  } else {
+    _typeof = function _typeof(obj) {
+      return obj && typeof _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a === "function" && obj.constructor === _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a && obj !== _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a.prototype ? "symbol" : _typeof2(obj);
+    };
+  }
+
+  return _typeof(obj);
+}
 
 /***/ }),
 
@@ -265,137 +420,6 @@ function _interopRequireDefault(obj) {
 }
 
 module.exports = _interopRequireDefault;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/iterableToArray.js":
-/*!************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/iterableToArray.js ***!
-  \************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var _Array$from = __webpack_require__(/*! ../core-js/array/from */ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js");
-
-var _isIterable = __webpack_require__(/*! ../core-js/is-iterable */ "./node_modules/@babel/runtime-corejs2/core-js/is-iterable.js");
-
-function _iterableToArray(iter) {
-  if (_isIterable(Object(iter)) || Object.prototype.toString.call(iter) === "[object Arguments]") return _Array$from(iter);
-}
-
-module.exports = _iterableToArray;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/nonIterableSpread.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/nonIterableSpread.js ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _nonIterableSpread() {
-  throw new TypeError("Invalid attempt to spread non-iterable instance");
-}
-
-module.exports = _nonIterableSpread;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js ***!
-  \**********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var _typeof = __webpack_require__(/*! ../helpers/typeof */ "./node_modules/@babel/runtime-corejs2/helpers/typeof.js");
-
-var assertThisInitialized = __webpack_require__(/*! ./assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js");
-
-function _possibleConstructorReturn(self, call) {
-  if (call && (_typeof(call) === "object" || typeof call === "function")) {
-    return call;
-  }
-
-  return assertThisInitialized(self);
-}
-
-module.exports = _possibleConstructorReturn;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js":
-/*!***********************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var _Object$setPrototypeOf = __webpack_require__(/*! ../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js");
-
-function _setPrototypeOf(o, p) {
-  module.exports = _setPrototypeOf = _Object$setPrototypeOf || function _setPrototypeOf(o, p) {
-    o.__proto__ = p;
-    return o;
-  };
-
-  return _setPrototypeOf(o, p);
-}
-
-module.exports = _setPrototypeOf;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/toConsumableArray.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/toConsumableArray.js ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var arrayWithoutHoles = __webpack_require__(/*! ./arrayWithoutHoles */ "./node_modules/@babel/runtime-corejs2/helpers/arrayWithoutHoles.js");
-
-var iterableToArray = __webpack_require__(/*! ./iterableToArray */ "./node_modules/@babel/runtime-corejs2/helpers/iterableToArray.js");
-
-var nonIterableSpread = __webpack_require__(/*! ./nonIterableSpread */ "./node_modules/@babel/runtime-corejs2/helpers/nonIterableSpread.js");
-
-function _toConsumableArray(arr) {
-  return arrayWithoutHoles(arr) || iterableToArray(arr) || nonIterableSpread();
-}
-
-module.exports = _toConsumableArray;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/typeof.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/typeof.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var _Symbol$iterator = __webpack_require__(/*! ../core-js/symbol/iterator */ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js");
-
-var _Symbol = __webpack_require__(/*! ../core-js/symbol */ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js");
-
-function _typeof2(obj) { if (typeof _Symbol === "function" && typeof _Symbol$iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof _Symbol === "function" && obj.constructor === _Symbol && obj !== _Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
-
-function _typeof(obj) {
-  if (typeof _Symbol === "function" && _typeof2(_Symbol$iterator) === "symbol") {
-    module.exports = _typeof = function _typeof(obj) {
-      return _typeof2(obj);
-    };
-  } else {
-    module.exports = _typeof = function _typeof(obj) {
-      return obj && typeof _Symbol === "function" && obj.constructor === _Symbol && obj !== _Symbol.prototype ? "symbol" : _typeof2(obj);
-    };
-  }
-
-  return _typeof(obj);
-}
-
-module.exports = _typeof;
 
 /***/ }),
 
@@ -1340,10 +1364,10 @@ exports.RETURN = RETURN;
   !*** ./node_modules/core-js/library/modules/_global.js ***!
   \*********************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
 // https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
-var global = module.exports = typeof window != 'undefined' && window.Math == Math
+var global = module.exports =  true && window.Math == Math
   ? window : typeof self != 'undefined' && self.Math == Math ? self
   // eslint-disable-next-line no-new-func
   : Function('return this')();
@@ -1885,7 +1909,7 @@ var toIObject = __webpack_require__(/*! ./_to-iobject */ "./node_modules/core-js
 var gOPN = __webpack_require__(/*! ./_object-gopn */ "./node_modules/core-js/library/modules/_object-gopn.js").f;
 var toString = {}.toString;
 
-var windowNames = typeof window == 'object' && window && Object.getOwnPropertyNames
+var windowNames =  true && window && Object.getOwnPropertyNames
   ? Object.getOwnPropertyNames(window) : [];
 
 var getWindowNames = function (it) {
@@ -3131,9 +3155,11 @@ for (var i = 0; i < DOMIterables.length; i++) {
 "use strict";
 
 
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
 
-var __importStar = this && this.__importStar || function (mod) {
+var _defineProperty = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js"));
+
+var __importStar = void 0 && (void 0).__importStar || function (mod) {
   if (mod && mod.__esModule) return mod;
   var result = {};
   if (mod != null) for (var k in mod) {
@@ -3143,7 +3169,7 @@ var __importStar = this && this.__importStar || function (mod) {
   return result;
 };
 
-_Object$defineProperty(exports, "__esModule", {
+(0, _defineProperty["default"])(exports, "__esModule", {
   value: true
 });
 
@@ -3163,15 +3189,17 @@ exports.AmpStateContext = React.createContext({});
 "use strict";
 
 
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
 
-var __importDefault = this && this.__importDefault || function (mod) {
+var _defineProperty = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js"));
+
+var __importDefault = void 0 && (void 0).__importDefault || function (mod) {
   return mod && mod.__esModule ? mod : {
     "default": mod
   };
 };
 
-_Object$defineProperty(exports, "__esModule", {
+(0, _defineProperty["default"])(exports, "__esModule", {
   value: true
 });
 
@@ -3194,8 +3222,9 @@ function isInAmpMode() {
 exports.isInAmpMode = isInAmpMode;
 
 function useAmp() {
-  // Don't assign the context value to a variable to save bytes
-  return isInAmpMode(react_1["default"].useContext(amp_context_1.AmpStateContext));
+  var ampState = react_1["default"].useContext(amp_context_1.AmpStateContext); // un-comment below to not be considered AMP in dirty mode
+
+  return isInAmpMode(ampState); // && ampMode.hasQuery
 }
 
 exports.useAmp = useAmp;
@@ -3212,9 +3241,11 @@ exports.useAmp = useAmp;
 "use strict";
 
 
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
 
-var __importStar = this && this.__importStar || function (mod) {
+var _defineProperty = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js"));
+
+var __importStar = void 0 && (void 0).__importStar || function (mod) {
   if (mod && mod.__esModule) return mod;
   var result = {};
   if (mod != null) for (var k in mod) {
@@ -3224,7 +3255,7 @@ var __importStar = this && this.__importStar || function (mod) {
   return result;
 };
 
-_Object$defineProperty(exports, "__esModule", {
+(0, _defineProperty["default"])(exports, "__esModule", {
   value: true
 });
 
@@ -3244,17 +3275,19 @@ exports.HeadManagerContext = React.createContext(null);
 "use strict";
 
 
-var _Set = __webpack_require__(/*! @babel/runtime-corejs2/core-js/set */ "./node_modules/@babel/runtime-corejs2/core-js/set.js");
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
 
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+var _set = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/set */ "./node_modules/@babel/runtime-corejs2/core-js/set.js"));
 
-var __importDefault = this && this.__importDefault || function (mod) {
+var _defineProperty = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js"));
+
+var __importDefault = void 0 && (void 0).__importDefault || function (mod) {
   return mod && mod.__esModule ? mod : {
     "default": mod
   };
 };
 
-_Object$defineProperty(exports, "__esModule", {
+(0, _defineProperty["default"])(exports, "__esModule", {
   value: true
 });
 
@@ -3269,17 +3302,20 @@ var head_manager_context_1 = __webpack_require__(/*! ./head-manager-context */ "
 var amp_1 = __webpack_require__(/*! ./amp */ "./node_modules/next-server/dist/lib/amp.js");
 
 function defaultHead() {
-  var inAmpMode = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
+  var className = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'next-head';
+  var inAmpMode = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
   var head = [react_1["default"].createElement("meta", {
     key: "charSet",
-    charSet: "utf-8"
+    charSet: "utf-8",
+    className: className
   })];
 
   if (!inAmpMode) {
     head.push(react_1["default"].createElement("meta", {
       key: "viewport",
       name: "viewport",
-      content: "width=device-width,minimum-scale=1,initial-scale=1"
+      content: "width=device-width,minimum-scale=1,initial-scale=1",
+      className: className
     }));
   }
 
@@ -3316,9 +3352,9 @@ var METATYPES = ['name', 'httpEquiv', 'charSet', 'itemProp'];
 */
 
 function unique() {
-  var keys = new _Set();
-  var tags = new _Set();
-  var metaTypes = new _Set();
+  var keys = new _set["default"]();
+  var tags = new _set["default"]();
+  var metaTypes = new _set["default"]();
   var metaCategories = {};
   return function (h) {
     if (h.key && typeof h.key !== 'number' && h.key.indexOf('.$') === 0) {
@@ -3344,7 +3380,7 @@ function unique() {
             metaTypes.add(metatype);
           } else {
             var category = h.props[metatype];
-            var categories = metaCategories[metatype] || new _Set();
+            var categories = metaCategories[metatype] || new _set["default"]();
             if (categories.has(category)) return false;
             categories.add(category);
             metaCategories[metatype] = categories;
@@ -3367,10 +3403,17 @@ function reduceComponents(headElements, props) {
   return headElements.reduce(function (list, headElement) {
     var headElementChildren = react_1["default"].Children.toArray(headElement.props.children);
     return list.concat(headElementChildren);
-  }, []).reduce(onlyReactElement, []).reverse().concat(defaultHead(props.inAmpMode)).filter(unique()).reverse().map(function (c, i) {
+  }, []).reduce(onlyReactElement, []).reverse().concat(defaultHead('', props.inAmpMode)).filter(unique()).reverse().map(function (c, i) {
+    var className = (c.props && c.props.className ? c.props.className + ' ' : '') + 'next-head';
+
+    if (c.type === 'title' && !c.props.className) {
+      className = undefined;
+    }
+
     var key = c.key || i;
     return react_1["default"].cloneElement(c, {
-      key: key
+      key: key,
+      className: className
     });
   });
 }
@@ -3409,38 +3452,40 @@ exports["default"] = Head;
 "use strict";
 
 
-var _classCallCheck = __webpack_require__(/*! @babel/runtime-corejs2/helpers/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js");
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
 
-var _possibleConstructorReturn = __webpack_require__(/*! @babel/runtime-corejs2/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js");
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js"));
 
-var _getPrototypeOf = __webpack_require__(/*! @babel/runtime-corejs2/helpers/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js");
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js"));
 
-var _assertThisInitialized = __webpack_require__(/*! @babel/runtime-corejs2/helpers/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js");
+var _getPrototypeOf2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js"));
 
-var _createClass = __webpack_require__(/*! @babel/runtime-corejs2/helpers/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/createClass.js");
+var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js"));
 
-var _inherits = __webpack_require__(/*! @babel/runtime-corejs2/helpers/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/inherits.js");
+var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js"));
 
-var _toConsumableArray = __webpack_require__(/*! @babel/runtime-corejs2/helpers/toConsumableArray */ "./node_modules/@babel/runtime-corejs2/helpers/toConsumableArray.js");
+var _inherits2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js"));
 
-var _Set = __webpack_require__(/*! @babel/runtime-corejs2/core-js/set */ "./node_modules/@babel/runtime-corejs2/core-js/set.js");
+var _toConsumableArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/toConsumableArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js"));
 
-var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+var _set = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/set */ "./node_modules/@babel/runtime-corejs2/core-js/set.js"));
 
-_Object$defineProperty(exports, "__esModule", {
+var _defineProperty = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js"));
+
+(0, _defineProperty["default"])(exports, "__esModule", {
   value: true
 });
 
 var react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
-var isServer = false;
+var isServer = "object" === 'undefined';
 
 exports["default"] = function () {
-  var mountedInstances = new _Set();
+  var mountedInstances = new _set["default"]();
   var state;
 
   function emitChange(component) {
-    state = component.props.reduceComponentsToState(_toConsumableArray(mountedInstances), component.props);
+    state = component.props.reduceComponentsToState((0, _toConsumableArray2["default"])(mountedInstances), component.props);
 
     if (component.props.handleStateChange) {
       component.props.handleStateChange(state);
@@ -3450,9 +3495,8 @@ exports["default"] = function () {
   return (
     /*#__PURE__*/
     function (_react_1$Component) {
-      _inherits(_class, _react_1$Component);
-
-      _createClass(_class, null, [{
+      (0, _inherits2["default"])(_class, _react_1$Component);
+      (0, _createClass2["default"])(_class, null, [{
         key: "rewind",
         // Used when server rendering
         value: function rewind() {
@@ -3466,19 +3510,18 @@ exports["default"] = function () {
       function _class(props) {
         var _this;
 
-        _classCallCheck(this, _class);
-
-        _this = _possibleConstructorReturn(this, _getPrototypeOf(_class).call(this, props));
+        (0, _classCallCheck2["default"])(this, _class);
+        _this = (0, _possibleConstructorReturn2["default"])(this, (0, _getPrototypeOf2["default"])(_class).call(this, props));
 
         if (isServer) {
-          mountedInstances.add(_assertThisInitialized(_this));
-          emitChange(_assertThisInitialized(_this));
+          mountedInstances.add((0, _assertThisInitialized2["default"])(_this));
+          emitChange((0, _assertThisInitialized2["default"])(_this));
         }
 
         return _this;
       }
 
-      _createClass(_class, [{
+      (0, _createClass2["default"])(_class, [{
         key: "componentDidMount",
         value: function componentDidMount() {
           mountedInstances.add(this);
@@ -3501,7 +3544,6 @@ exports["default"] = function () {
           return null;
         }
       }]);
-
       return _class;
     }(react_1.Component)
   );
@@ -3554,15 +3596,17 @@ module.exports = __webpack_require__(/*! ./dist/lib/head */ "./node_modules/next
 "use strict";
 
 
-var _classCallCheck = __webpack_require__(/*! @babel/runtime-corejs2/helpers/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js");
+var _interopRequireDefault2 = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
 
-var _createClass = __webpack_require__(/*! @babel/runtime-corejs2/helpers/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/createClass.js");
+var _classCallCheck2 = _interopRequireDefault2(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js"));
 
-var _possibleConstructorReturn = __webpack_require__(/*! @babel/runtime-corejs2/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js");
+var _createClass2 = _interopRequireDefault2(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js"));
 
-var _getPrototypeOf = __webpack_require__(/*! @babel/runtime-corejs2/helpers/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js");
+var _possibleConstructorReturn2 = _interopRequireDefault2(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js"));
 
-var _inherits = __webpack_require__(/*! @babel/runtime-corejs2/helpers/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/inherits.js");
+var _getPrototypeOf2 = _interopRequireDefault2(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js"));
+
+var _inherits2 = _interopRequireDefault2(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js"));
 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
 
@@ -3586,15 +3630,14 @@ var statusCodes = {
 var Error =
 /*#__PURE__*/
 function (_react$default$Compon) {
-  _inherits(Error, _react$default$Compon);
+  (0, _inherits2["default"])(Error, _react$default$Compon);
 
   function Error() {
-    _classCallCheck(this, Error);
-
-    return _possibleConstructorReturn(this, _getPrototypeOf(Error).apply(this, arguments));
+    (0, _classCallCheck2["default"])(this, Error);
+    return (0, _possibleConstructorReturn2["default"])(this, (0, _getPrototypeOf2["default"])(Error).apply(this, arguments));
   }
 
-  _createClass(Error, [{
+  (0, _createClass2["default"])(Error, [{
     key: "render",
     value: function render() {
       var statusCode = this.props.statusCode;
@@ -3624,7 +3667,6 @@ function (_react$default$Compon) {
       };
     }
   }]);
-
   return Error;
 }(_react["default"].Component);
 
@@ -3672,23 +3714,23 @@ var styles = {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_4cbc3223160d403191c6 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_6dc2816e14fab51b8269 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_4cbc3223160d403191c6 */ "dll-reference dll_4cbc3223160d403191c6"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_6dc2816e14fab51b8269 */ "dll-reference dll_6dc2816e14fab51b8269"))("./node_modules/react/index.js");
 
 /***/ }),
 
-/***/ "dll-reference dll_4cbc3223160d403191c6":
+/***/ "dll-reference dll_6dc2816e14fab51b8269":
 /*!*******************************************!*\
-  !*** external "dll_4cbc3223160d403191c6" ***!
+  !*** external "dll_6dc2816e14fab51b8269" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_4cbc3223160d403191c6;
+module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 

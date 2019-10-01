@@ -1,1 +1,0 @@
-{"ast":null,"code":"export { default as Landing } from './landing';","map":{"version":3,"sources":["/Users/justin.w/Documents/GitHub/market-data-company/sections/contact-section/index.js"],"names":["default","Landing"],"mappings":"AAAA,SAASA,OAAO,IAAIC,OAApB,QAAmC,WAAnC","sourcesContent":["export { default as Landing } from './landing'\n"]},"metadata":{},"sourceType":"module"}
