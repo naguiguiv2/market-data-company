@@ -115,6 +115,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/date/now */ "core-js
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/get-iterator.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/get-iterator.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/get-iterator */ "core-js/library/fn/get-iterator");
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js":
 /*!***********************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js ***!
@@ -137,6 +148,28 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/assign */ "co
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/create.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/create */ "core-js/library/fn/object/create");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/define-properties */ "core-js/library/fn/object/define-properties");
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js":
 /*!*******************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js ***!
@@ -145,6 +178,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/assign */ "co
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/define-property */ "core-js/library/fn/object/define-property");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/freeze.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/freeze.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/freeze */ "core-js/library/fn/object/freeze");
 
 /***/ }),
 
@@ -170,6 +214,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-prope
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js":
+/*!********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/get-prototype-of */ "core-js/library/fn/object/get-prototype-of");
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js":
 /*!********************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/keys.js ***!
@@ -178,6 +233,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-prope
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/keys */ "core-js/library/fn/object/keys");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js":
+/*!********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/set-prototype-of */ "core-js/library/fn/object/set-prototype-of");
 
 /***/ }),
 
@@ -200,6 +266,28 @@ module.exports = __webpack_require__(/*! core-js/library/fn/promise */ "core-js/
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/set */ "core-js/library/fn/set");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/symbol.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/symbol */ "core-js/library/fn/symbol");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/symbol/iterator */ "core-js/library/fn/symbol/iterator");
 
 /***/ }),
 
@@ -249,6 +337,77 @@ function _asyncToGenerator(fn) {
 }
 
 module.exports = _asyncToGenerator;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _assertThisInitialized; });
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _classCallCheck; });
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _createClass; });
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+
+    _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  return Constructor;
+}
 
 /***/ }),
 
@@ -315,6 +474,63 @@ function _extends() {
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _getPrototypeOf; });
+/* harmony import */ var _core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/get-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js");
+/* harmony import */ var _core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js");
+/* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_1__);
+
+
+function _getPrototypeOf(o) {
+  _getPrototypeOf = _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_1___default.a ? _core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0___default.a : function _getPrototypeOf(o) {
+    return o.__proto__ || _core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0___default()(o);
+  };
+  return _getPrototypeOf(o);
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _inherits; });
+/* harmony import */ var _core_js_object_create__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/create */ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js");
+/* harmony import */ var _core_js_object_create__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_create__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _setPrototypeOf__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/setPrototypeOf.js");
+
+
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function");
+  }
+
+  subClass.prototype = _core_js_object_create__WEBPACK_IMPORTED_MODULE_0___default()(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      writable: true,
+      configurable: true
+    }
+  });
+  if (superClass) Object(_setPrototypeOf__WEBPACK_IMPORTED_MODULE_1__["default"])(subClass, superClass);
+}
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js":
 /*!*************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js ***!
@@ -354,6 +570,119 @@ function _objectSpread(target) {
   }
 
   return target;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _possibleConstructorReturn; });
+/* harmony import */ var _helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../helpers/esm/typeof */ "./node_modules/@babel/runtime-corejs2/helpers/esm/typeof.js");
+/* harmony import */ var _assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+
+
+function _possibleConstructorReturn(self, call) {
+  if (call && (Object(_helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__["default"])(call) === "object" || typeof call === "function")) {
+    return call;
+  }
+
+  return Object(_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__["default"])(self);
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/setPrototypeOf.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/setPrototypeOf.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _setPrototypeOf; });
+/* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js");
+/* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_0__);
+
+function _setPrototypeOf(o, p) {
+  _setPrototypeOf = _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_0___default.a || function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+
+  return _setPrototypeOf(o, p);
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _taggedTemplateLiteral; });
+/* harmony import */ var _core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-properties */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js");
+/* harmony import */ var _core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _core_js_object_freeze__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/object/freeze */ "./node_modules/@babel/runtime-corejs2/core-js/object/freeze.js");
+/* harmony import */ var _core_js_object_freeze__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_freeze__WEBPACK_IMPORTED_MODULE_1__);
+
+
+function _taggedTemplateLiteral(strings, raw) {
+  if (!raw) {
+    raw = strings.slice(0);
+  }
+
+  return _core_js_object_freeze__WEBPACK_IMPORTED_MODULE_1___default()(_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_0___default()(strings, {
+    raw: {
+      value: _core_js_object_freeze__WEBPACK_IMPORTED_MODULE_1___default()(raw)
+    }
+  }));
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/typeof.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/typeof.js ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _typeof; });
+/* harmony import */ var _core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/symbol/iterator */ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js");
+/* harmony import */ var _core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _core_js_symbol__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/symbol */ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js");
+/* harmony import */ var _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_symbol__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+function _typeof2(obj) { if (typeof _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a === "function" && typeof _core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0___default.a === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a === "function" && obj.constructor === _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a && obj !== _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
+
+function _typeof(obj) {
+  if (typeof _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a === "function" && _typeof2(_core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0___default.a) === "symbol") {
+    _typeof = function _typeof(obj) {
+      return _typeof2(obj);
+    };
+  } else {
+    _typeof = function _typeof(obj) {
+      return obj && typeof _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a === "function" && obj.constructor === _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a && obj !== _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a.prototype ? "symbol" : _typeof2(obj);
+    };
+  }
+
+  return _typeof(obj);
 }
 
 /***/ }),
@@ -446,6 +775,18 @@ module.exports = _interopRequireWildcard;
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/regenerator/index.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/regenerator/index.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! regenerator-runtime */ "regenerator-runtime");
+
+
+/***/ }),
+
 /***/ "./node_modules/next/dist/pages/_document.js":
 /*!***************************************************!*\
   !*** ./node_modules/next/dist/pages/_document.js ***!
@@ -456,13 +797,29 @@ module.exports = _interopRequireWildcard;
 "use strict";
 
 
+var _interopRequireDefault2 = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+
+var _classCallCheck2 = _interopRequireDefault2(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js"));
+
+var _createClass2 = _interopRequireDefault2(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault2(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js"));
+
+var _getPrototypeOf2 = _interopRequireDefault2(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js"));
+
+var _inherits2 = _interopRequireDefault2(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js"));
+
+var _getIterator2 = _interopRequireDefault2(__webpack_require__(/*! @babel/runtime-corejs2/core-js/get-iterator */ "./node_modules/@babel/runtime-corejs2/core-js/get-iterator.js"));
+
+var _regenerator = _interopRequireDefault2(__webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js"));
+
 var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js");
 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
 
 exports.__esModule = true;
 exports.middleware = middleware;
-exports.NextScript = exports.Main = exports.Head = exports.Html = exports.default = void 0;
+exports.NextScript = exports.Main = exports.Head = exports.Html = exports["default"] = void 0;
 
 var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js"));
 
@@ -503,32 +860,56 @@ function middleware(_x) {
 }
 
 function _middleware() {
-  _middleware = (0, _asyncToGenerator2.default)(function* (_ref) {
-    let {
-      req,
-      res
-    } = _ref;
-  });
+  _middleware = (0, _asyncToGenerator2["default"])(
+  /*#__PURE__*/
+  _regenerator["default"].mark(function _callee(_ref) {
+    var req, res;
+    return _regenerator["default"].wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            req = _ref.req, res = _ref.res;
+
+          case 1:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, _callee);
+  }));
   return _middleware.apply(this, arguments);
 }
 
 function dedupe(bundles) {
-  const files = new _set.default();
-  const kept = [];
+  var files = new _set["default"]();
+  var kept = [];
+  var _iteratorNormalCompletion = true;
+  var _didIteratorError = false;
+  var _iteratorError = undefined;
 
-  for (const bundle of bundles) {
-    if (files.has(bundle.file)) continue;
-    files.add(bundle.file);
-    kept.push(bundle);
+  try {
+    for (var _iterator = (0, _getIterator2["default"])(bundles), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+      var bundle = _step.value;
+      if (files.has(bundle.file)) continue;
+      files.add(bundle.file);
+      kept.push(bundle);
+    }
+  } catch (err) {
+    _didIteratorError = true;
+    _iteratorError = err;
+  } finally {
+    try {
+      if (!_iteratorNormalCompletion && _iterator["return"] != null) {
+        _iterator["return"]();
+      }
+    } finally {
+      if (_didIteratorError) {
+        throw _iteratorError;
+      }
+    }
   }
 
   return kept;
-}
-
-function getOptionalModernScriptVariant(path) {
-  if (false) {}
-
-  return path;
 }
 /**
 * `Document` component handles the initial `document` markup and renders only on the server side.
@@ -536,524 +917,564 @@ function getOptionalModernScriptVariant(path) {
 */
 
 
-class Document extends _react.Component {
-  constructor() {
-    super(...arguments);
-    this.context = void 0;
+var Document =
+/*#__PURE__*/
+function (_react$Component) {
+  (0, _inherits2["default"])(Document, _react$Component);
+
+  function Document() {
+    var _this;
+
+    (0, _classCallCheck2["default"])(this, Document);
+    _this = (0, _possibleConstructorReturn2["default"])(this, (0, _getPrototypeOf2["default"])(Document).apply(this, arguments));
+    _this.context = void 0;
+    return _this;
   }
 
-  static getInitialProps(_ref2) {
-    return (0, _asyncToGenerator2.default)(function* () {
-      let {
-        renderPage
-      } = _ref2;
-      const {
-        html,
-        head,
-        dataOnly
-      } = yield renderPage();
-      const styles = (0, _server.default)();
+  (0, _createClass2["default"])(Document, [{
+    key: "getChildContext",
+    value: function getChildContext() {
       return {
-        html,
-        head,
-        styles,
-        dataOnly
+        _documentProps: this.props,
+        // In dev we invalidate the cache by appending a timestamp to the resource URL.
+        // This is a workaround to fix https://github.com/zeit/next.js/issues/5860
+        // TODO: remove this workaround when https://bugs.webkit.org/show_bug.cgi?id=187726 is fixed.
+        _devOnlyInvalidateCacheQueryString:  true ? '?ts=' + (0, _now["default"])() : undefined
       };
-    })();
-  }
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return _react["default"].createElement(Html, null, _react["default"].createElement(Head, null), _react["default"].createElement("body", null, _react["default"].createElement(Main, null), _react["default"].createElement(NextScript, null)));
+    }
+  }], [{
+    key: "getInitialProps",
+    value: function getInitialProps(_ref2) {
+      return (0, _asyncToGenerator2["default"])(
+      /*#__PURE__*/
+      _regenerator["default"].mark(function _callee2() {
+        var renderPage, _ref3, html, head, dataOnly, styles;
 
-  getChildContext() {
-    return {
-      _documentProps: this.props,
-      // In dev we invalidate the cache by appending a timestamp to the resource URL.
-      // This is a workaround to fix https://github.com/zeit/next.js/issues/5860
-      // TODO: remove this workaround when https://bugs.webkit.org/show_bug.cgi?id=187726 is fixed.
-      _devOnlyInvalidateCacheQueryString:  true ? '?ts=' + (0, _now.default)() : undefined
-    };
-  }
+        return _regenerator["default"].wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                renderPage = _ref2.renderPage;
+                _context2.next = 3;
+                return renderPage();
 
-  render() {
-    return _react.default.createElement(Html, null, _react.default.createElement(Head, null), _react.default.createElement("body", null, _react.default.createElement(Main, null), _react.default.createElement(NextScript, null)));
-  }
+              case 3:
+                _ref3 = _context2.sent;
+                html = _ref3.html;
+                head = _ref3.head;
+                dataOnly = _ref3.dataOnly;
+                styles = (0, _server["default"])();
+                return _context2.abrupt("return", {
+                  html: html,
+                  head: head,
+                  styles: styles,
+                  dataOnly: dataOnly
+                });
 
-}
+              case 9:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2);
+      }))();
+    }
+  }]);
+  return Document;
+}(_react.Component);
 
-exports.default = Document;
+exports["default"] = Document;
 Document.childContextTypes = {
-  _documentProps: _propTypes.default.any,
-  _devOnlyInvalidateCacheQueryString: _propTypes.default.string
+  _documentProps: _propTypes["default"].any,
+  _devOnlyInvalidateCacheQueryString: _propTypes["default"].string
   /**
-  * `getInitialProps` hook returns the context object with the addition of `renderPage`.
+  * `getInitialProps` hook returns the context object with the addition of `renderPage`. `
   * `renderPage` callback executes `React` rendering logic synchronously to support server-rendering wrappers
   */
 
 };
 
-class Html extends _react.Component {
-  constructor() {
-    super(...arguments);
-    this.context = void 0;
+var Html =
+/*#__PURE__*/
+function (_react$Component2) {
+  (0, _inherits2["default"])(Html, _react$Component2);
+
+  function Html() {
+    var _this2;
+
+    (0, _classCallCheck2["default"])(this, Html);
+    _this2 = (0, _possibleConstructorReturn2["default"])(this, (0, _getPrototypeOf2["default"])(Html).apply(this, arguments));
+    _this2.context = void 0;
+    return _this2;
   }
 
-  render() {
-    const {
-      inAmpMode
-    } = this.context._documentProps;
-    return _react.default.createElement("html", (0, _extends2.default)({}, this.props, {
-      amp: inAmpMode ? '' : undefined
-    }));
-  }
-
-}
+  (0, _createClass2["default"])(Html, [{
+    key: "render",
+    value: function render() {
+      var inAmpMode = this.context._documentProps.inAmpMode;
+      return _react["default"].createElement("html", (0, _extends2["default"])({}, this.props, {
+        amp: inAmpMode ? '' : undefined
+      }));
+    }
+  }]);
+  return Html;
+}(_react.Component);
 
 exports.Html = Html;
 Html.contextTypes = {
-  _documentProps: _propTypes.default.any
+  _documentProps: _propTypes["default"].any
 };
 Html.propTypes = {
-  children: _propTypes.default.node.isRequired
+  children: _propTypes["default"].node.isRequired
 };
 
-class Head extends _react.Component {
-  constructor() {
-    super(...arguments);
-    this.context = void 0;
+var Head =
+/*#__PURE__*/
+function (_react$Component3) {
+  (0, _inherits2["default"])(Head, _react$Component3);
+
+  function Head() {
+    var _this3;
+
+    (0, _classCallCheck2["default"])(this, Head);
+    _this3 = (0, _possibleConstructorReturn2["default"])(this, (0, _getPrototypeOf2["default"])(Head).apply(this, arguments));
+    _this3.context = void 0;
+    return _this3;
   }
 
-  getCssLinks() {
-    const {
-      assetPrefix,
-      files
-    } = this.context._documentProps;
+  (0, _createClass2["default"])(Head, [{
+    key: "getCssLinks",
+    value: function getCssLinks() {
+      var _this4 = this;
 
-    if (!files || files.length === 0) {
-      return null;
+      var _this$context$_docume = this.context._documentProps,
+          assetPrefix = _this$context$_docume.assetPrefix,
+          files = _this$context$_docume.files;
+
+      if (!files || files.length === 0) {
+        return null;
+      }
+
+      return files.map(function (file) {
+        // Only render .css files here
+        if (!/\.css$/.exec(file)) {
+          return null;
+        }
+
+        return _react["default"].createElement("link", {
+          key: file,
+          nonce: _this4.props.nonce,
+          rel: "stylesheet",
+          href: assetPrefix + "/_next/" + file,
+          crossOrigin: _this4.props.crossOrigin || undefined
+        });
+      });
     }
+  }, {
+    key: "getPreloadDynamicChunks",
+    value: function getPreloadDynamicChunks() {
+      var _this5 = this;
 
-    return files.map(file => {
-      // Only render .css files here
-      if (!/\.css$/.exec(file)) {
-        return null;
-      }
-
-      return _react.default.createElement("link", {
-        key: file,
-        nonce: this.props.nonce,
-        rel: "stylesheet",
-        href: assetPrefix + "/_next/" + file,
-        crossOrigin: this.props.crossOrigin || undefined
+      var _this$context$_docume2 = this.context._documentProps,
+          dynamicImports = _this$context$_docume2.dynamicImports,
+          assetPrefix = _this$context$_docume2.assetPrefix;
+      var _devOnlyInvalidateCacheQueryString = this.context._devOnlyInvalidateCacheQueryString;
+      return dedupe(dynamicImports).map(function (bundle) {
+        return _react["default"].createElement("link", {
+          rel: "preload",
+          key: bundle.file,
+          href: assetPrefix + "/_next/" + bundle.file + _devOnlyInvalidateCacheQueryString,
+          as: "script",
+          nonce: _this5.props.nonce,
+          crossOrigin: _this5.props.crossOrigin || undefined
+        });
       });
-    });
-  }
-
-  getPreloadDynamicChunks() {
-    const {
-      dynamicImports,
-      assetPrefix
-    } = this.context._documentProps;
-    const {
-      _devOnlyInvalidateCacheQueryString
-    } = this.context;
-    return dedupe(dynamicImports).map(bundle => {
-      // `dynamicImports` will contain both `.js` and `.module.js` when the
-      // feature is enabled. This clause will filter down to the modern
-      // variants only.
-      if (!bundle.file.endsWith(getOptionalModernScriptVariant('.js'))) {
-        return null;
-      }
-
-      return _react.default.createElement("link", {
-        rel: "preload",
-        key: bundle.file,
-        href: assetPrefix + "/_next/" + bundle.file + _devOnlyInvalidateCacheQueryString,
-        as: "script",
-        nonce: this.props.nonce,
-        crossOrigin: this.props.crossOrigin || undefined
-      });
-    }) // Filter out nulled scripts
-    .filter(Boolean);
-  }
-
-  getPreloadMainLinks() {
-    const {
-      assetPrefix,
-      files
-    } = this.context._documentProps;
-
-    if (!files || files.length === 0) {
-      return null;
     }
+  }, {
+    key: "getPreloadMainLinks",
+    value: function getPreloadMainLinks() {
+      var _this6 = this;
 
-    const {
-      _devOnlyInvalidateCacheQueryString
-    } = this.context;
-    return files.map(file => {
-      // `dynamicImports` will contain both `.js` and `.module.js` when the
-      // feature is enabled. This clause will filter down to the modern
-      // variants only.
-      // This also filters out non-JS assets.
-      if (!file.endsWith(getOptionalModernScriptVariant('.js'))) {
+      var _this$context$_docume3 = this.context._documentProps,
+          assetPrefix = _this$context$_docume3.assetPrefix,
+          files = _this$context$_docume3.files;
+
+      if (!files || files.length === 0) {
         return null;
       }
 
-      return _react.default.createElement("link", {
-        key: file,
-        nonce: this.props.nonce,
-        rel: "preload",
-        href: assetPrefix + "/_next/" + file + _devOnlyInvalidateCacheQueryString,
-        as: "script",
-        crossOrigin: this.props.crossOrigin || undefined
+      var _devOnlyInvalidateCacheQueryString = this.context._devOnlyInvalidateCacheQueryString;
+      return files.map(function (file) {
+        // Only render .js files here
+        if (!/\.js$/.exec(file)) {
+          return null;
+        }
+
+        return _react["default"].createElement("link", {
+          key: file,
+          nonce: _this6.props.nonce,
+          rel: "preload",
+          href: assetPrefix + "/_next/" + file + _devOnlyInvalidateCacheQueryString,
+          as: "script",
+          crossOrigin: _this6.props.crossOrigin || undefined
+        });
       });
-    }).filter(Boolean);
-  }
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this$context$_docume4 = this.context._documentProps,
+          styles = _this$context$_docume4.styles,
+          ampPath = _this$context$_docume4.ampPath,
+          inAmpMode = _this$context$_docume4.inAmpMode,
+          assetPrefix = _this$context$_docume4.assetPrefix,
+          hybridAmp = _this$context$_docume4.hybridAmp,
+          canonicalBase = _this$context$_docume4.canonicalBase,
+          __NEXT_DATA__ = _this$context$_docume4.__NEXT_DATA__,
+          dangerousAsPath = _this$context$_docume4.dangerousAsPath;
+      var _devOnlyInvalidateCacheQueryString = this.context._devOnlyInvalidateCacheQueryString;
+      var page = __NEXT_DATA__.page,
+          buildId = __NEXT_DATA__.buildId,
+          dynamicBuildId = __NEXT_DATA__.dynamicBuildId;
+      var head = this.context._documentProps.head;
+      var children = this.props.children; // show a warning if Head contains <title> (only in development)
 
-  render() {
-    const {
-      styles,
-      ampPath,
-      inAmpMode,
-      assetPrefix,
-      hybridAmp,
-      canonicalBase,
-      __NEXT_DATA__,
-      dangerousAsPath
-    } = this.context._documentProps;
-    const {
-      _devOnlyInvalidateCacheQueryString
-    } = this.context;
-    const {
-      page,
-      buildId
-    } = __NEXT_DATA__;
-    let {
-      head
-    } = this.context._documentProps;
-    let children = this.props.children; // show a warning if Head contains <title> (only in development)
+      if (true) {
+        children = _react["default"].Children.map(children, function (child) {
+          var isReactHelmet = child && child.props && child.props['data-react-helmet'];
 
-    if (true) {
-      children = _react.default.Children.map(children, child => {
-        const isReactHelmet = child && child.props && child.props['data-react-helmet'];
+          if (child && child.type === 'title' && !isReactHelmet) {
+            console.warn("Warning: <title> should not be used in _document.js's <Head>. https://err.sh/next.js/no-document-title");
+          }
 
-        if (child && child.type === 'title' && !isReactHelmet) {
-          console.warn("Warning: <title> should not be used in _document.js's <Head>. https://err.sh/next.js/no-document-title");
+          return child;
+        });
+        if (this.props.crossOrigin) console.warn('Warning: `Head` attribute `crossOrigin` is deprecated. https://err.sh/next.js/doc-crossorigin-deprecated');
+      } // show warning and remove conflicting amp head tags
+
+
+      head = !inAmpMode ? head : _react["default"].Children.map(head || [], function (child) {
+        if (!child) return child;
+        var type = child.type,
+            props = child.props;
+        var badProp = '';
+
+        if (type === 'meta' && props.name === 'viewport') {
+          badProp = 'name="viewport"';
+        } else if (type === 'link' && props.rel === 'canonical') {
+          badProp = 'rel="canonical"';
+        } else if (type === 'script') {
+          // only block if
+          // 1. it has a src and isn't pointing to ampproject's CDN
+          // 2. it is using dangerouslySetInnerHTML without a type or
+          // a type of text/javascript
+          if (props.src && props.src.indexOf('ampproject') < -1 || props.dangerouslySetInnerHTML && (!props.type || props.type === 'text/javascript')) {
+            badProp = '<script';
+            (0, _keys["default"])(props).forEach(function (prop) {
+              badProp += " " + prop + "=\"" + props[prop] + "\"";
+            });
+            badProp += '/>';
+          }
+        }
+
+        if (badProp) {
+          console.warn("Found conflicting amp tag \"" + child.type + "\" with conflicting prop " + badProp + " in " + __NEXT_DATA__.page + ". https://err.sh/next.js/conflicting-amp-tag");
+          return null;
         }
 
         return child;
-      });
-      if (this.props.crossOrigin) console.warn('Warning: `Head` attribute `crossOrigin` is deprecated. https://err.sh/next.js/doc-crossorigin-deprecated');
-    }
+      }); // try to parse styles from fragment for backwards compat
 
-    let hasAmphtmlRel = false;
-    let hasCanonicalRel = false; // show warning and remove conflicting amp head tags
+      var curStyles = (0, _isArray["default"])(styles) ? styles : [];
 
-    head = !inAmpMode ? head : _react.default.Children.map(head || [], child => {
-      if (!child) return child;
-      const {
-        type,
-        props
-      } = child;
-      let badProp = '';
+      if (inAmpMode && styles && // @ts-ignore Property 'props' does not exist on type ReactElement
+      styles.props && // @ts-ignore Property 'props' does not exist on type ReactElement
+      (0, _isArray["default"])(styles.props.children)) {
+        var hasStyles = function hasStyles(el) {
+          return el && el.props && el.props.dangerouslySetInnerHTML && el.props.dangerouslySetInnerHTML.__html;
+        }; // @ts-ignore Property 'props' does not exist on type ReactElement
 
-      if (type === 'meta' && props.name === 'viewport') {
-        badProp = 'name="viewport"';
-      } else if (type === 'link' && props.rel === 'canonical') {
-        hasCanonicalRel = true;
-      } else if (type === 'link' && props.rel === 'amphtml') {
-        hasAmphtmlRel = true;
-      } else if (type === 'script') {
-        // only block if
-        // 1. it has a src and isn't pointing to ampproject's CDN
-        // 2. it is using dangerouslySetInnerHTML without a type or
-        // a type of text/javascript
-        if (props.src && props.src.indexOf('ampproject') < -1 || props.dangerouslySetInnerHTML && (!props.type || props.type === 'text/javascript')) {
-          badProp = '<script';
-          (0, _keys.default)(props).forEach(prop => {
-            badProp += " " + prop + "=\"" + props[prop] + "\"";
-          });
-          badProp += '/>';
+
+        styles.props.children.map(function (child) {
+          if ((0, _isArray["default"])(child)) {
+            child.map(function (el) {
+              return hasStyles(el) && curStyles.push(el);
+            });
+          } else if (hasStyles(child)) {
+            curStyles.push(child);
+          }
+        });
+      }
+
+      return _react["default"].createElement("head", this.props, children, head, inAmpMode && _react["default"].createElement(_react["default"].Fragment, null, _react["default"].createElement("meta", {
+        name: "viewport",
+        content: "width=device-width,minimum-scale=1,initial-scale=1"
+      }), _react["default"].createElement("link", {
+        rel: "canonical",
+        href: canonicalBase + (0, _utils.cleanAmpPath)(dangerousAsPath)
+      }), _react["default"].createElement("link", {
+        rel: "preload",
+        as: "script",
+        href: "https://cdn.ampproject.org/v0.js"
+      }), styles && _react["default"].createElement("style", {
+        "amp-custom": "",
+        dangerouslySetInnerHTML: {
+          __html: curStyles.map(function (style) {
+            return style.props.dangerouslySetInnerHTML.__html;
+          }).join('').replace(/\/\*# sourceMappingURL=.*\*\//g, '').replace(/\/\*@ sourceURL=.*?\*\//g, '')
         }
-      }
-
-      if (badProp) {
-        console.warn("Found conflicting amp tag \"" + child.type + "\" with conflicting prop " + badProp + " in " + __NEXT_DATA__.page + ". https://err.sh/next.js/conflicting-amp-tag");
-        return null;
-      }
-
-      return child;
-    }); // try to parse styles from fragment for backwards compat
-
-    const curStyles = (0, _isArray.default)(styles) ? styles : [];
-
-    if (inAmpMode && styles && // @ts-ignore Property 'props' does not exist on type ReactElement
-    styles.props && // @ts-ignore Property 'props' does not exist on type ReactElement
-    (0, _isArray.default)(styles.props.children)) {
-      const hasStyles = el => el && el.props && el.props.dangerouslySetInnerHTML && el.props.dangerouslySetInnerHTML.__html; // @ts-ignore Property 'props' does not exist on type ReactElement
-
-
-      styles.props.children.map(child => {
-        if ((0, _isArray.default)(child)) {
-          child.map(el => hasStyles(el) && curStyles.push(el));
-        } else if (hasStyles(child)) {
-          curStyles.push(child);
+      }), _react["default"].createElement("style", {
+        "amp-boilerplate": "",
+        dangerouslySetInnerHTML: {
+          __html: "body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}"
         }
-      });
+      }), _react["default"].createElement("noscript", null, _react["default"].createElement("style", {
+        "amp-boilerplate": "",
+        dangerouslySetInnerHTML: {
+          __html: "body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}"
+        }
+      })), _react["default"].createElement("script", {
+        async: true,
+        src: "https://cdn.ampproject.org/v0.js"
+      })), !inAmpMode && _react["default"].createElement(_react["default"].Fragment, null, hybridAmp && _react["default"].createElement("link", {
+        rel: "amphtml",
+        href: canonicalBase + getAmpPath(ampPath, dangerousAsPath)
+      }), page !== '/_error' && _react["default"].createElement("link", {
+        rel: "preload",
+        href: assetPrefix + (dynamicBuildId ? "/_next/static/client/pages" + getPageFile(page, buildId) : "/_next/static/" + buildId + "/pages" + getPageFile(page)) + _devOnlyInvalidateCacheQueryString,
+        as: "script",
+        nonce: this.props.nonce,
+        crossOrigin: this.props.crossOrigin || undefined
+      }), _react["default"].createElement("link", {
+        rel: "preload",
+        href: assetPrefix + (dynamicBuildId ? "/_next/static/client/pages/_app." + buildId + ".js" : "/_next/static/" + buildId + "/pages/_app.js") + _devOnlyInvalidateCacheQueryString,
+        as: "script",
+        nonce: this.props.nonce,
+        crossOrigin: this.props.crossOrigin || undefined
+      }), this.getPreloadDynamicChunks(), this.getPreloadMainLinks(), this.getCssLinks(), styles || null));
     }
-
-    return _react.default.createElement("head", this.props, children, head, _react.default.createElement("meta", {
-      name: "next-head-count",
-      content: _react.default.Children.count(head || []).toString()
-    }), inAmpMode && _react.default.createElement(_react.default.Fragment, null, _react.default.createElement("meta", {
-      name: "viewport",
-      content: "width=device-width,minimum-scale=1,initial-scale=1"
-    }), !hasCanonicalRel && _react.default.createElement("link", {
-      rel: "canonical",
-      href: canonicalBase + (0, _utils.cleanAmpPath)(dangerousAsPath)
-    }), _react.default.createElement("link", {
-      rel: "preload",
-      as: "script",
-      href: "https://cdn.ampproject.org/v0.js"
-    }), styles && _react.default.createElement("style", {
-      "amp-custom": "",
-      dangerouslySetInnerHTML: {
-        __html: curStyles.map(style => style.props.dangerouslySetInnerHTML.__html).join('').replace(/\/\*# sourceMappingURL=.*\*\//g, '').replace(/\/\*@ sourceURL=.*?\*\//g, '')
-      }
-    }), _react.default.createElement("style", {
-      "amp-boilerplate": "",
-      dangerouslySetInnerHTML: {
-        __html: "body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}"
-      }
-    }), _react.default.createElement("noscript", null, _react.default.createElement("style", {
-      "amp-boilerplate": "",
-      dangerouslySetInnerHTML: {
-        __html: "body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}"
-      }
-    })), _react.default.createElement("script", {
-      async: true,
-      src: "https://cdn.ampproject.org/v0.js"
-    })), !inAmpMode && _react.default.createElement(_react.default.Fragment, null, !hasAmphtmlRel && hybridAmp && _react.default.createElement("link", {
-      rel: "amphtml",
-      href: canonicalBase + getAmpPath(ampPath, dangerousAsPath)
-    }), page !== '/_error' && _react.default.createElement("link", {
-      rel: "preload",
-      href: assetPrefix + getOptionalModernScriptVariant("/_next/static/" + buildId + "/pages" + getPageFile(page)) + _devOnlyInvalidateCacheQueryString,
-      as: "script",
-      nonce: this.props.nonce,
-      crossOrigin: this.props.crossOrigin || undefined
-    }), _react.default.createElement("link", {
-      rel: "preload",
-      href: assetPrefix + getOptionalModernScriptVariant("/_next/static/" + buildId + "/pages/_app.js") + _devOnlyInvalidateCacheQueryString,
-      as: "script",
-      nonce: this.props.nonce,
-      crossOrigin: this.props.crossOrigin || undefined
-    }), this.getPreloadDynamicChunks(), this.getPreloadMainLinks(), this.getCssLinks(), styles || null));
-  }
-
-}
+  }]);
+  return Head;
+}(_react.Component);
 
 exports.Head = Head;
 Head.contextTypes = {
-  _documentProps: _propTypes.default.any,
-  _devOnlyInvalidateCacheQueryString: _propTypes.default.string
+  _documentProps: _propTypes["default"].any,
+  _devOnlyInvalidateCacheQueryString: _propTypes["default"].string
 };
 Head.propTypes = {
-  nonce: _propTypes.default.string,
-  crossOrigin: _propTypes.default.string
+  nonce: _propTypes["default"].string,
+  crossOrigin: _propTypes["default"].string
 };
 
-class Main extends _react.Component {
-  constructor() {
-    super(...arguments);
-    this.context = void 0;
+var Main =
+/*#__PURE__*/
+function (_react$Component4) {
+  (0, _inherits2["default"])(Main, _react$Component4);
+
+  function Main() {
+    var _this7;
+
+    (0, _classCallCheck2["default"])(this, Main);
+    _this7 = (0, _possibleConstructorReturn2["default"])(this, (0, _getPrototypeOf2["default"])(Main).apply(this, arguments));
+    _this7.context = void 0;
+    return _this7;
   }
 
-  render() {
-    const {
-      inAmpMode,
-      html
-    } = this.context._documentProps;
-    if (inAmpMode) return '__NEXT_AMP_RENDER_TARGET__';
-    return _react.default.createElement("div", {
-      id: "__next",
-      dangerouslySetInnerHTML: {
-        __html: html
-      }
-    });
-  }
-
-}
+  (0, _createClass2["default"])(Main, [{
+    key: "render",
+    value: function render() {
+      var _this$context$_docume5 = this.context._documentProps,
+          inAmpMode = _this$context$_docume5.inAmpMode,
+          html = _this$context$_docume5.html;
+      if (inAmpMode) return '__NEXT_AMP_RENDER_TARGET__';
+      return _react["default"].createElement("div", {
+        id: "__next",
+        dangerouslySetInnerHTML: {
+          __html: html
+        }
+      });
+    }
+  }]);
+  return Main;
+}(_react.Component);
 
 exports.Main = Main;
 Main.contextTypes = {
-  _documentProps: _propTypes.default.any,
-  _devOnlyInvalidateCacheQueryString: _propTypes.default.string
+  _documentProps: _propTypes["default"].any,
+  _devOnlyInvalidateCacheQueryString: _propTypes["default"].string
 };
 
-class NextScript extends _react.Component {
-  constructor() {
-    super(...arguments);
-    this.context = void 0;
+var NextScript =
+/*#__PURE__*/
+function (_react$Component5) {
+  (0, _inherits2["default"])(NextScript, _react$Component5);
+
+  function NextScript() {
+    var _this8;
+
+    (0, _classCallCheck2["default"])(this, NextScript);
+    _this8 = (0, _possibleConstructorReturn2["default"])(this, (0, _getPrototypeOf2["default"])(NextScript).apply(this, arguments));
+    _this8.context = void 0;
+    return _this8;
   }
 
-  getDynamicChunks() {
-    const {
-      dynamicImports,
-      assetPrefix
-    } = this.context._documentProps;
-    const {
-      _devOnlyInvalidateCacheQueryString
-    } = this.context;
-    return dedupe(dynamicImports).map(bundle => {
-      let modernProps = {};
+  (0, _createClass2["default"])(NextScript, [{
+    key: "getDynamicChunks",
+    value: function getDynamicChunks() {
+      var _this9 = this;
 
-      if (false) {}
-
-      return _react.default.createElement("script", (0, _extends2.default)({
-        async: true,
-        key: bundle.file,
-        src: assetPrefix + "/_next/" + bundle.file + _devOnlyInvalidateCacheQueryString,
-        nonce: this.props.nonce,
-        crossOrigin: this.props.crossOrigin || undefined
-      }, modernProps));
-    });
-  }
-
-  getScripts() {
-    const {
-      assetPrefix,
-      files
-    } = this.context._documentProps;
-
-    if (!files || files.length === 0) {
-      return null;
+      var _this$context$_docume6 = this.context._documentProps,
+          dynamicImports = _this$context$_docume6.dynamicImports,
+          assetPrefix = _this$context$_docume6.assetPrefix;
+      var _devOnlyInvalidateCacheQueryString = this.context._devOnlyInvalidateCacheQueryString;
+      return dedupe(dynamicImports).map(function (bundle) {
+        return _react["default"].createElement("script", {
+          async: true,
+          key: bundle.file,
+          src: assetPrefix + "/_next/" + bundle.file + _devOnlyInvalidateCacheQueryString,
+          nonce: _this9.props.nonce,
+          crossOrigin: _this9.props.crossOrigin || undefined
+        });
+      });
     }
+  }, {
+    key: "getScripts",
+    value: function getScripts() {
+      var _this10 = this;
 
-    const {
-      _devOnlyInvalidateCacheQueryString
-    } = this.context;
-    return files.map(file => {
-      // Only render .js files here
-      if (!/\.js$/.exec(file)) {
+      var _this$context$_docume7 = this.context._documentProps,
+          assetPrefix = _this$context$_docume7.assetPrefix,
+          files = _this$context$_docume7.files;
+
+      if (!files || files.length === 0) {
         return null;
       }
 
-      let modernProps = {};
+      var _devOnlyInvalidateCacheQueryString = this.context._devOnlyInvalidateCacheQueryString;
+      return files.map(function (file) {
+        // Only render .js files here
+        if (!/\.js$/.exec(file)) {
+          return null;
+        }
 
-      if (false) {}
+        return _react["default"].createElement("script", {
+          key: file,
+          src: assetPrefix + "/_next/" + file + _devOnlyInvalidateCacheQueryString,
+          nonce: _this10.props.nonce,
+          async: true,
+          crossOrigin: _this10.props.crossOrigin || undefined
+        });
+      });
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this11 = this;
 
-      return _react.default.createElement("script", (0, _extends2.default)({
-        key: file,
-        src: assetPrefix + "/_next/" + file + _devOnlyInvalidateCacheQueryString,
-        nonce: this.props.nonce,
-        async: true,
-        crossOrigin: this.props.crossOrigin || undefined
-      }, modernProps));
-    });
-  }
+      var _this$context$_docume8 = this.context._documentProps,
+          staticMarkup = _this$context$_docume8.staticMarkup,
+          assetPrefix = _this$context$_docume8.assetPrefix,
+          inAmpMode = _this$context$_docume8.inAmpMode,
+          devFiles = _this$context$_docume8.devFiles,
+          __NEXT_DATA__ = _this$context$_docume8.__NEXT_DATA__;
+      var _devOnlyInvalidateCacheQueryString = this.context._devOnlyInvalidateCacheQueryString;
 
-  static getInlineScriptSource(documentProps) {
-    const {
-      __NEXT_DATA__
-    } = documentProps;
+      if (inAmpMode) {
+        if (false) {}
 
-    try {
-      const data = (0, _stringify.default)(__NEXT_DATA__);
-      return (0, _htmlescape.htmlEscapeJsonString)(data);
-    } catch (err) {
-      if (err.message.indexOf('circular structure')) {
-        throw new Error("Circular structure in \"getInitialProps\" result of page \"" + __NEXT_DATA__.page + "\". https://err.sh/zeit/next.js/circular-structure");
+        var _devFiles = [_constants.CLIENT_STATIC_FILES_RUNTIME_AMP, _constants.CLIENT_STATIC_FILES_RUNTIME_WEBPACK];
+        return _react["default"].createElement(_react["default"].Fragment, null, staticMarkup ? null : _react["default"].createElement("script", {
+          id: "__NEXT_DATA__",
+          type: "application/json",
+          nonce: this.props.nonce,
+          crossOrigin: this.props.crossOrigin || undefined,
+          dangerouslySetInnerHTML: {
+            __html: NextScript.getInlineScriptSource(this.context._documentProps)
+          },
+          "data-amp-development-mode-only": true
+        }), _devFiles ? _devFiles.map(function (file) {
+          return _react["default"].createElement("script", {
+            key: file,
+            src: assetPrefix + "/_next/" + file + _devOnlyInvalidateCacheQueryString,
+            nonce: _this11.props.nonce,
+            crossOrigin: _this11.props.crossOrigin || undefined,
+            "data-amp-development-mode-only": true
+          });
+        }) : null);
       }
 
-      throw err;
-    }
-  }
+      var page = __NEXT_DATA__.page,
+          buildId = __NEXT_DATA__.buildId,
+          dynamicBuildId = __NEXT_DATA__.dynamicBuildId;
 
-  render() {
-    const {
-      staticMarkup,
-      assetPrefix,
-      inAmpMode,
-      devFiles,
-      __NEXT_DATA__
-    } = this.context._documentProps;
-    const {
-      _devOnlyInvalidateCacheQueryString
-    } = this.context;
+      if (true) {
+        if (this.props.crossOrigin) console.warn('Warning: `NextScript` attribute `crossOrigin` is deprecated. https://err.sh/next.js/doc-crossorigin-deprecated');
+      }
 
-    if (inAmpMode) {
-      if (false) {}
-
-      const devFiles = [_constants.CLIENT_STATIC_FILES_RUNTIME_AMP, _constants.CLIENT_STATIC_FILES_RUNTIME_WEBPACK];
-      return _react.default.createElement(_react.default.Fragment, null, staticMarkup ? null : _react.default.createElement("script", {
+      return _react["default"].createElement(_react["default"].Fragment, null, devFiles ? devFiles.map(function (file) {
+        return !file.match(/\.js\.map/) && _react["default"].createElement("script", {
+          key: file,
+          src: assetPrefix + "/_next/" + file + _devOnlyInvalidateCacheQueryString,
+          nonce: _this11.props.nonce,
+          crossOrigin: _this11.props.crossOrigin || undefined
+        });
+      }) : null, staticMarkup ? null : _react["default"].createElement("script", {
         id: "__NEXT_DATA__",
         type: "application/json",
         nonce: this.props.nonce,
         crossOrigin: this.props.crossOrigin || undefined,
         dangerouslySetInnerHTML: {
           __html: NextScript.getInlineScriptSource(this.context._documentProps)
-        },
-        "data-amp-development-mode-only": true
-      }), devFiles ? devFiles.map(file => _react.default.createElement("script", {
-        key: file,
-        src: assetPrefix + "/_next/" + file + _devOnlyInvalidateCacheQueryString,
+        }
+      }), page !== '/_error' && _react["default"].createElement("script", {
+        async: true,
+        id: "__NEXT_PAGE__" + page,
+        src: assetPrefix + (dynamicBuildId ? "/_next/static/client/pages" + getPageFile(page, buildId) : "/_next/static/" + buildId + "/pages" + getPageFile(page)) + _devOnlyInvalidateCacheQueryString,
         nonce: this.props.nonce,
-        crossOrigin: this.props.crossOrigin || undefined,
-        "data-amp-development-mode-only": true
-      })) : null);
+        crossOrigin: this.props.crossOrigin || undefined
+      }), _react["default"].createElement("script", {
+        async: true,
+        id: "__NEXT_PAGE__/_app",
+        src: assetPrefix + (dynamicBuildId ? "/_next/static/client/pages/_app." + buildId + ".js" : "/_next/static/" + buildId + "/pages/_app.js") + _devOnlyInvalidateCacheQueryString,
+        nonce: this.props.nonce,
+        crossOrigin: this.props.crossOrigin || undefined
+      }), staticMarkup ? null : this.getDynamicChunks(), staticMarkup ? null : this.getScripts());
     }
+  }], [{
+    key: "getInlineScriptSource",
+    value: function getInlineScriptSource(documentProps) {
+      var __NEXT_DATA__ = documentProps.__NEXT_DATA__;
 
-    const {
-      page,
-      buildId
-    } = __NEXT_DATA__;
+      try {
+        var data = (0, _stringify["default"])(__NEXT_DATA__);
+        return (0, _htmlescape.htmlEscapeJsonString)(data);
+      } catch (err) {
+        if (err.message.indexOf('circular structure')) {
+          throw new Error("Circular structure in \"getInitialProps\" result of page \"" + __NEXT_DATA__.page + "\". https://err.sh/zeit/next.js/circular-structure");
+        }
 
-    if (true) {
-      if (this.props.crossOrigin) console.warn('Warning: `NextScript` attribute `crossOrigin` is deprecated. https://err.sh/next.js/doc-crossorigin-deprecated');
-    }
-
-    const pageScript = [_react.default.createElement("script", (0, _extends2.default)({
-      async: true,
-      "data-next-page": page,
-      key: page,
-      src: assetPrefix + ("/_next/static/" + buildId + "/pages" + getPageFile(page)) + _devOnlyInvalidateCacheQueryString,
-      nonce: this.props.nonce,
-      crossOrigin: this.props.crossOrigin || undefined
-    },  false ? undefined : {})),  false && false];
-    const appScript = [_react.default.createElement("script", (0, _extends2.default)({
-      async: true,
-      "data-next-page": "/_app",
-      src: assetPrefix + ("/_next/static/" + buildId + "/pages/_app.js") + _devOnlyInvalidateCacheQueryString,
-      key: "_app",
-      nonce: this.props.nonce,
-      crossOrigin: this.props.crossOrigin || undefined
-    },  false ? undefined : {})),  false && false];
-    return _react.default.createElement(_react.default.Fragment, null, devFiles ? devFiles.map(file => !file.match(/\.js\.map/) && _react.default.createElement("script", {
-      key: file,
-      src: assetPrefix + "/_next/" + file + _devOnlyInvalidateCacheQueryString,
-      nonce: this.props.nonce,
-      crossOrigin: this.props.crossOrigin || undefined
-    })) : null, staticMarkup ? null : _react.default.createElement("script", {
-      id: "__NEXT_DATA__",
-      type: "application/json",
-      nonce: this.props.nonce,
-      crossOrigin: this.props.crossOrigin || undefined,
-      dangerouslySetInnerHTML: {
-        __html: NextScript.getInlineScriptSource(this.context._documentProps)
+        throw err;
       }
-    }),  false ? undefined : null, page !== '/_error' && pageScript, appScript, staticMarkup ? null : this.getDynamicChunks(), staticMarkup ? null : this.getScripts());
-  }
-
-}
+    }
+  }]);
+  return NextScript;
+}(_react.Component);
 
 exports.NextScript = NextScript;
 NextScript.contextTypes = {
-  _documentProps: _propTypes.default.any,
-  _devOnlyInvalidateCacheQueryString: _propTypes.default.string
+  _documentProps: _propTypes["default"].any,
+  _devOnlyInvalidateCacheQueryString: _propTypes["default"].string
 };
 NextScript.propTypes = {
-  nonce: _propTypes.default.string,
-  crossOrigin: _propTypes.default.string
+  nonce: _propTypes["default"].string,
+  crossOrigin: _propTypes["default"].string
 };
-NextScript.safariNomoduleFix = '!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();';
 
 function getAmpPath(ampPath, asPath) {
   return ampPath ? ampPath : "" + asPath + (asPath.includes('?') ? '&' : '?') + "amp=1";
@@ -1107,116 +1528,146 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MyDocument; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/document */ "./node_modules/next/document.js");
-/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_document__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "styled-components");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _styles_GlobalStyles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/GlobalStyles */ "./styles/GlobalStyles.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/document */ "./node_modules/next/document.js");
+/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_document__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _styles_GlobalStyles__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../styles/GlobalStyles */ "./styles/GlobalStyles.js");
 
 
-var _jsxFileName = "/Users/justin.w/Documents/GitHub/market-data-company/pages/_document.js";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+
+
+
+var _jsxFileName = "/Users/andrew.n/Desktop/personal/market-data-company/pages/_document.js";
+
  // Import styled components ServerStyleSheet
 
 
 
-class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_3___default.a {
-  static getInitialProps({
-    renderPage
-  }) {
-    // Step 1: Create an instance of ServerStyleSheet
-    const sheet = new styled_components__WEBPACK_IMPORTED_MODULE_4__["ServerStyleSheet"](); // Step 2: Retrieve styles from components in the page
 
-    const page = renderPage(App => props => sheet.collectStyles(__jsx(App, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 13
-      },
-      __self: this
-    })))); // Step 3: Extract the styles as <style> tags
+var MyDocument =
+/*#__PURE__*/
+function (_Document) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(MyDocument, _Document);
 
-    const styleTags = sheet.getStyleElement(); // Step 4: Pass styleTags as a prop
+  function MyDocument() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, MyDocument);
 
-    return Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, page, {
-      styleTags
-    });
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(MyDocument).apply(this, arguments));
   }
 
-  render() {
-    return __jsx(next_document__WEBPACK_IMPORTED_MODULE_3__["Html"], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 25
-      },
-      __self: this
-    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_3__["Head"], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 26
-      },
-      __self: this
-    }, __jsx("title", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 27
-      },
-      __self: this
-    }, "Market Data Company"), __jsx("meta", {
-      name: "viewport",
-      content: "width=device-width, initial-scale=1.0",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 28
-      },
-      __self: this
-    }), __jsx("link", {
-      rel: "icon",
-      type: "image/png",
-      href: "/static/images/mdc_favicon.png",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 32
-      },
-      __self: this
-    }), __jsx("link", {
-      rel: "stylesheet",
-      href: "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 37
-      },
-      __self: this
-    }), this.props.styleTags), __jsx("body", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 43
-      },
-      __self: this
-    }, __jsx(_styles_GlobalStyles__WEBPACK_IMPORTED_MODULE_5__["default"], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 44
-      },
-      __self: this
-    }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_3__["Main"], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 45
-      },
-      __self: this
-    }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_3__["NextScript"], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 46
-      },
-      __self: this
-    })));
-  }
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(MyDocument, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_8__["Html"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_8__["Head"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("title", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: this
+      }, "Market Data Company"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
+        name: "viewport",
+        content: "width=device-width, initial-scale=1.0",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("link", {
+        rel: "icon",
+        type: "image/png",
+        href: "/static/images/mdc_favicon.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("link", {
+        rel: "stylesheet",
+        href: "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        },
+        __self: this
+      }), this.props.styleTags), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("body", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_styles_GlobalStyles__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_8__["Main"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_8__["NextScript"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        },
+        __self: this
+      })));
+    }
+  }], [{
+    key: "getInitialProps",
+    value: function getInitialProps(_ref) {
+      var renderPage = _ref.renderPage;
+      // Step 1: Create an instance of ServerStyleSheet
+      var sheet = new styled_components__WEBPACK_IMPORTED_MODULE_9__["ServerStyleSheet"](); // Step 2: Retrieve styles from components in the page
 
-}
+      var page = renderPage(function (App) {
+        return function (props) {
+          return sheet.collectStyles(react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(App, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 13
+            },
+            __self: this
+          })));
+        };
+      }); // Step 3: Extract the styles as <style> tags
+
+      var styleTags = sheet.getStyleElement(); // Step 4: Pass styleTags as a prop
+
+      return Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, page, {
+        styleTags: styleTags
+      });
+    }
+  }]);
+
+  return MyDocument;
+}(next_document__WEBPACK_IMPORTED_MODULE_8___default.a);
+
+
 
 /***/ }),
 
@@ -1229,27 +1680,23 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_3___default.a {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
 
-const GlobalStyles = styled_components__WEBPACK_IMPORTED_MODULE_0__["createGlobalStyle"]`
-    @font-face {
-        font-family: "Graphik";
-        src: url('../static/fonts/Graphik-Regular-Web.woff');
-    }
-    @font-face {
-        font-family: "Financier";
-        src: url('../static/fonts/FinancierTextWeb-Regular.woff')
-    }
-    @font-face {
-        font-family: "Graphik-Bold";
-        src: url('../static/fonts/Graphik-Bold-Web.woff');
-    }
-    body, html{
-        margin:0;
-        padding:0;
-    }
-`;
+
+function _templateObject() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    @font-face {\n        font-family: \"Graphik\";\n        src: url('../static/fonts/Graphik-Regular-Web.woff');\n    }\n    @font-face {\n        font-family: \"Financier\";\n        src: url('../static/fonts/FinancierTextWeb-Regular.woff')\n    }\n    @font-face {\n        font-family: \"Graphik-Bold\";\n        src: url('../static/fonts/Graphik-Bold-Web.woff');\n    }\n    body, html{\n        margin:0;\n        padding:0;\n    }\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+var GlobalStyles = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["createGlobalStyle"])(_templateObject());
 /* harmony default export */ __webpack_exports__["default"] = (GlobalStyles);
 
 /***/ }),
@@ -1288,6 +1735,17 @@ module.exports = require("core-js/library/fn/date/now");
 
 /***/ }),
 
+/***/ "core-js/library/fn/get-iterator":
+/*!**************************************************!*\
+  !*** external "core-js/library/fn/get-iterator" ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/library/fn/get-iterator");
+
+/***/ }),
+
 /***/ "core-js/library/fn/json/stringify":
 /*!****************************************************!*\
   !*** external "core-js/library/fn/json/stringify" ***!
@@ -1310,6 +1768,28 @@ module.exports = require("core-js/library/fn/object/assign");
 
 /***/ }),
 
+/***/ "core-js/library/fn/object/create":
+/*!***************************************************!*\
+  !*** external "core-js/library/fn/object/create" ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/library/fn/object/create");
+
+/***/ }),
+
+/***/ "core-js/library/fn/object/define-properties":
+/*!**************************************************************!*\
+  !*** external "core-js/library/fn/object/define-properties" ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/library/fn/object/define-properties");
+
+/***/ }),
+
 /***/ "core-js/library/fn/object/define-property":
 /*!************************************************************!*\
   !*** external "core-js/library/fn/object/define-property" ***!
@@ -1318,6 +1798,17 @@ module.exports = require("core-js/library/fn/object/assign");
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/object/define-property");
+
+/***/ }),
+
+/***/ "core-js/library/fn/object/freeze":
+/*!***************************************************!*\
+  !*** external "core-js/library/fn/object/freeze" ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/library/fn/object/freeze");
 
 /***/ }),
 
@@ -1343,6 +1834,17 @@ module.exports = require("core-js/library/fn/object/get-own-property-symbols");
 
 /***/ }),
 
+/***/ "core-js/library/fn/object/get-prototype-of":
+/*!*************************************************************!*\
+  !*** external "core-js/library/fn/object/get-prototype-of" ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/library/fn/object/get-prototype-of");
+
+/***/ }),
+
 /***/ "core-js/library/fn/object/keys":
 /*!*************************************************!*\
   !*** external "core-js/library/fn/object/keys" ***!
@@ -1351,6 +1853,17 @@ module.exports = require("core-js/library/fn/object/get-own-property-symbols");
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/object/keys");
+
+/***/ }),
+
+/***/ "core-js/library/fn/object/set-prototype-of":
+/*!*************************************************************!*\
+  !*** external "core-js/library/fn/object/set-prototype-of" ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/library/fn/object/set-prototype-of");
 
 /***/ }),
 
@@ -1373,6 +1886,28 @@ module.exports = require("core-js/library/fn/promise");
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/set");
+
+/***/ }),
+
+/***/ "core-js/library/fn/symbol":
+/*!********************************************!*\
+  !*** external "core-js/library/fn/symbol" ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/library/fn/symbol");
+
+/***/ }),
+
+/***/ "core-js/library/fn/symbol/iterator":
+/*!*****************************************************!*\
+  !*** external "core-js/library/fn/symbol/iterator" ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/library/fn/symbol/iterator");
 
 /***/ }),
 
@@ -1428,6 +1963,17 @@ module.exports = require("prop-types");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "regenerator-runtime":
+/*!**************************************!*\
+  !*** external "regenerator-runtime" ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("regenerator-runtime");
 
 /***/ }),
 
