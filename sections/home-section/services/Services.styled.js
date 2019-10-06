@@ -48,7 +48,7 @@ export const HeaderDescription = styled.p`
 export const ContentWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 34px;
+	margin-bottom: 0;
 
 	${breakpoint('tablet')`
     flex-direction: row;
@@ -73,9 +73,10 @@ export const CardWrapper = styled.div`
 `
 
 export const CardImage = styled.img`
+	margin-top: 6px;
 	margin-bottom: 20px;
-	width: 140px;
-	height: 140px;
+	width: 100px;
+	height: 100px;
 
 	${breakpoint('tablet')`
 	width: 80px;
@@ -85,8 +86,8 @@ export const CardImage = styled.img`
   `}
 
   ${breakpoint('desktop')`
-	width: 160px;
-	height: 160px;
+	width: 120px;
+	height: 120px;
   `}
 `
 
@@ -116,6 +117,11 @@ export const CardDescription = styled.p`
 	font-size: 16px;
 	line-height: 22px;
 	margin: 0;
+	margin-bottom: 40px;
+
+	${breakpoint('desktop')`
+		margin-bottom: 0;
+	`}
 `
 
 export const FooterText = styled.a`

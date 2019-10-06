@@ -36,7 +36,7 @@ const Research = ({ onClick }) => (
 			</S.CardWrapper>
 			<S.CardWrapper>
 				<AnimatedCard
-					title="Market & Reference Data Management: A Maturing Art"
+					title="Market &amp; Reference Data Management: A Maturing Art"
 					description="TO UNDERSTAND HOW organizations should resource the Market Data Management function, MDC has developed a maturity curve that correlates the capabilities required with the nature of an organization’s Service Provider Agreements. These capabilities are bucketed into key practices that a firm must adopt as they increase their…"
 					onClick={() => onClick('maturingArt')}
 				/>

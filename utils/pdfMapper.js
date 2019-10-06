@@ -14,6 +14,7 @@ const caseStudiesPptPath = '/static/pdfs/MDC-case-studies.pptx'
 
 // White Papers
 const riskFactorsPdfPath = '/static/pdfs/Uncovering_FRTB_Risk_Factors.pdf'
+const riskFrameworkPdfPath = '/static/pdfs/frtb-whitepaper-v2-081519.pdf'
 
 // Surveys
 const surveyInsightsPdfPath =
@@ -27,7 +28,8 @@ const pdfMapper = {
 	dataSpend: dataSpendPdfPath,
 	riskFactors: riskFactorsPdfPath,
 	caseStudies: caseStudiesPptPath,
-	surveyInsights: surveyInsightsPdfPath
+	surveyInsights: surveyInsightsPdfPath,
+	riskFramework: riskFrameworkPdfPath
 }
 
 export default pdfMapper

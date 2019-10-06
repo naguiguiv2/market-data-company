@@ -6,11 +6,12 @@ const Services = () => {
 	return (
 		<S.ServicesWrapper>
 			<S.HeaderWrapper>
-				<S.HeaderTitle>How our services add value for you</S.HeaderTitle>
+				<S.HeaderTitle>How our services add insight to your business</S.HeaderTitle>
 				<S.HeaderDescription>
 					Taking Benchmarking to an entirely different level, our marketing data
-					services offers you exceptional insight into the capital markets
-					industry. With our current solutions, you gain the insights to
+					services offers you exceptional insight into data being consumed by
+					the capital markets and wealth industry. With our current solutions, you 
+					gain the insights to
 					take your strategy to the next level.
 				</S.HeaderDescription>
 			</S.HeaderWrapper>
@@ -24,14 +25,12 @@ const Services = () => {
 						height="177"
 					/>
 					<S.CardContent>
-						<S.CardTitle>Managed services &amp; products</S.CardTitle>
+						<S.CardTitle>Trading technology managed services and products</S.CardTitle>
 						<S.CardDescription>
-							Our clients care about providing the right type of market data to
-							their stakeholders. That's why our proprietary per security
-							analyzer Kiaro product has been pivotal in monitoring how
-							Bloomberg Per Security is replicating data across business
-							applications, allowing us to accurately and rapidly assess where
-							firms can optimize their data.
+						Our clients are critical about providing the right data to their stakeholders. That&#39;s why
+						our proprietary technology and expertise is pivotal in reporting how data is accessed
+						and replicated across business applications allowing us to accurately and rapidly
+						assess and predict where firms can optimize and right size their data needs.
 						</S.CardDescription>
 					</S.CardContent>
 				</S.CardWrapper>
@@ -44,7 +43,7 @@ const Services = () => {
 						height="177"
 					/>
 					<S.CardContent>
-						<S.CardTitle>Measure &amp; compare data costs</S.CardTitle>
+						<S.CardTitle>Measure and compare your expense management capabilities</S.CardTitle>
 						<S.CardDescription>
 							We have done extensive research over the past 10 years through our
 							qualitative and quantitative analytics. As a result, we've
@@ -65,7 +64,7 @@ const Services = () => {
 					/>
 					<S.CardContent>
 						<S.CardTitle>
-							Match your strategy to the market data demand
+							Match your strategy to your business needs
 						</S.CardTitle>
 						<S.CardDescription>
 							With expert knowledge of both your industry and your customer’s
@@ -83,15 +82,14 @@ const Services = () => {
 						height="177"
 					/>
 					<S.CardContent>
-						<S.CardTitle>Capital market spend benchmarking</S.CardTitle>
+						<S.CardTitle>Capital market expense management benchmarking</S.CardTitle>
 						<S.CardDescription>
-							Our benchmark adds exponential value through its categorization of
-							market data products and services: technology, investments,
-							productivity, operations, human resource strategies, and a host of
-							other business functions. It’s a peer group assessment of our
-							client’s 160 market data activities against a set of best
-							practices. Our benchmark has inspired discussions that explore
-							qualitative measures – enhancing performance against benchmarks.
+						Our benchmark adds exponential value through its categorization of products 
+						and services: technology, investments, productivity, operations, human 
+						resource strategies, and a host of other business functions. It’s a peer 
+						group assessment of our client’s 160 data activities against a set of best 
+						practices. Our benchmark has inspired discussions that explore qualitative
+						 measures – enhancing performance against benchmarks.
 						</S.CardDescription>
 					</S.CardContent>
 				</S.CardWrapper>
