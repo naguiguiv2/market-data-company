@@ -20,7 +20,7 @@ const Footer = () => (
 					Market data company is North America’s leading market data solutions
 					and consultancy company. We offer specialized consulting services and
 					leading market data management solutions that help deal with the
-					complexity of your data.
+					complexity of your data. Reach us at (416)-315-7177 or info@marketdatacompany.com.
 				</S.MarketDataText>
 			</S.TextWrapper>
 			<S.ExploreAndSocialWrapper>

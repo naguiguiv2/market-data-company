@@ -42,9 +42,9 @@ export const TextWrapper = styled.div`
 	margin-bottom: 40px;
 
 	${breakpoint('tablet')`
-		max-width: 600px;
+		max-width: 640px;
 		margin-bottom: 0;
-		padding: 0 40px;
+		padding: 0 24px;
   `}
 `
 
@@ -109,6 +109,7 @@ export const ExploreItem = styled.span`
 		transition: opacity 0.15s ease;
 	}
 `
+
 
 export const SocialWrapper = styled.div`
 	display: flex;

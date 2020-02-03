@@ -19,15 +19,22 @@ const LeaderMarketData = () => {
 						business by providing the expertise in the details that lead to
 						increased profitability. Specifically, we offer a series of
 						diagnostic tools that drive down costs while optimizing services.
+						Learn more about how our Data License Compliance Manager tool can 
+						benefit your business in the video below:
 					</S.InfoText>
+					<S.VideoWrapper>
+						<iframe src="https://player.vimeo.com/video/389039609" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+						{/* <p><a href="https://vimeo.com/389039609">Market Data Digital Compliance</a> from <a href="https://vimeo.com/user108216748">Market data company</a> on <a href="https://vimeo.com">Vimeo</a>.</p> */}
+
+					</S.VideoWrapper>
 				</S.InfoWrapper>
 				<S.FactsWrapper>
 					<S.ProjectsCompletedWrapper>
-						<S.NumberText>106</S.NumberText>
+						<S.NumberText>126</S.NumberText>
 						<S.FactsText>Projects completed</S.FactsText>
 					</S.ProjectsCompletedWrapper>
 					<S.ProjectsCompletedWrapper>
-						<S.NumberText>$154MM</S.NumberText>
+						<S.NumberText>$254MM</S.NumberText>
 						<S.FactsText>Client dollars saved</S.FactsText>
 					</S.ProjectsCompletedWrapper>
 				</S.FactsWrapper>

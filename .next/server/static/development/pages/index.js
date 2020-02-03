@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1199,9 +1199,9 @@ const TextWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div
   displayName: "Footerstyled__TextWrapper",
   componentId: "sc-1a3izcr-3"
 })(["margin-bottom:40px;", ""], styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('tablet')`
-		max-width: 600px;
+		max-width: 640px;
 		margin-bottom: 0;
-		padding: 0 40px;
+		padding: 0 24px;
   `);
 const MarketDataText = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.p.withConfig({
   displayName: "Footerstyled__MarketDataText",
@@ -1316,7 +1316,7 @@ const Footer = () => __jsx(_Footer_styled__WEBPACK_IMPORTED_MODULE_3__["FooterWr
     lineNumber: 19
   },
   __self: undefined
-}, "Market data company is North America\u2019s leading market data solutions and consultancy company. We offer specialized consulting services and leading market data management solutions that help deal with the complexity of your data.")), __jsx(_Footer_styled__WEBPACK_IMPORTED_MODULE_3__["ExploreAndSocialWrapper"], {
+}, "Market data company is North America\u2019s leading market data solutions and consultancy company. We offer specialized consulting services and leading market data management solutions that help deal with the complexity of your data. Reach us at (416)-315-7177 or info@marketdatacompany.com.")), __jsx(_Footer_styled__WEBPACK_IMPORTED_MODULE_3__["ExploreAndSocialWrapper"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 26
@@ -4126,7 +4126,7 @@ const Landing = () => __jsx(_Landing_styled__WEBPACK_IMPORTED_MODULE_2__["Landin
 /*!*****************************************************************************!*\
   !*** ./sections/home-section/leader-market-data/LeaderMarketData.styled.js ***!
   \*****************************************************************************/
-/*! exports provided: LeaderMarketDataWrapper, Content, Title, InfoWrapper, InfoText, FactsWrapper, ProjectsCompletedWrapper, NumberText, FactsText, FooterText */
+/*! exports provided: LeaderMarketDataWrapper, Content, Title, InfoWrapper, InfoText, VideoWrapper, FactsWrapper, ProjectsCompletedWrapper, NumberText, FactsText, FooterText */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4136,6 +4136,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Title", function() { return Title; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "InfoWrapper", function() { return InfoWrapper; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "InfoText", function() { return InfoText; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VideoWrapper", function() { return VideoWrapper; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FactsWrapper", function() { return FactsWrapper; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectsCompletedWrapper", function() { return ProjectsCompletedWrapper; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NumberText", function() { return NumberText; });
@@ -4180,9 +4181,13 @@ const InfoText = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.p.with
 		font-size: 24px;
 		line-height: 30px;
 	`);
+const VideoWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.p.withConfig({
+  displayName: "LeaderMarketDatastyled__VideoWrapper",
+  componentId: "sc-1rb8ak0-5"
+})(["margin-top:16px;margin-bottom:24px;"]);
 const FactsWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "LeaderMarketDatastyled__FactsWrapper",
-  componentId: "sc-1rb8ak0-5"
+  componentId: "sc-1rb8ak0-6"
 })(["display:flex;flex-direction:row;justify-content:flex-start;margin-bottom:30px;", ""], styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
     flex-direction: column;
 	justify-content: flex-start;
@@ -4190,24 +4195,24 @@ const FactsWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.di
   `);
 const ProjectsCompletedWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "LeaderMarketDatastyled__ProjectsCompletedWrapper",
-  componentId: "sc-1rb8ak0-6"
+  componentId: "sc-1rb8ak0-7"
 })(["display:flex;flex-direction:column;margin-right:40px;", ""], styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
     margin-bottom: 38px;
   `);
 const NumberText = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h1.withConfig({
   displayName: "LeaderMarketDatastyled__NumberText",
-  componentId: "sc-1rb8ak0-7"
+  componentId: "sc-1rb8ak0-8"
 })(["font-family:", ";font-size:36px;line-height:36px;color:", ";margin:0 0 10px 0;", ""], props => props.theme.fonts.graphikBold, props => props.theme.colors.mdcPurple, styled_components_breakpoint__WEBPACK_IMPORTED_MODULE_1___default()('desktop')`
 	font-size: 48px;
 	line-height: 48px;
   `);
 const FactsText = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h1.withConfig({
   displayName: "LeaderMarketDatastyled__FactsText",
-  componentId: "sc-1rb8ak0-8"
+  componentId: "sc-1rb8ak0-9"
 })(["font-family:", ";font-size:16px;line-height:22px;color:", ";margin:0;"], props => props.theme.fonts.financier, props => props.theme.colors.lightGrey);
 const FooterText = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.a.withConfig({
   displayName: "LeaderMarketDatastyled__FooterText",
-  componentId: "sc-1rb8ak0-9"
+  componentId: "sc-1rb8ak0-10"
 })(["font-family:", ";font-size:16px;line-height:22px;color:", ";cursor:pointer;&:hover{color:#3d0099;transition:color 0.25s ease;}"], props => props.theme.fonts.graphik, props => props.theme.colors.mdcPurple);
 
 /***/ }),
@@ -4268,46 +4273,64 @@ const LeaderMarketData = () => {
       lineNumber: 17
     },
     __self: undefined
-  }, "We partner with our clients to answer the growing demands of their business by providing the expertise in the details that lead to increased profitability. Specifically, we offer a series of diagnostic tools that drive down costs while optimizing services.")), __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["FactsWrapper"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: undefined
-  }, __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["ProjectsCompletedWrapper"], {
+  }, "We partner with our clients to answer the growing demands of their business by providing the expertise in the details that lead to increased profitability. Specifically, we offer a series of diagnostic tools that drive down costs while optimizing services. Learn more about how our Data License Compliance Manager tool can benefit your business in the video below:"), __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["VideoWrapper"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: undefined
-  }, __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["NumberText"], {
+  }, __jsx("iframe", {
+    src: "https://player.vimeo.com/video/389039609",
+    width: "640",
+    height: "360",
+    frameborder: "0",
+    allow: "autoplay; fullscreen",
+    allowfullscreen: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
     },
     __self: undefined
-  }, "106"), __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["FactsText"], {
+  }))), __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["FactsWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 31
     },
     __self: undefined
-  }, "Projects completed")), __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["ProjectsCompletedWrapper"], {
+  }, __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["ProjectsCompletedWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 32
     },
     __self: undefined
   }, __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["NumberText"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 33
     },
     __self: undefined
-  }, "$154MM"), __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["FactsText"], {
+  }, "126"), __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["FactsText"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 34
+    },
+    __self: undefined
+  }, "Projects completed")), __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["ProjectsCompletedWrapper"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: undefined
+  }, __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["NumberText"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: undefined
+  }, "$254MM"), __jsx(_LeaderMarketData_styled__WEBPACK_IMPORTED_MODULE_2__["FactsText"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
     },
     __self: undefined
   }, "Client dollars saved")))));
@@ -5482,7 +5505,7 @@ const validateEmail = email => {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

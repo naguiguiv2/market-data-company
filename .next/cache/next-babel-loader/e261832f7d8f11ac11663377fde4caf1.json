@@ -1,1 +1,0 @@
-{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport * as S from './Layout.styled';\nimport Footer from '../footer';\n\nconst Layout = ({\n  children\n}) => {\n  return __jsx(S.Wrapper, null, children, __jsx(S.FooterWrapper, null, __jsx(Footer, null)));\n};\n\nexport default Layout;","map":null,"metadata":{},"sourceType":"module"}
