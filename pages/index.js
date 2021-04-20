@@ -1,12 +1,12 @@
 import React, { useState, useCallback } from 'react'
-
 import {
 	Layout,
 	Modal,
 	ThankYou,
 	ResearchPdfForm,
 	StartDownloadForm,
-	ContactFooter
+	ContactFooter,
+	TickerTape
 } from '../components'
 import {
 	Landing,
@@ -96,6 +96,7 @@ const Home = () => {
 	return (
 		<Layout>
 			<Landing />
+			<TickerTape />
 			<Modal modalVisible={modalVisible} onRequestClose={onModalClose}>
 				{!emailSent && !hasError && !state.user && (
 					<ResearchPdfForm
