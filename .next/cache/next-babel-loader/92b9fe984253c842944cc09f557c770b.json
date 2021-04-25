@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var EMAIL_ENDPOINT = 'https://market-data-company-server.herokuapp.com/email';","map":null,"metadata":{},"sourceType":"module"}

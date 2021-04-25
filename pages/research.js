@@ -16,7 +16,8 @@ import {
 	StartDownloadForm,
 	Modal,
 	AnimatedFooterLink,
-	ThankYou
+	ThankYou,
+	TickerTape
 } from '../components'
 
 import pdfMapper from '../utils/pdfMapper'
@@ -95,6 +96,7 @@ export default () => {
 	return (
 		<Layout>
 			<Landing />
+			<TickerTape />
 			<Modal modalVisible={modalVisible} onRequestClose={onModalClose}>
 				{!emailSent && !hasError && !state.user && (
 					<ResearchPdfForm
