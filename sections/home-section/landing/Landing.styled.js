@@ -4,7 +4,7 @@ import breakpoint from 'styled-components-breakpoint'
 export const LandingWrapper = styled.div`
 	background-image: url('/static/images/mobile-landing.jpg');
 	background-size: cover;
-	height: 100vh;
+	height: 95vh;
 
 	${breakpoint('tablet')`
 			background-image: url("/static/images/tablet-landing.jpg");
@@ -44,7 +44,7 @@ export const Description = styled.h1`
 	text-align: left;
 	max-width: 720px;
 	${breakpoint('desktop')`
-    font-size: 24px;
+    font-size: 28px;
     line-height: 32px;
   `}
 `

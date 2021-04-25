@@ -10,10 +10,11 @@ const Landing = () => {
 		'/static/gifs/financial-business-chart.gif',
 		'/static/gifs/new-york-cityscape.gif'
 	]
+	const gifRefreshRate = 5990
 
 	useEffect(() => {
 		const next = (current + 1) % landingGifUrls.length
-		const id = setTimeout(() => setCurrent(next), 5990)
+		const id = setTimeout(() => setCurrent(next), gifRefreshRate)
 		return () => clearTimeout(id)
 	}, [current])
 
@@ -32,8 +33,6 @@ const Landing = () => {
 				<br />
 				As North America's leading market data solutions consultancy we understand
 				the importance of data in the financial markets and global economy.
-				As market observers we carefully track, analyze, and interpret market data
-				in providing our clients with tailored investment solutions.
 			</S.Description>
 			<S.ButtonWrapper>
 				<Button
