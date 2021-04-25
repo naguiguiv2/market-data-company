@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -150,6 +150,14 @@ module.exports = require("isomorphic-unfetch");
 
 /***/ }),
 
+/***/ 2:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("ALdH");
+
+
+/***/ }),
+
 /***/ "284h":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -208,14 +216,6 @@ function _interopRequireWildcard(obj) {
 }
 
 module.exports = _interopRequireWildcard;
-
-/***/ }),
-
-/***/ 3:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("RNiq");
-
 
 /***/ }),
 
@@ -286,38 +286,6 @@ module.exports = require("styled-components-breakpoint");
 /***/ (function(module, exports) {
 
 module.exports = require("next/router");
-
-/***/ }),
-
-/***/ "5QKa":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// Research
-const rightToAuditPdfPath = '/static/pdfs/Data-Managment-Compliance-why-firms-are-Audited-vFinal.pdf';
-const identityCrisisPdfPath = '/static/pdfs/Market-Data-Management-Identity-Crisis-value-prop.pdf';
-const maturingArtPdfPath = '/static/pdfs/Market-Data-Management-Maturity-Curve-Final.pdf';
-const accountabilityAndGovernancePdfPath = '/static/pdfs/Value-of-Market-Data-Admin-Exec-Summary-v27Jun16.pdf';
-const dataSpendPdfPath = '/static/pdfs/FX-Impact-MD-spend-2.pdf'; // Case Studies
-
-const caseStudiesPptPath = '/static/pdfs/MDC-case-studies.pptx'; // White Papers
-
-const riskFactorsPdfPath = '/static/pdfs/Uncovering_FRTB_Risk_Factors.pdf';
-const riskFrameworkPdfPath = '/static/pdfs/frtb-whitepaper-v2-081519.pdf'; // Surveys
-
-const surveyInsightsPdfPath = '/static/pdfs/Market-Data-Survey-Insights-2017.pdf';
-const pdfMapper = {
-  rightToAudit: rightToAuditPdfPath,
-  identityCrisis: identityCrisisPdfPath,
-  maturingArt: maturingArtPdfPath,
-  accountabilityAndGovernance: accountabilityAndGovernancePdfPath,
-  dataSpend: dataSpendPdfPath,
-  riskFactors: riskFactorsPdfPath,
-  caseStudies: caseStudiesPptPath,
-  surveyInsights: surveyInsightsPdfPath,
-  riskFramework: riskFrameworkPdfPath
-};
-/* harmony default export */ __webpack_exports__["a"] = (pdfMapper);
 
 /***/ }),
 
@@ -498,6 +466,182 @@ function formatUrl(urlObj) {
 /***/ (function(module, exports) {
 
 module.exports = require("react-modal");
+
+/***/ }),
+
+/***/ "ALdH":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__("cDcd");
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
+
+// EXTERNAL MODULE: ./components/index.js + 23 modules
+var components = __webpack_require__("e+cM");
+
+// EXTERNAL MODULE: external "styled-components"
+var external_styled_components_ = __webpack_require__("Dtiu");
+var external_styled_components_default = /*#__PURE__*/__webpack_require__.n(external_styled_components_);
+
+// EXTERNAL MODULE: external "styled-components-breakpoint"
+var external_styled_components_breakpoint_ = __webpack_require__("40lu");
+var external_styled_components_breakpoint_default = /*#__PURE__*/__webpack_require__.n(external_styled_components_breakpoint_);
+
+// CONCATENATED MODULE: ./sections/contact-section/landing/Landing.styled.js
+
+
+const LandingWrapper = external_styled_components_default.a.div.withConfig({
+  displayName: "Landingstyled__LandingWrapper",
+  componentId: "sc-3mk9j5-0"
+})(["width:100%;background-image:url('/static/images/contact-landing.png');background-size:cover;"]);
+const ContentWrapper = external_styled_components_default.a.div.withConfig({
+  displayName: "Landingstyled__ContentWrapper",
+  componentId: "sc-3mk9j5-1"
+})(["display:flex;flex-direction:column;flex:1;max-width:1200px;margin:0 auto;padding:0 20px;"]);
+const Content = external_styled_components_default.a.div.withConfig({
+  displayName: "Landingstyled__Content",
+  componentId: "sc-3mk9j5-2"
+})(["min-height:420px;display:flex;flex-direction:column;align-items:center;justify-content:center;"]);
+const Description = external_styled_components_default.a.p.withConfig({
+  displayName: "Landingstyled__Description",
+  componentId: "sc-3mk9j5-3"
+})(["font-family:", ";font-size:24px;line-height:30px;color:", ";margin:0;text-align:center;", ""], props => props.theme.fonts.financier, props => props.theme.colors.white, external_styled_components_breakpoint_default()('desktop')`
+    font-size: 36px;
+    line-height: 42px;
+  `);
+// EXTERNAL MODULE: ./components/tab-bar/index.js + 1 modules
+var tab_bar = __webpack_require__("oQsg");
+
+// CONCATENATED MODULE: ./sections/contact-section/landing/index.js
+
+var __jsx = external_react_default.a.createElement;
+
+
+
+const Landing = () => __jsx(LandingWrapper, null, __jsx(ContentWrapper, null, __jsx(tab_bar["a" /* default */], null), __jsx(Content, null, __jsx(Description, null, "Whether you'd like to request a consultation or have any questions for us, we'd love to hear from you. Write your message in the below form and we'll be in touch."))));
+
+/* harmony default export */ var landing = (Landing);
+// CONCATENATED MODULE: ./sections/contact-section/index.js
+
+// EXTERNAL MODULE: ./utils/validator.js
+var validator = __webpack_require__("THFB");
+
+// EXTERNAL MODULE: ./store/useStore.js
+var useStore = __webpack_require__("y4cE");
+
+// EXTERNAL MODULE: ./store/actionTypes.js
+var actionTypes = __webpack_require__("k2H8");
+
+// EXTERNAL MODULE: ./services/apiService.js + 1 modules
+var apiService = __webpack_require__("W5CI");
+
+// CONCATENATED MODULE: ./pages/contact.js
+var contact_jsx = external_react_default.a.createElement;
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+
+
+
+
+
+const contact_ContentWrapper = external_styled_components_default.a.div.withConfig({
+  displayName: "contact__ContentWrapper",
+  componentId: "sc-1jz255m-0"
+})(["padding:0 20px;margin-bottom:100px;margin-top:-80px;display:flex;flex-direction:column;align-items:center;flex:1;z-index:0;min-height:640px;"]);
+const ThankYouWrapper = external_styled_components_default.a.div.withConfig({
+  displayName: "contact__ThankYouWrapper",
+  componentId: "sc-1jz255m-1"
+})(["display:flex;flex-direction:column;flex:1;min-height:500px;margin:0 40px;"]);
+/* harmony default export */ var contact = __webpack_exports__["default"] = (() => {
+  const {
+    0: form,
+    1: setFormValues
+  } = Object(external_react_["useState"])({
+    firstName: '',
+    company: '',
+    email: '',
+    message: ''
+  });
+  const {
+    0: emailSent,
+    1: setEmailSent
+  } = Object(external_react_["useState"])(false);
+  const {
+    0: hasError,
+    1: setHasError
+  } = Object(external_react_["useState"])(false);
+  const {
+    0: formError,
+    1: setFormError
+  } = Object(external_react_["useState"])(false);
+  const {
+    dispatch
+  } = Object(useStore["b" /* useStore */])();
+  const saveUser = Object(external_react_["useCallback"])(formValues => dispatch({
+    type: actionTypes["a" /* USER_SIGNED_UP */],
+    payload: formValues
+  }), [dispatch]);
+  const inputError = !form.firstName || !form.email || !Object(validator["a" /* validateEmail */])(form.email);
+  Object(external_react_["useEffect"])(() => {
+    if (formError && !inputError) {
+      setFormError(false);
+    }
+  }, [form]);
+
+  const updateField = e => {
+    setFormValues(_objectSpread(_objectSpread({}, form), {}, {
+      [e.target.name]: e.target.value
+    }));
+  };
+
+  const onSubmit = async () => {
+    if (inputError) {
+      setFormError(true);
+      return;
+    }
+
+    try {
+      saveUser({
+        name: form.name,
+        email: form.email,
+        company: form.company
+      });
+      const res = await Object(apiService["a" /* sendEmail */])(form);
+
+      if (res.success) {
+        setEmailSent(true);
+      }
+    } catch (err) {
+      setHasError(true);
+    }
+  };
+
+  return contact_jsx(components["d" /* Layout */], null, !emailSent && !hasError && contact_jsx(external_react_default.a.Fragment, null, contact_jsx(landing, null), contact_jsx(contact_ContentWrapper, null, contact_jsx(components["c" /* ContactForm */], {
+    firstName: form.firstName,
+    company: form.company,
+    email: form.email,
+    message: form.message,
+    onChange: updateField,
+    onSubmit: onSubmit,
+    isError: formError
+  }))), emailSent && !hasError && contact_jsx(ThankYouWrapper, null, contact_jsx(components["h" /* ThankYou */], {
+    description: `We’ll reply to you at ${form.email} as soon as possible.`,
+    footerMessage: "Back to home",
+    href: "/"
+  })));
+});
 
 /***/ }),
 
@@ -691,806 +835,6 @@ const LabelWithArrow = props => {
 /***/ (function(module, exports) {
 
 module.exports = require("next/dist/next-server/lib/router-context.js");
-
-/***/ }),
-
-/***/ "RNiq":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__("cDcd");
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// EXTERNAL MODULE: ./components/index.js + 23 modules
-var components = __webpack_require__("e+cM");
-
-// EXTERNAL MODULE: external "next/router"
-var router_ = __webpack_require__("4Q3z");
-var router_default = /*#__PURE__*/__webpack_require__.n(router_);
-
-// EXTERNAL MODULE: external "styled-components"
-var external_styled_components_ = __webpack_require__("Dtiu");
-var external_styled_components_default = /*#__PURE__*/__webpack_require__.n(external_styled_components_);
-
-// EXTERNAL MODULE: external "styled-components-breakpoint"
-var external_styled_components_breakpoint_ = __webpack_require__("40lu");
-var external_styled_components_breakpoint_default = /*#__PURE__*/__webpack_require__.n(external_styled_components_breakpoint_);
-
-// CONCATENATED MODULE: ./sections/home-section/landing/Landing.styled.js
-
-
-const LandingWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "Landingstyled__LandingWrapper",
-  componentId: "t8svsq-0"
-})(["background-image:url('/static/images/mobile-landing.jpg');background-size:cover;height:95vh;", ""], external_styled_components_breakpoint_default()('tablet')`
-			background-image: url("/static/images/tablet-landing.jpg");
-		`);
-const ContentWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "Landingstyled__ContentWrapper",
-  componentId: "t8svsq-1"
-})(["max-width:1200px;margin:0 auto;padding:0 20px;display:flex;flex-direction:column;flex:1;"]);
-const Title = external_styled_components_default.a.h1.withConfig({
-  displayName: "Landingstyled__Title",
-  componentId: "t8svsq-2"
-})(["font-family:", ";font-size:42px;line-height:44px;color:", ";padding:160px 0 12px 0;margin-bottom:16px;", ""], props => props.theme.fonts.graphikBold, props => props.theme.colors.white, external_styled_components_breakpoint_default()('desktop')`
-    font-size: 57px;
-    line-height: 64px;
-  `);
-const Description = external_styled_components_default.a.h1.withConfig({
-  displayName: "Landingstyled__Description",
-  componentId: "t8svsq-3"
-})(["font-family:", ";font-weight:400;font-size:21px;line-height:24px;color:", ";margin:0 0 42px 0;text-align:left;max-width:720px;", ""], props => props.theme.fonts.financier, props => props.theme.colors.white, external_styled_components_breakpoint_default()('desktop')`
-    font-size: 28px;
-    line-height: 32px;
-  `);
-const ButtonWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "Landingstyled__ButtonWrapper",
-  componentId: "t8svsq-4"
-})(["display:flex;flex-direction:row;justify-content:space-between;max-width:340px;margin:0 0 38px 0;", ""], external_styled_components_breakpoint_default()('desktop')`
-    	max-width: 380px;
-  `);
-// EXTERNAL MODULE: ./components/button/index.js + 1 modules
-var components_button = __webpack_require__("HlVv");
-
-// EXTERNAL MODULE: ./components/tab-bar/index.js + 1 modules
-var tab_bar = __webpack_require__("oQsg");
-
-// CONCATENATED MODULE: ./sections/home-section/landing/index.js
-
-var __jsx = external_react_default.a.createElement;
-
-
-
-
-
-
-const Landing = () => {
-  const {
-    0: current,
-    1: setCurrent
-  } = Object(external_react_["useState"])(0);
-  const landingGifUrls = ['/static/gifs/financial-business-chart.gif', '/static/gifs/new-york-cityscape.gif'];
-  const gifRefreshRate = 5990;
-  Object(external_react_["useEffect"])(() => {
-    const next = (current + 1) % landingGifUrls.length;
-    const id = setTimeout(() => setCurrent(next), gifRefreshRate);
-    return () => clearTimeout(id);
-  }, [current]);
-  return __jsx(LandingWrapper, {
-    style: {
-      backgroundImage: `url("${landingGifUrls[current]}")`
-    }
-  }, __jsx(ContentWrapper, null, __jsx(tab_bar["a" /* default */], null), __jsx(Title, null, "Industry research by", __jsx("br", null), " industry experts."), __jsx(Description, null, "We are a boutique consulting firm serving the financial information services industry. Our consultants are industry experts on market and reference data products and investment management solutions.", __jsx("br", null), __jsx("br", null), "As North America's leading market data solutions consultancy we understand the importance of data in the financial markets and global economy."), __jsx(ButtonWrapper, null, __jsx(components_button["a" /* default */], {
-    btnText: "View Research",
-    onClick: () => router_default.a.push('/research')
-  }), __jsx(components_button["a" /* default */], {
-    btnText: "Contact us",
-    isDefault: false,
-    onClick: () => router_default.a.push('/contact')
-  }))));
-};
-
-/* harmony default export */ var landing = (Landing); // /static/gifs/traffic-and-pedestrians-in-front-of-tower-bridge.gif
-// /static/gifs/tourists.gif
-// EXTERNAL MODULE: ./components/animated-footer-link/index.js + 1 modules
-var animated_footer_link = __webpack_require__("AjxQ");
-
-// CONCATENATED MODULE: ./sections/home-section/leader-market-data/LeaderMarketData.styled.js
-
-
-const LeaderMarketDataWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "LeaderMarketDatastyled__LeaderMarketDataWrapper",
-  componentId: "sc-1rb8ak0-0"
-})(["display:flex;flex-direction:column;flex:1;background-color:", ";margin:40px 0 60px 0;", ""], props => props.theme.colors.white, external_styled_components_breakpoint_default()('desktop')`
-    margin: 80px 0 80px 0;
-  `);
-const Content = external_styled_components_default.a.div.withConfig({
-  displayName: "LeaderMarketDatastyled__Content",
-  componentId: "sc-1rb8ak0-1"
-})(["display:flex;flex-direction:column;margin-bottom:20px;", ""], external_styled_components_breakpoint_default()('desktop')`
-    flex-direction: row;
-    justify-content: space-between;
-  `);
-const LeaderMarketData_styled_Title = external_styled_components_default.a.h1.withConfig({
-  displayName: "LeaderMarketDatastyled__Title",
-  componentId: "sc-1rb8ak0-2"
-})(["font-family:", ";font-size:24px;line-height:30px;color:", ";margin:0 0 20px 0;", ""], props => props.theme.fonts.graphikBold, props => props.theme.colors.black, external_styled_components_breakpoint_default()('desktop')`
-		font-size: 36px;
-		line-height: 48px;
-  `);
-const InfoWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "LeaderMarketDatastyled__InfoWrapper",
-  componentId: "sc-1rb8ak0-3"
-})(["display:flex;flex-direction:column;", ""], external_styled_components_breakpoint_default()('desktop')`
-    max-width: 780px;
-  `);
-const InfoText = external_styled_components_default.a.p.withConfig({
-  displayName: "LeaderMarketDatastyled__InfoText",
-  componentId: "sc-1rb8ak0-4"
-})(["font-family:", ";font-size:18px;line-height:26px;color:", ";margin:0 0 24px 0;", "\t"], props => props.theme.fonts.financier, props => props.theme.colors.black, external_styled_components_breakpoint_default()('desktop')`
-		font-size: 24px;
-		line-height: 30px;
-	`);
-const VideoWrapper = external_styled_components_default.a.p.withConfig({
-  displayName: "LeaderMarketDatastyled__VideoWrapper",
-  componentId: "sc-1rb8ak0-5"
-})(["margin-top:16px;margin-bottom:24px;"]);
-const FactsWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "LeaderMarketDatastyled__FactsWrapper",
-  componentId: "sc-1rb8ak0-6"
-})(["display:flex;flex-direction:row;justify-content:flex-start;margin-bottom:30px;", ""], external_styled_components_breakpoint_default()('desktop')`
-    flex-direction: column;
-	justify-content: flex-start;
-	margin-left: 40px;
-  `);
-const ProjectsCompletedWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "LeaderMarketDatastyled__ProjectsCompletedWrapper",
-  componentId: "sc-1rb8ak0-7"
-})(["display:flex;flex-direction:column;margin-right:40px;", ""], external_styled_components_breakpoint_default()('desktop')`
-    margin-bottom: 38px;
-  `);
-const NumberText = external_styled_components_default.a.h1.withConfig({
-  displayName: "LeaderMarketDatastyled__NumberText",
-  componentId: "sc-1rb8ak0-8"
-})(["font-family:", ";font-size:36px;line-height:36px;color:", ";margin:0 0 10px 0;", ""], props => props.theme.fonts.graphikBold, props => props.theme.colors.mdcPurple, external_styled_components_breakpoint_default()('desktop')`
-	font-size: 48px;
-	line-height: 48px;
-  `);
-const FactsText = external_styled_components_default.a.h1.withConfig({
-  displayName: "LeaderMarketDatastyled__FactsText",
-  componentId: "sc-1rb8ak0-9"
-})(["font-family:", ";font-size:16px;line-height:22px;color:", ";margin:0;"], props => props.theme.fonts.financier, props => props.theme.colors.lightGrey);
-const FooterText = external_styled_components_default.a.a.withConfig({
-  displayName: "LeaderMarketDatastyled__FooterText",
-  componentId: "sc-1rb8ak0-10"
-})(["font-family:", ";font-size:16px;line-height:22px;color:", ";cursor:pointer;&:hover{color:#3d0099;transition:color 0.25s ease;}"], props => props.theme.fonts.graphik, props => props.theme.colors.mdcPurple);
-// CONCATENATED MODULE: ./sections/home-section/leader-market-data/index.js
-var leader_market_data_jsx = external_react_default.a.createElement;
-
-
-
-
-const LeaderMarketData = () => {
-  return leader_market_data_jsx(LeaderMarketDataWrapper, null, leader_market_data_jsx(Content, null, leader_market_data_jsx(InfoWrapper, null, leader_market_data_jsx(LeaderMarketData_styled_Title, null, "Leader in market data consulting"), leader_market_data_jsx(InfoText, null, "Market Data Company is a professional consulting firm with experts skilled in market data products, solutions and contract vendor management. We are committed to helping teams uncover insights that improve how they manage their market and reference data relationships."), leader_market_data_jsx(InfoText, null, "We partner with our clients to answer the growing demands of their business by providing the expertise in the details that lead to increased profitability. Specifically, we offer a series of diagnostic tools that drive down costs while optimizing services. Learn more about how our Data License Compliance Manager tool can benefit your business in the video below:"), leader_market_data_jsx(VideoWrapper, null, leader_market_data_jsx("iframe", {
-    src: "https://player.vimeo.com/video/389039609",
-    width: "640",
-    height: "360",
-    frameBorder: "0",
-    allow: "autoplay; fullscreen",
-    allowFullScreen: true
-  }))), leader_market_data_jsx(FactsWrapper, null, leader_market_data_jsx(ProjectsCompletedWrapper, null, leader_market_data_jsx(NumberText, null, "147"), leader_market_data_jsx(FactsText, null, "Projects completed")), leader_market_data_jsx(ProjectsCompletedWrapper, null, leader_market_data_jsx(NumberText, null, "$354MM"), leader_market_data_jsx(FactsText, null, "Client dollars saved")))));
-};
-
-/* harmony default export */ var leader_market_data = (LeaderMarketData);
-// EXTERNAL MODULE: ./components/animated-card/index.js + 1 modules
-var animated_card = __webpack_require__("lltq");
-
-// CONCATENATED MODULE: ./sections/home-section/research/Research.styled.js
-
-
-const ResearchWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "Researchstyled__ResearchWrapper",
-  componentId: "sc-1uddaix-0"
-})(["display:flex;flex-direction:column;flex:1;margin-bottom:80px;", ""], external_styled_components_breakpoint_default()('desktop')`
-    margin-bottom: 160px;
-  `);
-const HeaderWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "Researchstyled__HeaderWrapper",
-  componentId: "sc-1uddaix-1"
-})(["display:flex;flex-direction:column;aligh-items:flex-start;margin-bottom:55px;", ""], external_styled_components_breakpoint_default()('desktop')`
-    max-width: 780px;
-`);
-const HeaderTitle = external_styled_components_default.a.h1.withConfig({
-  displayName: "Researchstyled__HeaderTitle",
-  componentId: "sc-1uddaix-2"
-})(["font-family:", ";font-size:24px;line-height:30px;color:", ";margin:0 0 13px 0;", ""], props => props.theme.fonts.graphikBold, props => props.theme.colors.black, external_styled_components_breakpoint_default()('desktop')`
-    font-size: 36px;
-    line-height: 48px;
-  `);
-const HeaderDescription = external_styled_components_default.a.p.withConfig({
-  displayName: "Researchstyled__HeaderDescription",
-  componentId: "sc-1uddaix-3"
-})(["font-family:", ";font-size:16px;line-height:22px;color:", ";margin:0;", ""], props => props.theme.fonts.financier, props => props.theme.colors.black, external_styled_components_breakpoint_default()('desktop')`
-    font-size: 24px;
-    line-height: 30px;
-  `);
-const CardContentWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "Researchstyled__CardContentWrapper",
-  componentId: "sc-1uddaix-4"
-})(["display:flex;flex-direction:column;margin-bottom:16px;", ""], external_styled_components_breakpoint_default()('desktop')`
-    flex-direction: row;
-    margin-bottom: 35px;
-  `);
-const CardWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "Researchstyled__CardWrapper",
-  componentId: "sc-1uddaix-5"
-})(["margin-bottom:20px;", ""], external_styled_components_breakpoint_default()('desktop')`
-    margin-bottom: 0;
-    margin-right: 20px;
-    &:last-child {
-      margin-right: 0;
-    }
-  `);
-const Footer = external_styled_components_default.a.span.withConfig({
-  displayName: "Researchstyled__Footer",
-  componentId: "sc-1uddaix-6"
-})(["font-family:", ";font-size:16px;line-height:22px;color:", ";cursor:pointer;&:hover{color:#3d0099;transition:color 0.25s ease;}"], props => props.theme.fonts.graphik, props => props.theme.colors.mdcPurple);
-// CONCATENATED MODULE: ./sections/home-section/research/index.js
-var research_jsx = external_react_default.a.createElement;
-
-
-
-
-
-const Research = ({
-  onClick
-}) => {
-  return research_jsx(ResearchWrapper, null, research_jsx(HeaderWrapper, null, research_jsx(HeaderTitle, null, "Research & Case Studies"), research_jsx(HeaderDescription, null, "MDC has completed extensive research over the past 10 years. Our findings have been linked to the strength of a firms operational management, and can be used to improve capabilities across client intelligence, trading strategies, and business productivity.")), research_jsx(CardContentWrapper, null, research_jsx(CardWrapper, null, research_jsx(animated_card["a" /* default */], {
-    title: "Data Management Compliance: The Right to Audit",
-    description: "THE RIGHT TO AUDIT is a common phrase used in most every Data Vendor or Exchange Agreement (Data Provider Agreements). It is neither new, misunderstood, nor misrepresented. Yet this term has wreaked havoc of late, as it exposes the three modern day plagues causing considerable distress amongst financial...",
-    onClick: () => onClick('rightToAudit')
-  })), research_jsx(CardWrapper, null, research_jsx(animated_card["a" /* default */], {
-    title: "The Value of Market Data Administration: Transparency, Accountability & Governance",
-    description: "AS FINANCIAL FIRMS GRAPPLE with increasing demands for market data, dealing with the number and complexity of market data licenses and subscriptions can be overwhelming. The volume and variety challenges their ability to effectively manage costs, control user-access, monitor usage, and produce ...",
-    onClick: () => onClick('accountabilityAndGovernance')
-  })), research_jsx(CardWrapper, null, research_jsx(animated_card["a" /* default */], {
-    title: "MDC Forecasts 10-13% Increase in Data Spend",
-    description: "WITHOUT ANY CHANGE to consumption, service mix, or even annual price increases, Canadian-based financial services firms can expect a +10% price increase in their Market and Reference Data spend for 2014. To understand why, firms need only look to the fall of the CAD$ relative to the US$ for the change that will impact their general ledgers...",
-    onClick: () => onClick('dataSpend')
-  }))), research_jsx(animated_footer_link["a" /* default */], {
-    message: "View all of our research",
-    href: "/research"
-  }));
-};
-
-/* harmony default export */ var research = (Research);
-// CONCATENATED MODULE: ./sections/home-section/services/Services.styled.js
-
-
-const ServicesWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "Servicesstyled__ServicesWrapper",
-  componentId: "xea5xp-0"
-})(["display:flex;flex-direction:column;flex:1;margin-bottom:83px;", ""], external_styled_components_breakpoint_default()('desktop')`
-    margin-bottom: 160px;
-  `);
-const Services_styled_HeaderWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "Servicesstyled__HeaderWrapper",
-  componentId: "xea5xp-1"
-})(["display:flex;flex-direction:column;align-items:flex-start;margin-bottom:43px;", ""], external_styled_components_breakpoint_default()('desktop')`
-    margin-bottom: 49px;
-    max-width: 780px;
-  `);
-const Services_styled_HeaderTitle = external_styled_components_default.a.h1.withConfig({
-  displayName: "Servicesstyled__HeaderTitle",
-  componentId: "xea5xp-2"
-})(["font-family:", ";font-size:24px;line-height:30px;margin:0 0 20px 0;", ""], props => props.theme.fonts.graphikBold, external_styled_components_breakpoint_default()('tablet')`
-    font-size: 36px;
-    line-height: 48px;
-  `);
-const Services_styled_HeaderDescription = external_styled_components_default.a.p.withConfig({
-  displayName: "Servicesstyled__HeaderDescription",
-  componentId: "xea5xp-3"
-})(["font-family:", ";font-size:16px;line-height:22px;margin:0;", ""], props => props.theme.fonts.financier, external_styled_components_breakpoint_default()('tablet')`
-    font-size: 24px;
-    line-height: 30px;
-  `);
-const Services_styled_ContentWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "Servicesstyled__ContentWrapper",
-  componentId: "xea5xp-4"
-})(["display:flex;flex-direction:column;margin-bottom:0;", ""], external_styled_components_breakpoint_default()('tablet')`
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 16px;
-  `);
-const Services_styled_CardWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "Servicesstyled__CardWrapper",
-  componentId: "xea5xp-5"
-})(["display:flex;flex-direction:column;align-items:center;margin-bottom:26px;", ""], external_styled_components_breakpoint_default()('tablet')`
-    flex-direction: row;
-    align-items: flex-start;
-    width: 48%;
-    margin-bottom: 64px;
-  `);
-const CardImage = external_styled_components_default.a.img.withConfig({
-  displayName: "Servicesstyled__CardImage",
-  componentId: "xea5xp-6"
-})(["margin-top:6px;margin-bottom:20px;width:100px;height:100px;", " ", ""], external_styled_components_breakpoint_default()('tablet')`
-	width: 80px;
-	height: 80px;
-    margin-right: 24px;
-    margin-bottom: 0;
-  `, external_styled_components_breakpoint_default()('desktop')`
-	width: 120px;
-	height: 120px;
-  `);
-const CardContent = external_styled_components_default.a.div.withConfig({
-  displayName: "Servicesstyled__CardContent",
-  componentId: "xea5xp-7"
-})(["display:flex;flex-direction:column;", ""], external_styled_components_breakpoint_default()('desktop')`
-    max-width: 380px;
-  `);
-const CardTitle = external_styled_components_default.a.span.withConfig({
-  displayName: "Servicesstyled__CardTitle",
-  componentId: "xea5xp-8"
-})(["font-family:", ";font-size:18px;line-height:24px;color:", ";margin-bottom:7px;text-align:center;", ""], props => props.theme.fonts.graphikBold, props => props.theme.colors.black, external_styled_components_breakpoint_default()('tablet')`
-    text-align: left;
-  `);
-const CardDescription = external_styled_components_default.a.p.withConfig({
-  displayName: "Servicesstyled__CardDescription",
-  componentId: "xea5xp-9"
-})(["font-family:", ";font-size:16px;line-height:22px;margin:0;margin-bottom:40px;", ""], props => props.theme.fonts.financier, external_styled_components_breakpoint_default()('desktop')`
-		margin-bottom: 0;
-	`);
-const Services_styled_FooterText = external_styled_components_default.a.a.withConfig({
-  displayName: "Servicesstyled__FooterText",
-  componentId: "xea5xp-10"
-})(["font-family:", ";font-size:16px;line-height:22px;color:", ";cursor:pointer;&:hover{color:#3d0099;transition:color 0.25s ease;}", ""], props => props.theme.fonts.graphik, props => props.theme.colors.mdcPurple, external_styled_components_breakpoint_default()('desktop')`
-    margin-top: -98px;
-  `);
-// CONCATENATED MODULE: ./sections/home-section/services/index.js
-var services_jsx = external_react_default.a.createElement;
-
-
-
-
-const Services = () => {
-  return services_jsx(ServicesWrapper, null, services_jsx(Services_styled_HeaderWrapper, null, services_jsx(Services_styled_HeaderTitle, null, "How our services add insight to your business"), services_jsx(Services_styled_HeaderDescription, null, "Taking Benchmarking to an entirely different level, our marketing data services offers you exceptional insight into data being consumed by the capital markets and wealth industry. With our current solutions, you gain the insights to take your strategy to the next level.")), services_jsx(Services_styled_ContentWrapper, null, services_jsx(Services_styled_CardWrapper, null, services_jsx(CardImage, {
-    src: "/static/images/managed-services.png",
-    srcSet: "/static/images/managed-services@1x.png 1x, /static/images/managed-services@2x.png 2x, /static/images/managed-services@3x.png 3x",
-    width: "177",
-    height: "177"
-  }), services_jsx(CardContent, null, services_jsx(CardTitle, null, "Trading technology managed services and products"), services_jsx(CardDescription, null, "Our clients are critical about providing the right data to their stakeholders. That's why our proprietary technology and expertise is pivotal in reporting how data is accessed and replicated across business applications allowing us to accurately and rapidly assess and predict where firms can optimize and right size their data needs."))), services_jsx(Services_styled_CardWrapper, null, services_jsx(CardImage, {
-    src: "/static/images/measure-compare.png",
-    srcSet: "/static/images/measure-compare@1x.png 1x, /static/images/measure-compare@2x.png 2x, /static/images/measure-compare@3x.png 3x",
-    width: "177",
-    height: "177"
-  }), services_jsx(CardContent, null, services_jsx(CardTitle, null, "Measure and compare your expense management capabilities"), services_jsx(CardDescription, null, "We have done extensive research over the past 10 years through our qualitative and quantitative analytics. As a result, we've developed an approach to compare individual company data to our proprietary industry benchmark. Our findings have been linked to the strength of a firms operational management and its short and long term investment strategy."))), services_jsx(Services_styled_CardWrapper, null, services_jsx(CardImage, {
-    src: "/static/images/match-demand.png",
-    srcSet: "/static/images/match-demand@1x.png 1x, /static/images/match-demand@2x.png 2x, /static/images/match-demand@3x.png 3x",
-    width: "177",
-    height: "177"
-  }), services_jsx(CardContent, null, services_jsx(CardTitle, null, "Match your strategy to your business needs"), services_jsx(CardDescription, null, "With expert knowledge of both your industry and your customer\u2019s needs, you can keep your data consumption activities appropriate while optimizing your commercial obligations."))), services_jsx(Services_styled_CardWrapper, null, services_jsx(CardImage, {
-    src: "/static/images/benchmark.png",
-    srcSet: "/static/images/benchmark@1x.png 1x, /static/images/benchmark@2x.png 2x, /static/images/benchmark@3x.png 3x",
-    width: "177",
-    height: "177"
-  }), services_jsx(CardContent, null, services_jsx(CardTitle, null, "Capital market expense management benchmarking"), services_jsx(CardDescription, null, "Our benchmark adds exponential value through its categorization of products and services: technology, investments, productivity, operations, human resource strategies, and a host of other business functions. It\u2019s a peer group assessment of our client\u2019s 160 data activities against a set of best practices. Our benchmark has inspired discussions that explore qualitative measures \u2013 enhancing performance against benchmarks.")))), services_jsx(animated_footer_link["a" /* default */], {
-    message: "Get in touch to learn more",
-    href: "/contact"
-  }));
-};
-
-/* harmony default export */ var services = (Services);
-// CONCATENATED MODULE: ./sections/home-section/why-mdc/WhyMdc.styled.js
-
-
-const ICON_MARGIN = '35px';
-const WhyMdcWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "WhyMdcstyled__WhyMdcWrapper",
-  componentId: "sc-18f360v-0"
-})(["display:flex;flex-direction:column;align-self:center flex:1;margin-bottom:60px;", ""], external_styled_components_breakpoint_default()('desktop')`
-    margin-bottom: 100px;
-  `);
-const HeadingWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "WhyMdcstyled__HeadingWrapper",
-  componentId: "sc-18f360v-1"
-})(["display:flex;flex-direction:column;align-items:flex-start;margin-bottom:40px;", ""], external_styled_components_breakpoint_default()('tablet')`     
-		max-width: 780px;
-  `);
-const HeadingTitle = external_styled_components_default.a.h1.withConfig({
-  displayName: "WhyMdcstyled__HeadingTitle",
-  componentId: "sc-18f360v-2"
-})(["font-family:", ";font-size:24px;line-height:30px;margin:0 0 14px 0;", ""], props => props.theme.fonts.graphikBold, external_styled_components_breakpoint_default()('desktop')`
-    font-size: 36px;
-    line-height: 48px;
-    margin: 0 0 17px 0;
-  `);
-const HeadingDescription = external_styled_components_default.a.p.withConfig({
-  displayName: "WhyMdcstyled__HeadingDescription",
-  componentId: "sc-18f360v-3"
-})(["font-family:", ";font-size:18px;line-height:24px;margin:0;", ""], props => props.theme.fonts.financier, external_styled_components_breakpoint_default()('desktop')`
-		font-size: 24px;
-		line-height: 30px;
-`);
-const WhyMdc_styled_Content = external_styled_components_default.a.div.withConfig({
-  displayName: "WhyMdcstyled__Content",
-  componentId: "sc-18f360v-4"
-})(["display:flex;flex-direction:column;", ""], external_styled_components_breakpoint_default()('tablet')`
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  `);
-const WhyMdc_styled_CardWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "WhyMdcstyled__CardWrapper",
-  componentId: "sc-18f360v-5"
-})(["display:flex;flex-direction:column;margin-bottom:27px;", ""], external_styled_components_breakpoint_default()('tablet')`
-    width: 48%;
-  `);
-const CardTitleWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "WhyMdcstyled__CardTitleWrapper",
-  componentId: "sc-18f360v-6"
-})(["display:flex;flex-direction:row;"]);
-const CardTitleIcon = external_styled_components_default.a.img.withConfig({
-  displayName: "WhyMdcstyled__CardTitleIcon",
-  componentId: "sc-18f360v-7"
-})(["height:27px;width:27px;margin-right:8px;", ""], external_styled_components_breakpoint_default()('desktop')`
-    margin-right: 16px;
-  `);
-const WhyMdc_styled_CardTitle = external_styled_components_default.a.h1.withConfig({
-  displayName: "WhyMdcstyled__CardTitle",
-  componentId: "sc-18f360v-8"
-})(["font-family:", ";font-size:16px;line-height:22px;margin:0 0 10px 0;", ""], props => props.theme.fonts.graphikBold, external_styled_components_breakpoint_default()('desktop')`
-    font-size: 18px;
-    line-height: 24px;
-  `);
-const WhyMdc_styled_CardDescription = external_styled_components_default.a.p.withConfig({
-  displayName: "WhyMdcstyled__CardDescription",
-  componentId: "sc-18f360v-9"
-})(["font-family:", ";font-size:16px;line-height:22px;margin:0 0 0 ", ";", ""], props => props.theme.fonts.financier, ICON_MARGIN, external_styled_components_breakpoint_default()('desktop')`
-    font-size: 16px;
-    line-height: 22px;
-    max-width: 450px;
-  `);
-// CONCATENATED MODULE: ./sections/home-section/why-mdc/index.js
-var why_mdc_jsx = external_react_default.a.createElement;
-
-
-const descriptionData = [{
-  title: 'The right people, solving the right problems with passion',
-  description: 'Our people bring a mix of expertise to solve problems with a different, more dedicated mindset, devising powerful tools and solutions for our clients’ toughest challenges.'
-}, {
-  title: 'Highly effective market data governance structure',
-  description: 'Our approach brings together a highly effective discipline that focuses on process, controls and process.'
-}, {
-  title: 'We’ve saved upwards of 35% on total data spend for our clients',
-  description: 'At the end of the day, it’s our clients bottom line that we take care of, and the results speak for themselves.'
-}, {
-  title: 'Market data benchmarking with proven results',
-  description: 'We create results that are predicated on our strengths surrounding benchmarking Market Data Vendors.'
-}];
-
-const Card = props => {
-  const {
-    title,
-    description
-  } = props;
-  return why_mdc_jsx(WhyMdc_styled_CardWrapper, null, why_mdc_jsx(CardTitleWrapper, null, why_mdc_jsx(CardTitleIcon, {
-    src: "/static/images/checkmark.png",
-    srcSet: "/static/images/checkmark@1x.png 1x, /static/images/checkmark@2x.png 2x, /static/images/checkmark@3x.png 3x"
-  }), why_mdc_jsx(WhyMdc_styled_CardTitle, null, title)), why_mdc_jsx(WhyMdc_styled_CardDescription, null, description));
-};
-
-const WhyMdc = () => {
-  const renderDescription = () => {
-    return descriptionData.map(data => {
-      const {
-        title,
-        description
-      } = data;
-      return why_mdc_jsx(Card, {
-        key: title,
-        title: title,
-        description: description
-      });
-    });
-  };
-
-  return why_mdc_jsx(WhyMdcWrapper, null, why_mdc_jsx(HeadingWrapper, null, why_mdc_jsx(HeadingTitle, null, "Why Market Data Company?"), why_mdc_jsx(HeadingDescription, null, "From inception, our focus has been on the complexities of market data and the critical third-party relationships built through data providers within the Capital Markets and Wealth Management industries.")), why_mdc_jsx(WhyMdc_styled_Content, null, renderDescription()));
-};
-
-/* harmony default export */ var why_mdc = (WhyMdc);
-// EXTERNAL MODULE: external "reactstrap"
-var external_reactstrap_ = __webpack_require__("oL/c");
-
-// EXTERNAL MODULE: ./node_modules/bootstrap/dist/css/bootstrap.min.css
-var bootstrap_min = __webpack_require__("q4sD");
-
-// EXTERNAL MODULE: ./components/company-card/index.js + 1 modules
-var company_card = __webpack_require__("SPDB");
-
-// CONCATENATED MODULE: ./sections/home-section/worked-with/WorkedWith.styled.js
-
-
-const WorkedWithWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "WorkedWithstyled__WorkedWithWrapper",
-  componentId: "sc-10nv40i-0"
-})(["display:flex;flex-direction:column;flex:1;align-items:flex-start;margin-bottom:120px;"]);
-const WorkedWith_styled_Title = external_styled_components_default.a.h1.withConfig({
-  displayName: "WorkedWithstyled__Title",
-  componentId: "sc-10nv40i-1"
-})(["font-family:", ";font-size:24px;line-height:30px;margin:0 0 20px 0;", ""], props => props.theme.fonts.graphikBold, external_styled_components_breakpoint_default()('tablet')`
-		font-size: 36px;
-		line-height: 48px;
-	`);
-const WorkedWith_styled_Description = external_styled_components_default.a.p.withConfig({
-  displayName: "WorkedWithstyled__Description",
-  componentId: "sc-10nv40i-2"
-})(["font-family:", ";font-size:18px;line-height:26px;margin:0 0 46px 0;", ""], props => props.theme.fonts.financier, external_styled_components_breakpoint_default()('desktop')`
-		font-size: 24px;
-		line-height: 30px;
-		max-width: 780px;
-	`);
-const WorkedWith_styled_CardWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "WorkedWithstyled__CardWrapper",
-  componentId: "sc-10nv40i-3"
-})(["margin-bottom:47px;box-shadow:0 8px 12px 2px rgba(0,0,0,0.1);"]);
-const LogoContentWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "WorkedWithstyled__LogoContentWrapper",
-  componentId: "sc-10nv40i-4"
-})(["display:flex;flex:1;align-items:center;justify-content:space-between;flex-wrap:wrap;width:100%;"]);
-const LogoWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "WorkedWithstyled__LogoWrapper",
-  componentId: "sc-10nv40i-5"
-})(["width:48%;margin-bottom:40px;transform:scale(0.75);display:flex;justify-content:center;", " ", ""], external_styled_components_breakpoint_default()('tablet')`
-		margin-bottom: 0; 
-		transform: scale(0.6);
-		width: 25%;
-	`, external_styled_components_breakpoint_default()('desktop')`
-		transform: scale(0.8);
-	`);
-// CONCATENATED MODULE: ./sections/home-section/worked-with/index.js
-var worked_with_jsx = external_react_default.a.createElement;
-
-
-
-
-
-const COMPANY_DATA = [{
-  title: 'Canada Pension Plan Investment Board',
-  description: `“MDC identified and realized vendor cost savings of 12% of our spend, and then developed a target state organization with capabilities to effectively manage market data products, consumption, costs and vendors”`,
-  role: 'Marc Odho – Head of Data Management',
-  company: 'PSP',
-  imageUrl: 'cppib-carousel'
-}, {
-  title: 'PSP Investissements',
-  description: `“The team at Market Data Company is great to work with. Each consultant has their own strengths and weaknesses, and are great at what they do. In my book, I highly recommend the entire team at MDC.”`,
-  role: 'Alex DiCristofano, Director of Market Data',
-  company: 'Aviva',
-  imageUrl: 'psp-carousel'
-}, {
-  title: 'Aviva Investors',
-  description: `“Robert and his team brought the right expertise to the job, making the transitional program easier to manage. MDC’s approach to market data supported our Global operations and provided a clear line of sight to our vendor spend.”`,
-  role: 'Kelly McManis, Head of Operations',
-  company: 'Swiss Re',
-  imageUrl: 'aviva-carousel'
-}, {
-  title: 'Swiss Re',
-  description: `“MDC’s product Kiaro’s overspend report clearly articulated where Bloomberg data was being replicated within our technology envirorment. As a result we closed down several jobs that lead to $450,000 in cost savings.”`,
-  role: 'Eric Kemeny, Vice President, Group Asset Management',
-  company: 'CPPIB',
-  imageUrl: 'swiss-re-carousel'
-}];
-
-const WorkedWith = () => {
-  const {
-    0: activeIndex,
-    1: setActiveIndex
-  } = Object(external_react_["useState"])(0);
-  let animating = false;
-
-  const onExiting = () => {
-    animating = true;
-  };
-
-  const onExited = () => {
-    animating = false;
-  };
-
-  const next = () => {
-    if (animating) {
-      return;
-    }
-
-    const nextIndex = activeIndex === COMPANY_DATA.length - 1 ? 0 : activeIndex + 1;
-    setActiveIndex(nextIndex);
-  };
-
-  const carouselItems = COMPANY_DATA.map(item => {
-    return worked_with_jsx(external_reactstrap_["CarouselItem"], {
-      onExiting: onExiting,
-      onExited: onExited,
-      key: item.company
-    }, worked_with_jsx(company_card["a" /* default */], {
-      title: item.title,
-      description: item.description,
-      role: item.role,
-      company: item.company,
-      imageUrl: item.imageUrl,
-      onNext: next
-    }));
-  });
-  return worked_with_jsx(WorkedWithWrapper, null, worked_with_jsx(WorkedWith_styled_Title, null, "Who we\u2019ve worked with"), worked_with_jsx(WorkedWith_styled_Description, null, "Our consultants are industry experts in market and reference data products, as well as investment management solutions. We deliver results that make a difference."), worked_with_jsx(WorkedWith_styled_CardWrapper, null, worked_with_jsx(external_reactstrap_["Carousel"], {
-    activeIndex: activeIndex,
-    next: next,
-    previous: () => {},
-    interval: false
-  }, carouselItems)), worked_with_jsx(LogoContentWrapper, null, worked_with_jsx(LogoWrapper, null, worked_with_jsx("img", {
-    src: "/static/images/cppib.png",
-    srcSet: "/static/images/cppib@1x.png 1x, /static/images/cppib@2x.png 2x, /static/images/cppib@3x.png 3x"
-  })), worked_with_jsx(LogoWrapper, null, worked_with_jsx("img", {
-    src: "/static/images/psp.png",
-    srcSet: "/static/images/psp@1x.png 1x, /static/images/psp@2x.png 2x, /static/images/psp@3x.png 3x"
-  })), worked_with_jsx(LogoWrapper, null, worked_with_jsx("img", {
-    src: "/static/images/aviva.png",
-    srcSet: "/static/images/aviva@1x.png 1x, /static/images/aviva@2x.png 2x, /static/images/aviva@3x.png 3x"
-  })), worked_with_jsx(LogoWrapper, null, worked_with_jsx("img", {
-    src: "/static/images/swiss-re.png",
-    srcSet: "/static/images/swiss-re@1x.png 1x, /static/images/swiss-re@2x.png 2x, /static/images/swiss-re@3x.png 3x"
-  }))));
-};
-
-/* harmony default export */ var worked_with = (WorkedWith);
-// CONCATENATED MODULE: ./sections/home-section/index.js
-
-
-
-
-
-
-// EXTERNAL MODULE: ./utils/pdfMapper.js
-var pdfMapper = __webpack_require__("5QKa");
-
-// EXTERNAL MODULE: ./utils/validator.js
-var validator = __webpack_require__("THFB");
-
-// EXTERNAL MODULE: ./services/apiService.js + 1 modules
-var apiService = __webpack_require__("W5CI");
-
-// EXTERNAL MODULE: ./store/useStore.js
-var useStore = __webpack_require__("y4cE");
-
-// EXTERNAL MODULE: ./store/actionTypes.js
-var actionTypes = __webpack_require__("k2H8");
-
-// CONCATENATED MODULE: ./pages/index.js
-var pages_jsx = external_react_default.a.createElement;
-
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
-
-
- // Utils
-
-
-
-
-
-
-
-const pages_ContentWrapper = external_styled_components_default.a.div.withConfig({
-  displayName: "pages__ContentWrapper",
-  componentId: "sc-1cvwks4-0"
-})(["max-width:1200px;padding:0 20px;margin:0 auto;"]);
-
-const Home = () => {
-  const {
-    0: modalVisible,
-    1: setModalVisible
-  } = Object(external_react_["useState"])(false);
-  const {
-    0: hasError,
-    1: setHasError
-  } = Object(external_react_["useState"])(false);
-  const {
-    0: emailSent,
-    1: setEmailSent
-  } = Object(external_react_["useState"])(false);
-  const {
-    0: pdfForm,
-    1: setPdfForm
-  } = Object(external_react_["useState"])('');
-  const {
-    0: form,
-    1: setFormValues
-  } = Object(external_react_["useState"])({
-    firstName: '',
-    company: '',
-    email: ''
-  }); // Hooks to save the users form data
-
-  const {
-    state,
-    dispatch
-  } = Object(useStore["b" /* useStore */])();
-  const saveUser = Object(external_react_["useCallback"])(formValues => dispatch({
-    type: actionTypes["a" /* USER_SIGNED_UP */],
-    payload: formValues
-  }), [dispatch]);
-
-  const onSubmit = async () => {
-    try {
-      const res = await Object(apiService["a" /* sendEmail */])(form);
-
-      if (res.error) {
-        setHasError(true);
-      } else {
-        // Save user form to store
-        saveUser({
-          name: form.firstName,
-          company: form.company,
-          email: form.email
-        });
-        setEmailSent(true);
-      }
-    } catch (err) {
-      setHasError(true);
-    }
-  };
-
-  const updateField = e => {
-    setFormValues(_objectSpread(_objectSpread({}, form), {}, {
-      [e.target.name]: e.target.value
-    }));
-  };
-
-  const onModalClose = () => {
-    setModalVisible(false);
-    setEmailSent(false);
-  };
-
-  const openModal = researchForm => {
-    setModalVisible(true);
-    setPdfForm(pdfMapper["a" /* default */][researchForm]);
-  };
-
-  const isDisabled = !form.firstName && !Object(validator["a" /* validateEmail */])(form.email);
-  return pages_jsx(components["d" /* Layout */], null, pages_jsx(landing, null), pages_jsx(components["i" /* TickerTape */], null), pages_jsx(components["e" /* Modal */], {
-    modalVisible: modalVisible,
-    onRequestClose: onModalClose
-  }, !emailSent && !hasError && !state.user && pages_jsx(components["f" /* ResearchPdfForm */], {
-    firstName: form.firstName,
-    company: form.company,
-    email: form.email,
-    onChange: updateField,
-    isDisabled: isDisabled,
-    onRequestClose: onModalClose,
-    onSubmit: onSubmit,
-    pdfForm: pdfForm
-  }), !emailSent && !hasError && state.user && pages_jsx(components["g" /* StartDownloadForm */], {
-    onRequestClose: onModalClose,
-    pdfForm: pdfForm,
-    onSubmit: () => setEmailSent(true)
-  }), emailSent && !hasError && pages_jsx(components["h" /* ThankYou */], {
-    description: "Your download should start automatically. Enjoy!",
-    footerMessage: "Back to research",
-    href: "/research",
-    onClick: onModalClose
-  })), pages_jsx(pages_ContentWrapper, null, pages_jsx(leader_market_data, null), pages_jsx(worked_with, null), pages_jsx(why_mdc, null), pages_jsx(services, null), pages_jsx(research, {
-    onClick: openModal
-  })), pages_jsx(components["b" /* ContactFooter */], null));
-};
-
-/* harmony default export */ var pages = __webpack_exports__["default"] = (Home);
 
 /***/ }),
 
@@ -4635,13 +3979,6 @@ function makePublicRouterInstance(router) {
 
 /***/ }),
 
-/***/ "oL/c":
-/***/ (function(module, exports) {
-
-module.exports = require("reactstrap");
-
-/***/ }),
-
 /***/ "oQsg":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -4781,13 +4118,6 @@ TabBar.defaultProps = {
   barTheme: 'light'
 };
 /* harmony default export */ var tab_bar = __webpack_exports__["a"] = (TabBar);
-
-/***/ }),
-
-/***/ "q4sD":
-/***/ (function(module, exports) {
-
-
 
 /***/ }),
 
