@@ -13,20 +13,54 @@ const linkData = [
 	{
 		href: '/contact',
 		tabName: 'Contact'
+	},
+	{
+		href: '/solutions',
+		tabName: 'Solutions'
+	},
+	{
+		href: '/videos',
+		tabName: 'Videos'
 	}
 ]
 
 const TabBar = (props) => {
 	const { barTheme, backgroundColor } = props
+	const [solutionsMenuHidden, setSolutionsMenuHidden] = useState(true)
 	const [modalVisible, setModalVisible] = useState(false)
+
+	const handleMouseEnter = () => {
+		setSolutionsMenuHidden(false)
+	}
+
+	const handleMouseLeave = () => {
+		setSolutionsMenuHidden(true)
+	}
 
 	const renderLinks = () => {
 		return linkData.map((data) => {
-			return (
-				<Link key={data.href} href={data.href}>
-					<S.Tab barTheme={barTheme}>{data.tabName}</S.Tab>
-				</Link>
-			)
+			if (data.tabName === 'Solutions') {
+				return (
+					<Link key={data.href} href={data.href}>
+						<S.Tab barTheme={barTheme} onMouseEnter={handleMouseEnter} >{data.tabName}
+							<div onMouseLeave={handleMouseLeave} hidden={solutionsMenuHidden}>
+								<button>ReVal</button>
+								<button>Big Bloom</button>
+								<button>Benchmarking</button>
+								<button>Optimization</button>
+								<button>Data Audit</button>
+								<button>Expert Witness</button>
+							</div>
+						</S.Tab>
+					</Link>
+				)
+			} else {
+				return (
+					<Link key={data.href} href={data.href}>
+						<S.Tab barTheme={barTheme}>{data.tabName}</S.Tab>
+					</Link>
+				)
+			}
 		})
 	}
 

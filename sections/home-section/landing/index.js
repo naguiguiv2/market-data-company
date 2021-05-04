@@ -50,6 +50,3 @@ const Landing = () => {
 }
 
 export default Landing
-
-// /static/gifs/traffic-and-pedestrians-in-front-of-tower-bridge.gif
-// /static/gifs/tourists.gif
