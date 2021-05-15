@@ -56,11 +56,6 @@ export const InfoText = styled.p`
 	`}	
 `
 
-export const VideoWrapper = styled.p`
-	margin-top: 16px;
-	margin-bottom: 24px;
-`
-
 export const FactsWrapper = styled.div`
 	display: flex;
 	flex-direction: row;

@@ -29,6 +29,9 @@ const TabBar = (props) => {
 	const [solutionsMenuHidden, setSolutionsMenuHidden] = useState(true)
 	const [modalVisible, setModalVisible] = useState(false)
 
+	const vertOffset = 40
+	const initOffset = 60
+
 	const handleMouseEnter = () => {
 		setSolutionsMenuHidden(false)
 	}
@@ -41,18 +44,19 @@ const TabBar = (props) => {
 		return linkData.map((data) => {
 			if (data.tabName === 'Solutions') {
 				return (
-					<Link key={data.href} href={data.href}>
-						<S.Tab barTheme={barTheme} onMouseEnter={handleMouseEnter} >{data.tabName}
-							<div onMouseLeave={handleMouseLeave} hidden={solutionsMenuHidden}>
-								<button>ReVal</button>
-								<button>Big Bloom</button>
-								<button>Benchmarking</button>
-								<button>Optimization</button>
-								<button>Data Audit</button>
-								<button>Expert Witness</button>
-							</div>
-						</S.Tab>
-					</Link>
+					<div>
+						<Link key={data.href} href={data.href}>
+							<S.Tab barTheme={barTheme} onMouseEnter={handleMouseEnter} >{data.tabName}</S.Tab>
+						</Link>
+						<S.DropDown onMouseLeave={handleMouseLeave} hidden={solutionsMenuHidden}>
+							<S.DropDownItem style={{ top: `${initOffset}px` }}>ReVal</S.DropDownItem>
+							<S.DropDownItem style={{ top: `${initOffset + vertOffset}px` }}>Big Bloom</S.DropDownItem>
+							<S.DropDownItem style={{ top: `${initOffset + vertOffset * 2}px` }}>Benchmarking</S.DropDownItem>
+							<S.DropDownItem style={{ top: `${initOffset + vertOffset * 3}px` }}>Optimization</S.DropDownItem>
+							<S.DropDownItem style={{ top: `${initOffset + vertOffset * 4}px` }}>Data Audit</S.DropDownItem>
+							<S.DropDownItem style={{ top: `${initOffset + vertOffset * 5}px` }}>Expert Witness</S.DropDownItem>
+						</S.DropDown>
+					</div>
 				)
 			} else {
 				return (

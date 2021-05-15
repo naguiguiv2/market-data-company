@@ -9,12 +9,8 @@ import {
 } from '../components'
 import {
     Landing,
-    // LeaderMarketData,
-    // WorkedWith,
-    // WhyMdc,
-    // Services,
-    // Research
-} from '../sections/contact-section'
+    DataLicenseComplianceManagerVideo
+} from '../sections/videos-section'
 
 // import pdfMapper from '../utils/pdfMapper'
 
@@ -39,7 +35,7 @@ const Videos = () => {
     return (
         <Layout>
             <Landing />
-            Videos
+            <DataLicenseComplianceManagerVideo />
         </Layout>
     )
 }

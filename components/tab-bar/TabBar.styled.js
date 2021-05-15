@@ -52,3 +52,13 @@ export const Tab = styled.span`
 		transition: opacity 0.15s ease;
 	}
 `
+export const DropDown = styled.div`
+	display: flex;
+	flex-direction: column;
+`
+
+export const DropDownItem = styled.button`
+	position: absolute;
+	height: 40px;
+	width: 160px;
+`
