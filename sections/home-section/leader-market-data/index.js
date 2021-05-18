@@ -23,7 +23,7 @@ const LeaderMarketData = () => {
 						benefit your business in the video below:
 					</S.InfoText>
 					<S.VideoWrapper>
-						<iframe src="https://player.vimeo.com/video/389039609" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
+						<iframe src="https://player.vimeo.com/video/389039609" width="100%" maxwidth="640px" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
 						{/* <p><a href="https://vimeo.com/389039609">Market Data Digital Compliance</a> from <a href="https://vimeo.com/user108216748">Market data company</a> on <a href="https://vimeo.com">Vimeo</a>.</p> */}
 
 					</S.VideoWrapper>
