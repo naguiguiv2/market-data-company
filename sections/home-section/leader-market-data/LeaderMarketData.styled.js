@@ -72,7 +72,7 @@ export const FactsWrapper = styled.div`
 export const ProjectsCompletedWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
-	margin-right: 40px;
+	margin-right: 1em;
 
 	${breakpoint('desktop')`
     margin-bottom: 38px;
