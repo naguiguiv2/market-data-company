@@ -9,12 +9,14 @@ import {
 } from '../components'
 import {
     Landing,
-    // LeaderMarketData,
-    // WorkedWith,
-    // WhyMdc,
-    // Services,
-    // Research
-} from '../sections/contact-section'
+    Benchmarking,
+    BigBloom,
+    DataAudit,
+    ExpertWitness,
+    MarketDataAnalysis,
+    Radr,
+    NavBar
+} from '../sections/solutions-section'
 
 // import pdfMapper from '../utils/pdfMapper'
 
@@ -39,7 +41,13 @@ const Solutions = () => {
     return (
         <Layout>
             <Landing />
-            Solutions
+            <NavBar />
+            <Benchmarking />
+            <BigBloom />
+            <DataAudit />
+            <ExpertWitness />
+            <MarketDataAnalysis />
+            <Radr />
         </Layout>
     )
 }
