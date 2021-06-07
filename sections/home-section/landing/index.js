@@ -11,9 +11,7 @@ const Landing = () => {
 			<S.ContentWrapper>
 				<TabBar />
 				<S.Title>
-					Industry research by
-					<br />
-					industry experts.
+					Industry research by industry experts.
 				</S.Title>
 				<S.Description>
 					We are a boutique consulting firm serving the financial information
