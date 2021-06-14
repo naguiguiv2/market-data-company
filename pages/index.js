@@ -5,8 +5,7 @@ import {
 	ThankYou,
 	ResearchPdfForm,
 	StartDownloadForm,
-	ContactFooter,
-	TickerTape
+	ContactFooter
 } from '../components'
 import {
 	Landing,
@@ -96,7 +95,6 @@ const Home = () => {
 	return (
 		<Layout>
 			<Landing />
-			<TickerTape />
 			<Modal modalVisible={modalVisible} onRequestClose={onModalClose}>
 				{!emailSent && !hasError && !state.user && (
 					<ResearchPdfForm

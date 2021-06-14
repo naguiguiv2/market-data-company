@@ -2,13 +2,14 @@ import styled from 'styled-components'
 import breakpoint from 'styled-components-breakpoint'
 
 export const LandingWrapper = styled.div`
-	background-image: url('/static/images/mobile-landing.jpg');
-	background-size: cover;
-	height: 95vh;
+	display: flex;
+	flex-direction: column;
+`
 
-	${breakpoint('tablet')`
-			background-image: url("/static/images/tablet-landing.jpg");
-		`}
+export const BannerWrapper = styled.div`
+	min-height: calc(100vh - 46px);
+	background-image: url('/static/gifs/financial-business-chart.gif');
+	background-size: cover;
 `
 
 export const ContentWrapper = styled.div`
@@ -23,30 +24,42 @@ export const ContentWrapper = styled.div`
 
 export const Title = styled.h1`
 	font-family: ${(props) => props.theme.fonts.graphikBold};
-	font-size: 42px;
-	line-height: 44px;
+	font-size: 2.25rem;
+	line-height: 1em;
 	color: ${(props) => props.theme.colors.white};
-	padding: 160px 0 12px 0;
+	padding: 8vh 0 0.5em 0;
 	margin-bottom: 16px;
+	${breakpoint('tablet')`
+		font-size: 3rem;
+		line-height: 1em;
+		padding: 15vh 0 0.5em 0;
+		width: 70%;
+	`}
 	${breakpoint('desktop')`
-    font-size: 57px;
-    line-height: 64px;
-  `}
+		font-size: 3.5rem;
+		line-height: 1em;
+		padding: 15vh 0 0.5em 0;
+		width: 50%;
+	`}
 `
 
 export const Description = styled.h1`
 	font-family: ${(props) => props.theme.fonts.financier};
 	font-weight: 400;
-	font-size: 21px;
-	line-height: 24px;
+	font-size: 1.15rem;
+	line-height: 1em;
 	color: ${(props) => props.theme.colors.white};
 	margin: 0 0 42px 0;
 	text-align: left;
 	max-width: 720px;
+	${breakpoint('tablet')`
+		font-size: 1.6rem;
+		line-height: 1em;
+  	`}
 	${breakpoint('desktop')`
-    font-size: 28px;
-    line-height: 32px;
-  `}
+		font-size: 1.63rem;
+		line-height: 1em;
+  	`}
 `
 
 export const ButtonWrapper = styled.div`

@@ -240,7 +240,7 @@ export default class TickerTape extends Component {
             "showSymbolLogo": true,
             "colorTheme": "light",
             "isTransparent": false,
-            "displayMode": "adaptive",
+            "displayMode": "regular",
             "locale": "en"
         })
         this._ref.current.appendChild(script)

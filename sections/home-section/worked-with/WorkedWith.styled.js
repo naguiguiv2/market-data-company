@@ -51,7 +51,7 @@ export const LogoContentWrapper = styled.div`
 export const LogoWrapper = styled.div`
 	width: 48%;
 	margin-bottom: 40px;
-	transform: scale(0.75);
+	transform: scale(0.6);
 
 	display: flex;
 	justify-content: center;
