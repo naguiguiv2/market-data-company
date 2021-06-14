@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport * as S from './ListItem.styled';\n\nconst ListItem = props => {\n  const {\n    label,\n    onClick\n  } = props;\n  return __jsx(S.ListItemWrapper, {\n    onClick: onClick\n  }, __jsx(S.Label, null, label));\n};\n\nexport default ListItem;","map":null,"metadata":{},"sourceType":"module"}
